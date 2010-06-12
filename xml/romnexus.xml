@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2008 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/recovery" />
+	<Preference android:key="flashrecovery" android:title="@string/flash_recovery" android:summary="@string/do_this_first" />
+	<Preference android:key="rebootrecovery" android:title="@string/reboot_recovery" android:summary="@string/reboot_into_recovery" />
+	<PreferenceCategory android:title="@string/rom_management" android:key="rom" />
+	<Preference android:key="sdcardrom" android:title="@string/install_rom" />
+	<Preference android:key="downloadrom" android:title="@string/download_rom" />
+	<Preference android:key="checkupdates" android:title="@string/check_updates" />
+	<Preference android:key="qrcode" android:title="@string/install_from_qrcode" android:summary="@string/qrcode_summary" />
+	<PreferenceCategory android:title="@string/backup_and_restore" android:key="rom" />
+	<Preference android:key="manage" android:title="@string/manage_and_restore_backups" />
+	<Preference android:key="backup" android:title="@string/backup_current_rom" />
+	<PreferenceCategory android:title="@string/utilities" android:key="rom" />
+	<Preference android:key="fix_permissions" android:title="@string/fix_permissions" android:summary="@string/fix_permissions_detail" />
+	<Preference android:key="partition_sdcard" android:title="@string/partition_sdcard" android:summary="@string/partition_sdcard_summary" />
+	<PreferenceCategory android:title="@string/more_recoveries" />
+	<Preference android:key="flash_alternate" android:title="@string/flash_alternate" android:summary="@string/flash_alternate_unavailable" />
+	<Preference android:key="flash_legacy_and_experimental" android:title="@string/flash_legacy_and_experimental" android:summary="@string/flash_legacy_and_experimental_summary" />
+</PreferenceScreen>

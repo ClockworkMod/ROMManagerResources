@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rom_management">ROM Management</string>
+	<string name="install_rom">Install ROM from SD Card</string>
+	<string name="download_rom">Download ROM</string>
+	<string name="check_updates">Check for ROM Updates</string>
+	<string name="backup_and_restore">Backup and Restore</string>
+	<string name="manage_and_restore_backups">Manage and Restore Backups</string>
+	<string name="backup_current_rom">Backup Current ROM</string>
+
+	<string name="no_connection">Error while downloading from server. Please make sure that you have a stable internet connection, and that your SD card is inserted and has free space!</string>
+
+	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
+
+	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
+	<string name="ota_not_supported_extended">Your ROM is properly not set up to receive OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! This is not a ROM Manager bug.</string>
+	<string name="current_rom">Current ROM: %s</string>
+
+	<string name="donate_to_developer">Donate</string>
+	<string name="developer_homepage">Homepage</string>
+
+	<string name="utilities">Utilities</string>
+	<string name="fix_permissions">Fix Permissions</string>
+	<string name="fixing_permissions">Fixing Permissions...</string>
+	<string name="fix_permissions_detail">Fix file system permissions. This often fixes Force Close problems.</string>
+	
+	<string name="fix_permissions_done">Done! You should now reboot your phone.</string>
+
+	<string name="download_rom_premium">Upgrade to ROM Manager (Premium) to access the full list of ROMs!</string>
+	
+	<string name="premium_only">This feature is only available to Premium users!</string>
+	<string name="no_update">There is no update available for your ROM.</string>
+	<string name="update_available">Update Available</string>
+	<string name="updated_rom">Press OK to update your ROM to the latest version: %s.</string>
+	<string name="update_recovery_available">There is an update available for ClockworkMod Recovery.</string>
+	
+	<string name="upgrade">You must upgrade your ROM Manager to the latest version!</string>
+
+	<string name="recovery_update_required">There is a new version of ClockworkMod recovery available. You must update before can use ROM Manager!</string>
+
+	<string name="edit_backup_name">Backup Name</string>
+	<string name="new_backup_name">New Backup Name</string>
+	<string name="rename_backup_error">There was an error renaming your backup. Please choose a unique and valid filename for your backup.</string>
+	<string name="confirm_delete_backup">Delete Backup?</string>
+	<string name="remove_backup_error">There was an error deleting your backup.</string>
+
+	<string name="app_name">ROM Manager</string>
+	<string name="app_name_premium">ROM Manager Premium</string>
+	
+	<string name="coming_soon">Coming soon!</string>
+	
+	<string-array name="manage_options">
+		<item>Restore</item>
+		<item>Rename</item>
+		<item>Delete</item>
+	</string-array>
+		
+	<string-array name="install_options">
+		<item>Backup Existing ROM</item>
+		<item>Wipe Data and Cache</item>
+	</string-array>
+
+	<string name="restore_options">Restore Options</string>
+
+	<string-array name="restore_partitions">
+		<item>Restore Boot</item>
+		<item>Restore System</item>
+		<item>Restore Data</item>
+		<item>Restore Cache</item>
+		<item>Restore SD-Ext</item>
+	</string-array>
+
+	<string-array name="ext_size_options">
+		<item>128MB</item>
+		<item>256MB</item>
+		<item>512MB</item>
+	</string-array>
+
+	<string-array name="swap_size_options">
+		<item>0MB</item>
+		<item>32MB</item>
+		<item>64MB</item>
+		<item>128MB</item>
+		<item>256MB</item>
+	</string-array>
+
+	<string name="partition_ext_size">Ext Size</string>
+	<string name="partition_swap_size">Swap Size</string>
+	<string name="partition_sdcard">Partition SD Card</string>
+	<string name="partition_sdcard_summary">Partition your SD Card to enable installation of applications on your SD for supported ROMs.</string>
+	<string name="partition_sdcard_warning">Partitioning your SD Card will wipe ALL the data on your card. Are you sure you want to reboot and continue?</string>
+
+	<string name="manifests_no_roms">There are no ROMs available for your phone yet! Ask your favorite developers to get listed on ROM Manager for free!</string>
+	
+	<string name="preinstallation">ROM Pre-Installation</string>
+	
+	<string name="download_cache_cleared">Your download cache has been cleared.</string>
+	
+	<string name="manifests_unavailable">Error occurred while downloading the Developer list.</string>
+	<string name="manifests_error">Error occurred while processing the Developer list!</string>
+	
+	<string name="roms_unavailable">Error occurred while downloading the ROM list! Please contact the developer of this ROM.</string>
+	<string name="roms_error">Error occurred while processing the ROM list!</string>
+	<string name="rom_error">Error occurred while processing this ROM!</string>
+	<string name="rom_addons">ROM Addons</string>
+	<string name="rom_download_error">Error occurred while downloading this ROM!</string>
+	<string name="rom_download_error_short">ROM Download Error</string>
+	<string name="rom_download_complete">ROM Download Complete</string>
+	
+	<string name="restore">Restore</string>
+	<string name="confirm_restore">Are you sure you want to reboot your phone and restore your backup?</string>
+
+	<string name="reboot_recovery">Reboot into Recovery</string>
+	<string name="reboot_into_recovery">Boot into Recovery mode for manual management.</string>
+	<string name="confirm_reboot">Are you sure you want to reboot into ClockworkMod Recovery?</string>
+	<string name="confirm_reboot_alternate">Are you sure you want to reboot into %s?</string>
+	
+	<string name="confirm_reboot_and_install">Press OK to reboot into ClockworkMod Recovery and continue the installation.</string>
+	<string name="restart_and_install">Reboot And Install</string>
+	
+	<string name="recovery_clockworkmod_yours">Current Recovery: ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">Current Recovery: %s</string>
+	<string name="recovery_latest">Latest Recovery: ClockworkMod %s</string>
+
+	<string name="recovery">Recovery</string>
+	<string name="flash_recovery">Flash ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">An error occurred while flashing your recovery.</string>
+	<string name="download_recovery_error">An error occurred while downloading your recovery.</string>
+	<string name="download_recovery_success">Successfully downloaded ClockworkMod recovery!</string>
+	<string name="flash_manual">Manual Flash Override</string>
+	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
+	<string name="flash_recovery_success">Successfully flashed ClockworkMod recovery!</string>
+	<string name="flash_alternate_recovery_success">Successfully flashed recovery!</string>
+	<string name="confirm_device">Confirm Phone Model</string>
+	<string name="do_this_first">You must have the ClockworkMod Recovery installed to flash and restore ROMs!</string>
+	
+	<string name="clear_cache">Clear Download Cache</string>
+	<string name="clear_cache_confirm">Caching downloads makes your ROM installations much faster. Are you sure you want to clear your download cache?</string>
+
+	<string name="backup">Backup</string>
+	<string name="confirm_backup">Are you sure you want to reboot your phone and backup your ROM?</string>
+	<string name="script_error">An error occurred while attempting to run privileged commands!</string>
+	<string name="backup_error">Please choose a unique and valid filename for your backup.</string>
+	
+	<string name="flash_alternate">Flash Alternate Recovery</string>
+	<string name="flash_alternate_warning">Are you sure you want to flash an alternate recovery? ROM Manager features will be made unavailable until you flash back to ClockworkMod Recovery.</string>
+	<string name="flash_alternate_unavailable">No alternate recovery available.</string>
+	<string name="flash_legacy_and_experimental">All ClockworkMod Recoveries</string>
+	<string name="flash_legacy_and_experimental_summary">Flash older and experimental versions of ClockworkMod Recovery.</string>
+	<string name="flash_legacy_unavailable">No legacy recoveries found. Are you connected to the internet?"</string>
+	
+	<string name="developer_mode">Advanced Mode</string>
+	<string name="developer_mode_details">Advanced Mode is not meant for all users. Advanced mode will get you access to the latest recoveries, experimental ROMs, and other various unstable, but bleeding edge features. Advanced mode should be used with caution and is only recommended for users comfortable with ADB.</string>
+	<string name="developer_mode_on">Advanced Mode is enabled.</string>
+	<string name="developer_mode_off">Advanced Mode is disabled.</string>
+	<string name="developer_mode_summary">This is available once you enable Advanced Mode from the ROM Manager Main menu.</string>
+	
+	<string name="premium_required_to_download">The Premium version of ROM Manager is required to download this Developer\'s ROMs!</string>
+	
+	<string name="free_header">Free</string>
+	<string name="premium_header">Premium</string>
+	
+	<string name="update_notifications">Update Notifications</string>
+	<string name="update_notifications_enabled">Update notifications are enabled.</string>
+	<string name="update_notifications_disabled">Update notifications are disabled.</string>
+	
+	<string name="rom_manager_settings">ROM Manager Settings</string>
+	<string name="settings">Settings</string>
+	
+	<string name="more_recoveries">More Recoveries</string>
+	
+	<string name="sdcard_not_mounted">SD Card Not Mounted</string>
+	<string name="sdcard_needs_to_be_mounted">The SD Card needs to be mounted to use ROM Manager!</string>
+	
+	<string name="automatic_backup_time">Backup Time</string>
+	<string name="automatic_backup_frequency">Backup Frequency</string>
+	<string-array name="automatic_backup_frequencies">
+		<item>Daily</item>
+		<item>Every Two Days</item>
+		<item>Every Three Days</item>
+		<item>Every Four Days</item>
+		<item>Every Five Days</item>
+		<item>Every Six Days</item>
+		<item>Every Seven Days</item>
+	</string-array>
+	<string name="automatic_backup">Automatic Backup</string>
+	<string name="automatic_backup_disabled">Automatic Backup is disabled.</string>
+	<string name="automatic_backup_summary">The next Automatic Backup will take place on %s.</string>
+	
+	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
+	
+	<string name="invalid_license">Invalid License</string>
+	<string name="invalid_license_text">Your ROM Manager License is outdated. Please reinstall ROM Manager via the Market.</string>
+	
+	<string name="changelog">Changelog</string>
+	
+	<string name="new_features">New Features</string>
+	<string name="whats_new">Backup and restores taking too long? Try the new setting lets you turn off the progress bar for 3 times the speed!</string>
+	
+	<string name="install_from_qrcode">Install from QR Code</string>
+	
+	<string name="qrcode_download">QR Code Download</string>
+	<string name="qrcode_summary">Take a picture to install a ROM. Requires the free Barcode Scanner application.</string>
+	<string name="qrcode_premium_required">You need the Premium version of ROM Manager to install ROMs from QR Codes!</string>
+	<string name="qrcode_not_installed">Missing Barcode Scanner</string>
+	<string name="qrcode_install">You must have Barcode Scanner installed to use this feature! Press OK to install free Barcode scanner application from the Market.</string>
+	
+	<string name="flash_recovery_confirm_title">Flash Recovery?</string>
+	<string name="flash_recovery_confirm">Are you sure you wish to replace your recovery?</string>
+	
+	<string name="analytics">Google Analytics</string>
+	<string name="analytics_details">Google Analytics will send anonymous usage statistics to help make ROM Manager a better app! By pressing OK, you state that you understand that anonymous usage information will be sent to Google and the developers of ROM Manager.</string>
+	<string name="analytics_on">Google Analytics is on. Thanks for helping make ROM Manager a better app!</string>
+	<string name="analytics_off">Google Analytics is off. You should turn this on!</string>
+	
+	<string name="fast_nandroid">Quick Backup and Restore</string>
+	<string name="fast_nandroid_off">Progress bars in Backup and Restore are disabled for speed.</string>
+	<string name="fast_nandroid_on">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
+</resources>
