@@ -13,7 +13,7 @@
 	<string name="brick_warning">Der ROM Manager ist nicht verantwortlich f&#252;r Sch&#228;den an Ihrem Ger&#228;t. Durch das \"rooten\" Ihres Ger&#228;tes haben sie bereits die Garantie verloren. Ver&#228;nderungen im nicht-Userspace sind gef&#228;hrlich. Weiterhin sendet der ROM Manager anonymisierte Daten an Google Analytics, um die Benutzung des Programms zu verbessern. Best&#228;tigen sie mit OK. Dr&#252;cken sie Abbrechen, um die Applikation zu beenden.</string>
 
 	<string name="ota_not_supported">Ihr ROM unterst&#252;tzt keine Online-Updates. Bitte kontaktieren Sie den Entwickler des ROMs!</string>
-	<string name="ota_not_supported_extended">Ihr ROM unterst&#252;tzt keine Online-Updates. Der Entwickler muss muss &#196;nderungen vornehmen um Online-Updates zu unterst&#252;tzen. Bitte kontaktieren Sie den Entwickler des ROMs! Dies ist kein Fehler des ROM Managers.</string>
+	<string name="ota_not_supported_extended">Ihr ROM unterst&#252;tzt keine Online-Updates. Der Entwickler muss &#196;nderungen vornehmen um Online-Updates zu unterst&#252;tzen. Bitte kontaktieren Sie den Entwickler des ROMs! Dies ist kein Fehler des ROM Managers.</string>
 	<string name="current_rom">Aktuelles ROM: %s</string>
 
 	<string name="donate_to_developer">Spenden</string>
