@@ -195,7 +195,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Backup and restores taking too long? Try the new setting lets you turn off the progress bar for 3 times the speed!</string>
+	<string name="whats_new">Backup and restores taking too long? Try the new setting that lets you turn off the progress bar for 3 times the speed!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
