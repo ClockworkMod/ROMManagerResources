@@ -214,6 +214,6 @@
 	<string name="analytics_off">Google Analytics is off. You should turn this on!</string>
 	
 	<string name="fast_nandroid">Quick Backup and Restore</string>
-	<string name="fast_nandroid_off">Progress bars in Backup and Restore are disabled for speed.</string>
-	<string name="fast_nandroid_on">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
+	<string name="fast_nandroid_on">Progress bars in Backup and Restore are disabled for speed.</string>
+	<string name="fast_nandroid_off">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
 </resources>

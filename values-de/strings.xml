@@ -87,7 +87,7 @@
 	<string name="partition_ext_size">Ext Gr&#246;&#223;e</string>
 	<string name="partition_swap_size">Swap Gr&#246;&#223;e</string>
 	<string name="partition_sdcard">SD Karte partitionieren</string>
-	<string name="partition_sdcard_summary">Partiotionieren Sie Ihre SD-Karte um die Installation von Applikationen auf Ihre SD-Karte in ROMs, die das unterst&#252;tzen, zu erm&#246;glichen.</string>
+	<string name="partition_sdcard_summary">Partitionieren Sie Ihre SD-Karte um die Installation von Applikationen auf Ihre SD-Karte in ROMs, die das unterst&#252;tzen, zu erm&#246;glichen.</string>
 	<string name="partition_sdcard_warning">Die Partitionierung Ihrer SD_Karte wird ALLE Daten auf der Karte l&#246;schen! Sind sie sicher, dass sie neu starten und weitermachen wollen?</string>
 
 	<string name="manifests_no_roms">F&#252;r Ihr Ger&#228;t sind derzeit keine ROMs verf&#252;gbar! Fragen Sie Ihre Lieblingsentwickler nach der kostenlosen Unterst&#252;tzung f&#252;r den ROM-Manager!</string>
@@ -213,6 +213,6 @@
 	<string name="analytics_off">Google Analytics ist deaktiviert. Sie sollten diese Funktion aktivieren!</string>
 
 	<string name="fast_nandroid">Schnellsicherung und -wiederherstellung</string>
-	<string name="fast_nandroid_off">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aus Geschwindigkeitsgr&#252;nden deaktiviert.</string>
-	<string name="fast_nandroid_on">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aktiviert. Deaktivieren f&#252;r schnellere Sicherung und Wiederherstellung.</string>
+	<string name="fast_nandroid_on">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aus Geschwindigkeitsgr&#252;nden deaktiviert.</string>
+	<string name="fast_nandroid_off">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aktiviert. Deaktivieren f&#252;r schnellere Sicherung und Wiederherstellung.</string>
 </resources>

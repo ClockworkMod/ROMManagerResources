@@ -213,6 +213,6 @@
 	<string name="analytics_off">Google Analytics está desactivado. Deberías activarlo!</string>
 	
 	<string name="fast_nandroid">Copia y restauración rápidas</string>
-	<string name="fast_nandroid_off">Las barras de progreso se desactivan para ganar velocidad.</string>
-	<string name="fast_nandroid_on">Las barras de progreso estan activadas. Desactivalas para una copia y restauración más rápidas.</string>
+	<string name="fast_nandroid_on">Las barras de progreso se desactivan para ganar velocidad.</string>
+	<string name="fast_nandroid_off">Las barras de progreso estan activadas. Desactivalas para una copia y restauración más rápidas.</string>
 </resources>
