@@ -195,7 +195,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Now with translations for French users!</string>
+	<string name="whats_new">ROM Manager now has Portugese translations!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -216,4 +216,7 @@
 	<string name="fast_nandroid">Quick Backup and Restore</string>
 	<string name="fast_nandroid_on">Progress bars in Backup and Restore are disabled for speed.</string>
 	<string name="fast_nandroid_off">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
+
+	<string name="credits">Credits</string>
+	<string name="credits_summary">Written by Koushik Dutta.</string>
 </resources>
