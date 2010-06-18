@@ -195,7 +195,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">ROM Manager now has Portugese translations!</string>
+	<string name="whats_new">Problems flashing recovery? Try enabling the new Erase Recovery option under Settings!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -219,4 +219,8 @@
 
 	<string name="credits">Credits</string>
 	<string name="credits_summary">Written by Koushik Dutta.</string>
+
+	<string name="erase_recovery">Erase Recovery</string>
+	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
+	<string name="erase_recovery_off">Recovery will not be erased prior to flashing.</string>
 </resources>
