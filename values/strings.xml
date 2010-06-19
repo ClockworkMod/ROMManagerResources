@@ -195,7 +195,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Problems flashing recovery? Try enabling the new Erase Recovery option under Settings!</string>
+	<string name="whats_new">ROM Manager now supports multiple zip install from SD Card (Advanced Mode must be enabled)!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -223,4 +223,7 @@
 	<string name="erase_recovery">Erase Recovery</string>
 	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
 	<string name="erase_recovery_off">Recovery will not be erased prior to flashing.</string>
+	
+	<string name="install_queue">Install Queue:</string>
+	<string name="add_another_zip">Add Zip</string>
 </resources>
