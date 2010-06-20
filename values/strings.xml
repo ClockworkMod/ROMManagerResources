@@ -133,6 +133,8 @@
 	<string name="flash_alternate_recovery_success">Successfully flashed recovery!</string>
 	<string name="confirm_device">Confirm Phone Model</string>
 	<string name="do_this_first">You must have the ClockworkMod Recovery installed to flash and restore ROMs!</string>
+	<string name="flash_recovery_require">You must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
+	<string name="install">Install</string>
 	
 	<string name="clear_cache">Clear Download Cache</string>
 	<string name="clear_cache_confirm">Caching downloads makes your ROM installations much faster. Are you sure you want to clear your download cache?</string>
@@ -226,4 +228,7 @@
 	
 	<string name="install_queue">Install Queue:</string>
 	<string name="add_another_zip">Add Zip</string>
+	
+	<string name="report_error">Report Error</string>
+	<string name="report_error_message">An error occurred while in recovery mode. Would you like to report it? Please do not report the same error multiple times!</string>
 </resources>
