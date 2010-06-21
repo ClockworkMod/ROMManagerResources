@@ -197,7 +197,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">ROM Manager now supports multiple zip install from SD Card (Advanced Mode must be enabled)!</string>
+	<string name="whats_new">ROM Developers can now include preview screenshots of their ROMs (check out CyanogenMod)!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -231,4 +231,9 @@
 	
 	<string name="report_error">Report Error</string>
 	<string name="report_error_message">An error occurred while in recovery mode. Would you like to report it? Please do not report the same error multiple times!</string>
+	
+	<string name="screenshots">Screenshots</string>
+	<string name="download">Download</string>
+	
+	<string name="loading">Loading...</string>
 </resources>
