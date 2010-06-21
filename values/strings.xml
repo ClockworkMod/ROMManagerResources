@@ -236,4 +236,9 @@
 	<string name="download">Download</string>
 	
 	<string name="loading">Loading...</string>
+	
+	<string name="corrupt">Corrupt zip file.</string>
+	
+	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
+	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
 </resources>
