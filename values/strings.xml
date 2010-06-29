@@ -13,7 +13,7 @@
 	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
 
 	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
-	<string name="ota_not_supported_extended">Your ROM is properly not set up to receive OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! This is not a ROM Manager bug.</string>
+	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
 	<string name="current_rom">Current ROM: %s</string>
 
 	<string name="donate_to_developer">Donate</string>

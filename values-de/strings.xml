@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<string name="rom_management">ROM-Verwaltung</string>
 	<string name="install_rom">ROM von SD-Karte installieren</string>
@@ -194,7 +194,7 @@
 
 	<string name="changelog">Changelog</string>
 
-	<string name="new_features">Neue Funktione</string>
+	<string name="new_features">Neue Funktionen</string>
 
 	<string name="install_from_qrcode">Installation &#252;ber QR Code</string>
 
@@ -215,4 +215,27 @@
 	<string name="fast_nandroid">Schnellsicherung und -wiederherstellung</string>
 	<string name="fast_nandroid_on">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aus Geschwindigkeitsgr&#252;nden deaktiviert.</string>
 	<string name="fast_nandroid_off">Fortschrittsbalken bei Sicherung und Wiederherstellung sind aktiviert. Deaktivieren f&#252;r schnellere Sicherung und Wiederherstellung.</string>
+
+	<string name="credits">Credits</string>
+	<string name="credits_summary">Programmiert von Koushik Dutta.</string>
+
+	<string name="erase_recovery">Recovery-System löschen</string>
+	<string name="erase_recovery_on">Das Recovery-System wird vor dem Flashen gelöscht.</string>
+	<string name="erase_recovery_off">Das Recovery-System wird vor dem Flashen nicht gelöscht.</string>
+
+	<string name="install_queue">Installations-Warteschlange:</string>
+	<string name="add_another_zip">Zip-Datei hinzufügen</string>
+
+	<string name="report_error">Fehler melden</string>
+	<string name="report_error_message">Im Recovery-System ist ein Fehler aufgetreten. Möchten Sie diesen Fehler dem Entwickler melden? Bitte übermitteln Sie nicht den selben Fehler mehrmals!</string>
+
+	<string name="screenshots">Screenshots</string>
+	<string name="download">Herunterladen</string>
+
+	<string name="loading">Lädt...</string>
+
+	<string name="corrupt">Defekte Zip-Datei.</string>
+
+	<string name="no_spaces">Der ROM Manager kann diese Datei nicht öffnen. Bitte entfernen Sie alle Leerzeichen aus Datei- und Ordnernamen oder starten Sie die Instalation der Datei manuell im CLockworkMod-Recovery-System.</string>
+	<string name="no_md5">Dies scheint keine gültige WIederherstellungsdatei zu sein. Die MD5-Datei fehlt.</string>	
 </resources>
