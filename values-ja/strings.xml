@@ -119,6 +119,8 @@
 	<string name="flash_alternate_recovery_success">リカバリのフラッシュに成功!</string>
 	<string name="confirm_device">携帯端末の種類を確認</string>
 	<string name="do_this_first">ROMのフラッシュやリストアをするにはClockworkMod Recoveryを導入する必要があります!</string>
+	<string name="flash_recovery_require">続ける前にClockworkMod Recoveryがインストールしてある必要があります! まず、ROM Managerをつかってリカバリをインストールしてください。</string>
+	<string name="install">インストール</string>
 
 	<string name="clear_cache">ダウンロードキャッシュの消去</string>
 	<string name="clear_cache_confirm">ダウンロードキャッシュはROMインストールを素早く行うのに役立ちます。ダウンロードキャッシュを消去してもよろしいですか?</string>
@@ -212,4 +214,16 @@
 
 	<string name="install_queue">インストールキュー:</string>
 	<string name="add_another_zip">Zipを追加</string>
+
+	<string name="report_error">エラーリポート</string>
+	<string name="report_error_message">リカバリモードでエラーが発生しました。これを報告しますか? 同じエラーを何度も報告する必要はありません!</string>
+	<string name="screenshots">スクリーンショット</string>
+	<string name="download">ダウンロード</string>
+
+	<string name="loading">ロード中...</string>
+
+	<string name="corrupt">壊れてるzipファイルです。</string>
+
+	<string name="no_spaces">ROM Managerはこのファイルを開けません。フォルダやファイルのパスからスペースを取り除いてください。もしくはClockworkMod recoveryにて手動で実行してください。</string>
+	<string name="no_md5">これは正しいバックアップファイルではないようです。MD5ファイルがありません。</string>
 </resources>
