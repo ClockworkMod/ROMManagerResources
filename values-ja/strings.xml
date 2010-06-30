@@ -13,7 +13,7 @@
 	<string name="brick_warning">ROM Managerはあなたの携帯端末に起こるどんな損害についても責任を負いません。携帯端末のrootを取得した時点であなたは保証を放棄しています。ユーザー空間以外で遊ぶことは危険です。さらに、ROM Managerは今後の発展のために匿名の利用情報をGoogle Analyticsへ送信します。同意するにはOKを押してください。アプリケーションを終了するにはキャンセルを押してください。</string>
 
 	<string name="ota_not_supported">あなたのROMはOTAを受信するように設計されていません。ROM開発者にお尋ねください!</string>
-	<string name="ota_not_supported_extended">あなたのROMはOTAによる更新を受信するように設計されていません。ROMのOTAによる更新をサポートするためには、ROMの開発者がROMを改良する必要があります。ROMの開発者にお尋ねください! これはROM Managerの不具合ではありません。</string>
+	<string name="ota_not_supported_extended">現在使用中のROMはOTAによる更新を受信するように設計されていません。ROMのOTAによる更新をサポートするためには、ROMの開発者がROMを改良する必要があります。ROMの開発者にお尋ねください! これはROM Managerの不具合ではありません。</string>
 	<string name="current_rom">現在のROM: %s</string>
 
 	<string name="donate_to_developer">寄付</string>
@@ -22,11 +22,11 @@
 	<string name="utilities">ユーティリティ</string>
 	<string name="fix_permissions">パーミッション修正</string>
 	<string name="fixing_permissions">パーミッションを修正中...</string>
-	<string name="fix_permissions_detail">ファイルシステムのパーミッションを修正します。これはよくある強制終了を修復することができます。</string>
+	<string name="fix_permissions_detail">ファイルシステムのパーミッションを修正します。しばしば強制終了が直ります。</string>
 
 	<string name="fix_permissions_done">完了! 携帯端末を再起動する必要があります。</string>
 
-	<string name="download_rom_premium">完全なROMリストにアクセスするにはROM Manager (Premium)にアップグレードしてください!</string>
+	<string name="download_rom_premium">完全なROMリストにアクセスするにはプレミアム版にアップグレードしてください!</string>
 
 	<string name="premium_only">この機能はプレミアムユーザのみが利用できます!</string>
 	<string name="no_update">このROMには更新がありません。</string>
@@ -73,7 +73,7 @@
 	<string name="partition_ext_size">Ext サイズ</string>
 	<string name="partition_swap_size">Swap サイズ</string>
 	<string name="partition_sdcard">SDカードパーティション</string>
-	<string name="partition_sdcard_summary">アプリをSDにインストールことができるROMで利用するためにパーティションを分割します。</string>
+	<string name="partition_sdcard_summary">Apps2SDを利用できるROMのためにパーティションを分割します。</string>
 	<string name="partition_sdcard_warning">SDカードのパーティションはSDカード上のすべてのデータを消去します。再起動して続けてもよろしいですか?</string>
 
 	<string name="manifests_no_roms">あなたの携帯端末で利用できるROMはまだありません! お気に入りの開発者にROM Managerでリストを利用できないか問い合わせてみてください!</string>
@@ -134,7 +134,7 @@
 	<string name="flash_alternate_warning">代替リカバリをフラッシュしてもよいですか? ROM Managerの機能は再度ClockworkMod Recoveryをフラッシュするまで利用できなくなります。</string>
 	<string name="flash_alternate_unavailable">利用できる代替リカバリはありません。</string>
 	<string name="flash_legacy_and_experimental">すべてのClockworkMod Recovery</string>
-	<string name="flash_legacy_and_experimental_summary">以前の実験的なClockworkMod Recoveryをフラッシュします。</string>
+	<string name="flash_legacy_and_experimental_summary">以前の、あるいは実験的なClockworkMod Recoveryをフラッシュします。</string>
 	<string name="flash_legacy_unavailable">利用できる古いリカバリはありません。インターネットに接続されていますか?</string>
 
 	<string name="developer_mode">上級モード</string>
@@ -188,7 +188,7 @@
 	<string name="install_from_qrcode">QRコードからインストール</string>
 
 	<string name="qrcode_download">QRコードダウンロード</string>
-	<string name="qrcode_summary">ROMをインストールするために撮影してください。フリーなバーコードスキャンアプリが必要です。</string>
+	<string name="qrcode_summary">写真を撮ってROMをインストールします。フリーなバーコードスキャナが必要です。</string>
 	<string name="qrcode_premium_required">QRコードインストールを利用するにはプレミアム版のROM Managerが必要です!</string>
 	<string name="qrcode_not_installed">バーコードスキャナがありません</string>
 	<string name="qrcode_install">この機能を利用するにはバーコードスキャナのインストールが必要です! バーコードスキャンアプリをマーケットからインストールするにはOKを押してください。</string>
@@ -198,12 +198,12 @@
 
 	<string name="analytics">Google Analytics</string>
 	<string name="analytics_details">Google AnalyticsはROM Managerの発展のために匿名の利用情報を収集します! OKボタンを押すことにより、匿名の利用情報をGoogle及びROM Managerの開発者に送信することを理解し、同意します。</string>
-	<string name="analytics_on">Google Analyticsはオンです。 ROM Managerの開発にご協力ありがとうございます!</string>
-	<string name="analytics_off">Google Analyticsはオフです。 オンにしてください!</string>
+	<string name="analytics_on">Google Analyticsはオンです。開発にご協力ありがとうございます!</string>
+	<string name="analytics_off">Google Analyticsはオフです。オンにしてください!</string>
 
 	<string name="fast_nandroid">クイックバックアップとリストア</string>
-	<string name="fast_nandroid_on">速度維持のためにバックアップとリストアのプログレスバーを表示しません。</string>
-	<string name="fast_nandroid_off">バックアップとリストアのプログレスバーは有効です。バックアップとリストアを素早く行うためには無効にしてください。</string>
+	<string name="fast_nandroid_on">速度維持のためにプログレスバーを表示しません。</string>
+	<string name="fast_nandroid_off">プログレスバーは有効です。速度を維持するにはチェックしてください。</string>
 
 	<string name="credits">クレジット</string>
 	<string name="credits_summary">作者: Koushik Dutta</string>
