@@ -227,5 +227,5 @@
 	<string name="no_spaces">ROM Managerはこのファイルを開けません。フォルダやファイルのパスからスペースを取り除いてください。もしくはClockworkMod recoveryにて手動で実行してください。</string>
 	<string name="no_md5">これは正しいバックアップファイルではないようです。MD5ファイルがありません。</string>
 	<string name="showads">広告を表示</string>
-        <string name="showads_summary">ROM Managerの手助けを! (変更にはアプリの再起動が必要です)</string>
+	<string name="showads_summary">ROM Managerの手助けを! (変更にはアプリの再起動が必要です)</string>
 </resources>
