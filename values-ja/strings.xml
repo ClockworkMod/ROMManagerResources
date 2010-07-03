@@ -183,7 +183,7 @@
 	<string name="changelog">更新履歴</string>
 
 	<string name="new_features">新機能</string>
-	<string name="whats_new">ROM ManagerはSDカードから複数のzipファイルをインストールすることができるようになりました(上級モードが必要です)!</string>
+	<string name="whats_new">広告がお嫌いですか?設定で無効にできます!ですが、ROM Manager開発の手助けのために有効にしておいてください。</string>
 
 	<string name="install_from_qrcode">QRコードからインストール</string>
 
@@ -226,4 +226,6 @@
 
 	<string name="no_spaces">ROM Managerはこのファイルを開けません。フォルダやファイルのパスからスペースを取り除いてください。もしくはClockworkMod recoveryにて手動で実行してください。</string>
 	<string name="no_md5">これは正しいバックアップファイルではないようです。MD5ファイルがありません。</string>
+	<string name="showads">広告を表示</string>
+        <string name="showads_summary">ROM Managerの手助けを! (変更にはアプリの再起動が必要です)</string>
 </resources>
