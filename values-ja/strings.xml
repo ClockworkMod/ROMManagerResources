@@ -16,7 +16,7 @@
 	<string name="ota_not_supported_extended">現在使用中のROMはOTAによる更新を受信するように設計されていません。ROMのOTAによる更新をサポートするためには、ROMの開発者がROMを改良する必要があります。ROMの開発者にお尋ねください! これはROM Managerの不具合ではありません。</string>
 	<string name="current_rom">現在のROM: %s</string>
 
-	<string name="donate_to_developer">寄付</string>
+	<string name="donate">寄付</string>
 	<string name="developer_homepage">ホームページ</string>
 
 	<string name="utilities">ユーティリティ</string>

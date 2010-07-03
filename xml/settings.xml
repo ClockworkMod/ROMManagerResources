@@ -7,5 +7,6 @@
   <CheckBoxPreference android:key="analytics" android:title="@string/analytics" android:summary="@string/analytics_off" />
   <CheckBoxPreference android:key="fast_nandroid" android:title="@string/fast_nandroid" android:summary="@string/fast_nandroid_off" />
   <CheckBoxPreference android:key="erase_recovery" android:title="@string/erase_recovery" android:summary="@string/erase_recovery_off" />
+  <CheckBoxPreference android:key="showads" android:title="@string/showads" android:summary="@string/showads_summary" />
   <Preference android:key="credits" android:title="@string/credits" android:summary="@string/credits_summary" />
 </PreferenceScreen>

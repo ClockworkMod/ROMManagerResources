@@ -16,7 +16,7 @@
 	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
 	<string name="current_rom">Current ROM: %s</string>
 
-	<string name="donate_to_developer">Donate</string>
+	<string name="donate">Donate</string>
 	<string name="developer_homepage">Homepage</string>
 
 	<string name="utilities">Utilities</string>
@@ -197,7 +197,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">ROM Developers can now include preview screenshots of their ROMs (check out CyanogenMod)!</string>
+	<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -241,4 +241,7 @@
 	
 	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
 	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
+	
+	<string name="showads">Show Advertisements</string>
+	<string name="showads_summary">Help support ROM Manager! (Changes require application restart.)</string>
 </resources>
