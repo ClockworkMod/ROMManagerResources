@@ -16,7 +16,7 @@
 		<string name="ota_not_supported_extended">Sua ROM não está configurada para receber atualizações automáticas. O desenvolvedor da ROM deve fazer as mudanças apropriadas para suportar atualizações automáticas. Por favor entre em contato com o desenvolvedor da ROM! Isso não é um erro do ROM Manager.</string>
 		<string name="current_rom">ROM atual: %s</string>
 
-		<string name="donate_to_developer">Doar</string>
+		<string name="donate">Doar</string>
 		<string name="developer_homepage">Site</string>
 
 		<string name="utilities">Ferramentas</string>

@@ -16,7 +16,7 @@
 	<string name="ota_not_supported_extended">Tu ROM no esta preparada correctamente para recibir actualizaciones por OTA. El desarrollador de esta ROM necesita hacer los cambios apropiados para que su ROM soporte actualizaciones por OTA. Por favor, contacta al desarrollador de la ROM! Esto no es un fallo del ROM Manager.</string>
 	<string name="current_rom">ROM actual: %s</string>
 
-	<string name="donate_to_developer">Dona</string>
+	<string name="donate">Dona</string>
 	<string name="developer_homepage">Website</string>
 
 	<string name="utilities">Utilidades</string>

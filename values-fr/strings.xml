@@ -16,7 +16,7 @@
 	<string name="ota_not_supported_extended">Votre ROM n\'est pas correctement configuree pour recevoir des mises a jour OTA (Over The Air). Le developpeur de la ROM doit verifier sa configuration. Merci de le contacter. Ce n\'est pas un bug de ROM Manager !</string>
 	<string name="current_rom">ROM actuelle: %s</string>
 	
-	<string name="donate_to_developer">Donation</string>
+	<string name="donate">Donation</string>
 	<string name="developer_homepage">Site Web</string>
 	
 	<string name="utilities">Utilitaires</string>

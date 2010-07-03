@@ -16,7 +16,7 @@
 	<string name="ota_not_supported_extended">Ihr ROM unterst&#252;tzt keine Online-Updates. Der Entwickler muss &#196;nderungen vornehmen um Online-Updates zu unterst&#252;tzen. Bitte kontaktieren Sie den Entwickler des ROMs! Dies ist kein Fehler des ROM Managers.</string>
 	<string name="current_rom">Aktuelles ROM: %s</string>
 
-	<string name="donate_to_developer">Spenden</string>
+	<string name="donate">Spenden</string>
 	<string name="developer_homepage">Homepage</string>
 	<string name="utilities">Hilfsmittel</string>
 
