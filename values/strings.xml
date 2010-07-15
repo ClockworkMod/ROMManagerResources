@@ -244,4 +244,15 @@
 	
 	<string name="showads">Show Advertisements</string>
 	<string name="showads_summary">Help support ROM Manager! (Changes require application restart.)</string>
+
+	<string name="recovery_failure">Recovery Failure</string>
+	<string-array name="recovery_failures">
+		<item>My phone is unable to reboot into Recovery. Recovery is broken.</item>
+		<item>I pressed OK to reboot into recovery and nothing happened.</item>
+		<item>Other.</item>
+	</string-array>
+	
+	<string name="recovery_broken_fix">To fix this issue, you can flash an alternate or older recovery and then flash back to the current version. You can also try enabling "Erase Recovery" ROM Manager\'s Settings.</string>
+	<string name="reboot_fix">Some phones have a nonfunctional "reboot". View this thread on your computer for more information: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">Please feel free to email me with your bug!</string>
 </resources>
