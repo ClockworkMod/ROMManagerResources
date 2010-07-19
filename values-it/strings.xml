@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="rom_management">ROM Management</string>
-	<string name="install_rom">Installa ROM da SD Card</string>
+	<string name="install_rom">Installa ROM da scheda SD</string>
 	<string name="download_rom">Download ROM</string>
 	<string name="check_updates">Controlla aggiornamenti ROM</string>
 	<string name="backup_and_restore">Backup e Restore</string>
@@ -244,4 +244,15 @@
 	
 	<string name="showads">Mostra pubblicità</string>
 	<string name="showads_summary">Aiuta ROM Manager! (Le modifiche richiedono il riavvio dell\'App.)</string>
+   
+        <string name="recovery_failure">Fallimenti Recovery</string>
+	<string-array name="recovery_failures">
+		<item>Modalità recovery non funzionante.</item>
+		<item>ROM Manager non riavvia.</item>
+		<item>Altro.</item>
+	</string-array>
+	
+	<string name="recovery_broken_fix">Ci sono diversi modi per sistemare una recovery non funzionante:\n1) Installa una recovery alternativa o una più vecchia e poi torna a installare l\'ultima versione.\n2) Prova ad attivare "Elimina Recovery" nelle impostazioni di ROM Manager.\n3) Prova a reinstallare la recovery dopo aver cancellato la cache di download dal menu.\n4) Installa una recovery più vecchia.\n5)  Avvia la recovery tramite Fastboot o SBF dal tuo PC.</string>
+	<string name="reboot_fix">Certe ROM hanno l\'eseguibile "reboot" non funzionante. Per maggiori dettagli visita questo thread dal tuo PC: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">Mandami i tuoi bug via email a koush@clockworkmod.com!</string>
 </resources>
