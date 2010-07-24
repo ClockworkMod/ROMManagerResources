@@ -257,4 +257,9 @@
 	<string name="unknown_bug">Please feel free to email me at koush@clockworkmod.com with your bug!</string>
 	
 	<string name="buy_premium">Buy Premium</string>
+	
+	<string-array name="purchase_options">
+		<item>Android Market (Recommended)</item>
+		<item>PayPal (For those without Android Market)</item>
+	</string-array>
 </resources>
