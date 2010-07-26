@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="rom_management">ROM Hantering</string>
-	<string name="install_rom">Install ROM från SDkort</string>
+	<string name="install_rom">Installera ROM frÃ¥n SDkort</string>
 	<string name="download_rom">Ladda ner ROM</string>
-	<string name="check_updates">Sök efter ROM Uppdatering</string>
-	<string name="backup_and_restore">Säkerhetskopiera och återställ</string>
-	<string name="manage_and_restore_backups">Hantera och återställ Säkerhetskopia</string>
-	<string name="backup_current_rom">Säkerhetskopiera befintlig ROM</string>
+	<string name="check_updates">SÃ¶k efter ROM Uppdatering</string>
+	<string name="backup_and_restore">SÃ¤kerhetskopiera och Ã¥terstÃ¤ll</string>
+	<string name="manage_and_restore_backups">Hantera SÃ¤kerhetskopia</string>
+	<string name="backup_current_rom">SÃ¤kerhetskopiera befintlig</string>
 
-	<string name="no_connection">Ett fel uppstod vid nedladdning. Kontrollera din internetförbindelse, och att SDkortet är monterat och har tilläckligt med ledigt utrymme!</string>
+	<string name="no_connection">Ett fel uppstod vid nedladdning. Kontrollera din internetfÃ¶rbindelse, och att SDkortet Ã¤r monterat och har tillÃ¤ckligt med ledigt utrymme!</string>
 
-	<string name="brick_warning">ROM Manager är inte ansvarigt för någon skada som kan orsakas på din telefon. Genom att roota din telefon har du redan riskerat din garanti. Att ändra på systemfiler är riskabelt. ROM Manager kan skicka anonym information till Google Analytics för att hjälpa till att förbättra detta program. Tryck OK för att acceptera. Tryck Avbryt för att avbryta programmet.</string>
+	<string name="brick_warning">ROM Manager Ã¤r inte ansvarigt fÃ¶r nÃ¥gon skada som kan orsakas pÃ¥ din telefon. Genom att roota din telefon har du redan riskerat din garanti. Att Ã¤ndra pÃ¥ systemfiler Ã¤r riskabelt. ROM Manager kan skicka anonym information till Google Analytics fÃ¶r att hjÃ¤lpa till att fÃ¶rbÃ¤ttra detta program. Tryck OK fÃ¶r att acceptera. Tryck Avbryt fÃ¶r att avbryta programmet.</string>
 
-	<string name="ota_not_supported">Din installerad ROM är inte gjord för att ta emot OTA-uppdateringar. Kontakta din ROM-utvecklare!</string>
-	<string name="ota_not_supported_extended">Den ROM du använder stödjer inte OTA-uppdateringar. Utvecklaren av denna ROM måste göra några ändringar för att stödja OTA-uppdatering. Kontakta ROM-utvecklaren! Kontakta ej ROM Manager: DETTA ÄR INGEN ROM MANAGER BUG.</string>
+	<string name="ota_not_supported">Din installerade ROM Ã¤r inte gjord fÃ¶r att ta emot OTA-uppdateringar. Kontakta din ROM-utvecklare!</string>
+	<string name="ota_not_supported_extended">Den ROM du anvÃ¤nder stÃ¶djer inte OTA-uppdateringar. Utvecklaren av denna ROM mÃ¥ste gÃ¶ra nÃ¥gra Ã¤ndringar fÃ¶r att stÃ¶dja OTA-uppdatering. Kontakta ROM-utvecklaren! Kontakta ej ROM Manager: DETTA Ã„R INGEN ROM MANAGER BUG.</string>
 	<string name="current_rom">Nuvarade ROM: %s</string>
 
 	<string name="donate">Donera</string>
 	<string name="developer_homepage">Websida</string>
 
-	<string name="utilities">verktyg</string>
-	<string name="fix_permissions">Reparera Filbehörigheter</string>
-	<string name="fixing_permissions">Reparerar Behörigheter...</string>
-	<string name="fix_permissions_detail">Reparera filbehörigheter. Löser ofta Tvingade avslutsproblem.</string>
+	<string name="utilities">Verktyg</string>
+	<string name="fix_permissions">Reparera FilrÃ¤ttigheter</string>
+	<string name="fixing_permissions">Reparerar FilrÃ¤ttigheter...</string>
+	<string name="fix_permissions_detail">Reparera filrÃ¤ttigheter. LÃ¶ser ofta problem med Tvingade stop.</string>
 	
-	<string name="fix_permissions_done">Färdigt! Du bör starta om din telefon.</string>
+	<string name="fix_permissions_done">FÃ¤rdigt! Du bÃ¶r starta om din telefon.</string>
 
-	<string name="download_rom_premium">Uppgradera till ROM Manager (Premium) för tillgång till hela listan över ROMs!</string>
+	<string name="download_rom_premium">Uppgradera till ROM Manager (Premium) fÃ¶r tillgÃ¥ng till hela listan Ã¶ver ROMs!</string>
 	
-	<string name="premium_only">Denna funktion är endast tillgänglig för Premium användare!</string>
-	<string name="no_update">Det finns ingen uppdatering för din ROM.</string>
-	<string name="update_available">Uppdatering Tillgänglig</string>
-	<string name="updated_rom">Tryck OK för att uppdatera din ROM till senaste versionen: %s.</string>
-	<string name="update_recovery_available">Det finns en uppdatering för ClockworkMod Recovery.</string>
+	<string name="premium_only">Denna funktion Ã¤r endast tillgÃ¤nglig fÃ¶r Premium anvÃ¤ndare!</string>
+	<string name="no_update">Det finns ingen uppdatering fÃ¶r din ROM.</string>
+	<string name="update_available">Uppdatering TillgÃ¤nglig</string>
+	<string name="updated_rom">Tryck OK fÃ¶r att uppdatera din ROM till senaste versionen: %s.</string>
+	<string name="update_recovery_available">Det finns en uppdatering fÃ¶r ClockworkMod Recovery.</string>
 	
-	<string name="upgrade">Du måste uppgradera ROM Manager till senaste versionen!</string>
+	<string name="upgrade">Du mÃ¥ste uppgradera ROM Manager till senaste versionen!</string>
 
-	<string name="recovery_update_required">Det finns en ny version av ClockworkMod recovery tillgänglig. Du måste uppdatera innan du kan använda ROM Manager!</string>
+	<string name="recovery_update_required">Det finns en ny version av ClockworkMod recovery tillgÃ¤nglig. Du mÃ¥ste uppdatera innan du kan anvÃ¤nda ROM Manager!</string>
 
-	<string name="edit_backup_name">Namn Säkerhetskopia</string>
-	<string name="new_backup_name">Nytt namn Säkerhetskopia</string>
-	<string name="rename_backup_error">Det gick inte att byta namn. Kontrollera så namnen inte redan används eller innehåller ogiltiga tecken.</string>
-	<string name="confirm_delete_backup">Radera Säkerhetskopia?</string>
-	<string name="remove_backup_error">Det gick inte att radera din säkerhetskopia.</string>
+	<string name="edit_backup_name">Namn SÃ¤kerhetskopia</string>
+	<string name="new_backup_name">Nytt namn SÃ¤kerhetskopia</string>
+	<string name="rename_backup_error">Det gick inte att byta namn. Kontrollera sÃ¥ namnen inte redan anvÃ¤nds eller innehÃ¥ller ogiltiga tecken.</string>
+	<string name="confirm_delete_backup">Radera SÃ¤kerhetskopia?</string>
+	<string name="remove_backup_error">Det gick inte att radera din sÃ¤kerhetskopia.</string>
 
 	<string name="app_name">ROM Manager</string>
 	<string name="app_name_premium">ROM Manager Premium</string>
 	
-	<string name="coming_soon">Snart tillgänglig!</string>
+	<string name="coming_soon">Snart tillgÃ¤nglig!</string>
 	
 	<string-array name="manage_options">
-		<item>Återställ</item>
+		<item>Ã…terstÃ¤ll</item>
 		<item>Byt namn</item>
 		<item>Radera</item>
 	</string-array>
 		
 	<string-array name="install_options">
-		<item>Säkerhetskopiera nuvarade ROM</item>
-		<item>Töm Data och Cache</item>
+		<item>SÃ¤kerhetskopiera nuvarade ROM</item>
+		<item>TÃ¶m Data och Cache</item>
 	</string-array>
 
-	<string name="restore_options">Återställningsalternativ</string>
+	<string name="restore_options">Ã…terstÃ¤llningsalternativ</string>
 
 	<string-array name="restore_partitions">
-		<item>Återställ Boot</item>
-		<item>Återställ System</item>
-		<item>Återställ Data</item>
-		<item>Återställ Cache</item>
-		<item>Återställ SD-Ext</item>
+		<item>Ã…terstÃ¤ll Boot</item>
+		<item>Ã…terstÃ¤ll System</item>
+		<item>Ã…terstÃ¤ll Data</item>
+		<item>Ã…terstÃ¤ll Cache</item>
+		<item>Ã…terstÃ¤ll SD-Ext</item>
 	</string-array>
 
 	<string-array name="ext_size_options">
@@ -87,174 +87,174 @@
 	<string name="partition_ext_size">Ext Size</string>
 	<string name="partition_swap_size">Swap Size</string>
 	<string name="partition_sdcard">Partionera SDkort</string>
-	<string name="partition_sdcard_summary">Partionera ditt SDkort för stöda installation av program på SDkortet. Stöds av vissa ROM.</string>
-	<string name="partition_sdcard_warning">Partionering av ditt SDkort raderar allt. Är du säker på att du starta om telefonen och fortsätta?</string>
+	<string name="partition_sdcard_summary">Partionera ditt SDkort fÃ¶r stÃ¶dja installation av program pÃ¥ SDkortet. App2sd fungerar med endast vissa ROM.</string>
+	<string name="partition_sdcard_warning">Partionering av ditt SDkort raderar allt. Ã„r du sÃ¤ker pÃ¥ att du starta om telefonen och fortsÃ¤tta?</string>
 
-	<string name="manifests_no_roms">Det finns inga ROM tillgängliga för din telefon ännu! Be din favorit utvecklare bli listad på ROM Manager kostnadsfritt!</string>
+	<string name="manifests_no_roms">Det finns inga ROM tillgÃ¤ngliga fÃ¶r din telefon Ã¤nnu! Be din favorit utvecklare bli listad pÃ¥ ROM Manager kostnadsfritt!</string>
 	
-	<string name="preinstallation">ROM Förinstallation</string>
+	<string name="preinstallation">ROM FÃ¶rinstallation</string>
 	
 	<string name="download_cache_cleared">Nedladdningscachen har rensats.</string>
 	
-	<string name="manifests_unavailable">Ett fel uppstod under nedladdningen av listan över utveckare!</string>
-	<string name="manifests_error">Ett fel uppstod under behandlingen av listan över utvecklare!</string>
+	<string name="manifests_unavailable">Ett fel uppstod under nedladdningen av listan Ã¶ver utveckare!</string>
+	<string name="manifests_error">Ett fel uppstod under behandlingen av listan Ã¶ver utvecklare!</string>
 	
-	<string name="roms_unavailable">Ett fel uppstod under nedladdningen av ROM listan! Kontakta untvecklaren för denna ROM.</string>
+	<string name="roms_unavailable">Ett fel uppstod under nedladdningen av ROM listan! Kontakta untvecklaren fÃ¶r denna ROM.</string>
 	<string name="roms_error">Fel uppstod under behandlingen av ROM listan!</string>
 	<string name="rom_error">Fel uppstod under behandlingen av denna ROM!</string>
-	<string name="rom_addons">ROM Tillägg</string>
+	<string name="rom_addons">ROM TillÃ¤gg</string>
 	<string name="rom_download_error">Fel uppstod under nedladdningen av denna ROM!</string>
 	<string name="rom_download_error_short">ROM nedladdningsfel</string>
 	<string name="rom_download_complete">ROM nedladdning klar</string>
 	
-	<string name="restore">Återställ</string>
-	<string name="confirm_restore">Är du säker på att du vill starta om telefonen och återställa din säkerhetskopia?</string>
+	<string name="restore">Ã…terstÃ¤ll</string>
+	<string name="confirm_restore">Ã„r du sÃ¤ker pÃ¥ att du vill starta om telefonen och Ã¥terstÃ¤lla din sÃ¤kerhetskopia?</string>
 
-	<string name="reboot_recovery">Starta om i Recovery-läget</string>
-	<string name="reboot_into_recovery">Starta i Recovery-läge för manuell hantering.</string>
-	<string name="confirm_reboot">Är du säker på att du vill starta om i ClockworkMod Recoveryläge?</string>
-	<string name="confirm_reboot_alternate">Är du säker på att du vill starta om i %s?</string>
+	<string name="reboot_recovery">Starta om i RecoverylÃ¤ge</string>
+	<string name="reboot_into_recovery">Starta om i RecoverylÃ¤ge fÃ¶r manuell hantering.</string>
+	<string name="confirm_reboot">Ã„r du sÃ¤ker pÃ¥ att du vill starta om i ClockworkMod RecoverylÃ¤ge?</string>
+	<string name="confirm_reboot_alternate">Ã„r du sÃ¤ker pÃ¥ att du vill starta om i %s?</string>
 	
-	<string name="confirm_reboot_and_install">Tryck OK för att starta om i ClockworkMod Recovery och fortsätt installationen därifrån.</string>
+	<string name="confirm_reboot_and_install">Tryck OK fÃ¶r att starta om i ClockworkMod Recovery och fortsÃ¤tt installationen dÃ¤rifrÃ¥n.</string>
 	<string name="restart_and_install">Starta om och installera</string>
 	
-	<string name="recovery_clockworkmod_yours">Nuvarande Återställning: ClockworkMod %s</string>
-	<string name="recovery_alternate_yours">Nuvarande Återställning: %s</string>
-	<string name="recovery_latest">Senaste Återställning: ClockworkMod %s</string>
+	<string name="recovery_clockworkmod_yours">Installerad version: ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">Installerad version: %s</string>
+	<string name="recovery_latest">Senaste version: ClockworkMod %s</string>
 
-	<string name="recovery">Återställning</string>
+	<string name="recovery">Ã…terstÃ¤llning</string>
 	<string name="flash_recovery">Installera ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">Ett fel uppstod vid sparandet av din återställning.</string>
-	<string name="download_recovery_error">Ett fel uppstod under nedladdningen av din återställning.</string>
+	<string name="flash_recovery_error">Ett fel uppstod vid sparandet av din Ã¥terstÃ¤llning.</string>
+	<string name="download_recovery_error">Ett fel uppstod under nedladdningen av din Ã¥terstÃ¤llning.</string>
 	<string name="download_recovery_success">Nedladdningen av ClockworkMod recovery lyckad!</string>
 	<string name="flash_manual">Manuell Installation</string>
-	<string name="flash_recovery_override">Har du problem med installationena av återställning med ROM Manager? Tryck OK om du har installerat ClockworkMod Recovery manuellt.</string>
+	<string name="flash_recovery_override">Har du problem med installationena av Ã¥terstÃ¤llning med ROM Manager? Tryck OK om du har installerat ClockworkMod Recovery manuellt.</string>
 	<string name="flash_recovery_success">Installationen av ClockworkMod recovery lyckades!</string>
-	<string name="flash_alternate_recovery_success">Återställningen lyckades!</string>
-	<string name="confirm_device">Bekräfta telefonmodell</string>
-	<string name="do_this_first">Du måste ha ClockworkMod Recovery installerat för att kunna installera och återställa ROM!</string>
-	<string name="flash_recovery_require">Du måste ha ClockworkMod Recovery installerat innan du fortsätter! Installera återställningen via ROM Manager först.</string>
+	<string name="flash_alternate_recovery_success">Ã…terstÃ¤llningen lyckades!</string>
+	<string name="confirm_device">BekrÃ¤fta telefonmodell</string>
+	<string name="do_this_first">Du mÃ¥ste ha ClockworkMod Recovery installerat fÃ¶r att kunna installera och Ã¥terstÃ¤lla ROM!</string>
+	<string name="flash_recovery_require">Du mÃ¥ste ha ClockworkMod Recovery installerat innan du fortsÃ¤tter! Installera Ã¥terstÃ¤llningen via ROM Manager fÃ¶rst.</string>
 	<string name="install">Installera</string>
 	
 	<string name="clear_cache">Rensa nedladdningsminnet</string>
-	<string name="clear_cache_confirm">Att ladda ner ROM till minnescachen gör din installation snabbare. Är det säkert att du vill tömma din minnescache?</string>
+	<string name="clear_cache_confirm">Att ladda ner ROM till minnescachen gÃ¶r din installation snabbare. Ã„r det sÃ¤kert att du vill tÃ¶mma din minnescache?</string>
 
-	<string name="backup">Säkerhetskopia</string>
-	<string name="confirm_backup">Är det säkert att du vill starta om och göra en säkerhetskopia på din ROM?</string>
-	<string name="script_error">Ett fel uppstod då programmet försökte köra priviligearde kommandon!</string>
-	<string name="backup_error">Välj ett unikt och godkänt filnamn för din säkerhetskopia.</string>
+	<string name="backup">SÃ¤kerhetskopia</string>
+	<string name="confirm_backup">Ã„r det sÃ¤kert att du vill starta om och gÃ¶ra en sÃ¤kerhetskopia pÃ¥ din ROM?</string>
+	<string name="script_error">Ett fel uppstod dÃ¥ programmet fÃ¶rsÃ¶kte kÃ¶ra priviligearde kommandon!</string>
+	<string name="backup_error">VÃ¤lj ett unikt och godkÃ¤nt filnamn fÃ¶r din sÃ¤kerhetskopia.</string>
 	
-	<string name="flash_alternate">Installera alternativ återställning</string>
-	<string name="flash_alternate_warning">Är du säker du vill installera en alternativ återställning? ROM Managers funktioner kommer vara otillgängliga tills du installerar om ClockworkMod Recovery.</string>
-	<string name="flash_alternate_unavailable">Ingen alternativ återställning tillgänglig.</string>
+	<string name="flash_alternate">Installera en alternativ version</string>
+	<string name="flash_alternate_warning">Ã„r du sÃ¤ker du vill installera en alternativ version? ROM Managers funktioner kommer vara otillgÃ¤ngliga tills du installerar om ClockworkMod Recovery.</string>
+	<string name="flash_alternate_unavailable">Ingen alternativ Ã¥terstÃ¤llningsversion tillgÃ¤nglig.</string>
 	<string name="flash_legacy_and_experimental">Alla ClockworkMod Recoveries</string>
-	<string name="flash_legacy_and_experimental_summary">Installera äldre och exprimentiella versioner av ClockworkMod Recovery.</string>
-	<string name="flash_legacy_unavailable">Inga äldre återställningar funna. Har du en internetanslutning?"</string>
+	<string name="flash_legacy_and_experimental_summary">Installera Ã¤ldre och experimentella versioner av ClockworkMod Recovery.</string>
+	<string name="flash_legacy_unavailable">Inga Ã¤ldre Ã¥terstÃ¤llningar funna. Har du en internetanslutning?"</string>
 	
-	<string name="developer_mode">Avancerat läge</string>
-<string name="developer_mode_details">Avancerat läge är inte avsett för alla användare. Adancerat läge ger dig tillgång till alla återställningar, experiment ROM, och andra olika ej stabila varianter. Avancerat läge bör användas med försiktighet och för användare som kan hantera ADB.</string>
-	<string name="developer_mode_on">Avancerat Läge är aktiverat.</string>
-	<string name="developer_mode_off">Avancerat Läge är avaktiverat.</string>
-	<string name="developer_mode_summary">Detta är tillgängligt efter du valt Avancerat läge från ROM Manager Huvudmeny.</string>
+	<string name="developer_mode">Avancerat lÃ¤ge</string>
+<string name="developer_mode_details">Avancerat lÃ¤ge Ã¤r inte avsett fÃ¶r alla anvÃ¤ndare. Adancerat lÃ¤ge ger dig tillgÃ¥ng till alla Ã¥terstÃ¤llningar, experiment ROM, och andra olika ej stabila varianter. Avancerat lÃ¤ge bÃ¶r anvÃ¤ndas med fÃ¶rsiktighet och fÃ¶r anvÃ¤ndare som kan hantera ADB.</string>
+	<string name="developer_mode_on">Avancerat LÃ¤ge Ã¤r aktiverat.</string>
+	<string name="developer_mode_off">Avancerat LÃ¤ge Ã¤r avaktiverat.</string>
+	<string name="developer_mode_summary">Detta Ã¤r tillgÃ¤ngligt efter du valt Avancerat lÃ¤ge frÃ¥n ROM Manager Huvudmeny.</string>
 	
-	<string name="premium_required_to_download">Det krävs Premium version av ROM Manager för att ladda ner denna Utvecklings ROMs!</string>
+	<string name="premium_required_to_download">Det krÃ¤vs Premium version av ROM Manager fÃ¶r att ladda ner denna Utvecklings ROMs!</string>
 	
 	<string name="free_header">Fri</string>
 	<string name="premium_header">Premium</string>
 	
 	<string name="update_notifications">Uppdatringsinformation</string>
-	<string name="update_notifications_enabled">Uppdateringsinformation är aktiverat.</string>
-	<string name="update_notifications_disabled">Uppdateringsinformation är avaktiverat.</string>
+	<string name="update_notifications_enabled">Uppdateringsinformation Ã¤r aktiverat.</string>
+	<string name="update_notifications_disabled">Uppdateringsinformation Ã¤r avaktiverat.</string>
 	
-	<string name="rom_manager_settings">ROM Manager Inställningar</string>
-	<string name="settings">Inställningar</string>
+	<string name="rom_manager_settings">ROM Manager InstÃ¤llningar</string>
+	<string name="settings">InstÃ¤llningar</string>
 	
-	<string name="more_recoveries">Fler återställningar</string>
+	<string name="more_recoveries">Fler Ã¥terstÃ¤llningar</string>
 	
 	<string name="sdcard_not_mounted">SDkort ej monterat</string>
-	<string name="sdcard_needs_to_be_mounted">SDkort måste vara monterat för att använda ROM Manager!</string>
+	<string name="sdcard_needs_to_be_mounted">SDkort mÃ¥ste vara monterat fÃ¶r att anvÃ¤nda ROM Manager!</string>
 	
-	<string name="automatic_backup_time">Säkerhetskopia Tid</string>
-	<string name="automatic_backup_frequency">Säkerhetskopia Intervall</string>
+	<string name="automatic_backup_time">SÃ¤kerhetskopia Tid</string>
+	<string name="automatic_backup_frequency">SÃ¤kerhetskopia Intervall</string>
 	<string-array name="automatic_backup_frequencies">
 		<item>Daglig</item>
 		<item>Varje dag</item>
 		<item>Var tredje dag</item>
-		<item>Var fjärde dag</item>
+		<item>Var fjÃ¤rde dag</item>
 		<item>Var femte dag</item>
-		<item>Var sjätte dag</item>
+		<item>Var sjÃ¤tte dag</item>
 		<item>Var sjunde dag</item>
 	</string-array>
-	<string name="automatic_backup">Automatisk Säkerhetskopia</string>
-	<string name="automatic_backup_disabled">Automatisk Skäkerhetskopia är avaktiverat.</string>
-	<string name="automatic_backup_summary">Nästa automatiska säkerhetskopia kommer ske %s.</string>
+	<string name="automatic_backup">Automatisk SÃ¤kerhetskopia</string>
+	<string name="automatic_backup_disabled">Automatisk SkÃ¤kerhetskopia Ã¤r avaktiverat.</string>
+	<string name="automatic_backup_summary">NÃ¤sta automatiska sÃ¤kerhetskopia kommer ske %s.</string>
 	
-	<string name="no_su">Du måste ha root på din telefon för att ROM Manager ska fungera. Superuser kunde inte hittas på \"/system/bin/su\" or \"/system/xbin/su\". Använd Google på din telefon för att finna instruktioner hur du ska får root.</string>
+	<string name="no_su">Du mÃ¥ste ha root pÃ¥ din telefon fÃ¶r att ROM Manager ska fungera. Superuser kunde inte hittas pÃ¥ \"/system/bin/su\" or \"/system/xbin/su\". AnvÃ¤nd Google pÃ¥ din telefon fÃ¶r att finna instruktioner hur du ska fÃ¥r root.</string>
 	
 	<string name="invalid_license">Ogiltig Licens</string>
-<string name="invalid_license_text">Din ROM Manager Licens är utgången. Gör en ominstallation av ROM Manager via Market.</string>
+<string name="invalid_license_text">Din ROM Manager Licens Ã¤r utgÃ¥ngen. GÃ¶r en ominstallation av ROM Manager via Market.</string>
 	
 	<string name="changelog">Uppdateringslogg</string>
 	
 	<string name="new_features">Nya funktioner</string>
-	<string name="whats_new">Gillar du inte annonser? Du kan avaktivera de under inställningar! Men om de är på hjälper de till att stödja utvecklingen av ROM Manager. :)</string>
+	<string name="whats_new">Gillar du inte annonser? Du kan avaktivera de under instÃ¤llningar! Men om de Ã¤r pÃ¥ hjÃ¤lper de till att stÃ¶dja utvecklingen av ROM Manager. :)</string>
 	
-	<string name="install_from_qrcode">Installera från QR kod</string>
+	<string name="install_from_qrcode">Installera frÃ¥n QR kod</string>
 	
 	<string name="qrcode_download">QR Kod Nedladdning</string>
-	<string name="qrcode_summary">Ta ett foto på koden för att ladda ner och installera ROM. Kräver Barcode Scanner.</string>
-	<string name="qrcode_premium_required">Du måste ha Premium versionen av ROM Manager för att installera via QR kod!</string>
+	<string name="qrcode_summary">Ta ett foto pÃ¥ en QRkod fÃ¶r att ladda ner och installera ROM. KrÃ¤ver Barcode Scanner.</string>
+	<string name="qrcode_premium_required">Du mÃ¥ste ha Premium versionen av ROM Manager fÃ¶r att installera via QR kod!</string>
 	<string name="qrcode_not_installed">Saknar Barcode Scanner</string>
-	<string name="qrcode_install">Du måste har Barcode Scanner installerad för att använda denna funktion! Tryck OK för att install Barcode scanner från Market.</string>
+	<string name="qrcode_install">Du mÃ¥ste har Barcode Scanner installerad fÃ¶r att anvÃ¤nda denna funktion! Tryck OK fÃ¶r att install Barcode scanner frÃ¥n Market.</string>
 	
-	<string name="flash_recovery_confirm_title">Installera Återställning?</string>
-	<string name="flash_recovery_confirm">Är du säker du vill ersätta din återställning?</string>
+	<string name="flash_recovery_confirm_title">Installera Ã…terstÃ¤llning?</string>
+	<string name="flash_recovery_confirm">Ã„r du sÃ¤ker du vill ersÃ¤tta din Ã¥terstÃ¤llning?</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics skickar anonym statistik för att hjlpa till att göra ROM Manager bättre! Genom att trycka OK, godkänner du att anonym information skickas till Google och utvecklaren av ROM Manager.</string>
-	<string name="analytics_on">Google Analytics är på. Tack för att du hjälper till!</string>
-	<string name="analytics_off">Google Analytics är av. Du borde aktivera denna!</string>
+	<string name="analytics_details">Google Analytics skickar anonym statistik fÃ¶r att hjlpa till att gÃ¶ra ROM Manager bÃ¤ttre! Genom att trycka OK, godkÃ¤nner du att anonym information skickas till Google och utvecklaren av ROM Manager.</string>
+	<string name="analytics_on">Google Analytics Ã¤r pÃ¥. Tack fÃ¶r att du hjÃ¤lper till!</string>
+	<string name="analytics_off">Google Analytics Ã¤r av. Du borde aktivera denna!</string>
 	
-	<string name="fast_nandroid">Snabb säkerhetskopiering och återställning</string>
-	<string name="fast_nandroid_on">Indikeringsvisare för säkerhetskopiering och återställning är avaktiverade för snabbare funktion.</string>
-	<string name="fast_nandroid_off">Indikeringsvisare för säkerhetskopiering och återställning är aktiverade. Avaktivera för snabbare funktion.</string>
+	<string name="fast_nandroid">Snabb sÃ¤kerhetskopiering och Ã¥terstÃ¤llning</string>
+	<string name="fast_nandroid_on">Indikeringsvisare fÃ¶r sÃ¤kerhetskopiering och Ã¥terstÃ¤llning Ã¤r avaktiverade fÃ¶r snabbare funktion.</string>
+	<string name="fast_nandroid_off">Indikeringsvisare fÃ¶r sÃ¤kerhetskopiering och Ã¥terstÃ¤llning Ã¤r aktiverade. Avaktivera fÃ¶r snabbare funktion.</string>
 
 	<string name="credits">Om</string>
 	<string name="credits_summary">Programmerad av Koushik Dutta.</string>
 
-	<string name="erase_recovery">Radera återställning</string>
-	<string name="erase_recovery_on">Återställning kommer raderas före installation.</string>
-	<string name="erase_recovery_off">Återställnin kommer inte raderas före installation.</string>
+	<string name="erase_recovery">Radera Ã¥terstÃ¤llning</string>
+	<string name="erase_recovery_on">Ã…terstÃ¤llning kommer raderas fÃ¶re installation.</string>
+	<string name="erase_recovery_off">Ã…terstÃ¤llnin kommer inte raderas fÃ¶re installation.</string>
 	
-	<string name="install_queue">Installationskö:</string>
-	<string name="add_another_zip">Lägg till Zip</string>
+	<string name="install_queue">InstallationskÃ¶:</string>
+	<string name="add_another_zip">LÃ¤gg till Zip</string>
 	
 	<string name="report_error">Raportera fel</string>
-	<string name="report_error_message">Ett fel uppstod i återställnignsläget. Vill du vidarerapportera det? Var god rapportera inte samma fel flera gånger!</string>
+	<string name="report_error_message">Ett fel uppstod i Ã¥terstÃ¤llnignslÃ¤get. Vill du vidarerapportera det? Var god rapportera inte samma fel flera gÃ¥nger!</string>
 	
-	<string name="screenshots">Skärmdump</string>
+	<string name="screenshots">SkÃ¤rmdump</string>
 	<string name="download">Nedladdning</string>
 	
 	<string name="loading">Laddar...</string>
 	
 	<string name="corrupt">Skadad zip fil.</string>
 	
-	<string name="no_spaces">ROM Manager kan inte öppna denna fil. Ta bort mellanslag från fil eller biblioteksnamn. Eller kör manuellt från ClockworkMod recovery.</string>
-	<string name="no_md5">Detta verkar inte vara en godkänd backup. MD5 filen saknas.</string>
+	<string name="no_spaces">ROM Manager kan inte Ã¶ppna denna fil. Ta bort mellanslag frÃ¥n fil eller biblioteksnamn. Eller kÃ¶r manuellt frÃ¥n ClockworkMod recovery.</string>
+	<string name="no_md5">Detta verkar inte vara en godkÃ¤nd backup. MD5 filen saknas.</string>
 	
 	<string name="showads">Visa reklam</string>
-	<string name="showads_summary">Hjälp till att stödja ROM Manager! (Ändringar kräver omstart av programmet.)</string>
+	<string name="showads_summary">HjÃ¤lp till att stÃ¶dja ROM Manager! (Ã„ndringar krÃ¤ver omstart av programmet.)</string>
 
-	<string name="recovery_failure">Återställningsfel</string>
+	<string name="recovery_failure">Ã…terstÃ¤llningsfel</string>
 	<string-array name="recovery_failures">
-		<item>Återställningsläge \"trasigt\".</item>
+		<item>Ã…terstÃ¤llningslÃ¤ge \"trasigt\".</item>
 		<item>ROM Manager kan inte starta om.</item>
-		<item>Övrigt.</item>
+		<item>Ã–vrigt.</item>
 	</string-array>
 	
-	<string name="recovery_broken_fix">Det finns flera sätt att reperara ett \"trasigt\""" återställning:\n1) Installera en alternativ eller äldre variant och installera sedan om nuvarande version.\n2) Försök aktivera "Radera återställning" i ROM Manager\'s Inställningar.\n3) Töm nedladdningscachen och installera om.\n4) Installera en äldre verion.\n5)  Fastboot eller SBF en återställning från din dator.</string>
-	<string name="reboot_fix">Vissa ROMs har trasiga "reboot" binärer. Se detta forum för mer information: http://bit.ly/dj9qbN.</string>
-	<string name="unknown_bug">Eposta gärna mig på koush@clockworkmod.com om fel och buggar!</string>
+	<string name="recovery_broken_fix">Det finns flera sÃ¤tt att reperara ett \"trasigt\""" Ã¥terstÃ¤llning:\n1) Installera en alternativ eller Ã¤ldre variant och installera sedan om nuvarande version.\n2) FÃ¶rsÃ¶k aktivera "Radera Ã¥terstÃ¤llning" i ROM Manager\'s InstÃ¤llningar.\n3) TÃ¶m nedladdningscachen och installera om.\n4) Installera en Ã¤ldre verion.\n5)  Fastboot eller SBF en Ã¥terstÃ¤llning frÃ¥n din dator.</string>
+	<string name="reboot_fix">Vissa ROMs har trasiga "reboot" binÃ¤rer. Se detta forum fÃ¶r mer information: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">Eposta gÃ¤rna mig pÃ¥ koush@clockworkmod.com om fel och buggar!</string>
 	
-	<string name="buy_premium">Köp Premium</string>
+	<string name="buy_premium">KÃ¶p Premium</string>
 </resources>
