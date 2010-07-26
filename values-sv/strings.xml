@@ -224,7 +224,7 @@
 
 	<string name="erase_recovery">Radera återställning</string>
 	<string name="erase_recovery_on">Återställning kommer raderas före installation.</string>
-	<string name="erase_recovery_off">Återställnin kommer inte raderas före installation.</string>
+	<string name="erase_recovery_off">Återställning kommer inte raderas före installation.</string>
 	
 	<string name="install_queue">Installationskö:</string>
 	<string name="add_another_zip">Lägg till Zip</string>
