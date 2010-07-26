@@ -185,8 +185,8 @@
 		<item>Var sjätte dag</item>
 		<item>Var sjunde dag</item>
 	</string-array>
-	<string name="automatic_backup">Automatisk Säkerhetskopia</string>
-	<string name="automatic_backup_disabled">Automatisk Skäkerhetskopia är avaktiverat.</string>
+	<string name="automatic_backup">Automatik</string>
+	<string name="automatic_backup_disabled">Automatisk Skäkerhetskopiering är avaktiverat.</string>
 	<string name="automatic_backup_summary">Nästa automatiska säkerhetskopia kommer ske %s.</string>
 	
 	<string name="no_su">Du måste ha root på din telefon för att ROM Manager ska fungera. Superuser kunde inte hittas på \"/system/bin/su\" or \"/system/xbin/su\". Använd Google på din telefon för att finna instruktioner hur du ska får root.</string>
