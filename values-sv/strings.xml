@@ -199,11 +199,11 @@
 	<string name="new_features">Nya funktioner</string>
 	<string name="whats_new">Gillar du inte annonser? Du kan avaktivera de under inställningar! Men om de är på hjälper de till att stödja utvecklingen av ROM Manager. :)</string>
 	
-	<string name="install_from_qrcode">Installera från QR kod</string>
+	<string name="install_from_qrcode">Installera via QR-kod</string>
 	
-	<string name="qrcode_download">QR Kod Nedladdning</string>
-	<string name="qrcode_summary">Ta ett foto på en QRkod för att ladda ner och installera ROM. Kräver Barcode Scanner.</string>
-	<string name="qrcode_premium_required">Du måste ha Premium versionen av ROM Manager för att installera via QR kod!</string>
+	<string name="qrcode_download">QR-Kod Nedladdning</string>
+	<string name="qrcode_summary">Ta ett foto på en QR-kod för att ladda ner och installera ROM. Kräver Barcode Scanner.</string>
+	<string name="qrcode_premium_required">Du måste ha Premium versionen av ROM Manager för att installera via QR-kod!</string>
 	<string name="qrcode_not_installed">Saknar Barcode Scanner</string>
 	<string name="qrcode_install">Du måste har Barcode Scanner installerad för att använda denna funktion! Tryck OK för att install Barcode scanner från Market.</string>
 	
