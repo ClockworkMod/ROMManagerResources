@@ -253,7 +253,7 @@
 	</string-array>
 	
 	<string name="recovery_broken_fix">Det finns flera sätt att reperara ett \"trasigt\""" återställning:\n1) Installera en alternativ eller äldre variant och installera sedan om nuvarande version.\n2) Försök aktivera "Radera återställning" i ROM Manager\'s Inställningar.\n3) Töm nedladdningscachen och installera om.\n4) Installera en äldre verion.\n5)  Fastboot eller SBF en återställning från din dator.</string>
-	<string name="reboot_fix">Vissa ROMs har trasiga "reboot" binärer. Se detta forum för mer information: http://bit.ly/dj9qbN.</string>
+	<string name="reboot_fix">Vissa ROMs har trasiga reboot binärer. Se detta forum för mer information: http://bit.ly/dj9qbN.</string>
 	<string name="unknown_bug">Eposta gärna mig på koush@clockworkmod.com om fel och buggar!</string>
 	
 	<string name="buy_premium">Köp Premium</string>
