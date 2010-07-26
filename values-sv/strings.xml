@@ -22,7 +22,7 @@
 	<string name="utilities">Verktyg</string>
 	<string name="fix_permissions">Reparera Filrättigheter</string>
 	<string name="fixing_permissions">Reparerar Filrättigheter...</string>
-	<string name="fix_permissions_detail">Reparera filrättigheter. Löser ofta problem med Tvingade stop.</string>
+	<string name="fix_permissions_detail">Reparera filrättigheter. Löser ofta problem med Tvingade avslut.</string>
 	
 	<string name="fix_permissions_done">Färdigt! Du bör starta om din telefon.</string>
 
