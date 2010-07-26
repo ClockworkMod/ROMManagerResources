@@ -8,16 +8,16 @@
 	<string name="manage_and_restore_backups">Hantera Säkerhetskopia</string>
 	<string name="backup_current_rom">Säkerhetskopiera befintlig</string>
 
-	<string name="no_connection">Ett fel uppstod vid nedladdning. Kontrollera din internetförbindelse, och att SDkortet är monterat och har tilläckligt med ledigt utrymme!</string>
+	<string name="no_connection">Ett fel uppstod vid nedladdning. Kontrollera din internetförbindelse, och att SDkortet är monterat och har tillräckligt med ledigt utrymme!</string>
 
 	<string name="brick_warning">ROM Manager är inte ansvarigt för någon skada som kan orsakas på din telefon. Genom att roota din telefon har du redan riskerat din garanti. Att ändra på systemfiler är riskabelt. ROM Manager kan skicka anonym information till Google Analytics för att hjälpa till att förbättra detta program. Tryck OK för att acceptera. Tryck Avbryt för att avbryta programmet.</string>
 
 	<string name="ota_not_supported">Din installerade ROM är inte gjord för att ta emot OTA-uppdateringar. Kontakta din ROM-utvecklare!</string>
 	<string name="ota_not_supported_extended">Den ROM du använder stödjer inte OTA-uppdateringar. Utvecklaren av denna ROM måste göra några ändringar för att stödja OTA-uppdatering. Kontakta ROM-utvecklaren! Kontakta ej ROM Manager: DETTA ÄR INGEN ROM MANAGER BUG.</string>
-	<string name="current_rom">Nuvarade ROM: %s</string>
+	<string name="current_rom">Nuvarande ROM: %s</string>
 
 	<string name="donate">Donera</string>
-	<string name="developer_homepage">Websida</string>
+	<string name="developer_homepage">Webbsida</string>
 
 	<string name="utilities">Verktyg</string>
 	<string name="fix_permissions">Reparera Filrättigheter</string>
@@ -56,7 +56,7 @@
 	</string-array>
 		
 	<string-array name="install_options">
-		<item>Säkerhetskopiera nuvarade ROM</item>
+		<item>Säkerhetskopiera nuvarande ROM</item>
 		<item>Töm Data och Cache</item>
 	</string-array>
 
@@ -86,9 +86,9 @@
 
 	<string name="partition_ext_size">Ext Size</string>
 	<string name="partition_swap_size">Swap Size</string>
-	<string name="partition_sdcard">Partionera SDkort</string>
-	<string name="partition_sdcard_summary">Partionera ditt SDkort för stödja installation av program på SDkortet. App2sd fungerar med endast vissa ROM.</string>
-	<string name="partition_sdcard_warning">Partionering av ditt SDkort raderar allt. Är du säker på att du starta om telefonen och fortsätta?</string>
+	<string name="partition_sdcard">Partitionera SDkort</string>
+	<string name="partition_sdcard_summary">Partitionera ditt SDkort för stödja installation av program på SDkortet. App2sd fungerar med endast vissa ROM.</string>
+	<string name="partition_sdcard_warning">Partitionering av ditt SDkort raderar allt. Är du säker på att du starta om telefonen och fortsätta?</string>
 
 	<string name="manifests_no_roms">Det finns inga ROM tillgängliga för din telefon ännu! Be din favorit utvecklare bli listad på ROM Manager kostnadsfritt!</string>
 	
@@ -96,10 +96,10 @@
 	
 	<string name="download_cache_cleared">Nedladdningscachen har rensats.</string>
 	
-	<string name="manifests_unavailable">Ett fel uppstod under nedladdningen av listan över utveckare!</string>
+	<string name="manifests_unavailable">Ett fel uppstod under nedladdningen av listan över utvecklare!</string>
 	<string name="manifests_error">Ett fel uppstod under behandlingen av listan över utvecklare!</string>
 	
-	<string name="roms_unavailable">Ett fel uppstod under nedladdningen av ROM listan! Kontakta untvecklaren för denna ROM.</string>
+	<string name="roms_unavailable">Ett fel uppstod under nedladdningen av ROM listan! Kontakta utvecklaren för denna ROM.</string>
 	<string name="roms_error">Fel uppstod under behandlingen av ROM listan!</string>
 	<string name="rom_error">Fel uppstod under behandlingen av denna ROM!</string>
 	<string name="rom_addons">ROM Tillägg</string>
@@ -128,7 +128,7 @@
 	<string name="download_recovery_error">Ett fel uppstod under nedladdningen av din återställning.</string>
 	<string name="download_recovery_success">Nedladdningen av ClockworkMod recovery lyckad!</string>
 	<string name="flash_manual">Manuell Installation</string>
-	<string name="flash_recovery_override">Har du problem med installationena av återställning med ROM Manager? Tryck OK om du har installerat ClockworkMod Recovery manuellt.</string>
+	<string name="flash_recovery_override">Har du problem med installationerna av återställning med ROM Manager? Tryck OK om du har installerat ClockworkMod Recovery manuellt.</string>
 	<string name="flash_recovery_success">Installationen av ClockworkMod recovery lyckades!</string>
 	<string name="flash_alternate_recovery_success">Återställningen lyckades!</string>
 	<string name="confirm_device">Bekräfta telefonmodell</string>
@@ -141,7 +141,7 @@
 
 	<string name="backup">Säkerhetskopia</string>
 	<string name="confirm_backup">Är det säkert att du vill starta om och göra en säkerhetskopia på din ROM?</string>
-	<string name="script_error">Ett fel uppstod då programmet försökte köra priviligearde kommandon!</string>
+	<string name="script_error">Ett fel uppstod då programmet försökte köra privilegerade kommandon!</string>
 	<string name="backup_error">Välj ett unikt och godkänt filnamn för din säkerhetskopia.</string>
 	
 	<string name="flash_alternate">Installera en alternativ version</string>
@@ -152,14 +152,14 @@
 	<string name="flash_legacy_unavailable">Inga äldre återställningar funna. Har du en internetanslutning?"</string>
 	
 	<string name="developer_mode">Avancerat läge</string>
-<string name="developer_mode_details">Avancerat läge är inte avsett för alla användare. Adancerat läge ger dig tillgång till alla återställningar, experiment ROM, och andra olika ej stabila varianter. Avancerat läge bör användas med försiktighet och för användare som kan hantera ADB.</string>
+<string name="developer_mode_details">Avancerat läge är inte avsett för alla användare. Avancerat läge ger dig tillgång till alla återställningar, experiment ROM, och andra olika ej stabila varianter. Avancerat läge bör användas med försiktighet och för användare som kan hantera ADB.</string>
 	<string name="developer_mode_on">Avancerat Läge är aktiverat.</string>
 	<string name="developer_mode_off">Avancerat Läge är avaktiverat.</string>
 	<string name="developer_mode_summary">Detta är tillgängligt efter du valt Avancerat läge från ROM Manager Huvudmeny.</string>
 	
-	<string name="premium_required_to_download">Det krävs Premium version av ROM Manager för att ladda ner denna Utvecklings ROMs!</string>
+	<string name="premium_required_to_download">Det krävs Premiumversion av ROM Manager för att ladda ner Utvecklings ROMs!</string>
 	
-	<string name="free_header">Fri</string>
+	<string name="free_header">Allmän</string>
 	<string name="premium_header">Premium</string>
 	
 	<string name="update_notifications">Uppdatringsinformation</string>
@@ -186,7 +186,7 @@
 		<item>Var sjunde dag</item>
 	</string-array>
 	<string name="automatic_backup">Automatik</string>
-	<string name="automatic_backup_disabled">Automatisk Skäkerhetskopiering är avaktiverat.</string>
+	<string name="automatic_backup_disabled">Automatisk Säkerhetskopiering är avaktiverat.</string>
 	<string name="automatic_backup_summary">Nästa automatiska säkerhetskopia kommer ske %s.</string>
 	
 	<string name="no_su">Du måste ha root på din telefon för att ROM Manager ska fungera. Superuser kunde inte hittas på \"/system/bin/su\" or \"/system/xbin/su\". Använd Google på din telefon för att finna instruktioner hur du ska får root.</string>
@@ -211,7 +211,7 @@
 	<string name="flash_recovery_confirm">Är du säker du vill ersätta din återställning?</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics skickar anonym statistik för att hjlpa till att göra ROM Manager bättre! Genom att trycka OK, godkänner du att anonym information skickas till Google och utvecklaren av ROM Manager.</string>
+	<string name="analytics_details">Google Analytics skickar anonym statistik för att häjlpa till att göra ROM Manager bättre! Genom att trycka OK, godkänner du att anonym information skickas till Google och utvecklaren av ROM Manager.</string>
 	<string name="analytics_on">Google Analytics är på. Tack för att du hjälper till!</string>
 	<string name="analytics_off">Google Analytics är av. Du borde aktivera denna!</string>
 	
