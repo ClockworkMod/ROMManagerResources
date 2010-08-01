@@ -228,4 +228,15 @@
 	<string name="no_md5">これは正しいバックアップファイルではないようです。MD5ファイルがありません。</string>
 	<string name="showads">広告を表示</string>
 	<string name="showads_summary">ROM Managerの手助けを! (変更にはアプリの再起動が必要です)</string>
+
+	<string name="recovery_failure">リカバリに失敗</string>
+	<string-array name="recovery_failures">
+		<item>リカバリモードは \"壊れています\"。</item>
+		<item>ROM Managerは再起動できません。</item>
+		<item>その他</item>
+	</string-array>
+
+	<string name="recovery_broken_fix">\"壊れている\"リカバリを修復する方法がいくつかあります。\n1) 代わりの、あるいは古いリカバリを一旦導入し、現在のバージョンのリカバリを導入しなおす。\n2) 設定にある\"リカバリを消去\"を試す。 \n3) メニューから、ダウンロードキャッシュの消去を実行してから導入しなおす。\n4) 古いリカバリを導入しなおす.\n5) FastbootやSBFでPCからリカバリを導入する。</string>
+	<string name="reboot_fix">いくつかのROMの\"reboot\"は壊れています。次のスレッドをPC上で見てさらなる情報を得てください: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">その他のバグについては koush@clockworkmod.com までお気軽にどうぞ!</string>
 </resources>
