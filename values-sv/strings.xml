@@ -5,12 +5,12 @@
 	<string name="download_rom">Ladda ner ROM</string>
 	<string name="check_updates">Sök efter ROM Uppdatering</string>
 	<string name="backup_and_restore">Säkerhetskopiera och återställ</string>
-	<string name="manage_and_restore_backups">Hantera Säkerhetskopia</string>
+	<string name="manage_and_restore_backups">Hantera Säkerhetskopior</string>
 	<string name="backup_current_rom">Säkerhetskopiera befintlig</string>
 
 	<string name="no_connection">Ett fel uppstod vid nedladdning. Kontrollera din internetförbindelse, och att SDkortet är monterat och har tillräckligt med ledigt utrymme!</string>
 
-	<string name="brick_warning">ROM Manager är inte ansvarigt för någon skada som kan orsakas på din telefon. Genom att roota din telefon har du redan riskerat din garanti. Att ändra på systemfiler är riskabelt. ROM Manager kan skicka anonym information till Google Analytics för att hjälpa till att förbättra detta program. Tryck OK för att acceptera. Tryck Avbryt för att avbryta programmet.</string>
+	<string name="brick_warning">ROM Manager är inte ansvarigt för någon skada som kan orsakas på din telefon. Genom att roota din telefon har du redan riskerat din garanti. Att ändra på systemfiler är riskabelt. ROM Manager kan skicka anonym information till Google Analytics för att hjälpa till att förbättra detta program. Tryck OK för att acceptera. Tryck Avbryt för att avsluta programmet.</string>
 
 	<string name="ota_not_supported">Din installerade ROM är inte gjord för att ta emot OTA-uppdateringar. Kontakta din ROM-utvecklare!</string>
 	<string name="ota_not_supported_extended">Den ROM du använder stödjer inte OTA-uppdateringar. Utvecklaren av denna ROM måste göra några ändringar för att stödja OTA-uppdatering. Kontakta ROM-utvecklaren! Kontakta ej ROM Manager: DETTA ÄR INGEN ROM MANAGER BUG.</string>
@@ -197,7 +197,7 @@
 	<string name="changelog">Uppdateringslogg</string>
 	
 	<string name="new_features">Nya funktioner</string>
-	<string name="whats_new">Gillar du inte annonser? Du kan avaktivera de under inställningar! Men om de är på hjälper de till att stödja utvecklingen av ROM Manager. :)</string>
+	<string name="whats_new">Gillar du inte annonser? Du kan avaktivera de under inställningar! Men om de är på hjälper de till att stödja utvecklingen av ROM Manager. :-)</string>
 	
 	<string name="install_from_qrcode">Installera via QR-kod</string>
 	
