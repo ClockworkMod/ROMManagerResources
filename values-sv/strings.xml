@@ -230,7 +230,7 @@
 	<string name="add_another_zip">Lägg till Zip</string>
 	
 	<string name="report_error">Raportera fel</string>
-	<string name="report_error_message">Ett fel uppstod i återställnignsläget. Vill du vidarerapportera det? Var god rapportera inte samma fel flera gånger!</string>
+	<string name="report_error_message">Ett fel uppstod i återställnignsläget. Vill du rapportera det? Var god rapportera inte samma fel flera gånger!</string>
 	
 	<string name="screenshots">Skärmdump</string>
 	<string name="download">Nedladdning</string>
