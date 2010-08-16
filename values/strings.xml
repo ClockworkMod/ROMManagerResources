@@ -255,4 +255,13 @@
 	<string name="recovery_broken_fix">There are several ways to fix a \"broken\""" recovery:\n1) Flash an alternate or older recovery and then flash back to the current version.\n2) Try enabling "Erase Recovery" in ROM Manager\'s Settings.\n3) Try clearing the download cache via the menu and reflashing.\n4) Flash back to an older recovery.\n5)  Fastboot or SBF a recovery onto your phone from your PC.</string>
 	<string name="reboot_fix">Some ROMs have a broken "reboot" binary. View this thread on your computer for more information: http://bit.ly/dj9qbN.</string>
 	<string name="unknown_bug">Please feel free to email me at koush@clockworkmod.com with your bug!</string>
+	
+	<string name="buy_premium">Buy Premium</string>
+	
+	<string-array name="purchase_options">
+		<item>Android Market (Recommended)</item>
+		<item>PayPal (For those without Android Market)</item>
+	</string-array>
+	
+	<string name="device_id">Device ID</string>
 </resources>
