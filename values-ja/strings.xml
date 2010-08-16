@@ -239,4 +239,14 @@
 	<string name="recovery_broken_fix">\"壊れている\"リカバリを修復する方法がいくつかあります。\n1) 代わりの、あるいは古いリカバリを一旦導入し、現在のバージョンのリカバリを導入しなおす。\n2) 設定にある\"リカバリを消去\"を試す。 \n3) メニューから、ダウンロードキャッシュの消去を実行してから導入しなおす。\n4) 古いリカバリを導入しなおす.\n5) FastbootやSBFでPCからリカバリを導入する。</string>
 	<string name="reboot_fix">いくつかのROMの\"reboot\"は壊れています。次のスレッドをPC上で見てさらなる情報を得てください: http://bit.ly/dj9qbN.</string>
 	<string name="unknown_bug">その他のバグについては koush@clockworkmod.com までお気軽にどうぞ!</string>
+
+        <string name="buy_premium">プレミアム版を購入</string>
+
+        <string-array name="purchase_options">
+                <item>Androidマーケット(推奨)</item>
+                <item>PayPal(Androidマーケットを使わない)</item>
+        </string-array>
+
+        <string name="device_id">デバイスID</string>
+
 </resources>
