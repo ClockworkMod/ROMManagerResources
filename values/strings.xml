@@ -262,4 +262,6 @@
 		<item>Android Market (Recommended)</item>
 		<item>PayPal (For those without Android Market)</item>
 	</string-array>
+	
+	<string name="device_id">Device ID</string>
 </resources>
