@@ -264,5 +264,6 @@
 	</string-array>
 	
 	<string name="device_id">Device ID</string>
-	<string name="license_retrival_error">License Retrieval Error</string>
+	<string name="license_retrieval_error">License Retrieval Error</string>
+	<string name="license_retrieved">License Retrieved!</string>
 </resources>
