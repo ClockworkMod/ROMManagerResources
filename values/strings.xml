@@ -264,4 +264,7 @@
 	</string-array>
 	
 	<string name="device_id">Device ID</string>
+	<string name="license_retrieval_error">License Retrieval Error</string>
+	<string name="license_retrieved">License Retrieved!</string>
+	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
 </resources>
