@@ -264,4 +264,7 @@
 	</string-array>
 
         <string name="device_id">ID Dispositivo</string>
+        <string name="license_retrieval_error">Errore nel recuperare la Licenza</string>
+        <string name="license_retrieved">Licenza Recuperata!</string>
+        <string name="license_server_error">Impossibile contattare il server per la licenza! Ti prego di usare l\'Android Market!</string>
 </resources>
