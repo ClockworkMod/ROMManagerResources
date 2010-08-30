@@ -267,4 +267,6 @@
 	<string name="license_retrieval_error">License Retrieval Error</string>
 	<string name="license_retrieved">License Retrieved!</string>
 	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
+	
+	<string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
 </resources>
