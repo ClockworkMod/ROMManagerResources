@@ -197,7 +197,8 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>
+	<!--<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>-->
+	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your computer! Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -269,4 +270,8 @@
 	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
 	
 	<string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
+	
+	<string name="web_connect">Web Connect</string>
+	<string name="web_connect_error">An error occurred while trying to set up your web connect account.</string>
+	<string name="web_connect_success">You can now download ROMs straight to your phones if the ROM thread supports it.</string>
 </resources>
