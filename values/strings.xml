@@ -198,7 +198,7 @@
 	
 	<string name="new_features">New Features</string>
 	<!--<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>-->
-	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your computer! Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
+	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your phone: Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
