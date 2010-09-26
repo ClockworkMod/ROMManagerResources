@@ -5,4 +5,5 @@
 	<item android:id="@+id/changelog" android:title="@string/changelog" android:icon="@android:drawable/ic_menu_help" />
 	<item android:id="@+id/donate" android:title="@string/donate" android:icon="@android:drawable/ic_menu_more" />
 	<item android:id="@+id/settings" android:title="@string/settings" android:icon="@android:drawable/ic_menu_preferences" />
+	<item android:id="@+id/web_connect" android:title="@string/web_connect" android:icon="@android:drawable/ic_menu_upload" />
 </menu>
