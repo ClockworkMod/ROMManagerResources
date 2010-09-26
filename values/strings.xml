@@ -274,4 +274,9 @@
 	<string name="web_connect">Web Connect</string>
 	<string name="web_connect_error">An error occurred while trying to set up your web connect account.</string>
 	<string name="web_connect_success">You can now download ROMs straight to your phones if the ROM thread supports it.</string>
+	
+	<string name="download_in_progress">A ROM download is currently in progress. Cancel download?</string>
+	
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
 </resources>
