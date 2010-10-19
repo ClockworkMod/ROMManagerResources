@@ -197,7 +197,8 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">Nuove Funzioni</string>
-	<string name="whats_new">Non ti piaciono gli Ad? Puoi disattiavrli dalle impostazioni! Lasciandoli attivi però aiuti ROM Manager. :)</string>
+	<!--<string name="whats_new">Non ti piaciono gli Ad? Puoi disattiavrli dalle impostazioni! Lasciandoli attivi però aiuti ROM Manager. :)</string>-->
+       <string name="whats_new">Sono finiti i giorni in cui bisognava scaricarsi le ROM sul computer per poi trasferirle sul proprio telefono: Ti presento Web Connect! Se stai visitando un forum sul tuo computer, e lo sviluppatore lo supporta, puoi scaricare la ROM direttamente su ROM Manager! Puoi impostarlo nel menu di ROM Manager. Visita koushikdutta.com per una demo.</string>
 	
 	<string name="install_from_qrcode">Installa da QR Code</string>
 	
@@ -244,7 +245,7 @@
 	
 	<string name="showads">Mostra pubblicità</string>
 	<string name="showads_summary">Aiuta ROM Manager! (Le modifiche richiedono il riavvio dell\'App.)</string>
-   
+
         <string name="recovery_failure">Fallimenti Recovery</string>
 	<string-array name="recovery_failures">
 		<item>Modalità recovery non funzionante.</item>
@@ -262,4 +263,15 @@
 		<item>Android Market (Raccomandato)</item>
 		<item>PayPal (Per chi è senza Android Market)</item>
 	</string-array>
+
+        <string name="device_id">ID Dispositivo</string>
+        <string name="license_retrieval_error">Errore nel recuperare la Licenza</string>
+        <string name="license_retrieved">Licenza Recuperata!</string>
+        <string name="license_server_error">Impossibile contattare il server per la licenza! Ti prego di usare l\'Android Market!</string>
+
+        <string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
+	
+	<string name="web_connect">Web Connect</string>
+	<string name="web_connect_error">Si è verificato un errore nel tentativo di impostare il tuo account web connect.</string>
+	<string name="web_connect_success">Puoi scaricare ROM direttamente sul tuo telefono se il thread della ROM lo supporta.</string>
 </resources>

@@ -152,7 +152,7 @@
 	<string name="flash_legacy_unavailable">Inga äldre återställningar funna. Har du en internetanslutning?"</string>
 	
 	<string name="developer_mode">Avancerat läge</string>
-<string name="developer_mode_details">Avancerat läge är inte avsett för alla användare. Avancerat läge ger dig tillgång till alla återställningar, experiment ROM, och andra olika ej stabila varianter. Avancerat läge bör användas med försiktighet och för användare som kan hantera ADB.</string>
+	<string name="developer_mode_details">Avancerat läge är inte avsett för alla användare. Avancerat läge ger dig tillgång till alla återställningar, experiment ROM, och andra olika ej stabila varianter. Avancerat läge bör användas med försiktighet och för användare som kan hantera ADB.</string>
 	<string name="developer_mode_on">Avancerat Läge är aktiverat.</string>
 	<string name="developer_mode_off">Avancerat Läge är avaktiverat.</string>
 	<string name="developer_mode_summary">Detta är tillgängligt efter du valt Avancerat läge från ROM Manager Huvudmeny.</string>
@@ -192,7 +192,7 @@
 	<string name="no_su">Du måste ha root på din telefon för att ROM Manager ska fungera. Superuser kunde inte hittas på \"/system/bin/su\" or \"/system/xbin/su\". Använd Google på din telefon för att finna instruktioner hur du ska får root.</string>
 	
 	<string name="invalid_license">Ogiltig Licens</string>
-<string name="invalid_license_text">Din ROM Manager Licens är utgången. Gör en ominstallation av ROM Manager via Market.</string>
+	<string name="invalid_license_text">Din ROM Manager Licens är utgången. Gör en ominstallation av ROM Manager via Market.</string>
 	
 	<string name="changelog">Uppdateringslogg</string>
 	
@@ -230,7 +230,7 @@
 	<string name="add_another_zip">Lägg till Zip</string>
 	
 	<string name="report_error">Raportera fel</string>
-	<string name="report_error_message">Ett fel uppstod i återställnignsläget. Vill du vidarerapportera det? Var god rapportera inte samma fel flera gånger!</string>
+	<string name="report_error_message">Ett fel uppstod i återställnignsläget. Vill du rapportera det? Var god rapportera inte samma fel flera gånger!</string>
 	
 	<string name="screenshots">Skärmdump</string>
 	<string name="download">Nedladdning</string>
@@ -257,4 +257,11 @@
 	<string name="unknown_bug">Eposta gärna mig på koush@clockworkmod.com om fel och buggar!</string>
 	
 	<string name="buy_premium">Köp Premium</string>
+
+	<string-array name="purchase_options">
+                <item>Android Market (Rekommenderas)</item>
+                <item>PayPal</item>
+        </string-array>
+
+	<string name="device_id">Enhets ID</string>
 </resources>

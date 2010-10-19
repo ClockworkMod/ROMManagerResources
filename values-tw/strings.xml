@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="rom_management">ROM Management</string>
-	<string name="install_rom">Install ROM from SD Card</string>
-	<string name="download_rom">Download ROM</string>
-	<string name="check_updates">Check for ROM Updates</string>
-	<string name="backup_and_restore">Backup and Restore</string>
-	<string name="manage_and_restore_backups">Manage and Restore Backups</string>
-	<string name="backup_current_rom">Backup Current ROM</string>
+	<string name="rom_management">ROM管理員</string>
+	<string name="install_rom">從SD卡安裝ROM</string>
+	<string name="download_rom">下載ROM</string>
+	<string name="check_updates">檢查更新ROM</string>
+	<string name="backup_and_restore">備份及還原</string>
+	<string name="manage_and_restore_backups">管理及還原備份</string>
+	<string name="backup_current_rom">備份目前的ROM</string>
 
-	<string name="no_connection">Error while downloading from server. Please make sure that you have a stable internet connection, and that your SD card is inserted and has free space!</string>
+	<string name="no_connection">無法與伺服器連線並下載ROM.請確認網路連線正常以及SD卡空間足夠.</string>
 
-	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
+	<string name="brick_warning">ROM管理員(ROM Manager) is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
 
 	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
 	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
@@ -197,8 +197,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<!--<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>-->
-	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your phone: Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
+	<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -268,15 +267,4 @@
 	<string name="license_retrieval_error">License Retrieval Error</string>
 	<string name="license_retrieved">License Retrieved!</string>
 	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
-	
-	<string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
-	
-	<string name="web_connect">Web Connect</string>
-	<string name="web_connect_error">An error occurred while trying to set up your web connect account.</string>
-	<string name="web_connect_success">You can now download ROMs straight to your phones if the ROM thread supports it.</string>
-	
-	<string name="download_in_progress">A ROM download is currently in progress. Cancel download?</string>
-	
-	<string name="yes">Yes</string>
-	<string name="no">No</string>
 </resources>
