@@ -260,8 +260,8 @@
 	<string name="buy_premium">Buy Premium</string>
 	
 	<string-array name="purchase_options">
-		<item>Android Market (Recommended)</item>
-		<item>PayPal (For those without Android Market)</item>
+		<item>PayPal ($3.99)</item>
+		<item>Android Market ($4.99)</item>
 	</string-array>
 	
 	<string name="device_id">Device ID</string>
