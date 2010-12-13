@@ -279,4 +279,6 @@
 	
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
+
+    <string name="no_device_id">PayPal purchases are not supported on this device!</string>
 </resources>
