@@ -276,4 +276,8 @@
 	
 	<string name="yes">Si</string>
 	<string name="no">No</string>
+
+    <string name="no_device_id">Gli acquisti tramite PayPal non sono disponibili per questo dispositivo!</string>
+    <string name="downloading">Il tuo download è iniziato...\nPuoi vederne i progressi nella barra delle notifiche!</string>
+    <string name="rom_manager_downloading">Download Iniziato</string>
 </resources>
