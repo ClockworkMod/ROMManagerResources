@@ -279,4 +279,9 @@
 	
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
+
+    <string name="no_device_id">PayPal purchases are not supported on this device!</string>
+    
+    <string name="downloading">Your download has started...\nYou can view its progress in the notification area!</string>
+    <string name="rom_manager_downloading">Download Started</string>
 </resources>
