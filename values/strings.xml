@@ -284,4 +284,8 @@
     
     <string name="downloading">Your download has started...\nYou can view its progress in the notification area!</string>
     <string name="rom_manager_downloading">Download Started</string>
+    
+    <string name="verify_custom_flashed">Flashing an update package on a recovery other than ClockworkMod Recovery may not work properly. Proceed?</string>
+    
+    <string name="flash_clockwork_or_get_premium">Only Premium users may use Alternate recoveries with ROM Manager to flash ROMs! Otherwise, you must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
 </resources>
