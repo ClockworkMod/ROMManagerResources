@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="manage_options">
+        <item>Gendan</item>
+        <item>Omdøb</item>
+        <item>Slet</item>
+    </string-array>
+    <string-array name="install_options">
+<item>Backup Eksisterende rom</item>
+<item>Tør Data og Cache</item>
+    </string-array>
+    <string-array name="restore_partitions">
+<item>Gendan Boot</item>
+<item>Systemgendannelse</item>
+<item>gendan data</item>
+<item>Gendan Cache</item>
+<item>Gendan SD-Ext</item>
+    </string-array>
+    <string-array name="ext_size_options">
+        <item>128MB</item>
+        <item>256MB</item>
+        <item>512MB</item>
+    </string-array>
+    <string-array name="swap_size_options">
+        <item>0MB</item>
+        <item>32MB</item>
+        <item>64MB</item>
+        <item>128MB</item>
+        <item>256MB</item>
+    </string-array>
+    <string-array name="automatic_backup_frequencies">
+        <item>Daglig</item>
+        <item>hver to dage</item>
+        <item>Hver tredje dag</item>
+        <item>hver fjerde dag</item>
+        <item>hver femte dag</item>
+        <item>Hver Sjete Days</item>
+        <item>hver syvende dage</item>
+    </string-array>
+    <string-array name="recovery_failures">
+        <item>Recovery tilstand er \"ødelagt\".</item>
+        <item>ROM Håndtering kan ikke reboote.</item>
+        <item>Andet.</item>
+    </string-array>
+    <string-array name="purchase_options">
+        <item>PayPal ($3.99)</item>
+        <item>Android Marked ($4.99)</item>
+    </string-array>
+</resources>
