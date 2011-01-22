@@ -197,8 +197,6 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">Nuove Funzioni</string>
-	<!--<string name="whats_new">Non ti piaciono gli Ad? Puoi disattiavrli dalle impostazioni! Lasciandoli attivi però aiuti ROM Manager. :)</string>-->
-       <string name="whats_new">Sono finiti i giorni in cui bisognava scaricarsi le ROM sul computer per poi trasferirle sul proprio telefono: Ti presento Web Connect! Se stai visitando un forum sul tuo computer, e lo sviluppatore lo supporta, puoi scaricare la ROM direttamente su ROM Manager! Puoi impostarlo nel menu di ROM Manager. Visita koushikdutta.com per una demo.</string>
 	
 	<string name="install_from_qrcode">Installa da QR Code</string>
 	

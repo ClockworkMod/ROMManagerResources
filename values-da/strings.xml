@@ -155,8 +155,6 @@
 <string name="changelog">Changelog</string>
 
 <string name="new_features">Nye funktioner</string>
-<!--< String name="whats_new">Kan du ikke lide Reklamer? Kan du deaktivere dem under Indstillinger! Men lader du dem stå bidrager du til at støtte ROM Manager. :)</string>-->
-<string name="whats_new">De dage hvor du skulle downloade en rom og pushe den til din telefonen er væk: Introducer Web Connect! Hvis du kigger et forum på din computer, og udvikleren understøtter det, kan du downloade rom\'en direkte til ROM Håndtering! Sæt den op i ROM Håndtering Menuen. Se koushikdutta.com for en demo.</string>
 
 <string name="install_from_qrcode">Installer fra QR Code</string>
 
