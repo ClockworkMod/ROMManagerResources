@@ -12,8 +12,8 @@
 
 	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
 
-	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
-	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
+	<string name="ota_not_supported">Twój ROM nie jest skonfigurowany aby otrzymywać uaktualnienia OTA. Skontaktuj się zdeveloperem!</string>
+	<string name="ota_not_supported_extended">ROM którego używasz nie obsługuje aktualizacji OTA. Developer tego ROMu musi wprowadzic odpowiednie zmiany do oprogramowania, aby wspierać aktualizacje OTA. Skontaktuj się z developerem ROMu! Nie kontaktuj się z developerem ROM Manager. TO NIE JEST BŁĄD ROM MANAGER.</string>
 	<string name="current_rom">Bieżący ROM: %s</string>
 
 	<string name="donate">Wspomóż</string>
@@ -152,7 +152,7 @@
 	<string name="flash_legacy_unavailable">Brak starszych wersji recovery. Czy połączenie z Internetem działa prawidłowo?</string>
 	
 	<string name="developer_mode">Tryb zaawansowany</string>
-	<string name="developer_mode_details">Advanced Mode is not meant for all users. Advanced mode will get you access to the latest recoveries, experimental ROMs, and other various unstable, but bleeding edge features. Advanced mode should be used with caution and is only recommended for users comfortable with ADB.</string>
+	<string name="developer_mode_details">Tryb zaawansowany nie jest przeznaczony dla wszystkich użytkowników. Tryb ten daje dostęp do najnowszych recovery, eksperymentalnych ROMów i innych niestabilnych lecz pełnych najnowszych funkcjonalności wersji. Tryb zaawansowany powinien być używany z uwaga i jest rekomendowany użytkownikom ze znajomością ADB.</string>
 	<string name="developer_mode_on">Tryb zaawansowany jest włączony.</string>
 	<string name="developer_mode_off">Tryb zaawansowany jest wyłączony.</string>
 	<string name="developer_mode_summary">Te opcje są dostępne gdy włączony jest tryb zaawansowany w głownym menu programu.</string>
@@ -189,7 +189,7 @@
 	<string name="automatic_backup_disabled">Automatyczny backup jest wyłączony.</string>
 	<string name="automatic_backup_summary">Następny backup zostanie wykonany %s.</string>
 	
-	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
+	<string name="no_su">Musisz zrootować swój telefon, aby ROM Manager mógł funkcjonować. Oprogramowanie Superuser nie zostało znalezione w  \"/system/bin/su\" lub \"/system/xbin/su\". Użyj Google, aby znaleźć instrukcje rootowania swojego telefonu.</string>
 	
 	<string name="invalid_license">Nieprawidłowa licencja</string>
 	<string name="invalid_license_text">Twoja licencja jest przestarzała. Zainstaluj ponownie ROM Manager za pomocą Market.</string>
@@ -197,7 +197,7 @@
 	<string name="changelog">Lista zmian</string>
 	
 	<string name="new_features">Nowe funkcjonalności</string>
-	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your phone: Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
+	<string name="whats_new">Czasy gdy ściągnięty ROM musiał być przesłany do telefonu mineły. Prezentujemy Web Connect. Jeżeli rpzeglądasz forum na komputerze i developer wspiera tę tecnologię, możesz pobrać ROM bezpośrednio do ROM Managera. Ustaw opcje w menu. Odwiedź koushikdutta.com, aby zobaczyć demo.</string>
 	
 	<string name="install_from_qrcode">Zainstaluj z kodu QR</string>
 	
@@ -211,26 +211,26 @@
 	<string name="flash_recovery_confirm">Czy na pewno zastąpić recovery?</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics will send anonymous usage statistics to help make ROM Manager a better app! By pressing OK, you state that you understand that anonymous usage information will be sent to Google and the developers of ROM Manager.</string>
-	<string name="analytics_on">Google Analytics is on. Thanks for helping make ROM Manager a better app!</string>
-	<string name="analytics_off">Google Analytics is off. You should turn this on!</string>
+	<string name="analytics_details">Google Analytics będzie przesyłać anonimowe statystyki użytkowania aby uczynić ROM Manager lepszą aplikacją! Wybierając OK, oświadczasz, że rozumiesz, iż anonimowe informacje będą wysyłąne do Google i developerów ROM Manager.</string>
+	<string name="analytics_on">Google Analytics jest włączone. Dziękujemy za pomoc w udoskonalaniu ROM Manager!</string>
+	<string name="analytics_off">Google Analytics jest wyłączone. Włącz!</string>
 	
 	<string name="fast_nandroid">Szybki backup i odtwarzanie</string>
-	<string name="fast_nandroid_on">Paski podstepu podczas backupu i odtwarzania są wyłączone, aby przyspieszyć działanie.</string>
-	<string name="fast_nandroid_off">Paski podstepu podczas backupu i odtwarzania są włączone. Wyłącz aby przyspieszyć działanie.</string>
+	<string name="fast_nandroid_on">Paski postepu podczas backupu i odtwarzania są wyłączone, aby przyspieszyć działanie.</string>
+	<string name="fast_nandroid_off">Paski postepu podczas backupu i odtwarzania są włączone. Wyłącz aby przyspieszyć działanie.</string>
 
 	<string name="credits">Credits</string>
 	<string name="credits_summary">Napisane przez Koushik Dutta.</string>
 
 	<string name="erase_recovery">Usuń Recovery</string>
-	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
-	<string name="erase_recovery_off">Recovery will not be erased prior to flashing.</string>
+	<string name="erase_recovery_on">Recovery będzie usunięte przed flaszowaniem.</string>
+	<string name="erase_recovery_off">Recovery nie będzie usunięte przed flaszowaniem.</string>
 	
 	<string name="install_queue">Kolejka instalacji:</string>
 	<string name="add_another_zip">Dodaj Zip</string>
 	
 	<string name="report_error">Zgłoś błędy</string>
-	<string name="report_error_message">An error occurred while in recovery mode. Would you like to report it? Please do not report the same error multiple times!</string>
+	<string name="report_error_message">Wystąpił błąd w trybie recovery. Czy chcesz zgłosić ten błąd? Proszimy nie wysyłać tego samego błędu wielokrotnie!</string>
 	
 	<string name="screenshots">Zrzuty ekranu</string>
 	<string name="download">Pobierz</string>
@@ -239,17 +239,17 @@
 	
 	<string name="corrupt">Uszkodzony plik zip.</string>
 	
-	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
-	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
+	<string name="no_spaces">ROM Manager nie jest w stanie otworzyc tego pliku. Usuń wszelkie spacje z nazwy pliku i ze ścieżki folderu. Możesz sprobować wykonać czynność ręcznie z poziomu ClockworkMod recovery.</string>
+	<string name="no_md5">To nie jest prawidłowy backup. Brakuje pliku MD5.</string>
 	
 	<string name="showads">Pokaż reklamy</string>
-	<string name="showads_summary">Help support ROM Manager! (Changes require application restart.)</string>
+	<string name="showads_summary">Pomóż wspierać ROM Manager! (Wymaga ponownego uruchomienia.)</string>
 
-	<string name="recovery_failure">Recovery Failure</string>
+	<string name="recovery_failure">Błąd Recovery</string>
 	<string-array name="recovery_failures">
-		<item>Recovery mode is \"broken\".</item>
-		<item>ROM Manager doesn\'t reboot.</item>
-		<item>Other.</item>
+		<item>Tryb Recovery jest \"popsuty\".</item>
+		<item>ROM Manager nie uruchamia się ponownie</item>
+		<item>Inne.</item>
 	</string-array>
 	
 	<string name="recovery_broken_fix">There are several ways to fix a \"broken\""" recovery:\n1) Flash an alternate or older recovery and then flash back to the current version.\n2) Try enabling "Erase Recovery" in ROM Manager\'s Settings.\n3) Try clearing the download cache via the menu and reflashing.\n4) Flash back to an older recovery.\n5)  Fastboot or SBF a recovery onto your phone from your PC.</string>
