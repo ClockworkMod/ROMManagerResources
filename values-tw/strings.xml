@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="rom_management">ROM管理員</string>
-	<string name="install_rom">從SD卡安裝ROM</string>
-	<string name="download_rom">下載ROM</string>
-	<string name="check_updates">檢查更新ROM</string>
+	<string name="rom_management">ROM 管理</string>
+	<string name="install_rom">從 SD 卡安裝 ROM</string>
+	<string name="download_rom">下載 ROM</string>
+	<string name="check_updates">檢查 ROM 更新</string>
 	<string name="backup_and_restore">備份及還原</string>
 	<string name="manage_and_restore_backups">管理及還原備份</string>
-	<string name="backup_current_rom">備份目前的ROM</string>
+	<string name="backup_current_rom">備份目前的 ROM</string>
 
-	<string name="no_connection">無法與伺服器連線並下載ROM.請確認網路連線正常以及SD卡空間足夠.</string>
+	<string name="no_connection">從伺服器下載時發生錯誤。請確認網際網路連線穩定，而且已插入具有充足空間的 SD 卡！</string>
 
-	<string name="brick_warning">ROM管理員(ROM Manager) is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
+	<string name="brick_warning">ROM Manager 不會為任何您會導致您的手機的損壞負上半點責任。從您 root 了您的手機開始，您已經使您的手機的（保固／保養）失效。在建設中的領域遊樂是伴隨著危險的。再者，ROM Manager 會把匿名的使用情況統計提交到 Google 分析來協助改進本應用程式。按“確定”表示您同意，或按“取消”離開本應用程式。</string>
 
-	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
-	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
-	<string name="current_rom">Current ROM: %s</string>
+	<string name="ota_not_supported">您目前使用中的 ROM 並沒有要接收無線軟體更新的設定。請聯絡 ROM 開發者！</string>
+	<string name="ota_not_supported_extended">您目前使用中的 ROM 不支援無線軟體更新。此 ROM 的開發者需要作出相應的修改來令 ROM 支援無線軟體更新。請聯絡 ROM 開發者！請勿聯絡 ROM Manager：這並非 ROM MANAGER 的錯。</string>
+	<string name="current_rom">目前的 ROM：%s</string>
 
-	<string name="donate">Donate</string>
-	<string name="developer_homepage">Homepage</string>
+	<string name="donate">捐助</string>
+	<string name="developer_homepage">主頁</string>
 
-	<string name="utilities">Utilities</string>
-	<string name="fix_permissions">Fix Permissions</string>
-	<string name="fixing_permissions">Fixing Permissions...</string>
-	<string name="fix_permissions_detail">Fix file system permissions. This often fixes Force Close problems.</string>
-	
-	<string name="fix_permissions_done">Done! You should now reboot your phone.</string>
+	<string name="utilities">公用程式</string>
+	<string name="fix_permissions">權限修正</string>
+	<string name="fixing_permissions">修正權限中...</string>
+	<string name="fix_permissions_detail">修正檔案系統的權限。這通常能修正強制關閉的問題。</string>
 
-	<string name="download_rom_premium">Upgrade to ROM Manager (Premium) to access the full list of ROMs!</string>
-	
-	<string name="premium_only">This feature is only available to Premium users!</string>
-	<string name="no_update">There is no update available for your ROM.</string>
-	<string name="update_available">Update Available</string>
-	<string name="updated_rom">Press OK to update your ROM to the latest version: %s.</string>
-	<string name="update_recovery_available">There is an update available for ClockworkMod Recovery.</string>
-	
-	<string name="upgrade">You must upgrade your ROM Manager to the latest version!</string>
+	<string name="fix_permissions_done">完成！您應該立即重新啟動手機。</string>
 
-	<string name="recovery_update_required">There is a new version of ClockworkMod recovery available. You must update before can use ROM Manager!</string>
+	<string name="download_rom_premium">升級至 ROM Manager (Premium) 以取得完整的 ROM 列表！</string>
 
-	<string name="edit_backup_name">Backup Name</string>
-	<string name="new_backup_name">New Backup Name</string>
-	<string name="rename_backup_error">There was an error renaming your backup. Please choose a unique and valid filename for your backup.</string>
-	<string name="confirm_delete_backup">Delete Backup?</string>
-	<string name="remove_backup_error">There was an error deleting your backup.</string>
+	<string name="premium_only">此功能唯 Permium 版用戶尊享！</string>
+	<string name="no_update">尚無適用的 ROM 更新。</string>
+	<string name="update_available">有適用的更新</string>
+	<string name="updated_rom">按“確定”把您的 ROM 更新至最新版本：%s。</string>
+	<string name="update_recovery_available">有適用的 ClockworkMod Recovery 更新。</string>
+
+	<string name="upgrade">您必須將 ROM Manager 升級至最新版本！</string>
+
+	<string name="recovery_update_required">有適用的 ClockworkMod Recovery 新版本。在您能使用 ROM Manager 前必先升級!</string>
+
+	<string name="edit_backup_name">備份名稱</string>
+	<string name="new_backup_name">備份的新名稱</string>
+	<string name="rename_backup_error">重新命名備份時發生錯誤。請為您的備份揀選一個獨特而且合法的檔案名稱。</string>
+	<string name="confirm_delete_backup">要刪除備份嗎？</string>
+	<string name="remove_backup_error">刪除備份時發生錯誤。</string>
 
 	<string name="app_name">ROM Manager</string>
 	<string name="app_name_premium">ROM Manager Premium</string>
-	
-	<string name="coming_soon">Coming soon!</string>
-	
+
+	<string name="coming_soon">即將更新！</string>
+
 	<string-array name="manage_options">
-		<item>Restore</item>
-		<item>Rename</item>
-		<item>Delete</item>
-	</string-array>
-		
-	<string-array name="install_options">
-		<item>Backup Existing ROM</item>
-		<item>Wipe Data and Cache</item>
+		<item>還原</item>
+		<item>重新命名</item>
+		<item>刪除</item>
 	</string-array>
 
-	<string name="restore_options">Restore Options</string>
+	<string-array name="install_options">
+		<item>備份目前的 ROM</item>
+		<item>清除資料及快取</item>
+	</string-array>
+
+	<string name="restore_options">還原選項</string>
 
 	<string-array name="restore_partitions">
-		<item>Restore Boot</item>
-		<item>Restore System</item>
-		<item>Restore Data</item>
-		<item>Restore Cache</item>
-		<item>Restore SD-Ext</item>
+		<item>還原 Boot</item>
+		<item>還原 System</item>
+		<item>還原 Data</item>
+		<item>還原 Cache</item>
+		<item>還原 SD-Ext</item>
 	</string-array>
 
 	<string-array name="ext_size_options">
@@ -84,186 +84,208 @@
 		<item>256MB</item>
 	</string-array>
 
-	<string name="partition_ext_size">Ext Size</string>
-	<string name="partition_swap_size">Swap Size</string>
-	<string name="partition_sdcard">Partition SD Card</string>
-	<string name="partition_sdcard_summary">Partition your SD Card to enable installation of applications on your SD for supported ROMs.</string>
-	<string name="partition_sdcard_warning">Partitioning your SD Card will wipe ALL the data on your card. Are you sure you want to reboot and continue?</string>
+	<string name="partition_ext_size">Ext 大小</string>
+	<string name="partition_swap_size">Swap 大小</string>
+	<string name="partition_sdcard">分割 SD 卡</string>
+	<string name="partition_sdcard_summary">分割您的 SD 卡讓您能夠在支援的 ROM 上安裝應用程式到 SD 卡之內。</string>
+	<string name="partition_sdcard_warning">分割 SD 卡會將卡內全部資料都刪除掉。您確定要重啟手機並繼續此操作的執行嗎？</string>
 
-	<string name="manifests_no_roms">There are no ROMs available for your phone yet! Ask your favorite developers to get listed on ROM Manager for free!</string>
-	
-	<string name="preinstallation">ROM Pre-Installation</string>
-	
-	<string name="download_cache_cleared">Your download cache has been cleared.</string>
-	
-	<string name="manifests_unavailable">Error occurred while downloading the Developer list.</string>
-	<string name="manifests_error">Error occurred while processing the Developer list!</string>
-	
-	<string name="roms_unavailable">Error occurred while downloading the ROM list! Please contact the developer of this ROM.</string>
-	<string name="roms_error">Error occurred while processing the ROM list!</string>
-	<string name="rom_error">Error occurred while processing this ROM!</string>
-	<string name="rom_addons">ROM Addons</string>
-	<string name="rom_download_error">Error occurred while downloading this ROM!</string>
-	<string name="rom_download_error_short">ROM Download Error</string>
-	<string name="rom_download_complete">ROM Download Complete</string>
-	
-	<string name="restore">Restore</string>
-	<string name="confirm_restore">Are you sure you want to reboot your phone and restore your backup?</string>
+	<string name="manifests_no_roms">尚無適用於您的手機的 ROM！您可請求您喜愛的 ROM 開發者將其作品免費登錄到 ROM Manager！</string>
 
-	<string name="reboot_recovery">Reboot into Recovery</string>
-	<string name="reboot_into_recovery">Boot into Recovery mode for manual management.</string>
-	<string name="confirm_reboot">Are you sure you want to reboot into ClockworkMod Recovery?</string>
-	<string name="confirm_reboot_alternate">Are you sure you want to reboot into %s?</string>
-	
-	<string name="confirm_reboot_and_install">Press OK to reboot into ClockworkMod Recovery and continue the installation.</string>
-	<string name="restart_and_install">Reboot And Install</string>
-	
-	<string name="recovery_clockworkmod_yours">Current Recovery: ClockworkMod %s</string>
-	<string name="recovery_alternate_yours">Current Recovery: %s</string>
-	<string name="recovery_latest">Latest Recovery: ClockworkMod %s</string>
+	<string name="preinstallation">ROM 預先安裝</string>
+
+	<string name="download_cache_cleared">下載快取已被清除。</string>
+
+	<string name="manifests_unavailable">下載開發者列表時發生錯誤。</string>
+	<string name="manifests_error">處理開發者列表時發生錯誤。</string>
+
+	<string name="roms_unavailable">下載 ROM 列表時發生錯誤！請聯絡此 ROM 的開發者。</string>
+	<string name="roms_error">處理 ROM 列表時發生錯誤。</string>
+	<string name="rom_error">處理此 ROM 時發生錯誤。</string>
+	<string name="rom_addons">ROM 附加檔</string>
+	<string name="rom_download_error">下載此 ROM 時發生錯誤！</string>
+	<string name="rom_download_error_short">ROM 下載錯誤</string>
+	<string name="rom_download_complete">ROM 下載完成</string>
+
+	<string name="restore">還原</string>
+	<string name="confirm_restore">您確定要重啟手機並還原您的備份嗎？</string>
+
+	<string name="reboot_recovery">重啟手機進入 Recovery</string>
+	<string name="reboot_into_recovery">進入 Recovery 模式來進行手動管理。</string>
+	<string name="confirm_reboot">您確定要重啟手機並進入 ClockworkMod Recovery 嗎？</string>
+	<string name="confirm_reboot_alternate">您確定要重啟手機並進入 %s？</string>
+
+	<string name="confirm_reboot_and_install">按“確定”重啟手機進入 ClockworkMod Recovery 並繼續進行安裝。</string>
+	<string name="restart_and_install">重啟手機並且安裝</string>
+
+	<string name="recovery_clockworkmod_yours">目前的 Recovery：ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">目前的 Recovery：%s</string>
+	<string name="recovery_latest">最新的 Recovery：ClockworkMod %s</string>
 
 	<string name="recovery">Recovery</string>
-	<string name="flash_recovery">Flash ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">An error occurred while flashing your recovery.</string>
-	<string name="download_recovery_error">An error occurred while downloading your recovery.</string>
-	<string name="download_recovery_success">Successfully downloaded ClockworkMod recovery!</string>
-	<string name="flash_manual">Manual Flash Override</string>
-	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
-	<string name="flash_recovery_success">Successfully flashed ClockworkMod recovery!</string>
-	<string name="flash_alternate_recovery_success">Successfully flashed recovery!</string>
-	<string name="confirm_device">Confirm Phone Model</string>
-	<string name="do_this_first">You must have the ClockworkMod Recovery installed to flash and restore ROMs!</string>
-	<string name="flash_recovery_require">You must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
-	<string name="install">Install</string>
-	
-	<string name="clear_cache">Clear Download Cache</string>
-	<string name="clear_cache_confirm">Caching downloads makes your ROM installations much faster. Are you sure you want to clear your download cache?</string>
+	<string name="flash_recovery">刷入 ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">刷入 recovery 時發生錯誤。</string>
+	<string name="download_recovery_error">下載 recovery 時發生錯誤。</string>
+	<string name="download_recovery_success">成功下載 ClockworkMod recovery！</string>
+	<string name="flash_manual">覆蓋手動刷入</string>
+	<string name="flash_recovery_override">使用 ROM Manager 來刷入 recovery 時遇到問題嗎？如果您曾經手動刷入 ClockworkMod Recovery，請按“確定”。</string>
+	<string name="flash_recovery_success">成功刷入 ClockworkMod Recovery！</string>
+	<string name="flash_alternate_recovery_success">成功刷入 recovery！</string>
+	<string name="confirm_device">確認手機型號</string>
+	<string name="do_this_first">您必須安裝了 ClockworkMod Recovery 方能把 ROM 刷入／還原！ installed to flash and restore ROMs!</string>
+	<string name="flash_recovery_require">您必須安裝了 ClockworkMod Recovery 方能繼續！請先於 ROM Manager 安裝 recovery。</string>
+	<string name="install">安裝</string>
 
-	<string name="backup">Backup</string>
-	<string name="confirm_backup">Are you sure you want to reboot your phone and backup your ROM?</string>
-	<string name="script_error">An error occurred while attempting to run privileged commands!</string>
-	<string name="backup_error">Please choose a unique and valid filename for your backup.</string>
-	
-	<string name="flash_alternate">Flash Alternate Recovery</string>
-	<string name="flash_alternate_warning">Are you sure you want to flash an alternate recovery? ROM Manager features will be made unavailable until you flash back to ClockworkMod Recovery.</string>
-	<string name="flash_alternate_unavailable">No alternate recovery available.</string>
-	<string name="flash_legacy_and_experimental">All ClockworkMod Recoveries</string>
-	<string name="flash_legacy_and_experimental_summary">Flash older and experimental versions of ClockworkMod Recovery.</string>
-	<string name="flash_legacy_unavailable">No legacy recoveries found. Are you connected to the internet?"</string>
-	
-	<string name="developer_mode">Advanced Mode</string>
-	<string name="developer_mode_details">Advanced Mode is not meant for all users. Advanced mode will get you access to the latest recoveries, experimental ROMs, and other various unstable, but bleeding edge features. Advanced mode should be used with caution and is only recommended for users comfortable with ADB.</string>
-	<string name="developer_mode_on">Advanced Mode is enabled.</string>
-	<string name="developer_mode_off">Advanced Mode is disabled.</string>
-	<string name="developer_mode_summary">This is available once you enable Advanced Mode from the ROM Manager Main menu.</string>
-	
-	<string name="premium_required_to_download">The Premium version of ROM Manager is required to download this Developer\'s ROMs!</string>
-	
-	<string name="free_header">Free</string>
-	<string name="premium_header">Premium</string>
-	
-	<string name="update_notifications">Update Notifications</string>
-	<string name="update_notifications_enabled">Update notifications are enabled.</string>
-	<string name="update_notifications_disabled">Update notifications are disabled.</string>
-	
-	<string name="rom_manager_settings">ROM Manager Settings</string>
-	<string name="settings">Settings</string>
-	
-	<string name="more_recoveries">More Recoveries</string>
-	
-	<string name="sdcard_not_mounted">SD Card Not Mounted</string>
-	<string name="sdcard_needs_to_be_mounted">The SD Card needs to be mounted to use ROM Manager!</string>
-	
-	<string name="automatic_backup_time">Backup Time</string>
-	<string name="automatic_backup_frequency">Backup Frequency</string>
+	<string name="clear_cache">清除下載快取</string>
+	<string name="clear_cache_confirm">為下載進行快取能增快 ROM 的安裝速度很多。您確定要清除下載快取？</string>
+
+	<string name="backup">備份</string>
+	<string name="confirm_backup">您確定要重啟手機並將 ROM 備份？</string>
+	<string name="script_error">在嘗試執行需要特權的指令時發生錯誤！</string>
+	<string name="backup_error">請為您的備份揀選一個獨特而且合法的檔案名稱。</string>
+
+	<string name="flash_alternate">刷入替代的 Recovery</string>
+	<string name="flash_alternate_warning">你確定要刷入替代的 recovery 嗎？在您重新刷入 ClockworkMod Recovery 之前，ROM Manager 會失去效用。</string>
+	<string name="flash_alternate_unavailable">沒有適用的可替代 recovery</string>
+	<string name="flash_legacy_and_experimental">所有的 ClockworkMod Recovery</string>
+	<string name="flash_legacy_and_experimental_summary">刷入舊有的或實驗性質的 ClockworkMod Recovery 版本。</string>
+	<string name="flash_legacy_unavailable">找不到遺留下來的版本。您是否已連接到網際網路？</string>
+
+	<string name="developer_mode">進階模式</string>
+	<string name="developer_mode_details">進階模式並非為所有使用者而設。進階模式會讓您取用最新版本的 recovery，實驗性質的 ROM，以及其他各種不穩但尖端的功能。進階模式該小心地使用，而且只建議給對 ADB 感到自在的用戶使用。</string>
+	<string name="developer_mode_on">進階模式已啟用。</string>
+	<string name="developer_mode_off">進階模式已停用。</string>
+	<string name="developer_mode_summary">您要在 ROM Manager 主選單中啟用進階模式後才能選用這個。</string>
+
+	<string name="premium_required_to_download">下載此開發者的 ROM 需要使用 Premium 版的 ROM Manager！</string>
+
+	<string name="free_header">免費版</string>
+	<string name="premium_header">Premium 版</string>
+
+	<string name="update_notifications">更新通知</string>
+	<string name="update_notifications_enabled">更新通知已啟用。</string>
+	<string name="update_notifications_disabled">更新通知已停用。</string>
+
+	<string name="rom_manager_settings">ROM Manager 設定</string>
+	<string name="settings">設定</string>
+
+	<string name="more_recoveries">更多 Recovery 版本</string>
+
+	<string name="sdcard_not_mounted">SD 卡尚未掛載</string>
+	<string name="sdcard_needs_to_be_mounted">需要掛載好 SD 卡方能使用 ROM Manager！</string>
+
+	<string name="automatic_backup_time">備份時間</string>
+	<string name="automatic_backup_frequency">備份頻密程度</string>
 	<string-array name="automatic_backup_frequencies">
-		<item>Daily</item>
-		<item>Every Two Days</item>
-		<item>Every Three Days</item>
-		<item>Every Four Days</item>
-		<item>Every Five Days</item>
-		<item>Every Six Days</item>
-		<item>Every Seven Days</item>
+		<item>每天</item>
+		<item>每兩天</item>
+		<item>每三天</item>
+		<item>每四天</item>
+		<item>每五天</item>
+		<item>每六天</item>
+		<item>每七天</item>
 	</string-array>
-	<string name="automatic_backup">Automatic Backup</string>
-	<string name="automatic_backup_disabled">Automatic Backup is disabled.</string>
-	<string name="automatic_backup_summary">The next Automatic Backup will take place on %s.</string>
-	
-	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
-	
-	<string name="invalid_license">Invalid License</string>
-	<string name="invalid_license_text">Your ROM Manager License is outdated. Please reinstall ROM Manager via the Market.</string>
-	
-	<string name="changelog">Changelog</string>
-	
-	<string name="new_features">New Features</string>
-	
-	<string name="install_from_qrcode">Install from QR Code</string>
-	
-	<string name="qrcode_download">QR Code Download</string>
-	<string name="qrcode_summary">Take a picture to install a ROM. Requires the free Barcode Scanner application.</string>
-	<string name="qrcode_premium_required">You need the Premium version of ROM Manager to install ROMs from QR Codes!</string>
-	<string name="qrcode_not_installed">Missing Barcode Scanner</string>
-	<string name="qrcode_install">You must have Barcode Scanner installed to use this feature! Press OK to install free Barcode scanner application from the Market.</string>
-	
-	<string name="flash_recovery_confirm_title">Flash Recovery?</string>
-	<string name="flash_recovery_confirm">Are you sure you wish to replace your recovery?</string>
-	
-	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics will send anonymous usage statistics to help make ROM Manager a better app! By pressing OK, you state that you understand that anonymous usage information will be sent to Google and the developers of ROM Manager.</string>
-	<string name="analytics_on">Google Analytics is on. Thanks for helping make ROM Manager a better app!</string>
-	<string name="analytics_off">Google Analytics is off. You should turn this on!</string>
-	
-	<string name="fast_nandroid">Quick Backup and Restore</string>
-	<string name="fast_nandroid_on">Progress bars in Backup and Restore are disabled for speed.</string>
-	<string name="fast_nandroid_off">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
+	<string name="automatic_backup">自動備份</string>
+	<string name="automatic_backup_disabled">自動備份已停用。</string>
+	<string name="automatic_backup_summary">下一次自動備份將於 %s 進行。</string>
 
-	<string name="credits">Credits</string>
-	<string name="credits_summary">Written by Koushik Dutta.</string>
+	<string name="no_su">您的手機必須為已 root，否則 ROM Manager 起不了作用。在 \"/system/bin/su\" 或 \"/system/xbin/su\" 都找不到 Superuser。請在個人電腦使用 Google 搜尋來尋找您的手機的 root 方式。</string>
 
-	<string name="erase_recovery">Erase Recovery</string>
-	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
-	<string name="erase_recovery_off">Recovery will not be erased prior to flashing.</string>
-	
-	<string name="install_queue">Install Queue:</string>
-	<string name="add_another_zip">Add Zip</string>
-	
-	<string name="report_error">Report Error</string>
-	<string name="report_error_message">An error occurred while in recovery mode. Would you like to report it? Please do not report the same error multiple times!</string>
-	
-	<string name="screenshots">Screenshots</string>
-	<string name="download">Download</string>
-	
-	<string name="loading">Loading...</string>
-	
-	<string name="corrupt">Corrupt zip file.</string>
-	
-	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
-	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
-	
-	<string name="showads">Show Advertisements</string>
-	<string name="showads_summary">Help support ROM Manager! (Changes require application restart.)</string>
+	<string name="invalid_license">無效的授權</string>
+	<string name="invalid_license_text">您的 ROM Manager 授權已過期。請從 Market 重新安裝 ROM Manager。</string>
 
-	<string name="recovery_failure">Recovery Failure</string>
+	<string name="changelog">更新日誌</string>
+
+	<string name="new_features">新功能</string>
+	<string name="whats_new">那些要下載 ROM 再存進手機的日子過去了：Web Connect 來也！如果您在電腦瀏覽的討論區中的開發者有支援這功能，您就可以直接把 ROM 下載到 ROM Manager！立即在 ROM Manager 選單中進行設定。 請到 koushikdutta.com 查看示範。</string>
+
+	<string name="install_from_qrcode">透過 QR 碼安裝</string>
+
+	<string name="qrcode_download">QR 碼下載</string>
+	<string name="qrcode_summary">拍幅照片來安裝 ROM。需要使用免費的條碼掃描器應用程式。</string>
+	<string name="qrcode_premium_required">要以 QR 碼來安裝 ROM，您需要安裝 Premium 版 ROM Manager！</string>
+	<string name="qrcode_not_installed">找不到條碼掃描器</string>
+	<string name="qrcode_install">您必須安裝好條碼掃描器來使用此功能！按“確定”從 Market 安裝免費的條碼掃描器應用程式。</string>
+
+	<string name="flash_recovery_confirm_title">要刷入 Recovery 嗎？</string>
+	<string name="flash_recovery_confirm">您確定您想要更換 recovery 嗎？</string>
+
+	<string name="analytics">Google 分析</string>
+	<string name="analytics_details">Google 分析會遞交匿名的使用情況統計來幫助 ROM Manager 的進步! 按“確定”表示您了解匿名的使用情況資訊將會被提交到 Google 及 ROM Manager 的開發者。</string>
+	<string name="analytics_on">Google 分析已開啟. 感謝您的幫忙使 ROM Manager 更出息！</string>
+	<string name="analytics_off">Google 分析已關閉。你應該將這開啟！</string>
+
+	<string name="fast_nandroid">快速備份及還原</string>
+	<string name="fast_nandroid_on">為求速度而停用了備份及還原的進度。</string>
+	<string name="fast_nandroid_off">顯示備份及還原的進度。停用這能加快備份及還原的速度。</string>
+
+	<string name="credits">歸功於</string>
+	<string name="credits_summary">作者 Koushik Dutta，\n翻譯 Ladios Jonquil。</string>
+
+	<string name="erase_recovery">消除 Recovery</string>
+	<string name="erase_recovery_on">刷入前 Recovery 會先被消除。</string>
+	<string name="erase_recovery_off">刷入前 Recovery 不會先被消除。</string>
+
+	<string name="install_queue">安裝隊列</string>
+	<string name="add_another_zip">加入壓縮檔</string>
+
+	<string name="report_error">報告錯誤</string>
+	<string name="report_error_message">有錯誤發生於 recovery 模式內。請問您願意匯報這個錯誤嗎？請勿重覆報告相同的錯誤！</string>
+
+	<string name="screenshots">螢幕截圖</string>
+	<string name="download">下載</string>
+
+	<string name="loading">載入中...</string>
+
+	<string name="corrupt">已損毁的壓縮檔。</string>
+
+	<string name="no_spaces">ROM Manager 無法開啟此檔案。請從檔案名稱及資料夾路徑中刪除所有空白字元。又或者到 ClockworkMod recovery 中進行手動載入。</string>
+	<string name="no_md5">這個備份似乎不合規格，缺乏了 MD5 檔案。</string>
+
+	<string name="showads">顯示廣告</string>
+	<string name="showads_summary">幫忙支持 ROM Manager！（變更後需要重新啟動應用程式。）</string>
+
+	<string name="recovery_failure">Recovery 事敗</string>
 	<string-array name="recovery_failures">
-		<item>Recovery mode is \"broken\".</item>
-		<item>ROM Manager doesn\'t reboot.</item>
-		<item>Other.</item>
+		<item>Recovery 模式已損毁。</item>
+		<item>ROM Manager 不能重新啟動手機。</item>
+		<item>其他。</item>
 	</string-array>
-	
-	<string name="recovery_broken_fix">There are several ways to fix a \"broken\""" recovery:\n1) Flash an alternate or older recovery and then flash back to the current version.\n2) Try enabling "Erase Recovery" in ROM Manager\'s Settings.\n3) Try clearing the download cache via the menu and reflashing.\n4) Flash back to an older recovery.\n5)  Fastboot or SBF a recovery onto your phone from your PC.</string>
-	<string name="reboot_fix">Some ROMs have a broken "reboot" binary. View this thread on your computer for more information: http://bit.ly/dj9qbN.</string>
-	<string name="unknown_bug">Please feel free to email me at koush@clockworkmod.com with your bug!</string>
-	
-	<string name="buy_premium">Buy Premium</string>
-	
+
+	<string name="recovery_broken_fix">有好幾個方法能修復“已損毁”的 recovery：\n1) 刷一個替代的或較舊版本的 recovery 再刷回目前版本。\n2) 試試在 ROM Manager 的設定頁中啟用“消除 Recovery”。\n3) 試試在選單中清除下載快取後重刷一次。\n4) 刷一個較舊版本的 recovery。\n5)  從個人電腦使用 Fastboot 或 SBF 來將 recovery 刷進手機。</string>
+	<string name="reboot_fix">某些 ROM 會配備一個已損毁的“reboot”執行檔。從個人電腦瀏覽此帖以取得更多資訊：http://bit.ly/dj9qbN。</string>
+	<string name="unknown_bug">請隨時匯報錯誤至我的電郵（koush@clockworkmod.com）！</string>
+
+	<string name="buy_premium">購買 Premium 版</string>
+
 	<string-array name="purchase_options">
-		<item>Android Market (Recommended)</item>
-		<item>PayPal (For those without Android Market)</item>
+		<item>PayPal ($3.99)</item>
+		<item>Android Market ($4.99)</item>
 	</string-array>
-	
-	<string name="device_id">Device ID</string>
-	<string name="license_retrieval_error">License Retrieval Error</string>
-	<string name="license_retrieved">License Retrieved!</string>
-	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
+
+	<string name="device_id">裝置識別碼</string>
+	<string name="license_retrieval_error">授權索取錯誤</string>
+	<string name="license_retrieved">已取得授權！</string>
+	<string name="license_server_error">無法連接授權伺服器！請改為使用 Android Market！</string>
+
+	<string name="recovery_try_fix">似乎重啟至 Clockwork Recovery 失敗了。此問題應該能透過清除下載快取並且重刷 Recovery 來解決。按“確定”清除下載快取和重刷 Recovery。</string>
+
+	<string name="web_connect">Web Connect</string>
+	<string name="web_connect_error">建立 Web Connect 帳戶時發生錯誤。</string>
+	<string name="web_connect_success">從現在開始您可以在已支援的 ROM 討論帖直接將 ROM 推送至手機下載！</string>
+
+	<string name="download_in_progress">ROM 下載現正進行中。要取消下載嗎？</string>
+
+	<string name="yes">是</string>
+	<string name="no">否</string>
+
+    <string name="no_device_id">此裝置無法透過 PayPal 購買！</string>
+
+    <string name="downloading">您的下載已開始…\n您可以在通知區域查看下載進度！</string>
+    <string name="rom_manager_downloading">開始下載</string>
+
+    <string name="verify_custom_flashed">使用 ClockworkMod 以外的 Recovery 來刷入的更新包會有不正常運作的可能性，要繼續嗎？</string>
+
+    <string name="flash_clockwork_or_get_premium">只有 Premium 用戶能以 ROM Manager 使用替代的 Recovery 來刷 ROM！否則您必須安裝好 ClockworkMod Recovery 方能繼續！請先從 ROM Manager 安裝該 Recovery。</string>
+    <string name="premium_activated">您現已透過 PayPal 啟動 ROM Manager Premium！再沒有額外需要的下載，即使您把裝置回復至原廠設定亦如是，因為您的購買已記錄在 ROM Manager 的伺服器上。</string>
 </resources>
