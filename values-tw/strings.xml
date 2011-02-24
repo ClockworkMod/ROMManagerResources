@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="rom_management">ROM管理員</string>
-	<string name="install_rom">從SD卡安裝ROM</string>
-	<string name="download_rom">下載ROM</string>
-	<string name="check_updates">檢查ROM更新</string>
+	<string name="rom_management">韌體管理員</string>
+	<string name="install_rom">從SD卡安裝韌體</string>
+	<string name="download_rom">下載韌體</string>
+	<string name="check_updates">檢查韌體更新</string>
 	<string name="backup_and_restore">備份及還原</string>
 	<string name="manage_and_restore_backups">管理及還原備份</string>
-	<string name="backup_current_rom">備份目前的ROM</string>
+	<string name="backup_current_rom">備份目前的韌體</string>
 
-	<string name="no_connection">無法與伺服器建立連線及下載ROM。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
+	<string name="no_connection">無法與伺服器建立連線及下載韌體。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
 
-	<string name="brick_warning">ROM管理員(ROM Manager)對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按下Press OK to agree. Press Cancel to exit the application.</string>
+	<string name="brick_warning">韌體管理員（ROM Manager）對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
 
-	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
-	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
-	<string name="current_rom">Current ROM: %s</string>
+	<string name="ota_not_supported">你所使用的韌體並不支援無線更新。請聯絡這個韌體的開發人員！</string>
+	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員（ROM Manager）的臭蟲，所以請不要聯絡本程式的開發人員！</string>
+	<string name="current_rom">現在系統安裝的韌體：%s</string>
 
-	<string name="donate">Donate</string>
-	<string name="developer_homepage">Homepage</string>
+	<string name="donate">捐款</string>
+	<string name="developer_homepage">官方網站</string>
 
-	<string name="utilities">Utilities</string>
-	<string name="fix_permissions">Fix Permissions</string>
-	<string name="fixing_permissions">Fixing Permissions...</string>
-	<string name="fix_permissions_detail">Fix file system permissions. This often fixes Force Close problems.</string>
+	<string name="utilities">工具</string>
+	<string name="fix_permissions">修復權限</string>
+	<string name="fixing_permissions">修復權限...</string>
+	<string name="fix_permissions_detail">修復檔案系統的權限，通常可以解決其他程式強制關閉的問題。</string>
 	
-	<string name="fix_permissions_done">Done! You should now reboot your phone.</string>
+	<string name="fix_permissions_done">已修復權限！請重新啓動你的手機。</string>
 
-	<string name="download_rom_premium">Upgrade to ROM Manager (Premium) to access the full list of ROMs!</string>
+	<string name="download_rom_premium">請升級至韌體管理員（豪華版）來存取完整的韌體列表！</string>
 	
-	<string name="premium_only">This feature is only available to Premium users!</string>
-	<string name="no_update">There is no update available for your ROM.</string>
-	<string name="update_available">Update Available</string>
-	<string name="updated_rom">Press OK to update your ROM to the latest version: %s.</string>
-	<string name="update_recovery_available">There is an update available for ClockworkMod Recovery.</string>
+	<string name="premium_only">這功能只適用於豪華版的使用者！</string>
+	<string name="no_update">你的韌體並未有任何可用的更新。</string>
+	<string name="update_available">你的韌體已經有可用的更新。</string>
+	<string name="updated_rom">請按確定來把你的韌體更新至以下版本：%s</string>
+	<string name="update_recovery_available">ClockworkMod Recovery 已經有可用的更新。</string>
 	
-	<string name="upgrade">You must upgrade your ROM Manager to the latest version!</string>
+	<string name="upgrade">請將韌體管理員更新至最新版本！</string>
 
-	<string name="recovery_update_required">There is a new version of ClockworkMod recovery available. You must update before can use ROM Manager!</string>
+	<string name="recovery_update_required">ClockworkMod Recovery 已經有可用的更新。請先更新ClockworkMod Recovery，然後才能繼續使用韌體管理員！</string>
 
-	<string name="edit_backup_name">Backup Name</string>
-	<string name="new_backup_name">New Backup Name</string>
-	<string name="rename_backup_error">There was an error renaming your backup. Please choose a unique and valid filename for your backup.</string>
-	<string name="confirm_delete_backup">Delete Backup?</string>
-	<string name="remove_backup_error">There was an error deleting your backup.</string>
+	<string name="edit_backup_name">重新命名備份</string>
+	<string name="new_backup_name">請輸入新的備份檔檔名</string>
+	<string name="rename_backup_error">嘗試重新命名備份時遇到錯誤，請輸入一個獨特而有效的備份檔檔名。</string>
+	<string name="confirm_delete_backup">確定刪除備份？</string>
+	<string name="remove_backup_error">嘗試刪除備份時遇到錯誤。</string>
 
-	<string name="app_name">ROM Manager</string>
-	<string name="app_name_premium">ROM Manager Premium</string>
+	<string name="app_name">韌體管理員</string>
+	<string name="app_name_premium">韌體管理員（豪華版）</string>
 	
 	<string name="coming_soon">Coming soon!</string>
 	
 	<string-array name="manage_options">
-		<item>Restore</item>
-		<item>Rename</item>
-		<item>Delete</item>
+		<item>還原</item>
+		<item>重新命名</item>
+		<item>刪除</item>
 	</string-array>
 		
 	<string-array name="install_options">
-		<item>Backup Existing ROM</item>
-		<item>Wipe Data and Cache</item>
+		<item>備份系統上的韌體</item>
+		<item>清除資料（Data）及快取（Cache）分區</item>
 	</string-array>
 
-	<string name="restore_options">Restore Options</string>
+	<string name="restore_options">還原選項</string>
 
 	<string-array name="restore_partitions">
-		<item>Restore Boot</item>
-		<item>Restore System</item>
-		<item>Restore Data</item>
-		<item>Restore Cache</item>
-		<item>Restore SD-Ext</item>
+		<item>只還原 啓動（Boot）分區</item>
+		<item>只還原 系統（System）分區</item>
+		<item>只還原 資料（Data）分區</item>
+		<item>只還原 快取（Cache）分區</item>
+		<item>只還原 SD-Ext 分區</item>
 	</string-array>
 
 	<string-array name="ext_size_options">
