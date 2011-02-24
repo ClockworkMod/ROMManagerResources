@@ -258,8 +258,8 @@
         <string name="buy_premium">Acquista Premium</string>
 	
 	<string-array name="purchase_options">
-		<item>Android Market (Raccomandato)</item>
-		<item>PayPal (Per chi è senza Android Market)</item>
+		<item>PayPal ($3.99)</item>
+		<item>Android Market ($4.99)</item>
 	</string-array>
 
         <string name="device_id">ID Dispositivo</string>
@@ -272,4 +272,12 @@
 	<string name="web_connect">Web Connect</string>
 	<string name="web_connect_error">Si è verificato un errore nel tentativo di impostare il tuo account web connect.</string>
 	<string name="web_connect_success">Puoi scaricare ROM direttamente sul tuo telefono se il thread della ROM lo supporta.</string>
+       <string name="download_in_progress">È in corso il download di una ROM. Annullare il download?</string>
+	
+	<string name="yes">Si</string>
+	<string name="no">No</string>
+
+    <string name="no_device_id">Gli acquisti tramite PayPal non sono disponibili per questo dispositivo!</string>
+    <string name="downloading">Il tuo download è iniziato...\nPuoi vederne i progressi nella barra delle notifiche!</string>
+    <string name="rom_manager_downloading">Download Iniziato</string>
 </resources>
