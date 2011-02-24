@@ -3,14 +3,14 @@
 	<string name="rom_management">ROM管理員</string>
 	<string name="install_rom">從SD卡安裝ROM</string>
 	<string name="download_rom">下載ROM</string>
-	<string name="check_updates">檢查更新ROM</string>
+	<string name="check_updates">檢查ROM更新</string>
 	<string name="backup_and_restore">備份及還原</string>
 	<string name="manage_and_restore_backups">管理及還原備份</string>
 	<string name="backup_current_rom">備份目前的ROM</string>
 
-	<string name="no_connection">無法與伺服器連線並下載ROM.請確認網路連線正常以及SD卡空間足夠.</string>
+	<string name="no_connection">無法與伺服器建立連線及下載ROM。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
 
-	<string name="brick_warning">ROM管理員(ROM Manager) is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
+	<string name="brick_warning">ROM管理員(ROM Manager)對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按下Press OK to agree. Press Cancel to exit the application.</string>
 
 	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
 	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
