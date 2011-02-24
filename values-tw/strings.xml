@@ -10,10 +10,10 @@
 
 	<string name="no_connection">無法與伺服器建立連線及下載韌體。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
 
-	<string name="brick_warning">韌體管理員（ROM Manager）對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
+	<string name="brick_warning">韌體管理員對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
 
 	<string name="ota_not_supported">你所使用的韌體並不支援無線更新。請聯絡這個韌體的開發人員！</string>
-	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員（ROM Manager）的臭蟲，所以請不要聯絡本程式的開發人員！</string>
+	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員的臭蟲，所以請不要聯絡本程式的開發人員！</string>
 	<string name="current_rom">現在系統安裝的韌體：%s</string>
 
 	<string name="donate">捐款</string>
@@ -47,7 +47,7 @@
 	<string name="app_name">韌體管理員</string>
 	<string name="app_name_premium">韌體管理員（豪華版）</string>
 	
-	<string name="coming_soon">Coming soon!</string>
+	<string name="coming_soon">這功能快將完成！</string>
 	
 	<string-array name="manage_options">
 		<item>還原</item>
@@ -84,49 +84,49 @@
 		<item>256MB</item>
 	</string-array>
 
-	<string name="partition_ext_size">Ext Size</string>
-	<string name="partition_swap_size">Swap Size</string>
-	<string name="partition_sdcard">Partition SD Card</string>
-	<string name="partition_sdcard_summary">Partition your SD Card to enable installation of applications on your SD for supported ROMs.</string>
-	<string name="partition_sdcard_warning">Partitioning your SD Card will wipe ALL the data on your card. Are you sure you want to reboot and continue?</string>
+	<string name="partition_ext_size">Ext 分區大小</string>
+	<string name="partition_swap_size">Swap 分區大小</string>
+	<string name="partition_sdcard">SD卡磁碟分割</string>
+	<string name="partition_sdcard_summary">對SD卡進行磁碟分割，讓某些韌體能把程式安裝到SD卡上。</string>
+	<string name="partition_sdcard_warning">警告！對SD卡進行磁碟分割會清除SD卡上所有的資料，請另作備份。你是否確定要立即重新啓動你的手機並對SD卡進行磁碟分割？</string>
 
-	<string name="manifests_no_roms">There are no ROMs available for your phone yet! Ask your favorite developers to get listed on ROM Manager for free!</string>
+	<string name="manifests_no_roms">噢！韌體管理員找不到適合你的手機的韌體。請聯絡你最愛的韌體旳開發人員，並請他們把韌體放到韌體管理員的資料庫內，讓安裝過程更簡單方便！</string>
 	
-	<string name="preinstallation">ROM Pre-Installation</string>
+	<string name="preinstallation">安裝韌體前的準備工作</string>
 	
-	<string name="download_cache_cleared">Your download cache has been cleared.</string>
+	<string name="download_cache_cleared">下載快取已被清除。</string>
 	
-	<string name="manifests_unavailable">Error occurred while downloading the Developer list.</string>
-	<string name="manifests_error">Error occurred while processing the Developer list!</string>
+	<string name="manifests_unavailable">下載韌體清單時，發生錯誤！</string>
+	<string name="manifests_error">處理已下載的韌體清單時，發生錯誤！</string>
 	
-	<string name="roms_unavailable">Error occurred while downloading the ROM list! Please contact the developer of this ROM.</string>
-	<string name="roms_error">Error occurred while processing the ROM list!</string>
-	<string name="rom_error">Error occurred while processing this ROM!</string>
-	<string name="rom_addons">ROM Addons</string>
-	<string name="rom_download_error">Error occurred while downloading this ROM!</string>
-	<string name="rom_download_error_short">ROM Download Error</string>
-	<string name="rom_download_complete">ROM Download Complete</string>
+	<string name="roms_unavailable">下載韌體版本清單時，發生錯誤！請聯絡該韌體的開發人員。</string>
+	<string name="roms_error">處理已下載的韌體版本清單時，發生錯誤！</string>
+	<string name="rom_error">處理已下載的韌體檔案時，發生錯誤！</string>
+	<string name="rom_addons">韌體的附加元件</string>
+	<string name="rom_download_error">下載韌體時，發生錯誤！</string>
+	<string name="rom_download_error_short">韌體下載錯誤</string>
+	<string name="rom_download_complete">成功下載韌體</string>
 	
-	<string name="restore">Restore</string>
-	<string name="confirm_restore">Are you sure you want to reboot your phone and restore your backup?</string>
+	<string name="restore">還原</string>
+	<string name="confirm_restore">你確定要重新啓動你的手機，並從備份中還原嗎？</string>
 
-	<string name="reboot_recovery">Reboot into Recovery</string>
-	<string name="reboot_into_recovery">Boot into Recovery mode for manual management.</string>
-	<string name="confirm_reboot">Are you sure you want to reboot into ClockworkMod Recovery?</string>
-	<string name="confirm_reboot_alternate">Are you sure you want to reboot into %s?</string>
+	<string name="reboot_recovery">重新啓動至還原模式</string>
+	<string name="reboot_into_recovery">重新啓動至還原模式，讓你自行手動管理。</string>
+	<string name="confirm_reboot">你確定要重新啓動你的手機，並進入 ClockworkMod Recovery 嗎？</string>
+	<string name="confirm_reboot_alternate">你確定要重新啓動你的手機，並進入 %s 嗎？</string>
 	
-	<string name="confirm_reboot_and_install">Press OK to reboot into ClockworkMod Recovery and continue the installation.</string>
-	<string name="restart_and_install">Reboot And Install</string>
+	<string name="confirm_reboot_and_install">按確定來重新啓動你的手機，進入 ClockworkMod Recovery，然後繼續安裝。</string>
+	<string name="restart_and_install">重新啓動後繼續安裝</string>
 	
-	<string name="recovery_clockworkmod_yours">Current Recovery: ClockworkMod %s</string>
-	<string name="recovery_alternate_yours">Current Recovery: %s</string>
-	<string name="recovery_latest">Latest Recovery: ClockworkMod %s</string>
+	<string name="recovery_clockworkmod_yours">已安裝的版本：ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">已安裝的版本：%s</string>
+	<string name="recovery_latest">最新的版本：ClockworkMod %s</string>
 
-	<string name="recovery">Recovery</string>
-	<string name="flash_recovery">Flash ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">An error occurred while flashing your recovery.</string>
-	<string name="download_recovery_error">An error occurred while downloading your recovery.</string>
-	<string name="download_recovery_success">Successfully downloaded ClockworkMod recovery!</string>
+	<string name="recovery">還原工具</string>
+	<string name="flash_recovery">安裝 ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">安裝還原工具時，發生錯誤。</string>
+	<string name="download_recovery_error">下載還原工具時，發生錯誤。</string>
+	<string name="download_recovery_success">成功下載 ClockworkMod recovery！</string>
 	<string name="flash_manual">Manual Flash Override</string>
 	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
 	<string name="flash_recovery_success">Successfully flashed ClockworkMod recovery!</string>
