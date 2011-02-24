@@ -10,7 +10,7 @@
 
 	<string name="no_connection">無法與伺服器建立連線及下載韌體。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
 
-	<string name="brick_warning">韌體管理員對於你可能對你手機造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
+	<string name="brick_warning">韌體管理員對於你可能對你電話造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
 
 	<string name="ota_not_supported">你所使用的韌體並不支援無線更新。請聯絡這個韌體的開發人員！</string>
 	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員的臭蟲，所以請不要聯絡本程式的開發人員！</string>
@@ -24,7 +24,7 @@
 	<string name="fixing_permissions">修復權限...</string>
 	<string name="fix_permissions_detail">修復檔案系統的權限，通常可以解決其他程式強制關閉的問題。</string>
 	
-	<string name="fix_permissions_done">已修復權限！請重新啓動你的手機。</string>
+	<string name="fix_permissions_done">已修復權限！請重新啓動你的電話。</string>
 
 	<string name="download_rom_premium">請升級至韌體管理員（豪華版）來存取完整的韌體列表！</string>
 	
@@ -32,11 +32,11 @@
 	<string name="no_update">你的韌體並未有任何可用的更新。</string>
 	<string name="update_available">你的韌體已經有可用的更新。</string>
 	<string name="updated_rom">請按確定來把你的韌體更新至以下版本：%s</string>
-	<string name="update_recovery_available">ClockworkMod Recovery 已經有可用的更新。</string>
+	<string name="update_recovery_available">ClockworkMod Recovery已經有可用的更新。</string>
 	
 	<string name="upgrade">請將韌體管理員更新至最新版本！</string>
 
-	<string name="recovery_update_required">ClockworkMod Recovery 已經有可用的更新。請先更新ClockworkMod Recovery，然後才能繼續使用韌體管理員！</string>
+	<string name="recovery_update_required">ClockworkMod Recovery已經有可用的更新。請先更新ClockworkMod Recovery，然後才能繼續使用韌體管理員！</string>
 
 	<string name="edit_backup_name">重新命名備份</string>
 	<string name="new_backup_name">請輸入新的備份檔檔名</string>
@@ -57,7 +57,7 @@
 		
 	<string-array name="install_options">
 		<item>備份系統上的韌體</item>
-		<item>清除資料（Data）及快取（Cache）分區</item>
+		<item>清除 資料（Data）及 快取（Cache）分區</item>
 	</string-array>
 
 	<string name="restore_options">還原選項</string>
@@ -84,38 +84,38 @@
 		<item>256MB</item>
 	</string-array>
 
-	<string name="partition_ext_size">Ext 分區大小</string>
-	<string name="partition_swap_size">Swap 分區大小</string>
+	<string name="partition_ext_size">Ext分區大小</string>
+	<string name="partition_swap_size">Swap分區大小</string>
 	<string name="partition_sdcard">SD卡磁碟分割</string>
 	<string name="partition_sdcard_summary">對SD卡進行磁碟分割，讓某些韌體能把程式安裝到SD卡上。</string>
-	<string name="partition_sdcard_warning">警告！對SD卡進行磁碟分割會清除SD卡上所有的資料，請另作備份。你是否確定要立即重新啓動你的手機並對SD卡進行磁碟分割？</string>
+	<string name="partition_sdcard_warning">警告！對SD卡進行磁碟分割會清除SD卡上所有的資料，請另作備份。你是否確定要立即重新啓動你的電話並對SD卡進行磁碟分割？</string>
 
-	<string name="manifests_no_roms">噢！韌體管理員找不到適合你的手機的韌體。請聯絡你最愛的韌體旳開發人員，並請他們把韌體放到韌體管理員的資料庫內，讓安裝過程更簡單方便！</string>
+	<string name="manifests_no_roms">噢！韌體管理員找不到適合你的電話的韌體。請聯絡你最愛的韌體旳開發人員，並請他們把韌體放到韌體管理員的資料庫內，讓安裝過程更簡單方便！</string>
 	
 	<string name="preinstallation">安裝韌體前的準備工作</string>
 	
 	<string name="download_cache_cleared">下載快取已被清除。</string>
 	
-	<string name="manifests_unavailable">下載韌體清單時，發生錯誤！</string>
-	<string name="manifests_error">處理已下載的韌體清單時，發生錯誤！</string>
+	<string name="manifests_unavailable">下載韌體清單時發生錯誤！</string>
+	<string name="manifests_error">處理已下載的韌體清單時發生錯誤！</string>
 	
-	<string name="roms_unavailable">下載韌體版本清單時，發生錯誤！請聯絡該韌體的開發人員。</string>
-	<string name="roms_error">處理已下載的韌體版本清單時，發生錯誤！</string>
-	<string name="rom_error">處理已下載的韌體檔案時，發生錯誤！</string>
+	<string name="roms_unavailable">下載韌體版本清單時發生錯誤！請聯絡該韌體的開發人員。</string>
+	<string name="roms_error">處理已下載的韌體版本清單時發生錯誤！</string>
+	<string name="rom_error">處理已下載的韌體檔案時發生錯誤！</string>
 	<string name="rom_addons">韌體的附加元件</string>
-	<string name="rom_download_error">下載韌體時，發生錯誤！</string>
+	<string name="rom_download_error">下載韌體時發生錯誤！</string>
 	<string name="rom_download_error_short">韌體下載錯誤</string>
 	<string name="rom_download_complete">成功下載韌體</string>
 	
 	<string name="restore">還原</string>
-	<string name="confirm_restore">你確定要重新啓動你的手機，並從備份中還原嗎？</string>
+	<string name="confirm_restore">你是否確定要重新啓動你的電話，並從備份中還原嗎？</string>
 
 	<string name="reboot_recovery">重新啓動至還原模式</string>
 	<string name="reboot_into_recovery">重新啓動至還原模式，讓你自行手動管理。</string>
-	<string name="confirm_reboot">你確定要重新啓動你的手機，並進入 ClockworkMod Recovery 嗎？</string>
-	<string name="confirm_reboot_alternate">你確定要重新啓動你的手機，並進入 %s 嗎？</string>
+	<string name="confirm_reboot">你是否確定要重新啓動你的電話，並進入ClockworkMod Recovery嗎？</string>
+	<string name="confirm_reboot_alternate">你是否確定要重新啓動你的電話，並進入 %s 嗎？</string>
 	
-	<string name="confirm_reboot_and_install">按確定來重新啓動你的手機，進入 ClockworkMod Recovery，然後繼續安裝。</string>
+	<string name="confirm_reboot_and_install">按確定來重新啓動你的電話，進入ClockworkMod Recovery，然後繼續安裝。</string>
 	<string name="restart_and_install">重新啓動後繼續安裝</string>
 	
 	<string name="recovery_clockworkmod_yours">已安裝的版本：ClockworkMod %s</string>
@@ -123,126 +123,126 @@
 	<string name="recovery_latest">最新的版本：ClockworkMod %s</string>
 
 	<string name="recovery">還原工具</string>
-	<string name="flash_recovery">安裝 ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">安裝還原工具時，發生錯誤。</string>
-	<string name="download_recovery_error">下載還原工具時，發生錯誤。</string>
-	<string name="download_recovery_success">成功下載 ClockworkMod recovery！</string>
+	<string name="flash_recovery">安裝ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">安裝還原工具時發生錯誤。</string>
+	<string name="download_recovery_error">下載還原工具時發生錯誤。</string>
+	<string name="download_recovery_success">成功下載ClockworkMod Recovery！</string>
 	<string name="flash_manual">Manual Flash Override</string>
 	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
-	<string name="flash_recovery_success">Successfully flashed ClockworkMod recovery!</string>
-	<string name="flash_alternate_recovery_success">Successfully flashed recovery!</string>
-	<string name="confirm_device">Confirm Phone Model</string>
-	<string name="do_this_first">You must have the ClockworkMod Recovery installed to flash and restore ROMs!</string>
-	<string name="flash_recovery_require">You must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
-	<string name="install">Install</string>
+	<string name="flash_recovery_success">成功安裝ClockworkMod Recovery！</string>
+	<string name="flash_alternate_recovery_success">成功安裝還原工具！</string>
+	<string name="confirm_device">請確定你的電話的型號</string>
+	<string name="do_this_first">若要安裝韌體，進行韌體備份或還原，必需先安裝ClockworkMod Recovery！</string>
+	<string name="flash_recovery_require">若要繼續，請先安裝ClockworkMod Recovery！若還未安裝，請先透過韌體管理員安裝。</string>
+	<string name="install">安裝</string>
 	
-	<string name="clear_cache">Clear Download Cache</string>
-	<string name="clear_cache_confirm">Caching downloads makes your ROM installations much faster. Are you sure you want to clear your download cache?</string>
+	<string name="clear_cache">清除下載快取</string>
+	<string name="clear_cache_confirm">下載快取可以讓你更快速地安裝韌體。你是否確定要清除下載快取嗎？</string>
 
-	<string name="backup">Backup</string>
-	<string name="confirm_backup">Are you sure you want to reboot your phone and backup your ROM?</string>
-	<string name="script_error">An error occurred while attempting to run privileged commands!</string>
-	<string name="backup_error">Please choose a unique and valid filename for your backup.</string>
+	<string name="backup">備份</string>
+	<string name="confirm_backup">你是否確定要重新啓動你的電話並備份系統內的韌體嗎？</string>
+	<string name="script_error">執行需要特權的指命時發生錯誤！</string>
+	<string name="backup_error">請為這個備份指定一個獨特而有效的檔名。</string>
 	
-	<string name="flash_alternate">Flash Alternate Recovery</string>
-	<string name="flash_alternate_warning">Are you sure you want to flash an alternate recovery? ROM Manager features will be made unavailable until you flash back to ClockworkMod Recovery.</string>
-	<string name="flash_alternate_unavailable">No alternate recovery available.</string>
-	<string name="flash_legacy_and_experimental">All ClockworkMod Recoveries</string>
-	<string name="flash_legacy_and_experimental_summary">Flash older and experimental versions of ClockworkMod Recovery.</string>
-	<string name="flash_legacy_unavailable">No legacy recoveries found. Are you connected to the internet?"</string>
+	<string name="flash_alternate">安裝其他還原工具</string>
+	<string name="flash_alternate_warning">你是否確定要安裝其他還原工具？一旦安裝，韌體管理員將會失效，直至你重新安裝ClockworkMod Recovery。</string>
+	<string name="flash_alternate_unavailable">暫時未有其他還原工具可供安裝。</string>
+	<string name="flash_legacy_and_experimental">全部ClockworkMod Recovery版本</string>
+	<string name="flash_legacy_and_experimental_summary">安裝舊版或是測試版的ClockworkMod Recovery。</string>
+	<string name="flash_legacy_unavailable">找不到舊版的ClockworkMod Recovery，你是否已連接到互聯網？</string>
 	
-	<string name="developer_mode">Advanced Mode</string>
-	<string name="developer_mode_details">Advanced Mode is not meant for all users. Advanced mode will get you access to the latest recoveries, experimental ROMs, and other various unstable, but bleeding edge features. Advanced mode should be used with caution and is only recommended for users comfortable with ADB.</string>
-	<string name="developer_mode_on">Advanced Mode is enabled.</string>
-	<string name="developer_mode_off">Advanced Mode is disabled.</string>
-	<string name="developer_mode_summary">This is available once you enable Advanced Mode from the ROM Manager Main menu.</string>
+	<string name="developer_mode">進階模式</string>
+	<string name="developer_mode_details">並不是所有使用者都適合使用進階模式。進階模式讓你能安裝最新的還原工具，測試版韌體，以及其他不穩定的新功能。請小心使用。韌體管理員建議除非你對ADB指令很熟悉，否則不要使用進階模式。</string>
+	<string name="developer_mode_on">進階模式已被啓用。</string>
+	<string name="developer_mode_off">進階模式已被停用。</string>
+	<string name="developer_mode_summary">這功能只會在進階模式下使用。請在韌體管理員的功能表內啓用進階模式。</string>
 	
-	<string name="premium_required_to_download">The Premium version of ROM Manager is required to download this Developer\'s ROMs!</string>
+	<string name="premium_required_to_download">只有韌體管理員（豪華版）才能下載這個韌體！</string>
 	
-	<string name="free_header">Free</string>
-	<string name="premium_header">Premium</string>
+	<string name="free_header">免費版</string>
+	<string name="premium_header">豪華版</string>
 	
-	<string name="update_notifications">Update Notifications</string>
-	<string name="update_notifications_enabled">Update notifications are enabled.</string>
-	<string name="update_notifications_disabled">Update notifications are disabled.</string>
+	<string name="update_notifications">更新通知</string>
+	<string name="update_notifications_enabled">更新通知已被啓用。</string>
+	<string name="update_notifications_disabled">更新通知已被停用。</string>
 	
-	<string name="rom_manager_settings">ROM Manager Settings</string>
-	<string name="settings">Settings</string>
+	<string name="rom_manager_settings">韌體管理員設定</string>
+	<string name="settings">設定</string>
 	
-	<string name="more_recoveries">More Recoveries</string>
+	<string name="more_recoveries">更多回復工具</string>
 	
-	<string name="sdcard_not_mounted">SD Card Not Mounted</string>
-	<string name="sdcard_needs_to_be_mounted">The SD Card needs to be mounted to use ROM Manager!</string>
+	<string name="sdcard_not_mounted">系統未掛截SD卡</string>
+	<string name="sdcard_needs_to_be_mounted">請先掛截SD卡，否則韌體管理員不能正常運作！</string>
 	
-	<string name="automatic_backup_time">Backup Time</string>
-	<string name="automatic_backup_frequency">Backup Frequency</string>
+	<string name="automatic_backup_time">備份時間</string>
+	<string name="automatic_backup_frequency">備份頻率</string>
 	<string-array name="automatic_backup_frequencies">
-		<item>Daily</item>
-		<item>Every Two Days</item>
-		<item>Every Three Days</item>
-		<item>Every Four Days</item>
-		<item>Every Five Days</item>
-		<item>Every Six Days</item>
-		<item>Every Seven Days</item>
+		<item>每日</item>
+		<item>每隔兩天</item>
+		<item>每隔三天</item>
+		<item>每隔四天</item>
+		<item>每隔五天</item>
+		<item>每隔六天</item>
+		<item>每隔一星期</item>
 	</string-array>
-	<string name="automatic_backup">Automatic Backup</string>
-	<string name="automatic_backup_disabled">Automatic Backup is disabled.</string>
-	<string name="automatic_backup_summary">The next Automatic Backup will take place on %s.</string>
+	<string name="automatic_backup">自動備份</string>
+	<string name="automatic_backup_disabled">自動備份已被停用。</string>
+	<string name="automatic_backup_summary">下一次的自動備份將於%s開始。</string>
 	
-	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
+	<string name="no_su">在\"/system/bin/su\"或\"/system/xbin/su\"內找不到Superuser程式。請先替你的電話取得root權限，否則韌體管理員不能正常運作！如要了解關於如何為你的電話取得root權限，請到Google搜尋。</string>
 	
-	<string name="invalid_license">Invalid License</string>
-	<string name="invalid_license_text">Your ROM Manager License is outdated. Please reinstall ROM Manager via the Market.</string>
+	<string name="invalid_license">無效的授權</string>
+	<string name="invalid_license_text">韌體管理員的授權已經過期，請重新安裝韌體管理員。</string>
 	
-	<string name="changelog">Changelog</string>
+	<string name="changelog">更新記錄</string>
 	
-	<string name="new_features">New Features</string>
+	<string name="new_features">新功能</string>
 	
-	<string name="install_from_qrcode">Install from QR Code</string>
+	<string name="install_from_qrcode">透過QR碼安裝韌體</string>
 	
 	<string name="qrcode_download">QR Code Download</string>
-	<string name="qrcode_summary">Take a picture to install a ROM. Requires the free Barcode Scanner application.</string>
-	<string name="qrcode_premium_required">You need the Premium version of ROM Manager to install ROMs from QR Codes!</string>
-	<string name="qrcode_not_installed">Missing Barcode Scanner</string>
-	<string name="qrcode_install">You must have Barcode Scanner installed to use this feature! Press OK to install free Barcode scanner application from the Market.</string>
+	<string name="qrcode_summary">透過你電話上的相機來安裝韌體。需要先安裝Barcode Scanner程式（免費）。</string>
+	<string name="qrcode_premium_required">只有韌體管理員（豪華版）才能透過QR碼安裝韌體！</string>
+	<string name="qrcode_not_installed">找不到Barcode Scanner程式</string>
+	<string name="qrcode_install">若要透過QR碼安裝韌體，你必需安裝Barcode Scanner程式。按確定來安裝Barcode Scanner程式。</string>
 	
-	<string name="flash_recovery_confirm_title">Flash Recovery?</string>
-	<string name="flash_recovery_confirm">Are you sure you wish to replace your recovery?</string>
+	<string name="flash_recovery_confirm_title">安裝回復工具？</string>
+	<string name="flash_recovery_confirm">你是否確定要安裝並取代現有的回復工具？</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics will send anonymous usage statistics to help make ROM Manager a better app! By pressing OK, you state that you understand that anonymous usage information will be sent to Google and the developers of ROM Manager.</string>
-	<string name="analytics_on">Google Analytics is on. Thanks for helping make ROM Manager a better app!</string>
-	<string name="analytics_off">Google Analytics is off. You should turn this on!</string>
+	<string name="analytics_details">Google Analytics會傳送一些匿名的使用數據來協助韌體管理員的開發。當你按下確定，即表示你已清楚了解該些匿名使用數據將會傳送至Google及韌體管理員的開發人員。</string>
+	<string name="analytics_on">Google Analytics已被啓用。有了你的協助，韌體管理員會做得更好！謝謝！</string>
+	<string name="analytics_off">Google Analytics已被停用。請考慮啓用它。</string>
 	
-	<string name="fast_nandroid">Quick Backup and Restore</string>
-	<string name="fast_nandroid_on">Progress bars in Backup and Restore are disabled for speed.</string>
-	<string name="fast_nandroid_off">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
+	<string name="fast_nandroid">快速備份及還原</string>
+	<string name="fast_nandroid_on">備份及還原的進度條已被停用，這可以加快備份及還原的過程。</string>
+	<string name="fast_nandroid_off">備份及還原的進度條已被啓用。停用它可以加快備份及還原的過程。</string>
 
-	<string name="credits">Credits</string>
-	<string name="credits_summary">Written by Koushik Dutta.</string>
+	<string name="credits">開發人員</string>
+	<string name="credits_summary">由Koushik Dutta編寫。</string>
 
-	<string name="erase_recovery">Erase Recovery</string>
-	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
-	<string name="erase_recovery_off">Recovery will not be erased prior to flashing.</string>
+	<string name="erase_recovery">清除現有的還原工具</string>
+	<string name="erase_recovery_on">安裝新的還原工具前，現有的還原工具會先被清除。</string>
+	<string name="erase_recovery_off">安裝新的還原工具前，現有的還原工具不會先被清除。</string>
 	
-	<string name="install_queue">Install Queue:</string>
-	<string name="add_another_zip">Add Zip</string>
+	<string name="install_queue">安裝隊列：</string>
+	<string name="add_another_zip">新增此ZIP檔到隊列中</string>
 	
-	<string name="report_error">Report Error</string>
-	<string name="report_error_message">An error occurred while in recovery mode. Would you like to report it? Please do not report the same error multiple times!</string>
+	<string name="report_error">錯誤報告</string>
+	<string name="report_error_message">在還原模式中發生了一些錯誤。請問你想要回報給開發人員嗎？（請不要把同一錯誤重覆回報）</string>
 	
-	<string name="screenshots">Screenshots</string>
-	<string name="download">Download</string>
+	<string name="screenshots">屏幕截圖</string>
+	<string name="download">下載</string>
 	
-	<string name="loading">Loading...</string>
+	<string name="loading">載入中...</string>
 	
-	<string name="corrupt">Corrupt zip file.</string>
+	<string name="corrupt">ZIP檔已損壞。</string>
 	
-	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
-	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
+	<string name="no_spaces">韌體管理員未能成功開啓這個檔案。請確定檔案路徑及檔名中沒有空白字元。或者，你可嘗試進入修復模式手動操作。</string>
+	<string name="no_md5">這個檔案欠缺了MD5校對碼檔案，似乎不是一個有效的備份檔。</string>
 	
-	<string name="showads">Show Advertisements</string>
-	<string name="showads_summary">Help support ROM Manager! (Changes require application restart.)</string>
+	<string name="showads">顯示廣告</string>
+	<string name="showads_summary">協助支持韌體管理員的持續開發！（變更將在重新啓動應用程式後生效）</string>
 
 	<string name="recovery_failure">Recovery Failure</string>
 	<string-array name="recovery_failures">
