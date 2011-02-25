@@ -8,7 +8,7 @@
 	<string name="manage_and_restore_backups">백업과 복원 관리</string>
 	<string name="backup_current_rom">현재 ROM 백업</string>
 
-	<string name="no_connection"서버에서 다운받는 동안 오류가 발생했습니다. 무선 접속망의 상태가 안정적인지 SD카드에 문제(용량 등)가 없는지 확인하세요!</string>
+	<string name="no_connection">서버에서 다운받는 동안 오류가 발생했습니다. 무선 접속망의 상태가 안정적인지 SD카드에 문제(용량 등)가 없는지 확인하세요!</string>
 
 	<string name="brick_warning">ROM Manager는 사용중인 단말기에서 발생하는 손상에 책임을 지지 않습니다. 루팅된 단말기의 보증은 무효처리 됩니다. 롬 매니저에서 장난은 위험합니다. 또한 응용프로그램의 개선을 위해 Google Analytics로 익명의 자료를 보낼 수 있습니다. 동의 하시려면 Agree, 취소 하시려면 Cancel을 누르세요.</string>
 
@@ -282,7 +282,7 @@
     <string name="no_device_id">PayPal의 구매는 이 단말기에서 지원하지 않습니다.</string>
     
     <string name="downloading">다운로드가 시작 되었습니다...\n알림 영역에서 진행 상황을 볼 수 있습니다.</string>
-    <string name="rom_manager_downloading">다운로드 시작/string>
+    <string name="rom_manager_downloading">다운로드 시작</string>
     
     <string name="verify_custom_flashed">다른 패키지를 설치합니다. ClockworkMod 복구 모드가 제대로 작동하지 않을 수 있습니다. 계속 하시겠습니까?</string>
     
