@@ -10,10 +10,10 @@
 
 	<string name="no_connection">無法與伺服器建立連線及下載韌體。請檢查你的網路連線以及確保你的SD卡有足夠的可用空間。</string>
 
-	<string name="brick_warning">韌體管理員對於你可能對你電話造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。ROM管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
+	<string name="brick_warning">韌體管理員對於你可能對你電話造成的損壞不負任何形式的負任。當你取得root權限時，你有可能已經喪失保固。請記住，對userspace外的部分做任何改動都是帶有風險的。韌體管理員可能會傳送一些匿名的使用數據至Google Analytics來協助改良這程式。請按確定來繼續，按取消來退出這程式。</string>
 
 	<string name="ota_not_supported">你所使用的韌體並不支援無線更新。請聯絡這個韌體的開發人員！</string>
-	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員的臭蟲，所以請不要聯絡本程式的開發人員！</string>
+	<string name="ota_not_supported_extended">你所使用的韌體並不支援無線更新。這個韌體的開發人員需要對韌體作出一些修改才能支援無線更新。請聯絡這個韌體的開發人員！請注意，這並不是韌體管理員的缺陷，所以請不要聯絡本程式的開發人員！</string>
 	<string name="current_rom">現在系統安裝的韌體：%s</string>
 
 	<string name="donate">捐款</string>
@@ -127,8 +127,8 @@
 	<string name="flash_recovery_error">安裝還原工具時發生錯誤。</string>
 	<string name="download_recovery_error">下載還原工具時發生錯誤。</string>
 	<string name="download_recovery_success">成功下載ClockworkMod Recovery！</string>
-	<string name="flash_manual">Manual Flash Override</string>
-	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
+	<string name="flash_manual">手動安裝還原工具</string>
+	<string name="flash_recovery_override">無法使用韌體管理員安裝還原工具嗎？請按 確認來手動安裝還原工具</string>
 	<string name="flash_recovery_success">成功安裝ClockworkMod Recovery！</string>
 	<string name="flash_alternate_recovery_success">成功安裝還原工具！</string>
 	<string name="confirm_device">請確定你的電話的型號</string>
@@ -149,7 +149,7 @@
 	<string name="flash_alternate_unavailable">暫時未有其他還原工具可供安裝。</string>
 	<string name="flash_legacy_and_experimental">全部ClockworkMod Recovery版本</string>
 	<string name="flash_legacy_and_experimental_summary">安裝舊版或是測試版的ClockworkMod Recovery。</string>
-	<string name="flash_legacy_unavailable">找不到舊版的ClockworkMod Recovery，你是否已連接到互聯網？</string>
+	<string name="flash_legacy_unavailable">找不到舊版的ClockworkMod Recovery，你是否已連接到網際網路？</string>
 	
 	<string name="developer_mode">進階模式</string>
 	<string name="developer_mode_details">並不是所有使用者都適合使用進階模式。進階模式讓你能安裝最新的還原工具，測試版韌體，以及其他不穩定的新功能。請小心使用。韌體管理員建議除非你對ADB指令很熟悉，否則不要使用進階模式。</string>
@@ -171,7 +171,7 @@
 	
 	<string name="more_recoveries">更多回復工具</string>
 	
-	<string name="sdcard_not_mounted">系統未掛截SD卡</string>
+	<string name="sdcard_not_mounted">系統尚未掛截SD卡</string>
 	<string name="sdcard_needs_to_be_mounted">請先掛截SD卡，否則韌體管理員不能正常運作！</string>
 	
 	<string name="automatic_backup_time">備份時間</string>
@@ -206,8 +206,8 @@
 	<string name="qrcode_not_installed">找不到Barcode Scanner程式</string>
 	<string name="qrcode_install">若要透過QR碼安裝韌體，你必需安裝Barcode Scanner程式。按確定來安裝Barcode Scanner程式。</string>
 	
-	<string name="flash_recovery_confirm_title">安裝回復工具？</string>
-	<string name="flash_recovery_confirm">你是否確定要安裝並取代現有的回復工具？</string>
+	<string name="flash_recovery_confirm_title">安裝還原工具？</string>
+	<string name="flash_recovery_confirm">你是否確定要安裝並取代現有的還原工具？</string>
 	
 	<string name="analytics">Google Analytics</string>
 	<string name="analytics_details">Google Analytics會傳送一些匿名的使用數據來協助韌體管理員的開發。當你按下確定，即表示你已清楚了解該些匿名使用數據將會傳送至Google及韌體管理員的開發人員。</string>
@@ -231,7 +231,7 @@
 	<string name="report_error">錯誤報告</string>
 	<string name="report_error_message">在還原模式中發生了一些錯誤。請問你想要回報給開發人員嗎？（請不要把同一錯誤重覆回報）</string>
 	
-	<string name="screenshots">屏幕截圖</string>
+	<string name="screenshots">營幕截圖</string>
 	<string name="download">下載</string>
 	
 	<string name="loading">載入中...</string>
@@ -244,11 +244,11 @@
 	<string name="showads">顯示廣告</string>
 	<string name="showads_summary">協助支持韌體管理員的持續開發！（變更將在重新啓動應用程式後生效）</string>
 
-	<string name="recovery_failure">Recovery Failure</string>
+	<string name="recovery_failure">還原工具錯誤</string>
 	<string-array name="recovery_failures">
-		<item>Recovery mode is \"broken\".</item>
-		<item>ROM Manager doesn\'t reboot.</item>
-		<item>Other.</item>
+		<item>還原模式 \"故障\"</item>
+		<item>韌體管理員 無法重新啓動</item>
+		<item>其他</item>
 	</string-array>
 	
 	<string name="recovery_broken_fix">There are several ways to fix a \"broken\""" recovery:\n1) Flash an alternate or older recovery and then flash back to the current version.\n2) Try enabling "Erase Recovery" in ROM Manager\'s Settings.\n3) Try clearing the download cache via the menu and reflashing.\n4) Flash back to an older recovery.\n5)  Fastboot or SBF a recovery onto your phone from your PC.</string>
