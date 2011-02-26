@@ -30,9 +30,9 @@
 
 	<string name="premium_only">此功能唯 Permium 版用戶尊享！</string>
 	<string name="no_update">尚無適用的 ROM 更新。</string>
-	<string name="update_available">有適用的更新</string>
+	<string name="update_available">有更新可供使用</string>
 	<string name="updated_rom">按“確定”把您的 ROM 更新至最新版本：%s。</string>
-	<string name="update_recovery_available">有適用的 ClockworkMod Recovery 更新。</string>
+	<string name="update_recovery_available">有 ClockworkMod Recovery 更新可供使用。</string>
 
 	<string name="upgrade">您必須將 ROM Manager 升級至最新版本！</string>
 
@@ -124,16 +124,16 @@
 
 	<string name="recovery">Recovery</string>
 	<string name="flash_recovery">刷入 ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">刷入 recovery 時發生錯誤。</string>
-	<string name="download_recovery_error">下載 recovery 時發生錯誤。</string>
-	<string name="download_recovery_success">成功下載 ClockworkMod recovery！</string>
+	<string name="flash_recovery_error">刷入 Recovery 時發生錯誤。</string>
+	<string name="download_recovery_error">下載 Recovery 時發生錯誤。</string>
+	<string name="download_recovery_success">成功下載 ClockworkMod Recovery！</string>
 	<string name="flash_manual">覆蓋手動刷入</string>
-	<string name="flash_recovery_override">使用 ROM Manager 來刷入 recovery 時遇到問題嗎？如果您曾經手動刷入 ClockworkMod Recovery，請按“確定”。</string>
+	<string name="flash_recovery_override">使用 ROM Manager 來刷入 Recovery 時遇到問題嗎？如果您曾經手動刷入 ClockworkMod Recovery，請按“確定”。</string>
 	<string name="flash_recovery_success">成功刷入 ClockworkMod Recovery！</string>
-	<string name="flash_alternate_recovery_success">成功刷入 recovery！</string>
+	<string name="flash_alternate_recovery_success">成功刷入 Recovery！</string>
 	<string name="confirm_device">確認手機型號</string>
 	<string name="do_this_first">您必須安裝了 ClockworkMod Recovery 方能把 ROM 刷入／還原！ installed to flash and restore ROMs!</string>
-	<string name="flash_recovery_require">您必須安裝了 ClockworkMod Recovery 方能繼續！請先於 ROM Manager 安裝 recovery。</string>
+	<string name="flash_recovery_require">您必須安裝了 ClockworkMod Recovery 方能繼續！請先於 ROM Manager 安裝 Recovery。</string>
 	<string name="install">安裝</string>
 
 	<string name="clear_cache">清除下載快取</string>
@@ -145,14 +145,14 @@
 	<string name="backup_error">請為您的備份揀選一個獨特而且合法的檔案名稱。</string>
 
 	<string name="flash_alternate">刷入替代的 Recovery</string>
-	<string name="flash_alternate_warning">你確定要刷入替代的 recovery 嗎？在您重新刷入 ClockworkMod Recovery 之前，ROM Manager 會失去效用。</string>
-	<string name="flash_alternate_unavailable">沒有適用的可替代 recovery</string>
-	<string name="flash_legacy_and_experimental">所有的 ClockworkMod Recovery</string>
+	<string name="flash_alternate_warning">你確定要刷入替代的 Recovery 嗎？在您重新刷入 ClockworkMod Recovery 之前，ROM Manager 會失去效用。</string>
+	<string name="flash_alternate_unavailable">沒有適用的可替代 Recovery</string>
+	<string name="flash_legacy_and_experimental">所有 ClockworkMod Recovery</string>
 	<string name="flash_legacy_and_experimental_summary">刷入舊有的或實驗性質的 ClockworkMod Recovery 版本。</string>
 	<string name="flash_legacy_unavailable">找不到遺留下來的版本。您是否已連接到網際網路？</string>
 
 	<string name="developer_mode">進階模式</string>
-	<string name="developer_mode_details">進階模式並非為所有使用者而設。進階模式會讓您取用最新版本的 recovery，實驗性質的 ROM，以及其他各種不穩但尖端的功能。進階模式該小心地使用，而且只建議給對 ADB 感到自在的用戶使用。</string>
+	<string name="developer_mode_details">進階模式並非為所有使用者而設。進階模式會讓您取用最新版本的 Recovery，實驗性質的 ROM，以及其他各種不穩但尖端的功能。進階模式該小心地使用，而且只建議給對 ADB 感到自在的用戶使用。</string>
 	<string name="developer_mode_on">進階模式已啟用。</string>
 	<string name="developer_mode_off">進階模式已停用。</string>
 	<string name="developer_mode_summary">您要在 ROM Manager 主選單中啟用進階模式後才能選用這個。</string>
@@ -208,7 +208,7 @@
 	<string name="qrcode_install">您必須安裝好條碼掃描器來使用此功能！按“確定”從 Market 安裝免費的條碼掃描器應用程式。</string>
 
 	<string name="flash_recovery_confirm_title">要刷入 Recovery 嗎？</string>
-	<string name="flash_recovery_confirm">您確定您想要更換 recovery 嗎？</string>
+	<string name="flash_recovery_confirm">您確定您想要更換 Recovery 嗎？</string>
 
 	<string name="analytics">Google 分析</string>
 	<string name="analytics_details">Google 分析會遞交匿名的使用情況統計來幫助 ROM Manager 的進步! 按“確定”表示您了解匿名的使用情況資訊將會被提交到 Google 及 ROM Manager 的開發者。</string>
@@ -230,7 +230,7 @@
 	<string name="add_another_zip">加入壓縮檔</string>
 
 	<string name="report_error">報告錯誤</string>
-	<string name="report_error_message">有錯誤發生於 recovery 模式內。請問您願意匯報這個錯誤嗎？請勿重覆報告相同的錯誤！</string>
+	<string name="report_error_message">有錯誤發生於 Recovery 模式內。請問您願意匯報這個錯誤嗎？請勿重覆報告相同的錯誤！</string>
 
 	<string name="screenshots">螢幕截圖</string>
 	<string name="download">下載</string>
@@ -239,7 +239,7 @@
 
 	<string name="corrupt">已損毁的壓縮檔。</string>
 
-	<string name="no_spaces">ROM Manager 無法開啟此檔案。請從檔案名稱及資料夾路徑中刪除所有空白字元。又或者到 ClockworkMod recovery 中進行手動載入。</string>
+	<string name="no_spaces">ROM Manager 無法開啟此檔案。請從檔案名稱及資料夾路徑中刪除所有空白字元。又或者到 ClockworkMod Recovery 中進行手動載入。</string>
 	<string name="no_md5">這個備份似乎不合規格，缺乏了 MD5 檔案。</string>
 
 	<string name="showads">顯示廣告</string>
@@ -252,7 +252,7 @@
 		<item>其他。</item>
 	</string-array>
 
-	<string name="recovery_broken_fix">有好幾個方法能修復“已損毁”的 recovery：\n1) 刷一個替代的或較舊版本的 recovery 再刷回目前版本。\n2) 試試在 ROM Manager 的設定頁中啟用“消除 Recovery”。\n3) 試試在選單中清除下載快取後重刷一次。\n4) 刷一個較舊版本的 recovery。\n5)  從個人電腦使用 Fastboot 或 SBF 來將 recovery 刷進手機。</string>
+	<string name="recovery_broken_fix">有好幾個方法能修復“已損毁”的 Recovery：\n1) 刷一個替代的或較舊版本的 Recovery 再刷回目前版本。\n2) 試試在 ROM Manager 的設定頁中啟用“消除 Recovery”。\n3) 試試在選單中清除下載快取後重刷一次。\n4) 刷一個較舊版本的 Recovery。\n5)  從個人電腦使用 Fastboot 或 SBF 來將 Recovery 刷進手機。</string>
 	<string name="reboot_fix">某些 ROM 會配備一個已損毁的“reboot”執行檔。從個人電腦瀏覽此帖以取得更多資訊：http://bit.ly/dj9qbN。</string>
 	<string name="unknown_bug">請隨時匯報錯誤至我的電郵（koush@clockworkmod.com）！</string>
 
