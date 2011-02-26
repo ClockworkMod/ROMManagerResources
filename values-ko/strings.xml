@@ -8,7 +8,7 @@
 	<string name="manage_and_restore_backups">백업과 복원 관리</string>
 	<string name="backup_current_rom">현재 ROM 백업</string>
 
-	<string name="no_connection"서버에서 다운받는 동안 오류가 발생했습니다. 무선 접속망의 상태가 안정적인지 SD카드에 문제(용량 등)가 없는지 확인하세요!</string>
+	<string name="no_connection">서버에서 다운받는 동안 오류가 발생했습니다. 무선 접속망의 상태가 안정적인지 SD카드에 문제(용량 등)가 없는지 확인하세요!</string>
 
 	<string name="brick_warning">ROM Manager는 사용중인 단말기에서 발생하는 손상에 책임을 지지 않습니다. 루팅된 단말기의 보증은 무효처리 됩니다. 롬 매니저에서 장난은 위험합니다. 또한 응용프로그램의 개선을 위해 Google Analytics로 익명의 자료를 보낼 수 있습니다. 동의 하시려면 Agree, 취소 하시려면 Cancel을 누르세요.</string>
 
@@ -22,7 +22,7 @@
 	<string name="utilities">지원 프로그램</string>
 	<string name="fix_permissions">Permissions 수정</string>
 	<string name="fixing_permissions">Permissions을 수정중입니다...</string>
-	<string name="fix_permissions_detail">파일 시스템의 Permission 수정합니다. 이것은 종종 일어나는 강제 종료 문제를 고칩니다.</string>
+	<string name="fix_permissions_detail">파일 시스템의 Permission 수정합니다. 가끔씩 일어나는 강제 종료 문제를 고치기도 합니다.</string>
 	
 	<string name="fix_permissions_done">완료되었습니다. 단말기를 다시 시작 하셔야 합니다.</string>
 
@@ -141,13 +141,13 @@
 
 	<string name="backup">백업</string>
 	<string name="confirm_backup">단말기를 다시 시작하여, ROM 백업을 하시겠습니까?</string>
-	<string name="script_error">특수 명령을 사용하는 동중 오류가 발생하였습니다.</string>
+	<string name="script_error">특수 명령을 사용하는 도중 오류가 발생하였습니다.</string>
 	<string name="backup_error">백업에는 중복되지 않고, 올바른 이름을 사용하십시오.</string>
 	
 	<string name="flash_alternate">대체 복구 모드의 설치</string>
 	<string name="flash_alternate_warning">대체 복구 모드의 설치에 동의 하십니까? ClockworkMod 복구 모드를 다시 설치 하기 전에는, ROM Manger의 기능을 사용할 수 없습니다.</string>
 	<string name="flash_alternate_unavailable">대체 복구 모드가 없습니다.</string>
-	<string name="flash_legacy_and_experimental">ClockworkMod 복구 모드의 버전 목록 및 변경</string>
+	<string name="flash_legacy_and_experimental">ClockworkMod 복구 모드의 버전 목록</string>
 	<string name="flash_legacy_and_experimental_summary">ClockworkMod 복구 모드의 구버전과 테스트 버전의 설치</string>
 	<string name="flash_legacy_unavailable">유효한 복구 모드가 없습니다. 인터넷에 연결되어 있습니까?</string>
 	
