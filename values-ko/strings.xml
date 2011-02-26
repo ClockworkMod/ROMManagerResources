@@ -118,9 +118,9 @@
 	<string name="confirm_reboot_and_install">OK를 눌러 Clockworkmod Recovery를 다시 시작한 후에 설치를 계속 합니다.</string>
 	<string name="restart_and_install">다시 시작과 설치</string>
 	
-	<string name="recovery_clockworkmod_yours">현재 복구: ClockworkMod %s</string>
+	<string name="recovery_clockworkmod_yours">현재 복구 모드 버전: ClockworkMod %s</string>
 	<string name="recovery_alternate_yours">현재 복구: %s</string>
-	<string name="recovery_latest">Latest Recovery: 최신 복구 %s</string>
+	<string name="recovery_latest">최신 복구 모드 버전: ClockwrokMod %s</string>
 
 	<string name="recovery">복구 모드</string>
 	<string name="flash_recovery">ClockworkMod 복구 모드의 설치</string>
