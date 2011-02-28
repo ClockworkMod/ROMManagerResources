@@ -22,7 +22,7 @@
 	<string name="utilities">지원 프로그램</string>
 	<string name="fix_permissions">Permissions 수정</string>
 	<string name="fixing_permissions">Permissions을 수정중입니다...</string>
-	<string name="fix_permissions_detail">파일 시스템의 Permission 수정합니다. 이것은 종종 일어나는 강제 종료 문제를 고칩니다.</string>
+	<string name="fix_permissions_detail">파일 시스템의 Permission 수정합니다. 가끔씩 일어나는 강제 종료 문제를 고치기도 합니다.</string>
 	
 	<string name="fix_permissions_done">완료되었습니다. 단말기를 다시 시작 하셔야 합니다.</string>
 
@@ -118,9 +118,9 @@
 	<string name="confirm_reboot_and_install">OK를 눌러 Clockworkmod Recovery를 다시 시작한 후에 설치를 계속 합니다.</string>
 	<string name="restart_and_install">다시 시작과 설치</string>
 	
-	<string name="recovery_clockworkmod_yours">현재 복구: ClockworkMod %s</string>
+	<string name="recovery_clockworkmod_yours">현재 복구 모드 버전: ClockworkMod %s</string>
 	<string name="recovery_alternate_yours">현재 복구: %s</string>
-	<string name="recovery_latest">Latest Recovery: 최신 복구 %s</string>
+	<string name="recovery_latest">최신 복구 모드 버전: ClockwrokMod %s</string>
 
 	<string name="recovery">복구 모드</string>
 	<string name="flash_recovery">ClockworkMod 복구 모드의 설치</string>
@@ -141,13 +141,13 @@
 
 	<string name="backup">백업</string>
 	<string name="confirm_backup">단말기를 다시 시작하여, ROM 백업을 하시겠습니까?</string>
-	<string name="script_error">특수 명령을 사용하는 동중 오류가 발생하였습니다.</string>
+	<string name="script_error">특수 명령을 사용하는 도중 오류가 발생하였습니다.</string>
 	<string name="backup_error">백업에는 중복되지 않고, 올바른 이름을 사용하십시오.</string>
 	
 	<string name="flash_alternate">대체 복구 모드의 설치</string>
 	<string name="flash_alternate_warning">대체 복구 모드의 설치에 동의 하십니까? ClockworkMod 복구 모드를 다시 설치 하기 전에는, ROM Manger의 기능을 사용할 수 없습니다.</string>
 	<string name="flash_alternate_unavailable">대체 복구 모드가 없습니다.</string>
-	<string name="flash_legacy_and_experimental">ClockworkMod 복구 모드의 버전 목록 및 변경</string>
+	<string name="flash_legacy_and_experimental">ClockworkMod 복구 모드의 버전 목록</string>
 	<string name="flash_legacy_and_experimental_summary">ClockworkMod 복구 모드의 구버전과 테스트 버전의 설치</string>
 	<string name="flash_legacy_unavailable">유효한 복구 모드가 없습니다. 인터넷에 연결되어 있습니까?</string>
 	
