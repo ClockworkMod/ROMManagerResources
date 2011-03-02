@@ -28,7 +28,7 @@
 
 	<string name="download_rom_premium">升級至 ROM Manager (Premium) 以取得完整的 ROM 列表！</string>
 
-	<string name="premium_only">此功能唯 Permium 版用戶尊享！</string>
+	<string name="premium_only">此功能唯 Premium 版用戶尊享！</string>
 	<string name="no_update">尚無適用的 ROM 更新。</string>
 	<string name="update_available">有更新可供使用</string>
 	<string name="updated_rom">按“確定”把您的 ROM 更新至最新版本：%s。</string>
@@ -57,37 +57,37 @@
 
 	<string-array name="install_options">
 		<item>備份目前的 ROM</item>
-		<item>清除資料及快取</item>
+		<item>清除“資料／Data”及“快取／Cache”分區</item>
 	</string-array>
 
-	<string name="restore_options">還原選項</string>
+	<string name="restore_options">選取要還原的分區</string>
 
 	<string-array name="restore_partitions">
-		<item>還原 Boot</item>
-		<item>還原 System</item>
-		<item>還原 Data</item>
-		<item>還原 Cache</item>
-		<item>還原 SD-Ext</item>
+		<item>開機／Boot</item>
+		<item>系統／System</item>
+		<item>資料／Data</item>
+		<item>快取／Cache</item>
+		<item>SD-延伸／SD-Ext</item>
 	</string-array>
 
 	<string-array name="ext_size_options">
-		<item>128MB</item>
-		<item>256MB</item>
-		<item>512MB</item>
+		<item>128 MB</item>
+		<item>256 MB</item>
+		<item>512 MB</item>
 	</string-array>
 
 	<string-array name="swap_size_options">
-		<item>0MB</item>
-		<item>32MB</item>
-		<item>64MB</item>
-		<item>128MB</item>
-		<item>256MB</item>
+		<item>0 MB（省略）</item>
+		<item>32 MB</item>
+		<item>64 MB</item>
+		<item>128 MB</item>
+		<item>256 MB</item>
 	</string-array>
 
-	<string name="partition_ext_size">Ext 大小</string>
-	<string name="partition_swap_size">Swap 大小</string>
+	<string name="partition_ext_size">“Ext／延伸區”大小</string>
+	<string name="partition_swap_size">“Swap／交換區”大小</string>
 	<string name="partition_sdcard">分割 SD 卡</string>
-	<string name="partition_sdcard_summary">分割您的 SD 卡讓您能夠在支援的 ROM 上安裝應用程式到 SD 卡之內。</string>
+	<string name="partition_sdcard_summary">分割您的 SD 卡讓您能夠在支援的 ROM 上安裝應用程式到 SD 卡的延伸區之內。</string>
 	<string name="partition_sdcard_warning">分割 SD 卡會將卡內全部資料都刪除掉。您確定要重啟手機並繼續此操作的執行嗎？</string>
 
 	<string name="manifests_no_roms">尚無適用於您的手機的 ROM！您可請求您喜愛的 ROM 開發者將其作品免費登錄到 ROM Manager！</string>
