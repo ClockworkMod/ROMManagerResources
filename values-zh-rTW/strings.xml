@@ -92,7 +92,7 @@
 
 	<string name="manifests_no_roms">尚無適用於您的手機的 ROM！您可請求您喜愛的 ROM 開發者將其作品免費登錄到 ROM Manager！</string>
 
-	<string name="preinstallation">ROM 預先安裝</string>
+	<string name="preinstallation">ROM 安裝前準備</string>
 
 	<string name="download_cache_cleared">下載快取已被清除。</string>
 
