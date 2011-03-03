@@ -223,8 +223,8 @@
 	<string name="credits_summary">제작: Koushik Dutta.</string>
 
 	<string name="erase_recovery">복구 모드의 삭제</string>
-	<string name="erase_recovery_on">복구 전에 삭제 됩니다.</string>
-	<string name="erase_recovery_off">복구 전에 삭제되지 않습니다.</string>
+	<string name="erase_recovery_on">복구 모드 설치전에 삭제 됩니다.</string>
+	<string name="erase_recovery_off">복구 모드 설치전에 삭제되지 않습니다.</string>
 	
 	<string name="install_queue">설치 차례:</string>
 	<string name="add_another_zip">Zip 추가</string>
