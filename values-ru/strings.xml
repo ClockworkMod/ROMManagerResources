@@ -2,42 +2,161 @@
 <!--
         Перевод выполнил: Александр 'CfYz' Мит
         Translation by: Alexander 'CfYz' Mit
-        November/Ноябрь 2010
-        Version/Версия: 0.1
+        March/Март 2011
+        Version/Версия: 0.2.3012
 -->
 <resources>
-  <string name="rom_management">Управление ROM\'ами</string>
+<!-- 3.0.1.2 strings -->
+  <string name="no_device_id">PayPal purchases are not supported on this device!</string>
+  <string name="downloading">Your download has started...\nYou can view its progress in the notification area!</string>
+  <string name="rom_manager_downloading">Download Started</string>
+  <string name="verify_custom_flashed">Flashing an update package on a recovery other than ClockworkMod Recovery may not work properly. Proceed?</string>
+  <string name="flash_clockwork_or_get_premium">Only Premium users may use Alternate recoveries with ROM Manager to flash ROMs! Otherwise, you must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
+  <string name="premium_activated">You have now activated ROM Manager Premium via PayPal! No further downloads are necessary, even if you wipe your device. Your purchase has been noted on ROM Manager\'s servers.</string>
+  <string name="follow_koush">Follow @koush</string>
+
+<!-- 3.0.1.2 strings END -->
+
+<!-- ############################ first startup warnings and messages -->
+  <string name="brick_warning">ROM Менеджер не несет ответственности за любой вред нанесенный Вами телефону. Работая по правами root на своем телефоне вы уже потеряли гарантию. Работа под правами администратора на телефоне опасна. Так же ROM Менеджер может посылать статистику об использовании в службу Google Analytics, чтобы помочь в разработке приложения (можно отключить в настройках). Нажмите \"OK\" для согласия или \"Отмена\", чтобы выйти из приложения.</string>
+	<string name="new_features">Новые функции</string>
+	<string name="whats_new">Прошли те дни, когда надо было загружать прошивки на телефон: представляем Веб-загрузку! Если Вы просматриваете форму на своем компьютере и разработчик поддерживает эту функцию, то Вы можете скачать прошивку прямо через ROM Менеджер! Настройке данную функцию в меню приложения. Демо, как это сделать смотрите на сайте www.koushikdutta.com.</string>
+<!-- first startup warnings and messages END -->
+
+<!-- ############################ main window and "popups" -->
+  <string name="recovery">Режим Recovery</string>
+
+  <string name="flash_recovery">Установить ClockworkMod</string>
+  <string name="recovery_clockworkmod_yours">Установлен Recovery: ClockworkMod %s</string>
+  <string name="recovery_alternate_yours">Установлен Recovery: %s</string>
+  <string name="recovery_latest">Последний Recovery: ClockworkMod %s</string>
+	<string name="flash_recovery_error">Ошибка установки Recovery</string>
+	<string name="download_recovery_error">Ошибка при загрузке Recovery</string>
+	<string name="download_recovery_success">ClockworkMod Recovery успешно загружен!</string>
+  <string name="no_connection">Ошибка загрузки. Убедитесь, что Ваше Интернет соединение стабильно, установлена карта памяти SD и на ней есть свободное место.</string>
+	<string name="confirm_device">Подтвердите модель телефона</string>
+  <string name="reboot_recovery">Загрузить режим Recovery</string>
+  <string name="reboot_into_recovery">Перезагрузить телефон в режим Recovery</string>
+	<string name="confirm_reboot">Вы уверены что хотите перезагрузить телефон в режим ClockworkMod Recovery?</string>
+	<string name="confirm_reboot_alternate">Вы уверены, что хотите перезагрузиться в %s?</string>
+
+
+  <string name="rom_management">Управление прошивками</string>
+
   <string name="install_rom">Установить ROM с SD карты</string>
-  <string name="download_rom">Скачать ROM</string>
-  <string name="check_updates">Проверить обновленя ROM\'a</string>
+  <string name="download_rom">Скачать прошивки</string>
+  <string name="check_updates">Проверить обновление</string>
+  <string name="current_rom">Текущий ROM: %s</string>
+	<string name="install_from_qrcode">Установить по штрих-коду</string>
+	<string name="qrcode_summary">Для установки прошивки снимите на камеру штрих-код, для этого необходимо бесплатное приложение Barcode Scanner</string>
+  <string name="qrcode_download">Скачать QR код</string>
+	<string name="qrcode_premium_required">Купите ROM Менеджер Премиум чтобы получить доступ к установке прошивок с помощью штрих-кодов!</string>
+  <string name="qrcode_not_installed">Сканер штрих-кодов отсутствует</string>
+  <string name="qrcode_install">У Вас должен быть установлен сканнер штрих-кодов! Нажмите OK, чтобы уставить бесплатный сканнер из Маркета.</string>
+
+
   <string name="backup_and_restore">Резервирование и восстановление</string>
-  <string name="manage_and_restore_backups">Управление/загрузка резервных копий</string>
+
+  <string name="manage_and_restore_backups">Резервные копии</string>
   <string name="backup_current_rom">Сохранить текущий ROM</string>
 
-  <string name="no_connection">Ошибка загрузки. Убедитесь, что Ваше Интернет соединение стабильно, установлена SD карта памяти и на ней есть свободное место.</string>
 
-	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
+	<string name="utilities">Инструменты</string>
+
+  <string name="fix_permissions">Исправить права доступа</string>
+  <string name="fix_permissions_detail">Исправление системных прав доступа помогает решить проблемы с падением приложений</string>	
+  <string name="fixing_permissions">Исправление прав доступа...</string>
+  <string name="fix_permissions_done">Готово! Необходимо перезагрузить телефон.</string>
+  <string name="partition_sdcard">Создать разделы на SD карте</string>
+  <string name="partition_sdcard_summary">Создание разделов для установки приложений или файла подкачки на карту памяти</string>
+  <string name="partition_ext_size">Размер Ext раздела</string>
+  <string name="partition_swap_size">Размер Swap раздела</string>
+  <string name="partition_sdcard_warning">Разбиение на разделы удалит ВСЕ данные с карты памяти! Вы уверены что хотите перезагрузиться и продолжить?</string>
+
+
+	<string name="more_recoveries">Другие Recovery</string>
+
+  <string name="flash_alternate">Альтернативные Recovery</string>
+  <string name="flash_alternate_unavailable">Альтернативные Recovery в данный момент не доступны</string>
+	<string name="flash_alternate_warning">Are you sure you want to flash an alternate recovery? ROM Manager features will be made unavailable until you flash back to ClockworkMod Recovery.</string>
+  <string name="flash_legacy_and_experimental">Все версии ClockworkMod</string>
+  <string name="flash_legacy_and_experimental_summary">Установка старых и экспериментальных версий ClockworkMod Recovery</string>
+	<string name="flash_legacy_unavailable">Не найдено старых версий Recovery. Есть ли связь с Интернет?"</string>
+<!-- main window END -->
+
+<!-- ############################ menu buttons and "popups"-->
+  <string name="clear_cache">Удалить кэш загрузок</string>
+  <string name="clear_cache_confirm">Кэширование скачиваемых файлов значительно ускоряет установку прошивок. Вы уверены, что хотите очистить кэш загрузок?</string>
+	<string name="download_cache_cleared">Кэш загрузок очищен</string>
+
+  <string name="changelog">Что нового (WWW)</string>
+	<string name="settings">Настройка</string>
+  <string name="donate">Пожертвовать</string>
+
+	<string name="web_connect">Веб-загрузка</string>
+	<string name="web_connect_error">Ошибка установки Вашей учетной запиcи для Веб-загрузки</string>
+	<string name="web_connect_success">Теперь Вы можете скачивать прошивки прямо на телефон, если тема форма о прошивке поддерживает Веб-загрузку.</string>
+<!-- menu buttons END -->
+
+<!-- ############################ main menu -->
+	<string name="rom_manager_settings">Настройки ROM Менеджера</string>
+
+	<string name="update_notifications">Уведомления обновлений</string>
+	<string name="update_notifications_enabled">Уведомления включены</string>
+	<string name="update_notifications_disabled">Уведомления отключены</string>
+
+	<string name="developer_mode">Расширенный режим</string>
+	<string name="developer_mode_details">Расширенный режим предназначен для опытных пользователей. Расширенный режим позволит Вам получить доступ к последним версиям Recovery, экспериментальным прошивкам, и другим нестабильным, но с самыми последними новинками. Следует с особой осторожностью использовать расширенный режим и только тем пользователям, которые знают, что такое ADB.</string>
+	<string name="developer_mode_on">Расширенный режим включен</string>
+	<string name="developer_mode_off">Расширенный режим выключен</string>
+	<string name="developer_mode_summary">This is available once you enable Advanced Mode from the ROM Manager Main menu.</string>
+
+	<string name="automatic_backup">Автоматическое резервирование</string>
+	<string name="automatic_backup_disabled">Резервирование отключено</string>
+	<string name="automatic_backup_summary">Следующий запуск резервирования: %s.</string>
+	<string name="automatic_backup_time">Установите время резервирования</string>
+	<string name="automatic_backup_frequency">Частота выполнения</string>
+
+	<string name="analytics">Google Analytics</string>
+	<string name="analytics_on">Служба Google Analytics работает. Спасибо, что помогаете улучшить ROM Менеджер!</string>
+	<string name="analytics_off">Служба Google Analytics отключена. Включите, чтобы помочь в разработке.</string>
+	<string name="analytics_details">Google Analytics будет посылать статистику использования программы, чтобы помочь разработчикам улучшить функционал ROM Менеджера. Нажимая ОК, Вы соглашаетесь, что статистика об использовании программы будет отправлена в компанию Google и разработчикам ROM Менеджера.</string>
+
+	<string name="fast_nandroid">Ускорить работу резервирования</string>
+	<string name="fast_nandroid_on">Индикаторы выполнения резервирования и восстановления отключены</string>
+	<string name="fast_nandroid_off">Индикаторы выполнения резервирования и восстановления включены, отключите, чтобы ускорить работу ClockworkMod.</string>
+
+  <string name="showads">Показывать рекламу</string>
+  <string name="showads_summary">Поддержите ROM Менеджер! (требуется перезапуск приложения)</string>
+
+  <string name="device_id">ID телефона</string>
+  <string name="license_retrieval_error">Ошибка получения лицензии</string>
+  <string name="license_retrieved">Лицензия получена!</string>
+	<string name="license_server_error">Сервер лицензий недоступен! Попробуйте купить программу через Android Маркет!</string>
+
+  <string name="credits">Авторы</string>
+  <string name="credits_summary">Приложение создано Koushik Dutta.</string>
+<!-- main menu END -->
+
+<!-- ############################ Скачать прошивки -->
+	<string name="premium_required_to_download">Только Премиум версия ROM Менеджера позволит скачивать данные прошивки!</string>
+  <string name="free_header">Бесплатно</string>
+	<string name="premium_header">Премиум</string>
+<!-- Скачать прошивки END -->
+
 
 	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
 	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
-  <string name="current_rom">Текущий ROM: %s</string>
 
-  <string name="donate">Пожертвовать</string>
   <string name="developer_homepage">Домашняя страница</string>
 
-	<string name="utilities">Инструменты</string>
-  <string name="fix_permissions">Исправить права доступа</string>
-  <string name="fixing_permissions">Исправление прав доступа...</string>
-  <string name="fix_permissions_detail">Исправление системных прав доступа. Часто помогает решить проблемы с падением приложений.</string>	
-	
-  <string name="fix_permissions_done">Готово! Необходимо перезагрузить телефон.</string>
 
-  <string name="download_rom_premium">Купите ROM Менеджер Премиум чтобы получить доступ к списку ROM\'ов!</string>
+  <string name="download_rom_premium">Купите ROM Менеджер Премиум чтобы получить доступ к списку прошивок!</string>
 	
   <string name="premium_only">Эта функция доступна только пользователям Премиум версии!</string>
-	<string name="no_update">Обновлений к вашему ROM в данным момент нет.</string>
+	<string name="no_update">Обновлений к Вашей прошивке в данный момент нет</string>
   <string name="update_available">Доступно обновление</string>
-	<string name="updated_rom">Нажмите OK, чтобы обновить Ваш ROM до последней версии: %s.</string>
+	<string name="updated_rom">Нажмите OK, чтобы обновить Вашу прошивку до последней версии: %s.</string>
   <string name="update_recovery_available">Доступно обновление для ClockworkMod Recovery.</string>
 	
 	<string name="upgrade">Необходимо обновить ROM Менеджер до последней версии!</string>
@@ -90,17 +209,11 @@
     <item>256Мб</item>
   </string-array>
 
-  <string name="partition_ext_size">Размер Ext</string>
-  <string name="partition_swap_size">Размер Swap</string>
-  <string name="partition_sdcard">Создать разделы на SD карте</string>
-  <string name="partition_sdcard_summary">Создание разделов для установки приложений на карту памяти для поддерживающих эту функцию ROM\'ов.</string>
-  <string name="partition_sdcard_warning">Разбиение на разделы удалит ВСЕ данные с карты памяти. Вы уверены что хотите перезагрузиться и продолжить?</string>
 
 	<string name="manifests_no_roms">There are no ROMs available for your phone yet! Ask your favorite developers to get listed on ROM Manager for free!</string>
 	
 	<string name="preinstallation">Действия перед установкой</string>
 	
-	<string name="download_cache_cleared">Your download cache has been cleared.</string>
 	
 	<string name="manifests_unavailable">Error occurred while downloading the Developer list.</string>
 	<string name="manifests_error">Error occurred while processing the Developer list!</string>
@@ -116,118 +229,57 @@
   <string name="restore">Восстановить</string>
 	<string name="confirm_restore">Вы уверены, что хотите перезагрузить телефон и восстановить архивную копию?</string>
 
-  <string name="reboot_recovery">Загрузка режима Recovery</string>
-  <string name="reboot_into_recovery">Загрузить режим Recovery для самостоятельной работы.</string>
-	<string name="confirm_reboot">Вы уверены что хотите загрузиться в режим ClockworkMod Recovery?</string>
-	<string name="confirm_reboot_alternate">Вы уверены, что хотите перезагрузиться в %s?</string>
 	
   <string name="confirm_reboot_and_install">Нажмите OK чтобы загрузиться в ClockworkMod Recovery и продолжить установку.</string>
   <string name="restart_and_install">Перезагрузка и установка</string>
 	
-  <string name="recovery_clockworkmod_yours">Установленный Recovery: ClockworkMod %s</string>
-  <string name="recovery_alternate_yours">Установленный Recovery: %s</string>
-  <string name="recovery_latest">Последний Recovery: ClockworkMod %s</string>
 
-  <string name="recovery">Режим Recovery</string>
-  <string name="flash_recovery">Установить ClockworkMod Recovery</string>
-	<string name="flash_recovery_error">An error occurred while flashing your recovery.</string>
-	<string name="download_recovery_error">An error occurred while downloading your recovery.</string>
-	<string name="download_recovery_success">Successfully downloaded ClockworkMod recovery!</string>
+
 	<string name="flash_manual">Manual Flash Override</string>
 	<string name="flash_recovery_override">Having problems flashing the recovery using ROM Manager? Press OK if you have flashed ClockworkMod Recovery manually.</string>
 	<string name="flash_recovery_success">Successfully flashed ClockworkMod recovery!</string>
 	<string name="flash_alternate_recovery_success">Successfully flashed recovery!</string>
-	<string name="confirm_device">Confirm Phone Model</string>
 	<string name="do_this_first">You must have the ClockworkMod Recovery installed to flash and restore ROMs!</string>
 	<string name="flash_recovery_require">You must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
 	<string name="install">Install</string>
 	
-	<string name="clear_cache">Clear Download Cache</string>
-	<string name="clear_cache_confirm">Caching downloads makes your ROM installations much faster. Are you sure you want to clear your download cache?</string>
 
 	<string name="backup">Backup</string>
 	<string name="confirm_backup">Вы уверены, что хотите перезагрузить телефон и создать архивную копию ROM\'a?</string>
 	<string name="script_error">An error occurred while attempting to run privileged commands!</string>
 	<string name="backup_error">Please choose a unique and valid filename for your backup.</string>
 	
-  <string name="flash_alternate">Установить альтернативный Recovery</string>
-	<string name="flash_alternate_warning">Are you sure you want to flash an alternate recovery? ROM Manager features will be made unavailable until you flash back to ClockworkMod Recovery.</string>
-  <string name="flash_alternate_unavailable">Альтернативные Recovery в данный момент не доступны.</string>
-  <string name="flash_legacy_and_experimental">Все версии ClockworkMod Recovery</string>
-  <string name="flash_legacy_and_experimental_summary">Установка старых и экспериментальных версий ClockworkMod Recovery.</string>
-	<string name="flash_legacy_unavailable">No legacy recoveries found. Are you connected to the internet?"</string>
 	
-	<string name="developer_mode">Advanced Mode</string>
-	<string name="developer_mode_details">Advanced Mode is not meant for all users. Advanced mode will get you access to the latest recoveries, experimental ROMs, and other various unstable, but bleeding edge features. Advanced mode should be used with caution and is only recommended for users comfortable with ADB.</string>
-	<string name="developer_mode_on">Advanced Mode is enabled.</string>
-	<string name="developer_mode_off">Advanced Mode is disabled.</string>
-	<string name="developer_mode_summary">This is available once you enable Advanced Mode from the ROM Manager Main menu.</string>
 	
-	<string name="premium_required_to_download">The Premium version of ROM Manager is required to download this Developer\'s ROMs!</string>
 	
-  <string name="free_header">Бесплатно</string>
-	<string name="premium_header">Premium</string>
 	
-	<string name="update_notifications">Update Notifications</string>
-	<string name="update_notifications_enabled">Update notifications are enabled.</string>
-	<string name="update_notifications_disabled">Update notifications are disabled.</string>
 	
-	<string name="rom_manager_settings">ROM Manager Settings</string>
-	<string name="settings">Settings</string>
-	
-	<string name="more_recoveries">More Recoveries</string>
 	
   <string name="sdcard_not_mounted">Карта памяти недоступна</string>
   <string name="sdcard_needs_to_be_mounted">Необходима SD карта памяти для использования ROM Менеджера!</string>
 	
-	<string name="automatic_backup_time">Backup Time</string>
-	<string name="automatic_backup_frequency">Backup Frequency</string>
   <string-array name="automatic_backup_frequencies">
     <item>Ежедневно</item>
-    <item>Каждые два дня</item>
-    <item>Каждые три дня</item>
-    <item>Каждые четыре дня</item>
-    <item>Каждые пять дней</item>
+    <item>Раз в два дня</item>
+    <item>Раз в три дня</item>
+    <item>Раз в четыре дня</item>
+    <item>Раз в пять дней</item>
     <item>Каждые шесть дней</item>
     <item>Еженедельно</item>
   </string-array>
-	<string name="automatic_backup">Automatic Backup</string>
-	<string name="automatic_backup_disabled">Automatic Backup is disabled.</string>
-	<string name="automatic_backup_summary">The next Automatic Backup will take place on %s.</string>
 	
 	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
 	
   <string name="invalid_license">Неверная лицензия</string>
   <string name="invalid_license_text">Ваша лицензия на ROM Менеджер истекла. Пожалуйста переустановите приложение из Маркета.</string>
 	
-  <string name="changelog">Что нового</string>
 	
-	<string name="new_features">Новые функции</string>
-	<!--<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>-->
-	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your phone: Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
 	
-	<string name="install_from_qrcode">Install from QR Code</string>
-	
-  <string name="qrcode_download">Скачать QR код</string>
-	<string name="qrcode_summary">Take a picture to install a ROM. Requires the free Barcode Scanner application.</string>
-	<string name="qrcode_premium_required">You need the Premium version of ROM Manager to install ROMs from QR Codes!</string>
-  <string name="qrcode_not_installed">Сканер штрих-кодов отсутствует</string>
-  <string name="qrcode_install">У Вас должен быть установлен сканнер штрих-кодов! Нажмите OK, чтобы уставить бесплатный сканнер из Маркета.</string>
 	
   <string name="flash_recovery_confirm_title">Установить Recovery?</string>
   <string name="flash_recovery_confirm">Вы уверены, что хотите заменить Recovery?</string>
 	
-	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics будет посылать статистику использования, чтобы помочь разработчикам улучшить функционал ROM Manager. Нажимая ОК, Вы соглашаетесь, что статистика использования будет отправлена в компанию Google и разработчикам ROM Manager.</string>
-	<string name="analytics_on">Служба Google Analytics работает. Спасибо, что помогаете улучшить ROM Manager!</string>
-	<string name="analytics_off">Служба Google Analytics отключена. Включите, чтобы помочь в разработке.</string>
 	
-	<string name="fast_nandroid">Quick Backup and Restore</string>
-	<string name="fast_nandroid_on">Progress bars in Backup and Restore are disabled for speed.</string>
-	<string name="fast_nandroid_off">Progress bars in Backup and Restore are enabled. Disable for quicker backup and restores.</string>
-
-  <string name="credits">Авторы</string>
-  <string name="credits_summary">Приложение создано и написано Koushik Dutta.</string>
 
 	<string name="erase_recovery">Erase Recovery</string>
 	<string name="erase_recovery_on">Recovery will be erased prior to flashing.</string>
@@ -249,8 +301,6 @@
 	<string name="no_spaces">ROM Manager is unable to open this file. Please remove any spaces from your file and folder path. Or run it manually via ClockworkMod recovery.</string>
 	<string name="no_md5">This does not seem to be a valid backup. The MD5 file is missing.</string>
 	
-  <string name="showads">Показывать рекламу</string>
-  <string name="showads_summary">Поддержите ROM Менеджер! (Изменения требуют перезагрузки приложения.)</string>
 
 	<string name="recovery_failure">Recovery Failure</string>
   <string-array name="recovery_failures">
@@ -270,16 +320,9 @@
 		<item>Android Маркет ($4.99)</item>
 	</string-array>
 	
-  <string name="device_id">ID телефона</string>
-  <string name="license_retrieval_error">Ошибка получения лицензии</string>
-  <string name="license_retrieved">Лицензия получена!</string>
-	<string name="license_server_error">Unable to contact License Server! Please use the Android Market instead!</string>
 	
 	<string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
 	
-	<string name="web_connect">Веб-загрузка</string>
-	<string name="web_connect_error">An error occurred while trying to set up your web connect account.</string>
-	<string name="web_connect_success">You can now download ROMs straight to your phones if the ROM thread supports it.</string>
 	
 	<string name="download_in_progress">Идет скачивание ROM\'а. Отменить загрузку?</string>
 	
