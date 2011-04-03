@@ -192,12 +192,11 @@
 	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
 	
 	<string name="invalid_license">Invalid License</string>
-	<string name="invalid_license_text">Your ROM Manager License is outdated. Please reinstall ROM Manager via the Market.</string>
 	
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Not finding your favorite ROM listed in the ROM List? You should ask the ROM developer to list their ROM in ROM Manager! It\'s free and easy!\n\nGot suggestions for a new ROM Manager feature? Contact me, @koush on Twitter!</string>
+	<string name="whats_new">Not finding your favorite ROM listed in the ROM List? You should ask the ROM developer to list their ROM in ROM Manager! It\'s free and easy!\n\nGot suggestions for a new ROM Manager feature? Contact me, @koush on Twitter! </string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -290,4 +289,6 @@
     <string name="premium_activated">You have now activated ROM Manager Premium via PayPal! No further downloads are necessary, even if you wipe your device. Your purchase has been noted on ROM Manager\'s servers. </string>
     <string name="follow_koush">Follow @koush</string>
     <string name="rate">Rate</string>
+
+    <string name="reinstall_from_market">Your ROM Manager License was reported as invalid by the Android Market. Please reinstall ROM Manager via the Market.</string>
 </resources>
