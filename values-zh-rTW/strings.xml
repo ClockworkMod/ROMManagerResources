@@ -192,12 +192,11 @@
     <string name="no_su">您的手機必須為已 root，否則 ROM Manager 起不了作用。在 \"/system/bin/su\" 或 \"/system/xbin/su\" 都找不到 Superuser。請在個人電腦使用 Google 搜尋來尋找您的手機的 root 方式。</string>
 
     <string name="invalid_license">無效的授權</string>
-    <string name="invalid_license_text">您的 ROM Manager 授權已過期。請從 Market 重新安裝 ROM Manager。</string>
 
     <string name="changelog">更新日誌</string>
 
     <string name="new_features">新功能</string>
-    <string name="whats_new">在 ROM 列表中找不到您喜愛的 ROM？您可以請求 ROM 開發者把 ROM 登錄到 ROM Manager！免費又容易！\n\n您有 ROM Manager 新功能的好提議嗎？請用 Twitter 聯絡我，@koush！</string>
+    <string name="whats_new">修正了某些只有 Wi-Fi 連線的手機於授權時出現的裝置識別碼錯誤。對於 Nook Color 的用戶真是萬分抱歉！請使用 Twitter 回報任何與授權相關的錯誤到 @koush 或 @clockworkmod。</string>
 
     <string name="install_from_qrcode">透過 QR 碼安裝</string>
 
@@ -290,4 +289,6 @@
     <string name="premium_activated">您現已透過 PayPal 啟動 ROM Manager Premium！再沒有額外需要的下載，即使您把裝置回復至原廠設定亦如是，因為您的購買已記錄在 ROM Manager 的伺服器上。</string>
     <string name="follow_koush">追隨 @koush</string>
     <string name="rate">評分</string>
+
+    <string name="reinstall_from_market">Android Market 報告指出您在使用不合法的 ROM Manager 授權。請到 Market 重新安裝 ROM Manager。</string>
 </resources>
