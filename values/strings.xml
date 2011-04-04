@@ -196,7 +196,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">Not finding your favorite ROM listed in the ROM List? You should ask the ROM developer to list their ROM in ROM Manager! It\'s free and easy!\n\nGot suggestions for a new ROM Manager feature? Contact me, @koush on Twitter! </string>
+	<string name="whats_new">Fixed the device id licensing issues occurring on phones that only have wifi connections. Sorry about that Nook Color users! Please report any license related bugs to @koush or @clockworkmod on twitter.</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
