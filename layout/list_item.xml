@@ -3,7 +3,7 @@
     android:layout_width="fill_parent" android:layout_height="wrap_content"
     android:orientation="horizontal">
     <ImageView android:id="@+id/image" android:scaleType="fitCenter"
-    android:layout_width="64sp" android:layout_height="64sp"
+    android:layout_width="48sp" android:layout_height="48sp"
     android:layout_gravity="center_vertical" android:layout_margin="2sp"></ImageView>
     <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent"
         android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1">
