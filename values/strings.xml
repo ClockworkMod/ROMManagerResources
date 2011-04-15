@@ -196,7 +196,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">HTC Users: Charging in recovery has been fixed. :)\n\nROM Manager has been testing various ad networks the past few months. AdMob was removed in this release, and have switched back to AdSense. AdMob was slow and required GPS permissions (the permissions requirements has been removed. The ad network testing will help decide if the next app (underway) will be paid or free/ad supported.</string>
+	<string name="whats_new">HTC Users: Charging in recovery has been fixed. :)\n\nThe ROM Manager redesign is now underway! Over the next few weeks, ROM Manager will be getting a makeover. User feedback is appreciated! Drop @clockworkmod a line on Twitter!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
