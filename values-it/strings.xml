@@ -192,12 +192,14 @@
 	<string name="no_su">Per poter usare ROM Manager devi avere i permessi di root. Superuser non è stato trovato nè in \"/system/bin/su\" nè in \"/system/xbin/su\". Utilizza Google Search sul tuo computer per trovare istruzioni su come ottenere i permessi di root.</string>
 	
 	<string name="invalid_license">Licenza non valida</string>
-	<string name="invalid_license_text">La tua licenza ROM Manager è scaduta. Reinstalla ROM Manager dal market.</string>
+
 	
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">Nuove Funzioni</string>
-	
+
+        <string name="whats_new">Utenti HTC: Il problema di caricamento dela batteria in recovery è stato risolto. :)\n\nNuove icone grazie a @vazguard!\n\nÈ in corso il restyling di ROM Manager! Nelle prossime settimane ROM Manager riceverà un sostanziale rinnovamento. È apprezzato il feedback degli utenti! Invia un commento a @clockworkmod su Twitter!</string>
+
 	<string name="install_from_qrcode">Installa da QR Code</string>
 	
 	<string name="qrcode_download">QR Code Download</string>
@@ -280,4 +282,13 @@
     <string name="no_device_id">Gli acquisti tramite PayPal non sono disponibili per questo dispositivo!</string>
     <string name="downloading">Il tuo download è iniziato...\nPuoi vederne i progressi nella barra delle notifiche!</string>
     <string name="rom_manager_downloading">Download Iniziato</string>
+
+    <string name="verify_custom_flashed">Installare un aggiornamento utilizzando una recovery diversa da ClockworkMod può non funzionare correttamente. Procedere?</string>
+    
+    <string name="flash_clockwork_or_get_premium">Solo gli utenti Premium possono installare ROM con ROM Manager utilizzando recovery Alternative! Altrimenti devi installare la recovery ClockworkMod prima di continuare! Installa prima la recovery tramite ROM Manager.</string>
+    <string name="premium_activated">Hai appena attivato ROM Manager Premium via PayPal! Non sono necessari ulteriori download, anche se formatti il dispositivo. Il tuo acquisto è stato registrato sui server di ROM Manager. </string>
+    <string name="follow_koush">Segui @koush</string>
+    <string name="rate">Vota</string>
+
+    <string name="reinstall_from_market">La tua licenza ROM Manager è stata segnalata come non valida dall\'Android Market. Ti prego di reinstallare ROM Manager tramite il Market.</string>
 </resources>
