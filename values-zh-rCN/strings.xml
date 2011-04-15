@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rom_management">固件管理</string>
+	<string name="install_rom">从SD卡安装固件</string>
+	<string name="download_rom">下载固件</string>
+	<string name="check_updates">检查固件更新</string>
+	<string name="backup_and_restore">备份与还原</string>
+	<string name="manage_and_restore_backups">管理与还原备份</string>
+	<string name="backup_current_rom">备份当前的固件</string>
+
+	<string name="no_connection">从服务器下载时发生错误.请确保您拥有稳定的网络连接，并确保您的SD卡已插入且拥有足够的空间！ </string>
+
+	<string name="brick_warning">固件管理器不对任何您可能对您手机造成的伤害负责.在您取得Root权限后，您已经失去了保修.对非用户空间的改动是十分危险的.另外，固件管理器可能会发送匿名的使用统计到谷歌统计来帮助作者改进程序.您若同意请点击确定来继续，若不同意请点击取消.</string>
+
+	<string name="ota_not_supported">您的固件不支持接收OTA更新.请联系固件开发者！</string>
+	<string name="ota_not_supported_extended">您正在使用的固件不支持接收OTA更新.固件开发者需要进行适当的改变来支持OTA更新.请联系固件开发者！请不要联系固件管理器的作者：这不是固件管理器的错误.</string>
+	<string name="current_rom">当前固件: %s</string>
+
+	<string name="donate">捐赠</string>
+	<string name="developer_homepage">首页</string>
+
+	<string name="utilities">工具</string>
+	<string name="fix_permissions">修复权限</string>
+	<string name="fixing_permissions">修复权限中，请稍等…</string>
+	<string name="fix_permissions_detail">修复文件系统权限.这经常会修复强制关闭的问题.</string>
+	
+	<string name="fix_permissions_done">完成! 您应该现在重启您的手机.</string>
+
+	<string name="download_rom_premium">升级到固件管理器高级版来获得全部固件！ </string>
+	
+	<string name="premium_only">此特性只对高级版用户开放！</string>
+	<string name="no_update">现在没有您的固件可用的更新.</string>
+	<string name="update_available">有可用更新.</string>
+	<string name="updated_rom">点击确定来升级到最新版本的固件: %s.</string>
+	<string name="update_recovery_available">现在有一个可用的ClockworkMod Recovery更新.</string>
+	
+	<string name="upgrade">您必须将您的固件管理器升级到最新版！ </string>
+
+	<string name="recovery_update_required">现在有一个可用的ClockworkMod Recovery更新.在使用固件管理器前您必须升级!</string>
+
+	<string name="edit_backup_name">备份名称</string>
+	<string name="new_backup_name">新的备份名称</string>
+	<string name="rename_backup_error">重命名备份时发生错误.请为您的备份选择一个可用并唯一的名称.</string>
+	<string name="confirm_delete_backup">删除备份?</string>
+	<string name="remove_backup_error">删除备份时发生错误.</string>
+
+	<string name="app_name">固件管理器</string>
+	<string name="app_name_premium">固件管理器高级版</string>
+	
+	<string name="coming_soon">即将推出!</string>
+	
+	<string-array name="manage_options">
+		<item>还原</item>
+		<item>重命名</item>
+		<item>删除</item>
+	</string-array>
+		
+	<string-array name="install_options">
+		<item>备份当前的固件</item>
+		<item>擦去数据与缓存</item>
+	</string-array>
+
+	<string name="restore_options">还原选项</string>
+
+	<string-array name="restore_partitions">
+		<item>还原引导</item>
+		<item>还原系统</item>
+		<item>还原数据</item>
+		<item>还原缓存</item>
+		<item>还SD-Ext分区</item>
+	</string-array>
+
+	<string-array name="ext_size_options">
+		<item>128MB</item>
+		<item>256MB</item>
+		<item>512MB</item>
+	</string-array>
+
+	<string-array name="swap_size_options">
+		<item>0MB</item>
+		<item>32MB</item>
+		<item>64MB</item>
+		<item>128MB</item>
+		<item>256MB</item>
+	</string-array>
+
+	<string name="partition_ext_size">Ext分区大小</string>
+	<string name="partition_swap_size">交换区大小</string>
+	<string name="partition_sdcard">对SD卡分区</string>
+	<string name="partition_sdcard_summary">若您的固件支持，您可以对您的SD卡分区来安装应用程序到SD卡.</string>
+	<string name="partition_sdcard_warning">对您的SD卡分区会擦去您SD卡的所有数据. 您确定您希望重启并继续?</string>
+
+	<string name="manifests_no_roms">现在没有您设备可用的固件! 请邀请您喜爱的开发者免费登上固件管理器的列表</string>
+	
+	<string name="preinstallation">固件预安装</string>
+	
+	<string name="download_cache_cleared">您的下载缓存已清空.</string>
+	
+	<string name="manifests_unavailable">下载开发者列表时发生错误！</string>
+	<string name="manifests_error">处理开发者列表时发生错误！</string>
+	
+	<string name="roms_unavailable">下载固件列表时发生错误!请联系固件开发者.</string>
+	<string name="roms_error">处理固件列表时发生错误!</string>
+	<string name="rom_error">处理固件时发生错误!</string>
+	<string name="rom_addons">固件插件</string>
+	<string name="rom_download_error">下载固件时发生错误!</string>
+	<string name="rom_download_error_short">固件下载错误</string>
+	<string name="rom_download_complete">固件下载完成</string>
+	
+	<string name="restore">还原</string>
+	<string name="confirm_restore">您确定您要重启您的手机并回复您的备份?</string>
+
+	<string name="reboot_recovery">重启进入恢复模式</string>
+	<string name="reboot_into_recovery">引导进入恢复模式，进行手动管理.</string>
+	<string name="confirm_reboot">您确定您要重启进入ClockworkMod Recovery?</string>
+	<string name="confirm_reboot_alternate">您确定您要重启进入%s?</string>
+	
+	<string name="confirm_reboot_and_install">点击确定进入 ClockworkMod Recovery并继续安装.</string>
+	<string name="restart_and_install">重启并安装</string>
+	
+	<string name="recovery_clockworkmod_yours">当前Recovery版本: ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">当前Recovery版本: %s</string>
+	<string name="recovery_latest">最新Recovery版本: ClockworkMod %s</string>
+
+	<string name="recovery">Recovery</string>
+	<string name="flash_recovery">刷入ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">刷入您的Recovery时发生错误.</string>
+	<string name="download_recovery_error">下载您的Recovery时发生错误.</string>
+	<string name="download_recovery_success">成功下载ClockworkMod Recovery!</string>
+	<string name="flash_manual">手动刷入覆盖</string>
+	<string name="flash_recovery_override">使用固件管理器刷入Recovery 时遇到问题？点击确定如果您手动刷入ClockworkMod Recovery.</string>
+	<string name="flash_recovery_success">成功刷入ClockworkMod Recovery!</string>
+	<string name="flash_alternate_recovery_success">成功刷入Recovery!</string>
+	<string name="confirm_device">确认设备型号</string>
+	<string name="do_this_first">您必须安装ClockworkMod Recovery 来刷入与还原固件!</string>
+	<string name="flash_recovery_require">在继续之前您必须安装ClockworkMod Recovery! 从固件管理器安装Recovery.</string>
+	<string name="install">Install</string>
+	
+	<string name="clear_cache">清空下载缓存</string>
+	<string name="clear_cache_confirm">下载缓存会让您安装固件时更快，您确定要清空下载缓存?</string>
+
+	<string name="backup">备份</string>
+	<string name="confirm_backup">您确定要重启手机并备份？ </string>
+	<string name="script_error">尝试运行特权命令时出错!</string>
+	<string name="backup_error">请为您的备份选择一个可用并唯一的名称.</string>
+	
+	<string name="flash_alternate">刷入备用Recovery</string>
+	<string name="flash_alternate_warning">您确定要刷入备用Recovery ？固件管理器的特性将不可用直到您刷回 ClockworkMod Recovery.</string>
+	<string name="flash_alternate_unavailable">没有备用Recovery可用.</string>
+	<string name="flash_legacy_and_experimental">所有ClockworkMod Recoveries</string>
+	<string name="flash_legacy_and_experimental_summary">刷入较老版本或试验版的ClockworkMod Recovery.</string>
+	<string name="flash_legacy_unavailable">没找到遗留的Recovery 您连接到互联网了吗?</string>
+	
+	<string name="developer_mode">高级模式</string>
+	<string name="developer_mode_details">高级模式并不适合所有用户. 高级模式会让您获得最新版的Recovery, 试验版的固件, 以及其他许多不稳定, 但最新的特性. 高级模式应该被小心谨慎地使用，并只建议熟悉ADB 的用户使用.</string>
+	<string name="developer_mode_on">高级模式已开启.</string>
+	<string name="developer_mode_off">高级模式已关闭.</string>
+	<string name="developer_mode_summary">一旦开启高级模式这将可用.</string>
+	
+	<string name="premium_required_to_download">只有固件管理器高级版的用户可下载此开发者的固件!</string>
+	
+	<string name="free_header">免费</string>
+	<string name="premium_header">高级</string>
+	
+	<string name="update_notifications">更新提醒</string>
+	<string name="update_notifications_enabled">更新提醒已开启.</string>
+	<string name="update_notifications_disabled">高级模式已关闭.</string>
+	
+	<string name="rom_manager_settings">固件管理器设置</string>
+	<string name="settings">设置</string>
+	
+	<string name="more_recoveries">更多Recovery</string>
+	
+	<string name="sdcard_not_mounted">SD卡未安装</string>
+	<string name="sdcard_needs_to_be_mounted">要使用固件管理器，SD卡必须被安装!</string>
+	
+	<string name="automatic_backup_time">备份时间</string>
+	<string name="automatic_backup_frequency">备份频率</string>
+	<string-array name="automatic_backup_frequencies">
+		<item>每天</item>
+		<item>每两天</item>
+		<item>每三天</item>
+		<item>每四天</item>
+		<item>每五天</item>
+		<item>每六天</item>
+		<item>每一周</item>
+	</string-array>
+	<string name="automatic_backup">自动备份</string>
+	<string name="automatic_backup_disabled">自动备份已关闭.</string>
+	<string name="automatic_backup_summary">下一次自动更新在%s.</string>
+	
+	<string name="no_su">您必须Root您的手机来运行固件管理器. 超级用户在\"/system/bin/su\"或\"/system/xbin/su\"未被找到.</string>
+	
+	<string name="invalid_license">无效的证书</string>
+	<string name="invalid_license_text">您的固件管理器证书已过期. 请通过电子市场重新安装.</string>
+	
+	<string name="changelog">更新日志</string>
+	
+	<string name="new_features">新特性</string>
+	<string name="whats_new">下载固件再传到手机上的时代过去了: 加入网络连接! 如果你在电脑上浏览一个论坛，并且开发者支持，您就能直接通过固件管理器下载固件! 在菜单里设置. 前往koushikdutta.com查看示例.</string>
+	
+	<string name="install_from_qrcode">通过二维码安装</string>
+	
+	<string name="qrcode_download">通过二维码下载</string>
+	<string name="qrcode_summary">拍张照来下载. 需要免费的Barcode Scanner 应用.</string>
+	<string name="qrcode_premium_required">通过二维码安装固件只对高级版用户开放!</string>
+	<string name="qrcode_not_installed">找不到Barcode Scanner</string>
+	<string name="qrcode_install">您必须安装Barcode Scanner来使用此特性!点击确定去电子市场安装免费的Barcode scanner应用.</string>
+	
+	<string name="flash_recovery_confirm_title">刷入Recovery?</string>
+	<string name="flash_recovery_confirm">您确认要替代Recovery?</string>
+	
+	<string name="analytics">谷歌统计</string>
+	<string name="analytics_details">谷歌统计会发送匿名的使用统计到来帮助作者改进程序！点击确定，您声明您了解匿名的使用统计将被发送到Google与软件开发者.</string>
+	<string name="analytics_on">谷歌统计已启动. 感谢您让固件管理器成为一个更好的软件!</string>
+	<string name="analytics_off">谷歌统计已关闭.您应该打开它!</string>
+	
+	<string name="fast_nandroid">快速备份与还原</string>
+	<string name="fast_nandroid_on">备份与恢复进度条已关闭.</string>
+	<string name="fast_nandroid_off">备份与恢复进度条已开启，关闭它可以更快地备份与恢复.</string>
+
+	<string name="credits">开发人员</string>
+	<string name="credits_summary">作者：Koushik Dutta 翻译：Ｕｌｔｒａｔｕｄｅ．ｃｏｍ.</string>
+
+	<string name="erase_recovery">擦去Recovery</string>
+	<string name="erase_recovery_on">刷入Recovery 前，旧的Ｒｅｃｏｖｅｒｙ将被擦去.</string>
+	<string name="erase_recovery_off">刷入Recovery 前，旧的Ｒｅｃｏｖｅｒｙ不会被擦去.</string>
+	
+	<string name="install_queue">安装顺序:</string>
+	<string name="add_another_zip">添加Zip压缩包</string>
+	
+	<string name="report_error">报告错误</string>
+	<string name="report_error_message">在恢复模式中发生错误. 您要报告它吗? 请不要多次报告同一个愿意!</string>
+	
+	<string name="screenshots">屏幕截图</string>
+	<string name="download">下载</string>
+	
+	<string name="loading">载入中...</string>
+	
+	<string name="corrupt">损坏的压缩包.</string>
+	
+	<string name="no_spaces">固件管理器不能打开此文件. 请删除您的文件和文件夹路径中的任何空格. 或手动在ClockworkMod Ｒecovery中打开.</string>
+	<string name="no_md5">这看起来不是有效的备份. 无法找到MD5文件.</string>
+	
+	<string name="showads">显示广告</string>
+	<string name="showads_summary">帮助支持固件管理器! (重启程序来改变)．</string>
+
+	<string name="recovery_failure">恢复失败</string>
+	<string-array name="recovery_failures">
+		<item>损坏的Recovery模式.</item>
+		<item>固件管理器未重启.</item>
+		<item>其他.</item>
+	</string-array>
+	
+	<string name="recovery_broken_fix">有几种方法来修复损坏的Recovery. 1) 刷入备用或较老的Recovery然后刷回当前版本 and. 2) 尝试在设置中开启"擦去Recovery ".3) 尝试清空您的下载缓存. 4) 刷入较老的Recovery. 5)  从您的电脑快速引导或SBF一个Recovery.</string>
+	<string name="reboot_fix">一些固件的引导文件是损坏的.更多信息: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">请发邮件到 koush@clockworkmod.com告诉我你的问题!</string>
+	
+	<string name="buy_premium">购买高级版</string>
+	
+	<string-array name="purchase_options">
+		<item>PayPal ($3.99)</item>
+		<item>电子市场($4.99)</item>
+	</string-array>
+	
+	<string name="device_id">设备ID</string>
+	<string name="license_retrieval_error">证书检索错误</string>
+	<string name="license_retrieved">检索到证书!</string>
+	<string name="license_server_error">无法连接到证书服务器!请使用电子市场来代替!</string>
+	
+	<string name="recovery_try_fix">重启进入Clockwork Recovery似乎失败了. 这个问题可能可以通过清空您的下载缓存与重新刷入Recovery来解决. 点击确定来清空您的下载缓存并重新刷入Recovery.</string>
+	
+	<string name="web_connect">网络连接</string>
+	<string name="web_connect_error">尝试建立您的网络连接账户时出错.</string>
+	<string name="web_connect_success">您可以直接下载固件到您的手机如果支持.</string>
+	
+	<string name="download_in_progress">当前正有一个固件在下载. 取消下载?</string>
+	
+	<string name="yes">是</string>
+	<string name="no">不</string>
+
+    <string name="no_device_id">此设备不支持PayPal消费!</string>
+    
+    <string name="downloading">您的下载已经开始...您可以在通知栏看到它的进度!</string>
+    <string name="rom_manager_downloading">下载已经开始</string>
+    
+    <string name="verify_custom_flashed">刷入非ClockworkMod 的Recovery 可能不会正常工作. 继续进行?</string>
+    
+    <string name="flash_clockwork_or_get_premium">只有高级版用户可以使用备用的Recovery与 ROM Manager 来刷固件! 否则, 在继续之前您必须安装ClockworkMod Recovery! 通过固件管理器安装ClockworkMod Recovery.</string>
+    <string name="premium_activated">恭喜！您已经通过PayPal激活了固件管理器高级版! 没有更多需要下载, 就算您擦去了数据. 您的消费已经记录在了固件管理器的服务器上.</string>
+</resources>

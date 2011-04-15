@@ -192,13 +192,11 @@
 	<string name="no_su">You must root your phone for ROM Manager to function. Superuser was not found at \"/system/bin/su\" or \"/system/xbin/su\". Use Google Search on your computer to find instructions to root your phone.</string>
 	
 	<string name="invalid_license">Invalid License</string>
-	<string name="invalid_license_text">Your ROM Manager License is outdated. Please reinstall ROM Manager via the Market.</string>
 	
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<!--<string name="whats_new">Don\'t like Advertisements? You can disable them under Settings! But leaving them on helps support ROM Manager. :)</string>-->
-	<string name="whats_new">Gone are the days of downloading a ROM and pushing it to your phone: Introducing Web Connect! If you are browsing a forum on your computer, and the developer supports it, you can download the ROM straight to ROM Manager! Set it up in the ROM Manager Menu. See koushikdutta.com for a demo.</string>
+	<string name="whats_new">HTC Users: Charging in recovery has been fixed. :)\n\nNew Icons by @vazguard!\n\nThe ROM Manager redesign is now underway! Over the next few weeks, ROM Manager will be getting a makeover. User feedback is appreciated! Drop @clockworkmod a line on Twitter!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -284,4 +282,13 @@
     
     <string name="downloading">Your download has started...\nYou can view its progress in the notification area!</string>
     <string name="rom_manager_downloading">Download Started</string>
+    
+    <string name="verify_custom_flashed">Flashing an update package on a recovery other than ClockworkMod Recovery may not work properly. Proceed?</string>
+    
+    <string name="flash_clockwork_or_get_premium">Only Premium users may use Alternate recoveries with ROM Manager to flash ROMs! Otherwise, you must have ClockworkMod Recovery installed before continuing! Install the recovery through ROM Manager first.</string>
+    <string name="premium_activated">You have now activated ROM Manager Premium via PayPal! No further downloads are necessary, even if you wipe your device. Your purchase has been noted on ROM Manager\'s servers. </string>
+    <string name="follow_koush">Follow @koush</string>
+    <string name="rate">Rate</string>
+
+    <string name="reinstall_from_market">Your ROM Manager License was reported as invalid by the Android Market. Please reinstall ROM Manager via the Market.</string>
 </resources>

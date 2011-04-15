@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rom_management">ROM 관리</string>
+	<string name="install_rom">SD Card에서 ROM 설치</string>
+	<string name="download_rom">ROM 다운로드</string>
+	<string name="check_updates">ROM 업데이트 검사</string>
+	<string name="backup_and_restore">백업과 복원</string>
+	<string name="manage_and_restore_backups">백업과 복원 관리</string>
+	<string name="backup_current_rom">현재 ROM 백업</string>
+
+	<string name="no_connection">서버에서 다운받는 동안 오류가 발생했습니다. 무선 접속망의 상태가 안정적인지 SD카드에 문제(용량 등)가 없는지 확인하세요!</string>
+
+	<string name="brick_warning">ROM Manager는 사용중인 단말기에서 발생하는 손상에 책임을 지지 않습니다. 루팅된 단말기의 보증은 무효처리 됩니다. 롬 매니저에서 장난은 위험합니다. 또한 응용프로그램의 개선을 위해 Google Analytics로 익명의 자료를 보낼 수 있습니다. 동의 하시려면 Agree, 취소 하시려면 Cancel을 누르세요.</string>
+
+	<string name="ota_not_supported">OTA를 통한 ROM 업데이트를 받지 못하게 설정 되어 있습니다. ROM 개발자에게 문의 하시기 바랍니다.</string>
+	<string name="ota_not_supported_extended">OTA를 통한 ROM 업데이트가 불가능합니다. ROM 개발자가 OTA를 통한 업데이트가 가능하도록 변경하여야 합니다. ROM Manager의 오류가 아니니, ROM Manger 개발자에게 연락 하지 마세요.</string>
+	<string name="current_rom">현재 ROM: %s</string>
+
+	<string name="donate">개발자에게 기부</string>
+	<string name="developer_homepage">개발자 홈페이지</string>
+
+	<string name="utilities">지원 프로그램</string>
+	<string name="fix_permissions">Permissions 수정</string>
+	<string name="fixing_permissions">Permissions을 수정중입니다...</string>
+	<string name="fix_permissions_detail">파일 시스템의 Permission 수정합니다. 가끔씩 일어나는 강제 종료 문제를 고치기도 합니다.</string>
+	
+	<string name="fix_permissions_done">완료되었습니다. 단말기를 다시 시작 하셔야 합니다.</string>
+
+	<string name="download_rom_premium">전체 롬 목록에 접속 하려면, Rom Manager를 Premium으로 업그레이드 하세요!</string>
+	
+	<string name="premium_only">이 기능은 Premium 사용자에게만 제공 됩니다.</string>
+	<string name="no_update">ROM 업데이트가 불가능합니다.</string>
+	<string name="update_available">업데이트가 가능합니다.</string>
+	<string name="updated_rom">최신의 ROM으로 업데이트 하시려면, OK를 누르세요.: %s.</string>
+	<string name="update_recovery_available">ClockworkMod 복구 모드를 업데이트 할 수 있습니다.</string>
+	
+	<string name="upgrade">Rom Manager를 최신 버전으로 업데이트 하셔야 합니다!</string>
+
+	<string name="recovery_update_required">새 버전의 ClockworMod 복구 모드를 사용할 수 있습니다. Rom Manager를 사용하려면 업데이트 하세요!</string>
+
+	<string name="edit_backup_name">백업 이름</string>
+	<string name="new_backup_name">새 백업의 이름</string>
+	<string name="rename_backup_error">백업 이름 변경중에 오류가 발생하였습니다. 중복되지 않고, 올바른 이름을 사용하십시오.</string>
+	<string name="confirm_delete_backup">백업을 삭제 하시겠습니까?</string>
+	<string name="remove_backup_error">백업을 삭제하는 동안 오류가 발생하였습니다.</string>
+
+	<string name="app_name">ROM Manager</string>
+	<string name="app_name_premium">ROM Manager Premium</string>
+	
+	<string name="coming_soon">Coming soon!</string>
+	
+	<string-array name="manage_options">
+		<item>복원</item>
+		<item>이름 변경</item>
+		<item>삭제</item>
+	</string-array>
+		
+	<string-array name="install_options">
+		<item>기존 ROM 백업</item>
+		<item>Data와 Cache 삭제</item>
+	</string-array>
+
+	<string name="restore_options">복원 옵션</string>
+
+	<string-array name="restore_partitions">
+		<item>Boot 복원</item>
+		<item>System 복원</item>
+		<item>Data 복원</item>
+		<item>Cache 복원</item>
+		<item>SD-Ext 복원</item>
+	</string-array>
+
+	<string-array name="ext_size_options">
+		<item>128MB</item>
+		<item>256MB</item>
+		<item>512MB</item>
+	</string-array>
+
+	<string-array name="swap_size_options">
+		<item>0MB</item>
+		<item>32MB</item>
+		<item>64MB</item>
+		<item>128MB</item>
+		<item>256MB</item>
+	</string-array>
+
+	<string name="partition_ext_size">Ext 크기</string>
+	<string name="partition_swap_size">Swap 크기</string>
+	<string name="partition_sdcard">SD Card 분할</string>
+	<string name="partition_sdcard_summary">Apps2SD를 사용할 수 있도록 SD Card를 분할 합니다.</string>
+	<string name="partition_sdcard_warning">SD Card를 분할하면 SD Card의 모든 데이터가 삭제 됩니다. 다시 시작후에 계속 진행 하시겠습니까?</string>
+
+	<string name="manifests_no_roms">단말기에서 사용할 수 있는 ROM 목록이 없습니다. ROM 개발자에게 문의하세요.</string>
+	
+	<string name="preinstallation">ROM 설치 전 작업</string>
+	
+	<string name="download_cache_cleared">다운로드 Cache가 삭제 되었습니다.</string>
+	
+	<string name="manifests_unavailable">개발자 목록을 다운로드 하는 도중 오류가 발생하였습니다!</string>
+	<string name="manifests_error">개발자 목록을 처리 하는 도중 오류가 발생하였습니다!</string>
+	
+	<string name="roms_unavailable">ROM 목록을 다운로드 하는 도중 오류가 발생하였습니다. ROM 개발자에게 문의하세요.</string>
+	<string name="roms_error">ROM 목록을 처리 하는 도중 오류가 발생하였습니다.</string>
+	<string name="rom_error">ROM을 처리하는 도중 오류가 발생하였습니다.</string>
+	<string name="rom_addons">ROM 부가기능</string>
+	<string name="rom_download_error">ROM을 다운로드 하는 도중 오류가 발생하였습니다.</string>
+	<string name="rom_download_error_short">ROM 다운로드 오류</string>
+	<string name="rom_download_complete">ROM 다운로드 완료</string>
+	
+	<string name="restore">복원</string>
+	<string name="confirm_restore">단말기를 다시 시작하여 백업한 자료로 복원 하시겠습니까?</string>
+
+	<string name="reboot_recovery">복구 모드로 다시 시작</string>
+	<string name="reboot_into_recovery">복구 방법을 수동으로 관리 합니다.</string>
+	<string name="confirm_reboot">ClockworkMod 복구 모드를 다시 시작해도 되겠습니까?</string>
+	<string name="confirm_reboot_alternate">%s 다시 시작 할까요?</string>
+	
+	<string name="confirm_reboot_and_install">OK를 눌러 Clockworkmod Recovery를 다시 시작한 후에 설치를 계속 합니다.</string>
+	<string name="restart_and_install">다시 시작과 설치</string>
+	
+	<string name="recovery_clockworkmod_yours">현재 복구 모드 버전: ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">현재 복구: %s</string>
+	<string name="recovery_latest">최신 복구 모드 버전: ClockwrokMod %s</string>
+
+	<string name="recovery">복구 모드</string>
+	<string name="flash_recovery">ClockworkMod 복구 모드의 설치</string>
+	<string name="flash_recovery_error">복구 모드를 업데이트 하는 도중 오류가 발생하였습니다.</string>
+	<string name="download_recovery_error">복구 모드를 다운로드 하는 도중 오류가 발생하였습니다.</string>
+	<string name="download_recovery_success">ClockworkMod 복구 모드의 다운로드에 성공하였습니다.</string>
+	<string name="flash_manual">수동 설치</string>
+	<string name="flash_recovery_override">ROM Manager에서의 설치에 문제가 있습니까? 수동으로 ClockworkMod를 설치 하려면 OK를 누르세요.</string>
+	<string name="flash_recovery_success">ClockworkMod의 설치 완료!</string>
+	<string name="flash_alternate_recovery_success">복구 모드의 적용 완료!</string>
+	<string name="confirm_device">단말기 종류 확인</string>
+	<string name="do_this_first">ROM을 복원 하려면 ClockworkMod 복구 모드를 사용 하셔야 합니다.</string>
+	<string name="flash_recovery_require">계속 하시려면, ClockworkMod 복구 모드를 설치 하셔야 합니다. ROM Manager에서 설치하세요.</string>
+	<string name="install">설치</string>
+	
+	<string name="clear_cache">다운로드 Cache 삭제</string>
+	<string name="clear_cache_confirm">다운로드 Cache는 ROM 설치를 빠르게 합니다. 다운로드 Cache를 삭제 하시겠습니까?</string>
+
+	<string name="backup">백업</string>
+	<string name="confirm_backup">단말기를 다시 시작하여, ROM 백업을 하시겠습니까?</string>
+	<string name="script_error">특수 명령을 사용하는 도중 오류가 발생하였습니다.</string>
+	<string name="backup_error">백업에는 중복되지 않고, 올바른 이름을 사용하십시오.</string>
+	
+	<string name="flash_alternate">대체 복구 모드의 설치</string>
+	<string name="flash_alternate_warning">대체 복구 모드의 설치에 동의 하십니까? ClockworkMod 복구 모드를 다시 설치 하기 전에는, ROM Manger의 기능을 사용할 수 없습니다.</string>
+	<string name="flash_alternate_unavailable">대체 복구 모드가 없습니다.</string>
+	<string name="flash_legacy_and_experimental">ClockworkMod 복구 모드의 버전 목록</string>
+	<string name="flash_legacy_and_experimental_summary">ClockworkMod 복구 모드의 구버전과 테스트 버전의 설치</string>
+	<string name="flash_legacy_unavailable">유효한 복구 모드가 없습니다. 인터넷에 연결되어 있습니까?</string>
+	
+	<string name="developer_mode">고급 모드</string>
+	<string name="developer_mode_details">고급 모드는 최신 복구 모드의 실험등에 사용 됩니다. ROM이 불안정 할 수 있으므로, ADB등의 사용이 능숙하고 신중한 사람만 사용하시기를 권합니다.</string>
+	<string name="developer_mode_on">고급 모드의 활성</string>
+	<string name="developer_mode_off">고급 모드의 비활성</string>
+	<string name="developer_mode_summary">고급 모드는 ROM Manger에서 고급 모드를 활성화 하는 경우에만, 사용 가능합니다.</string>
+	
+	<string name="premium_required_to_download">이 개발자의 ROM은 ROM Manger Premium 사용자만 다운로드 가능합니다.</string>
+	
+	<string name="free_header">Free</string>
+	<string name="premium_header">Premium</string>
+	
+	<string name="update_notifications">업데이트 알림</string>
+	<string name="update_notifications_enabled">업데이트 알림 활성</string>
+	<string name="update_notifications_disabled">업데이트 알림 비활성</string>
+	
+	<string name="rom_manager_settings">ROM Manager 설정</string>
+	<string name="settings">설정</string>
+	
+	<string name="more_recoveries">다른 복구 모드</string>
+	
+	<string name="sdcard_not_mounted">SD Card가 연결되지 않았습니다.</string>
+	<string name="sdcard_needs_to_be_mounted">ROM Manager를 사용하시려면 SD Card를 연결 하셔야 합니다.</string>
+	
+	<string name="automatic_backup_time">백업 시간</string>
+	<string name="automatic_backup_frequency">백업 빈도</string>
+	<string-array name="automatic_backup_frequencies">
+		<item>매일</item>
+		<item>2일에 한번</item>
+		<item>3일에 한번</item>
+		<item>4일에 한번</item>
+		<item>5일에 한번</item>
+		<item>6일에 한번</item>
+		<item>일주일에 한번</item>
+	</string-array>
+	<string name="automatic_backup">자동 백업</string>
+	<string name="automatic_backup_disabled">자동 백업이 비활성 되어 있습니다.</string>
+	<string name="automatic_backup_summary">다음 백업 계획은 %s 입니다.</string>
+	
+	<string name="no_su">ROM Manger는 Root의 사용 권한이 필요 합니다. \"/system/bin/su\" or \"/system/xbin/su\"에서 Superuser를 찾을 수 없습니다. Root 권한을 얻으시려면 Google 검색을 이용하세요.</string>
+	
+	<string name="invalid_license">라이센스가 잘못되었습니다.</string>
+	<string name="invalid_license_text">ROM Manager 라이센스 사용기한이 넘었습니다. 마켓에서 ROM Manager를 다시 받으세요.</string>
+	
+	<string name="changelog">업데이트 내역</string>
+	
+	<string name="new_features">새로운 기능</string>
+	<string name="whats_new">ROM을 다운로드 하고, 단말기로 옮기는 시대는 사라져 갑니다. 포럼과 카페등의 웹사이트에서 찾지 마시고, ROM Manger에서 직접 받으세요. 단, ROM 개발자가 지원해야 합니다. koushikdutta.com 에서 미리 살펴 보세요.</string>
+	
+	<string name="install_from_qrcode">QR 코드 설치</string>
+	
+	<string name="qrcode_download">QR 코드 다운로드</string>
+	<string name="qrcode_summary">사진을 찍어 ROM을 설치 합니다. 바코드 스캐너 응용프로그램이 필요 합니다.</string>
+	<string name="qrcode_premium_required">ROM Manager Premium 만이 QR 코드로 ROM 설치가 가능합니다.</string>
+	<string name="qrcode_not_installed">바코드 스캐너가 없습니다.</string>
+	<string name="qrcode_install">이 기능의 사용을 위해서 바코드 스캐너가 필요합니다. 바코드 스캐너의 무료 설치를 원하시면 OK를 누르세요.</string>
+	
+	<string name="flash_recovery_confirm_title">복구 모드를 설치합니까?</string>
+	<string name="flash_recovery_confirm">복구 모드를 수정 하시겠습니까?</string>
+	
+	<string name="analytics">Google Analytics</string>
+	<string name="analytics_details">Google Analytics은 ROM Manger의 개선을 위해서 익명의 사용자 정보를 수집 합니다. OK를 누르시면 Google과 ROM Manger 개발자에게 사용자 정보를 보낼 수 있습니다.</string>
+	<string name="analytics_on">Google Analytics가 실행됩니다. ROM Manager의 개선을 위해 참여해 주셔서 감사합니다.</string>
+	<string name="analytics_off">Google Analytics가 취소됩니다. 개선을 위해 실행을 부탁드립니다.</string>
+	
+	<string name="fast_nandroid">빠른 백업과 복원</string>
+	<string name="fast_nandroid_on">빠른 속도를 위하여 상태 표시 막대를 비활성 합니다.</string>
+	<string name="fast_nandroid_off">상태 표시 막대를 활성 합니다. 비활성 하시면, 빠른 백업과 복원이 가능합니다.</string>
+
+	<string name="credits">제작자</string>
+	<string name="credits_summary">제작: Koushik Dutta.</string>
+
+	<string name="erase_recovery">복구 모드의 삭제</string>
+	<string name="erase_recovery_on">복구 모드 설치전에 삭제 됩니다.</string>
+	<string name="erase_recovery_off">복구 모드 설치전에 삭제되지 않습니다.</string>
+	
+	<string name="install_queue">설치 차례:</string>
+	<string name="add_another_zip">Zip 추가</string>
+	
+	<string name="report_error">오류 보고</string>
+	<string name="report_error_message">복구 모드에서 오류가 발생하였습니다. 동일한 오류를 반복적으로 보고하지 마세요.</string>
+	
+	<string name="screenshots">스크린샷</string>
+	<string name="download">다운로드</string>
+	
+	<string name="loading">로드 중...</string>
+	
+	<string name="corrupt">Zip 파일에 문제가 있습니다.</string>
+	
+	<string name="no_spaces">ROM Manager에서 이 파일을 열 수 없습니다. 디렉토리의 경로와 파일명의 공백을 제거하세요. 또는, ClockworkMod 수동 복구 모드를 사용하세요.</string>
+	<string name="no_md5">이 것은 올바른 백업 파일이 아닙니다. MD5# 확인이 불가능 합니다.</string>
+	
+	<string name="showads">광고의 표시</string>
+	<string name="showads_summary">ROM Manager에게 도움을 주세요! (변경하시고 다시 시작 하셔야 합니다.)</string>
+
+	<string name="recovery_failure">복구 실패</string>
+	<string-array name="recovery_failures">
+		<item>복구 모드가 \"손상 되었습니다\".</item>
+		<item>ROM Manager를 다시 시작할 수 없습니다.</item>
+		<item>기타</item>
+	</string-array>
+	
+	<string name="recovery_broken_fix"> \"손상된\""" 복구 모드:\n1) 이전 복구 모드를 삭제하고, 새로운 복구 모드를 설치 합니다.\n2) ROM Manager\의 설정에서 "복구 모드를 삭제".\n3) 메뉴에서 다운로드 Cache를 삭제하고, 재설치 합니다.\n4) 이전 버전의 복구 모드를 사용합니다.\n5) Fastboot나 SBF를 사용하여 PC에서 복구 모드를 재설치 합니다.</string>
+	<string name="reboot_fix">일부 ROM의 "reboot"은 삭제 되었습니다. PC에서 다음 스레드를 확인하고 정보를 얻으세요: http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">알려지지 않은 버그는 koush@clockworkmod.com 에게로 부담 없이 보내주세요.</string>
+	
+	<string name="buy_premium">Premium 구입</string>
+	
+	<string-array name="purchase_options">
+		<item>PayPal ($3.99)</item>
+		<item>Android Market ($4.99)</item>
+	</string-array>
+	
+	<string name= "device_id">Device ID</string>
+	<string name="license_retrieval_error">라이센스에 오류가 있습니다.</string>
+	<string name="license_retrieved">라이센스 검색!</string>
+	<string name="license_server_error">라이센스 검색에 실패하였습니다. 안드로이드 마켓을 이용 하세요.</string>
+	
+	<string name="recovery_try_fix">ClockworkMod 복구 모드의 시작에 문제가 있습니다. 이 문제는 다운로드 Cache를 삭제하고 재설치 하여 고칠 수 있습니다. OK를 누르면 다운로드 Cache의 삭제와 재설치가 가능합니다.</string>
+	
+	<string name="web_connect">웹 연결</string>
+	<string name="web_connect_error">웹 연결 계정의 설정에 문제가 있습니다.</string>
+	<string name="web_connect_success">ROM을 바로 다운로드 할 수 있습니다. ROM의 스레드에서 확인하세요.</string>
+	
+	<string name="download_in_progress">ROM의 다운로드가 진행중입니다. 취소 하시겠습니까?</string>
+	
+	<string name="yes">예</string>
+	<string name="no">아니오</string>
+
+    <string name="no_device_id">PayPal의 구매는 이 단말기에서 지원하지 않습니다.</string>
+    
+    <string name="downloading">다운로드가 시작 되었습니다...\n알림 영역에서 진행 상황을 볼 수 있습니다.</string>
+    <string name="rom_manager_downloading">다운로드 시작</string>
+    
+    <string name="verify_custom_flashed">다른 패키지를 설치합니다. ClockworkMod 복구 모드가 제대로 작동하지 않을 수 있습니다. 계속 하시겠습니까?</string>
+    
+    <string name="flash_clockwork_or_get_premium">Premium 사용자는 대체 복구 모드와 ROM Manger에서의 ROM 설치가 가능합니다.</string>
+    <string name="premium_activated">PayPal을 통해 ROM Manager Premium의 구입이 완료 되었습니다. 단말기가 초기화 되어도, 라이센스 구매 정보는 ROM Manager의 서버에 기록됩니다.</string>
+</resources>

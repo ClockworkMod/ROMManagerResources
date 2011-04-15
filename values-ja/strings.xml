@@ -183,7 +183,6 @@
 	<string name="changelog">更新履歴</string>
 
 	<string name="new_features">新機能</string>
-	<string name="whats_new">広告がお嫌いですか?設定で無効にできます!ですが、ROM Manager開発の手助けのために有効にしておいてください。</string>
 
 	<string name="install_from_qrcode">QRコードからインストール</string>
 
@@ -248,5 +247,18 @@
         </string-array>
 
         <string name="device_id">デバイスID</string>
+	<string name="license_retrieval_error">ライセンス取得エラー</string>
+	<string name="license_retrieved">ライセンスを取得しました!</string>
+	<string name="license_server_error">ライセンスサーバに接続できませんでした! かわりにAndroidマーケットをご利用ください!</string>
 
+	<string name="recovery_try_fix">Clockworkリカバリへの再起動が失敗したようです。この問題はダウンロードキャッシュを削除し、再度リカバリをフラッシュすることで解決するかもしれません。 OKを押してキャッシュの削除と再フラッシュを実行してください。</string>
+
+	<string name="web_connect">ウェブコネクト</string>
+	<string name="web_connect_error">あなたのウェブコネクトアカウントの設定中にエラーが発生しました。</string>
+	<string name="web_connect_success">フォーラムのROMスレッドが対応してくれれば、すぐに端末にROMをダウンロードできます。</string>
+
+	<string name="download_in_progress">ROMは現在ダウンロード中です。ダウンロードを中止しますか?</string>
+
+	<string name="yes">はい</string>
+	<string name="no">いいえ</string>
 </resources>
