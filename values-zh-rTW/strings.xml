@@ -196,7 +196,7 @@
     <string name="changelog">更新日誌</string>
 
     <string name="new_features">新功能</string>
-    <string name="whats_new">修正了某些只有 Wi-Fi 連線的手機於授權時出現的裝置識別碼錯誤。對於 Nook Color 的用戶真是萬分抱歉！請使用 Twitter 回報任何與授權相關的錯誤到 @koush 或 @clockworkmod。</string>
+    <string name="whats_new">HTC 用戶：Recovery 的充電問題已修正。:)\n\n由 @vazguard 提供的新圖示！\n\nROM Manager 翻新工程進行中！在未來數星期，ROM Manager 將會換然一新。歡迎在 Twitter 提供意見給 @clockworkmod！</string>
 
     <string name="install_from_qrcode">透過 QR 碼安裝</string>
 
