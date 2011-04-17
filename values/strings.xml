@@ -291,4 +291,12 @@
     <string name="rate">Rate</string>
 
     <string name="reinstall_from_market">Your ROM Manager License was reported as invalid by the Android Market. Please reinstall ROM Manager via the Market.</string>
+    
+    <string name="nickname">Nickname</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="roms">ROMs</string>
+    <string name="post_comment">Comment</string>
+    
+    <string name="login_required">You must log in using Web Connect to rate ROMs or leave comments.</string>
+    <string name="must_rate">You must rate this ROM before you may comment!</string>
 </resources>
