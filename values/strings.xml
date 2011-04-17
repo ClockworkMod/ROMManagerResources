@@ -196,7 +196,7 @@
 	<string name="changelog">Changelog</string>
 	
 	<string name="new_features">New Features</string>
-	<string name="whats_new">HTC Users: Charging in recovery has been fixed. :)\n\nNew Icons by @vazguard!\n\nThe ROM Manager redesign is now underway! Over the next few weeks, ROM Manager will be getting a makeover. User feedback is appreciated! Drop @clockworkmod a line on Twitter!</string>
+	<string name="whats_new">Welcome to ROM Manager 4.0!\n\nThe newest features brings ROM Ratings and comments for Premium users!\n\nYou\'ll also find that the icons have been revamped thanks to @vazguard!</string>
 	
 	<string name="install_from_qrcode">Install from QR Code</string>
 	
@@ -299,4 +299,5 @@
     
     <string name="login_required">You must log in using Web Connect to rate ROMs or leave comments.</string>
     <string name="must_rate">You must rate this ROM before you may comment!</string>
+    <string name="downloads">(%d downloads)</string>
 </resources>
