@@ -196,7 +196,7 @@
     <string name="changelog">更新日誌</string>
 
     <string name="new_features">新功能</string>
-    <string name="whats_new">HTC 用戶：Recovery 的充電問題已修正。:)\n\n由 @vazguard 提供的新圖示！\n\nROM Manager 翻新工程進行中！在未來數星期，ROM Manager 將會換然一新。歡迎在 Twitter 提供意見給 @clockworkmod！</string>
+    <string name="whats_new">歡迎使用 ROM Manager 4.0！\n\n最新功能：讓 Premium 版用戶給 ROM 評分及評論！\n\n您亦會發現圖示都已更新了，多得 @vazguard！</string>
 
     <string name="install_from_qrcode">透過 QR 碼安裝</string>
 
@@ -291,4 +291,13 @@
     <string name="rate">評分</string>
 
     <string name="reinstall_from_market">Android Market 報告指出您在使用不合法的 ROM Manager 授權。請到 Market 重新安裝 ROM Manager。</string>
+
+    <string name="nickname">暱稱</string>
+    <string name="anonymous">匿名</string>
+    <string name="roms">ROM 列表</string>
+    <string name="post_comment">評論</string>
+
+    <string name="login_required">您必須先使用 Web Connect 登入才可給 ROM 評分或發表評論。</string>
+    <string name="must_rate">您必須先給此 ROM 評分之後才可發表評論！</string>
+    <string name="downloads">（%d 次下載）</string>
 </resources>
