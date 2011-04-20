@@ -303,4 +303,15 @@
     
     <string name="loading_comments">Loading Comments...</string>
     <string name="no_comments">No one has left any comments! Be the first!</string>
+
+	<string name="not_officially_supported">%s does not have an officially supported ClockworkMod Recovery yet. Have you installed a ClockworkMod based recovery manually?</string>
+	<string name="sorry_no_clockworkmod">Sorry! Until ClockworkMod recovery is available, ROM Manager will not work with %s!</string>
+	<string name="confirm_version">Confirm Version</string>
+	<string-array name="clockworkmod_versions">
+		<item name="clockworkmod_2">ClockworkMod 2.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+	</string-array>
+	<string name="overriden">ROM Manager has been set up to use your existing recovery installation.</string>
+
+	<string name="flash_legacy_unavailable2">No legacy recoveries found.</string>
 </resources>
