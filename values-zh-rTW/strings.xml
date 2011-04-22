@@ -303,4 +303,20 @@
 
     <string name="loading_comments">載入評論中…</string>
     <string name="no_comments">尚未有人發表評論！搶先發表吧！</string>
+
+    <string name="not_officially_supported">%s 暫無官方支援的 ClockworkMod Recovery。您有否手動安裝了一個基於 ClockworkMod 的 Recovery?</string>
+    <string name="sorry_no_clockworkmod">抱歉！在有可用的 ClockworkMod Recovery 之前，ROM Manager 無法在 %s 上使用！</string>
+    <string name="confirm_version">版本確認</string>
+    <string-array name="clockworkmod_versions">
+        <item name="clockworkmod_2">ClockworkMod 2.x</item>
+        <item name="clockworkmod_3">ClockworkMod 3.x</item>
+    </string-array>
+    <string name="overriden">ROM Manager 已被設定好去使用您現有的 Recovery 安裝。</string>
+
+    <string name="flash_legacy_unavailable2">找不到遺留下來的 Recovery 版本。</string>
+
+    <string name="enter_purchase_information">輸入購買資訊</string>
+    <string name="paypal_email_id">PayPal 帳戶電郵</string>
+    <string name="no_license_found">找不到與該 PayPal 交易 ID 號碼相關的授權。</string>
+    <string name="rommanager_transaction_number">ROM Manager 交易 ID 號碼＃</string>
 </resources>
