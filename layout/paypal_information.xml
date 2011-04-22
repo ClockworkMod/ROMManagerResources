@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dip"
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/paypal_email_id"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+            
+    <EditText
+        android:id="@+id/paypal_email_id"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+         />
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/rommanager_transaction_number"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+            
+    <EditText
+        android:id="@+id/rommanager_transaction_number"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint="12345678"
+         />
+
+</LinearLayout>

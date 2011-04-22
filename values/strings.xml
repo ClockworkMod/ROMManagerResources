@@ -314,4 +314,9 @@
 	<string name="overriden">ROM Manager has been set up to use your existing recovery installation.</string>
 
 	<string name="flash_legacy_unavailable2">No legacy recoveries found.</string>
+
+    <string name="enter_purchase_information">Enter Purchase Information</string>
+    <string name="paypal_email_id">PayPal Email ID</string>
+    <string name="no_license_found">There was no license found for that PayPal Transaction Id.</string>
+    <string name="rommanager_transaction_number">ROM Manager Transaction #</string>
 </resources>
