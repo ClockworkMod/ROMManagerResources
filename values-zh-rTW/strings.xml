@@ -132,7 +132,7 @@
     <string name="flash_recovery_success">成功刷入 ClockworkMod Recovery！</string>
     <string name="flash_alternate_recovery_success">成功刷入 Recovery！</string>
     <string name="confirm_device">確認手機型號</string>
-    <string name="do_this_first">您必須安裝了 ClockworkMod Recovery 方能把 ROM 刷入／還原！ installed to flash and restore ROMs!</string>
+    <string name="do_this_first">您必須安裝了 ClockworkMod Recovery 方能把 ROM 刷入／還原！</string>
     <string name="flash_recovery_require">您必須安裝了 ClockworkMod Recovery 方能繼續！請先於 ROM Manager 安裝 Recovery。</string>
     <string name="install">安裝</string>
 
@@ -211,7 +211,7 @@
 
     <string name="analytics">Google 分析</string>
     <string name="analytics_details">Google 分析會遞交匿名的使用情況統計來幫助 ROM Manager 的進步! 按“確定”表示您了解匿名的使用情況資訊將會被提交到 Google 及 ROM Manager 的開發者。</string>
-    <string name="analytics_on">Google 分析已開啟. 感謝您的幫忙使 ROM Manager 更出息！</string>
+    <string name="analytics_on">Google 分析已開啟。感謝您的幫忙使 ROM Manager 更出息！</string>
     <string name="analytics_off">Google 分析已關閉。你應該將這開啟！</string>
 
     <string name="fast_nandroid">快速備份及還原</string>
@@ -242,7 +242,7 @@
     <string name="no_md5">這個備份似乎不合規格，缺乏了 MD5 檔案。</string>
 
     <string name="showads">顯示廣告</string>
-    <string name="showads_summary">幫忙支持 ROM Manager！（變更後需要重新啟動應用程式。）</string>
+    <string name="showads_summary">幫忙支持 ROM Manager！\n（變更後需要重新啟動應用程式）</string>
 
     <string name="recovery_failure">Recovery 事敗</string>
     <string-array name="recovery_failures">
