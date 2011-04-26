@@ -322,7 +322,7 @@
     
     <string name="ratings_server_error">ROM Manager is unable to download ROM rating information at this time.</string>
 
-    <string name="downloads_and_time">(%1$d downloads, %2$s)</string>
+    <string name="downloads_no_parentheses">%s downloads</string>
     
     <string name="sort_by_date">Sort By Date</string>
     <string name="sort_by_rating">Sort By Rating</string>

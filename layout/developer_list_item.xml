@@ -20,7 +20,10 @@
                 android:layout_gravity="center_vertical" />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/downloads"
-                android:paddingLeft="8sp" />
+                android:paddingLeft="8sp" android:gravity="center_vertical" />
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/date"
+                android:paddingLeft="8sp" android:layout_weight="1" android:gravity="right|center_vertical" />
         </LinearLayout>
     </LinearLayout>
 
