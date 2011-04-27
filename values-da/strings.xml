@@ -20,9 +20,9 @@
 <string name="developer_homepage">Hjemmeside</string>
 
 <string name="utilities">Hjælpeprogrammer</string>
-<string name="fix_permissions">Ret Tilladelser</string>
-<string name="fixing_permissions">Retter Tilladelser...</string>
-<string name="fix_permissions_detail">Ret filsystem tilladelser. Dette løser ofte Force Close problemer.</string>
+<string name="fix_permissions">Ret tilladelser</string>
+<string name="fixing_permissions">Retter tilladelser...</string>
+<string name="fix_permissions_detail">Ret filsystem tilladelser. Dette løser ofte force close problemer.</string>
 
 <string name="fix_permissions_done">Færdig! Du bør nu genstarte din telefon.</string>
 
@@ -77,7 +77,7 @@
 <string name="restore">Gendan</string>
 <string name="confirm_restore">Er du sikker på du vil genstarte telefonen og gendanne din backup?</string>
 
-<string name="reboot_recovery">Genstart tili Recovery</string>
+<string name="reboot_recovery">Genstart til Recovery</string>
 <string name="reboot_into_recovery">Start i Recovery tilstand til manuel håndtering.</string>
 <string name="confirm_reboot">Er du sikker på du vil genstarte til ClockworkMod Recovery?</string>
 <string name="confirm_reboot_alternate">Er du sikker på du vil genstarte til %s?</string>
