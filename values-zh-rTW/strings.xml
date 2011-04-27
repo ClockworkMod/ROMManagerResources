@@ -21,8 +21,8 @@
 
     <string name="utilities">公用程式</string>
     <string name="fix_permissions">權限修正</string>
-    <string name="fixing_permissions">修正權限中...</string>
-    <string name="fix_permissions_detail">修正檔案系統的權限。這通常能修正強制關閉的問題。</string>
+    <string name="fixing_permissions">修正權限中…</string>
+    <string name="fix_permissions_detail">修正檔案系統的權限。這通常能修正強制關閉的問題</string>
 
     <string name="fix_permissions_done">完成！您應該立即重新啟動手機。</string>
 
@@ -31,7 +31,7 @@
     <string name="premium_only">此功能唯 Premium 版用戶尊享！</string>
     <string name="no_update">尚無適用的 ROM 更新。</string>
     <string name="update_available">有更新可供使用</string>
-    <string name="updated_rom">按“確定”把您的 ROM 更新至最新版本：%s。</string>
+    <string name="updated_rom">按“確定”把您的 ROM 更新至最新版本：%s</string>
     <string name="update_recovery_available">有 ClockworkMod Recovery 更新可供使用。</string>
 
     <string name="upgrade">您必須將 ROM Manager 升級至最新版本！</string>
@@ -58,7 +58,7 @@
     <string-array name="install_options">
         <item>備份目前的 ROM</item>
         <item>清除“資料／Data”及“快取／Cache”分區</item>
-        <item>Wipe Dalvik Cache</item>
+        <item>清除 Dalvik 快取</item>
     </string-array>
 
     <string name="restore_options">選取要還原的分區</string>
@@ -88,7 +88,7 @@
     <string name="partition_ext_size">“Ext／延伸區”大小</string>
     <string name="partition_swap_size">“Swap／交換區”大小</string>
     <string name="partition_sdcard">分割 SD 卡</string>
-    <string name="partition_sdcard_summary">分割您的 SD 卡讓您能夠在支援的 ROM 上安裝應用程式到 SD 卡的延伸區之內。</string>
+    <string name="partition_sdcard_summary">分割您的 SD 卡讓您能夠在支援的 ROM 上安裝應用程式到 SD 卡的延伸區之內</string>
     <string name="partition_sdcard_warning">分割 SD 卡會將卡內全部資料都刪除掉。您確定要重啟手機並繼續此操作的執行嗎？</string>
 
     <string name="manifests_no_roms">尚無適用於您的手機的 ROM！您可請求您喜愛的 ROM 開發者將其作品免費登錄到 ROM Manager！</string>
@@ -112,7 +112,7 @@
     <string name="confirm_restore">您確定要重啟手機並還原您的備份嗎？</string>
 
     <string name="reboot_recovery">重啟手機進入 Recovery</string>
-    <string name="reboot_into_recovery">進入 Recovery 模式來進行手動管理。</string>
+    <string name="reboot_into_recovery">進入 Recovery 模式來進行手動管理</string>
     <string name="confirm_reboot">您確定要重啟手機並進入 ClockworkMod Recovery 嗎？</string>
     <string name="confirm_reboot_alternate">您確定要重啟手機並進入 %s？</string>
 
@@ -149,13 +149,13 @@
     <string name="flash_alternate_warning">你確定要刷入替代的 Recovery 嗎？在您重新刷入 ClockworkMod Recovery 之前，ROM Manager 會失去效用。</string>
     <string name="flash_alternate_unavailable">沒有適用的可替代 Recovery</string>
     <string name="flash_legacy_and_experimental">所有 ClockworkMod Recovery</string>
-    <string name="flash_legacy_and_experimental_summary">刷入舊有的或實驗性質的 ClockworkMod Recovery 版本。</string>
+    <string name="flash_legacy_and_experimental_summary">刷入舊有的或實驗性質的 ClockworkMod Recovery 版本</string>
     <string name="flash_legacy_unavailable">找不到遺留下來的版本。您是否已連接到網際網路？</string>
 
     <string name="developer_mode">進階模式</string>
     <string name="developer_mode_details">進階模式並非為所有使用者而設。進階模式會讓您取用最新版本的 Recovery，實驗性質的 ROM，以及其他各種不穩但尖端的功能。進階模式該小心地使用，而且只建議給對 ADB 感到自在的用戶使用。</string>
-    <string name="developer_mode_on">進階模式已啟用。</string>
-    <string name="developer_mode_off">進階模式已停用。</string>
+    <string name="developer_mode_on">進階模式已啟用</string>
+    <string name="developer_mode_off">進階模式已停用</string>
     <string name="developer_mode_summary">您要在 ROM Manager 主選單中啟用進階模式後才能選用這個。</string>
 
     <string name="premium_required_to_download">下載此開發者的 ROM 需要使用 Premium 版的 ROM Manager！</string>
@@ -164,8 +164,8 @@
     <string name="premium_header">Premium 版</string>
 
     <string name="update_notifications">更新通知</string>
-    <string name="update_notifications_enabled">更新通知已啟用。</string>
-    <string name="update_notifications_disabled">更新通知已停用。</string>
+    <string name="update_notifications_enabled">更新通知已啟用</string>
+    <string name="update_notifications_disabled">更新通知已停用</string>
 
     <string name="rom_manager_settings">ROM Manager 設定</string>
     <string name="settings">設定</string>
@@ -187,8 +187,8 @@
         <item>每七天</item>
     </string-array>
     <string name="automatic_backup">自動備份</string>
-    <string name="automatic_backup_disabled">自動備份已停用。</string>
-    <string name="automatic_backup_summary">下一次自動備份將於 %s 進行。</string>
+    <string name="automatic_backup_disabled">自動備份已停用</string>
+    <string name="automatic_backup_summary">下一次自動備份將於 %s 進行</string>
 
     <string name="no_su">您的手機必須為已 root，否則 ROM Manager 起不了作用。在 \"/system/bin/su\" 或 \"/system/xbin/su\" 都找不到 Superuser。請在個人電腦使用 Google 搜尋來尋找您的手機的 root 方式。</string>
 
@@ -202,7 +202,7 @@
     <string name="install_from_qrcode">透過 QR 碼安裝</string>
 
     <string name="qrcode_download">QR 碼下載</string>
-    <string name="qrcode_summary">拍幅照片來安裝 ROM。需要使用免費的條碼掃描器應用程式。</string>
+    <string name="qrcode_summary">拍幅照片來安裝 ROM。這需要使用免費的條碼掃描器應用程式</string>
     <string name="qrcode_premium_required">要以 QR 碼來安裝 ROM，您需要安裝 Premium 版 ROM Manager！</string>
     <string name="qrcode_not_installed">找不到條碼掃描器</string>
     <string name="qrcode_install">您必須安裝好條碼掃描器來使用此功能！按“確定”從 Market 安裝免費的條碼掃描器應用程式。</string>
@@ -216,15 +216,15 @@
     <string name="analytics_off">Google 分析已關閉。你應該將這開啟！</string>
 
     <string name="fast_nandroid">快速備份及還原</string>
-    <string name="fast_nandroid_on">為求速度而停用了備份及還原的進度。</string>
-    <string name="fast_nandroid_off">顯示備份及還原的進度。停用這能加快備份及還原的速度。</string>
+    <string name="fast_nandroid_on">為求速度而停用了備份及還原的進度顯示</string>
+    <string name="fast_nandroid_off">顯示備份及還原的進度。停用進度顯示能加快備份及還原的速度</string>
 
     <string name="credits">歸功於</string>
-    <string name="credits_summary">作者 Koushik Dutta，\n翻譯 Ladios Jonquil。</string>
+    <string name="credits_summary">作者 Koushik Dutta\n翻譯 Ladios Jonquil</string>
 
     <string name="erase_recovery">消除 Recovery</string>
-    <string name="erase_recovery_on">刷入前 Recovery 會先被消除。</string>
-    <string name="erase_recovery_off">刷入前 Recovery 不會先被消除。</string>
+    <string name="erase_recovery_on">刷入前 Recovery 會先被消除</string>
+    <string name="erase_recovery_off">刷入前 Recovery 不會先被消除</string>
 
     <string name="install_queue">安裝隊列</string>
     <string name="add_another_zip">加入壓縮檔</string>
@@ -235,7 +235,7 @@
     <string name="screenshots">螢幕截圖</string>
     <string name="download">下載</string>
 
-    <string name="loading">載入中...</string>
+    <string name="loading">載入中…</string>
 
     <string name="corrupt">已損毁的壓縮檔。</string>
 
@@ -253,7 +253,7 @@
     </string-array>
 
     <string name="recovery_broken_fix">有好幾個方法能修復“已損毁”的 Recovery：\n1) 刷一個替代的或較舊版本的 Recovery 再刷回目前版本。\n2) 試試在 ROM Manager 的設定頁中啟用“消除 Recovery”。\n3) 試試在選單中清除下載快取後重刷一次。\n4) 刷一個較舊版本的 Recovery。\n5)  從個人電腦使用 Fastboot 或 SBF 來將 Recovery 刷進手機。</string>
-    <string name="reboot_fix">某些 ROM 會配備一個已損毁的“reboot”執行檔。從個人電腦瀏覽此帖以取得更多資訊：http://bit.ly/dj9qbN。</string>
+    <string name="reboot_fix">某些 ROM 會配備一個已損毁的“reboot”執行檔。從個人電腦瀏覽此帖以取得更多資訊：http://bit.ly/dj9qbN</string>
     <string name="unknown_bug">請隨時匯報錯誤至我的電郵（koush@clockworkmod.com）！</string>
 
     <string name="buy_premium">購買 Premium 版</string>
@@ -320,4 +320,16 @@
     <string name="paypal_email_id">PayPal 帳戶電郵</string>
     <string name="no_license_found">找不到與該 PayPal 交易 ID 號碼相關的授權。</string>
     <string name="rommanager_transaction_number">ROM Manager 交易 ID 號碼＃</string>
+
+    <string name="ratings_server_error">ROM Manager 暫時無法下載 ROM 評分資訊。</string>
+
+    <string name="downloads_no_parentheses">%d 次下載</string>
+
+    <string name="sort_by_date">依日期排序</string>
+    <string name="sort_by_rating">依評分排序</string>
+    <string name="sort_by_downloads">依下載次數排序</string>
+    <string name="no_sort">不用排序</string>
+
+    <string name="backup_current_rom_question">還原之前要先備份目前的 ROM 嗎？</string>
+    <string name="confirm_fix_permissions">您確定想要執行權限修正嗎？</string>
 </resources>
