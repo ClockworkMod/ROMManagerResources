@@ -12,10 +12,11 @@
         android:text="@string/new_backup_name"
         android:gravity="left"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/label"
          />
             
     <EditText
-        android:id="@+id/AlarmName"
+        android:id="@+id/romname"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:scrollHorizontally="true"

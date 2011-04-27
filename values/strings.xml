@@ -328,4 +328,6 @@
     <string name="sort_by_rating">Sort By Rating</string>
     <string name="sort_by_downloads">Sort by Downloads</string>
     <string name="no_sort">No Sort</string>
+    
+    <string name="backup_current_rom">Backup Current ROM?</string>
 </resources>
