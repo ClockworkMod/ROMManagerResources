@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>ROMのバックアップ</item>
 		<item>データとキャッシュのワイプ</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">リストアオプション</string>

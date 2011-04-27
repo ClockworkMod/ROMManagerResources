@@ -58,6 +58,7 @@
 		<string-array name="install_options">
 			<item>Fazer backup da ROM atual</item>
 			<item>Limpar dados and cache</item>
+            <item>Wipe Dalvik Cache</item>
 		</string-array>
 
 		<string name="restore_options">Opções de restauração</string>

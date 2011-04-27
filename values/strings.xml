@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>Backup Existing ROM</item>
 		<item>Wipe Data and Cache</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Restore Options</string>
@@ -329,5 +330,5 @@
     <string name="sort_by_downloads">Sort by Downloads</string>
     <string name="no_sort">No Sort</string>
     
-    <string name="backup_current_rom">Backup Current ROM?</string>
+    <string name="backup_current_rom_question">Backup Current ROM before Restore?</string>
 </resources>

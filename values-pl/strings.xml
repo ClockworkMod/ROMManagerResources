@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>Utwórz backup bieżącego ROMu</item>
 		<item>Wyczyść Data i Cache</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Opcje odtwarzania</string>

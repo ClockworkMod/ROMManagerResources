@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>備份系統上的韌體</item>
 		<item>清除 資料（Data）及 快取（Cache）分區</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">還原選項</string>

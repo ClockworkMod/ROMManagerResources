@@ -58,6 +58,7 @@
     <string-array name="install_options">
         <item>備份目前的 ROM</item>
         <item>清除“資料／Data”及“快取／Cache”分區</item>
+        <item>Wipe Dalvik Cache</item>
     </string-array>
 
     <string name="restore_options">選取要還原的分區</string>

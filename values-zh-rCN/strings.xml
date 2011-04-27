@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>备份当前的固件</item>
 		<item>擦去数据与缓存</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">还原选项</string>

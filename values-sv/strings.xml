@@ -58,6 +58,7 @@
 	<string-array name="install_options">
 		<item>Säkerhetskopiera nuvarande ROM</item>
 		<item>Töm Data och Cache</item>
+        <item>Wipe Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Återställningsalternativ</string>

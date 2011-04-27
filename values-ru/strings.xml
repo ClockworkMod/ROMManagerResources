@@ -183,6 +183,7 @@
   <string-array name="install_options">
     <item>Сохранить текущий ROM</item>
     <item>Удалить данные и кэш</item>
+        <item>Wipe Dalvik Cache</item>
   </string-array>
 
 	<string name="restore_options">Опции восстановления</string>

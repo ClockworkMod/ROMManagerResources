@@ -8,6 +8,7 @@
     <string-array name="install_options">
 <item>Backup Eksisterende rom</item>
 <item>Tør Data og Cache</item>
+        <item>Wipe Dalvik Cache</item>
     </string-array>
     <string-array name="restore_partitions">
 <item>Gendan Boot</item>
