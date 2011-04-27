@@ -20,9 +20,9 @@
 	<string name="developer_homepage">Site Web</string>
 	
 	<string name="utilities">Utilitaires</string>
-	<string name="fix_permissions">Resoudre les problemes de Permission</string>
-	<string name="fixing_permissions">Resolution des problemes de Permission...</string>
-	<string name="fix_permissions_detail">Resoudre les problemes de Permission du systeme de fichier. Cela permet souvent de resoudre les problemes de Permission.</string>
+	<string name="fix_permissions">Resoudre les problemes de permissions</string>
+	<string name="fixing_permissions">Resolution des problemes de permissions...</string>
+	<string name="fix_permissions_detail">Resoudre les problemes de permissions du systeme de fichier. Cela permet souvent de resoudre les problemes de Permission.</string>
 	
 	<string name="fix_permissions_done">Termine ! Vous pouvez redemarrer votre telephone.</string>
 	
@@ -39,7 +39,7 @@
 	<string name="recovery_update_required">Mise a jour disponible pour ClockworkMod Recovery. Merci de mettre a jour avant d\'utiliser ROM Manager !</string>
 	
 	<string name="edit_backup_name">Nom de la sauvegarde</string>
-	<string name="new_backup_name">Nouveau Nom de la sauvegarde</string>
+	<string name="new_backup_name">Nouveau nom de la sauvegarde</string>
 	<string name="rename_backup_error">Impossible de renommer votre sauvegarde. Merci de choisir un nom unique.</string>
 	<string name="confirm_delete_backup">Effacer la Sauvegarde ?</string>
 	<string name="remove_backup_error">Impossible d\'effacer votre sauvegarde.</string>
@@ -87,23 +87,23 @@
 	
 	<string name="partition_ext_size">Taille partition Ext</string>
 	<string name="partition_swap_size">Taille partition Swap</string>
-	<string name="partition_sdcard">Partitionner la SD Card</string>
-	<string name="partition_sdcard_summary">Partitionner votre SD Card pour installer les applications dessus si votre ROM supporte cette configuration.</string>
-	<string name="partition_sdcard_warning">Partitionner votre SD Card effacera toutes les donnees dessus. Voulez vous vraiment redemarrer et continuer ?</string>
+	<string name="partition_sdcard">Partitionner la carte SD</string>
+	<string name="partition_sdcard_summary">Partitionner votre carte memoire installer les applications dessus si votre ROM supporte cette configuration.</string>
+	<string name="partition_sdcard_warning">Partitionner votre carte memoire effacera toutes les donnees dessus. Voulez vous vraiment redemarrer et continuer ?</string>
 	
-	<string name="manifests_no_roms">Pas encore de ROM dispo ! Demander a votre developpeur d\'ajouter sa ROM a la liste de ROM Manager gratuitement !</string>
+	<string name="manifests_no_roms">Pas encore de ROM disponible ! Demander a votre developpeur d\'ajouter sa ROM a la liste de ROM Manager gratuitement !</string>
 	
-	<string name="preinstallation">Pre-Installation de la ROM</string>
+	<string name="preinstallation">Pre-installation de la ROM</string>
 	
 	<string name="download_cache_cleared">La memoire cache du telechargement est maintenant vide.</string>
 	
-	<string name="manifests_unavailable">Erreur pendant le telechargement de la liste des developpers.</string>
-	<string name="manifests_error">Erreur pendant le chargement de la liste des developpers !</string>
+	<string name="manifests_unavailable">Erreur pendant le telechargement de la liste des developpeurs.</string>
+	<string name="manifests_error">Erreur pendant le chargement de la liste des developpeurs !</string>
 	
-	<string name="roms_unavailable">Erreur pendant le telechargement de la liste des ROM ! Merci de contacter le developper de la ROM.</string>
-	<string name="roms_error">Erreur pendant le chargement de la liste des ROM !</string>
+	<string name="roms_unavailable">Erreur pendant le telechargement de la liste des ROMs ! Merci de contacter le developpeur de la ROM.</string>
+	<string name="roms_error">Erreur pendant le chargement de la liste des ROMs !</string>
 	<string name="rom_error">Erreur pendant le chargement de cette ROM !</string>
-	<string name="rom_addons">Extra pour cette ROM</string>
+	<string name="rom_addons">Extras pour cette ROM</string>
 	<string name="rom_download_error">Erreur pendant le telechargement de cette ROM !</string>
 	<string name="rom_download_error_short">Erreur telechargement ROM</string>
 	<string name="rom_download_complete">Telechargement ROM complet</string>
@@ -111,8 +111,8 @@
 	<string name="restore">Restauration</string>
 	<string name="confirm_restore">Voulez vous vraiment redemarrer votre telephone et restaurer la sauvegarde?</string>
 	
-	<string name="reboot_recovery">Redemarrage en Recovery</string>
-	<string name="reboot_into_recovery">Demarrer en Recovery pour gerer manuellement.</string>
+	<string name="reboot_recovery">Redemarrage en recovery</string>
+	<string name="reboot_into_recovery">Demarrer en recovery pour gerer manuellement.</string>
 	<string name="confirm_reboot">Voulez vous vraiment redemarrer dans le recovery ClockworkMod?</string>
 	<string name="confirm_reboot_alternate">Voulez vous vraiment redemarrer dans %s?</string>
 	
@@ -132,7 +132,7 @@
 	<string name="flash_recovery_override">Si le flash du recovery n\'a pas fonctionne avec ROM Manager mais manuellement pressez OK.</string>
 	<string name="flash_recovery_success">Flash du recovery ClockworkMod avec succes !</string>
 	<string name="flash_alternate_recovery_success">Flash du recovery ClockworkMod avec succes !</string>
-	<string name="confirm_device">Confirmer votre modele de telephone</string>
+	<string name="confirm_device">Confirmer le modele de telephone</string>
 	<string name="do_this_first">Vous devez avoir le recovery ClockworkMod d\'installe pour flasher et restaurer une ROM !</string>
 	
 	<string name="clear_cache">Vider la memoire cache du telechargement.</string>
@@ -143,7 +143,7 @@
 	<string name="script_error">Erreur pour lancer une commande avec les permissions root !</string>
 	<string name="backup_error">Merci de choisir un nom unique pour la sauvegarde.</string>
 	
-	<string name="flash_alternate">Flasher un recovery autre</string>
+	<string name="flash_alternate">Flasher un autre recovery</string>
 	<string name="flash_alternate_warning">Etes-vous sur de vouloir flasher avec un autre recovery que ClockworkMod? Les options de ROM Manager ne seront plus disponibles jusqu\'au retour au recovery ClockworkMod.</string>
 	<string name="flash_alternate_unavailable">Pas d\'autres recovery disponibles.</string>
 	<string name="flash_legacy_and_experimental">Tous les recovery ClockworkMod</string>
@@ -151,12 +151,12 @@
 	<string name="flash_legacy_unavailable">Pas de recovery a telecharger. Etes-vous connecte a internet?</string>
 	
 	<string name="developer_mode">Mode expert</string>
-	<string name="developer_mode_details">Le mode expert n\'est pas utilisable par tous, il permet d\'utiliser les derniers recovery ainsi que des ROM beta mais peu etre tres instable. A utiliser seulement si vous connaissez les commandes ADB.</string>
+	<string name="developer_mode_details">Le mode expert n\'est pas utilisable par tous, il permet d\'utiliser les derniers recovery ainsi que des ROMs beta mais peu etre tres instable. A utiliser seulement si vous connaissez les commandes ADB.</string>
 	<string name="developer_mode_on">Mode expert active.</string>
 	<string name="developer_mode_off">Mode expert desactive.</string>
-	<string name="developer_mode_summary">C\'est disponible des que vous avez active le mode expert depuis le menu principal de ROM Manager.</string>
+	<string name="developer_mode_summary">Disponible lorsque vous aurez active le mode expert depuis le menu principal de ROM Manager.</string>
 	
-	<string name="premium_required_to_download">Vous devez avoir la version premium de ROM Manager pour telecharger cette \'s ROMs !</string>
+	<string name="premium_required_to_download">Vous devez avoir la version premium de ROM Manager pour telecharger cette ROM !</string>
 	
 	<string name="free_header">Gratuit</string>
 	<string name="premium_header">Premium</string>
@@ -170,10 +170,10 @@
 	
 	<string name="more_recoveries">Autres recovery</string>
 	
-	<string name="sdcard_not_mounted">SD Card non montee</string>
-	<string name="sdcard_needs_to_be_mounted">Votre SD Card doit etre montee pour utiliser ROM Manager !</string>
+	<string name="sdcard_not_mounted">Carte SD non montee</string>
+	<string name="sdcard_needs_to_be_mounted">Votre carte memoire doit etre montee pour utiliser ROM Manager !</string>
 	
-	<string name="automatic_backup_time">Horaire de sauvegarde</string>
+	<string name="automatic_backup_time">Horaires de sauvegarde</string>
 	<string name="automatic_backup_frequency">Frequence de sauvegarde</string>
 	<string-array name="automatic_backup_frequencies">
 	<item>Tous les jours</item>
@@ -186,7 +186,7 @@
 	</string-array>
 	<string name="automatic_backup">Sauvegarde automatique</string>
 	<string name="automatic_backup_disabled">Sauvegarde automatique desactivee.</string>
-	<string name="automatic_backup_summary">La prochaine sauvegarde automatique sera dans %s.</string>
+	<string name="automatic_backup_summary">Prochaine sauvegarde automatique dans %s.</string>
 	
 	<string name="no_su">Votre telephone doit etre roote pour utiliser ROM Manager. Impossible de trouver Superuser dans \"/system/bin/su\" ou \"/system/xbin/su\". Utilisez Google pour trouver comment rooter votre telephone.</string>
 	
@@ -209,12 +209,24 @@
 	<string name="flash_recovery_confirm">Voulez vous vraiment remplacer votre recovery?</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">ROM Manager peut envoyer des statistiques anonymes vers Google Analytics et les developpers en vue d\'ameliorations. OK pour approuver. Cancel pour sortir de l\'application.</string>
+	<string name="analytics_details">ROM Manager peut envoyer des statistiques anonymes vers Google Analytics et aux developpeurs en vue d\'ameliorations..</string>
 	<string name="analytics_on">Google Analytics est active. Merci de contribuer a l\'amelioration de ROM Manager !</string>
 	<string name="analytics_off">Google Analytics est desactive. Vous devriez l\'activer !</string>
 	
 	<string name="fast_nandroid">Sauvegarde et restauration rapide</string>
 	<string name="fast_nandroid_off">La barre de progression est desactivee pour accelerer la sauvegarder et la restauration.</string>
-	<string name="fast_nandroid_on">La barre de progression est activee. Desactivez la pour acceler vote sauvegarde et votre restauration.</string>
+	<string name="fast_nandroid_on">La barre de progression est activee. Desactivez-la pour acceler vote sauvegarde et votre restauration.</string>
+	
+	<string name="erase_recovery">Effacer le Recovery</string>
+	<string name="erase_recovery_on">Le recovery sera efface avant l'installation.</string>
+	<string name="erase_recovery_off">Le recovery ne sera pas efface avant l'installation.</string>
+	
+	<string name="device_id">ID de l'appareil</string>
+	
+	<string name="web_connect_error">Une erreur est survenue durant la mise en place de votre compte Web Connect.</string>
+	<string name="web_connect_success">Vous pouvez maintenant telecharger des ROMs directement sur votre telephone si le thread de la ROM le permet.</string>
+	
+	<string name="showads">Afficher les publicites</string>
+	<string name="showads_summary">Aidez ROM Manager! (Les changements necessitent le redemarrage de l\'application.)</string>
 </resources>
 
