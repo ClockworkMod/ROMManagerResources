@@ -331,4 +331,5 @@
     <string name="no_sort">No Sort</string>
     
     <string name="backup_current_rom_question">Backup Current ROM before Restore?</string>
+    <string name="confirm_fix_permissions">Are you sure you want to run Fix Permissions?</string>
 </resources>
