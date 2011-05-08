@@ -218,10 +218,10 @@
 	<string name="fast_nandroid_on">La barre de progression est activee. Desactivez-la pour acceler vote sauvegarde et votre restauration.</string>
 	
 	<string name="erase_recovery">Effacer le Recovery</string>
-	<string name="erase_recovery_on">Le recovery sera efface avant l'installation.</string>
-	<string name="erase_recovery_off">Le recovery ne sera pas efface avant l'installation.</string>
+	<string name="erase_recovery_on">Le recovery sera efface avant l\'installation.</string>
+	<string name="erase_recovery_off">Le recovery ne sera pas efface avant l\'installation.</string>
 	
-	<string name="device_id">ID de l'appareil</string>
+	<string name="device_id">ID de l\'appareil</string>
 	
 	<string name="web_connect_error">Une erreur est survenue durant la mise en place de votre compte Web Connect.</string>
 	<string name="web_connect_success">Vous pouvez maintenant telecharger des ROMs directement sur votre telephone si le thread de la ROM le permet.</string>
