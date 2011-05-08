@@ -289,4 +289,48 @@
     
     <string name="flash_clockwork_or_get_premium">Premium 사용자는 대체 복구 모드와 ROM Manger에서의 ROM 설치가 가능합니다.</string>
     <string name="premium_activated">PayPal을 통해 ROM Manager Premium의 구입이 완료 되었습니다. 단말기가 초기화 되어도, 라이센스 구매 정보는 ROM Manager의 서버에 기록됩니다.</string>
+    <string name="follow_koush">Follow @koush</string>
+    <string name="rate">평가</string>
+
+    <string name="reinstall_from_market">당신의 ROM Manger 라이센스가 잘못되었습니다. 안드로이드 마켓을 통해, 재설치 하시기 바랍니다.</string>
+    
+    <string name="nickname">닉네임</string>
+    <string name="anonymous">익명</string>
+    <string name="roms">ROMs</string>
+    <string name="post_comment">덧글</string>
+    
+    <string name="login_required">웹을 통하여 로그인 하셔야 롬에 대한 평가가 가능합니다.</string>
+    <string name="must_rate">평가를 먼저 하셔야, 댓글을 등록 할 수 있습니다.</string>
+    <string name="downloads">(%d 받는 중...)</string>
+    
+    <string name="loading_comments">덧글을 읽는 중..</string>
+    <string name="no_comments">아무도 덧글을 남기지 않았습니다. 첫 덧글을 입력하세요. </string>
+
+	<string name="not_officially_supported">%s ClockworkMod 복구모드가 공식적이지 않습니다. 복구모드(Recovery)를 수동으로 설치하신 적이 있으십니까?</string>
+	<string name="sorry_no_clockworkmod">죄송합니다. ROM Manager를 통한 ClockworkMod 복구모드를 설치하셔야, ROM Manager가 정상적으로 작동합니다.</string>
+	<string name="confirm_version">Version 확인</string>
+	<string-array name="clockworkmod_versions">
+		<item name="clockworkmod_2">ClockworkMod 2.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+	</string-array>
+	<string name="overriden">ROM Manager 기존의 복구모드를 사용하도록 설정 되었습니다.</string>
+
+	<string name="flash_legacy_unavailable2">예전 복구모드를 찾을 수 없습니다.</string>
+
+    <string name="enter_purchase_information">구매 정보의 입력</string>
+    <string name="paypal_email_id">페이팔(PayPal) Email ID</string>
+    <string name="no_license_found">페이팔 계정에서 구매 정보를 찾을수 없습니다.</string>
+    <string name="rommanager_transaction_number">ROM Manager 구매 #</string>
+    
+    <string name="ratings_server_error">ROM Manager는 현재 다운로드된 ROM의 평가 정보를 수신 할 수 없습니다. </string>
+
+    <string name="downloads_no_parentheses">%s 받는 중...</string>
+    
+    <string name="sort_by_date">날짜별 정렬</string>
+    <string name="sort_by_rating">평가별 정렬</string>
+    <string name="sort_by_downloads">다운로드 순위 정렬</string>
+    <string name="no_sort">정렬하지 않음</string>
+    
+    <string name="backup_current_rom_question">복원전에 현재의 롬을 백업하시겠습니까?</string>
+    <string name="confirm_fix_permissions">Fix Permissions를 실행 하시겠습니까?</string>
 </resources>
