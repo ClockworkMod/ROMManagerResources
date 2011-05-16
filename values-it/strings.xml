@@ -199,8 +199,6 @@
 	
 	<string name="new_features">Nuove Funzioni</string>
 
-        <string name="whats_new">Utenti HTC: Il problema di caricamento dela batteria in recovery è stato risolto. :)\n\nNuove icone grazie a @vazguard!\n\nÈ in corso il restyling di ROM Manager! Nelle prossime settimane ROM Manager riceverà un sostanziale rinnovamento. È apprezzato il feedback degli utenti! Invia un commento a @clockworkmod su Twitter!</string>
-
 	<string name="install_from_qrcode">Installa da QR Code</string>
 	
 	<string name="qrcode_download">QR Code Download</string>
