@@ -331,4 +331,6 @@
     
     <string name="backup_current_rom_question">Backup Current ROM before Restore?</string>
     <string name="confirm_fix_permissions">Are you sure you want to run Fix Permissions?</string>
+    
+    <string name="inapp_error">An error occurred during the in app purchase. The purchase has been cancelled.</string>
 </resources>
