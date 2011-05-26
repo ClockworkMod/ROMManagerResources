@@ -6,15 +6,15 @@
         <item>Slet</item>
     </string-array>
     <string-array name="install_options">
-<item>Backup Eksisterende rom</item>
-<item>Tør Data og Cache</item>
-        <item>Wipe Dalvik Cache</item>
+        <item>Backup eksisterende ROM</item>
+        <item>Ryd data og cache</item>
+        <item>Ryd dalvik cache</item>
     </string-array>
     <string-array name="restore_partitions">
-<item>Gendan Boot</item>
+<item>Gendan boot</item>
 <item>Systemgendannelse</item>
-<item>gendan data</item>
-<item>Gendan Cache</item>
+<item>Gendan data</item>
+<item>Gendan cache</item>
 <item>Gendan SD-Ext</item>
     </string-array>
     <string-array name="ext_size_options">
@@ -31,12 +31,12 @@
     </string-array>
     <string-array name="automatic_backup_frequencies">
         <item>Daglig</item>
-        <item>hver to dage</item>
+        <item>Hver anden dag</item>
         <item>Hver tredje dag</item>
-        <item>hver fjerde dag</item>
-        <item>hver femte dag</item>
-        <item>Hver Sjete Days</item>
-        <item>hver syvende dage</item>
+        <item>Hver fjerde dag</item>
+        <item>Hver femte dag</item>
+        <item>Hver sjete dag</item>
+        <item>Hver syvende dage</item>
     </string-array>
     <string-array name="recovery_failures">
         <item>Recovery tilstand er \"ødelagt\".</item>
