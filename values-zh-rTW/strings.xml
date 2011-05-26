@@ -331,4 +331,6 @@
 
     <string name="backup_current_rom_question">還原之前要先備份目前的 ROM 嗎？</string>
     <string name="confirm_fix_permissions">您確定想要執行權限修正嗎？</string>
+
+    <string name="inapp_error">在 App 內購買時發生錯誤，交易已被取消。</string>
 </resources>
