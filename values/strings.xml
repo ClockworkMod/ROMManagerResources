@@ -333,4 +333,7 @@
     <string name="confirm_fix_permissions">Are you sure you want to run Fix Permissions?</string>
     
     <string name="inapp_error">An error occurred during the in app purchase. The purchase has been cancelled.</string>
+
+    <string name="toggled_burrito">Toggled Burrito Mode</string>
+    <string name="burrito_manager">Burrito Manager</string>
 </resources>
