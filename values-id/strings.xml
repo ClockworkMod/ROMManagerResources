@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="rom_management">ROM Management</string>
+	<string name="install_rom">Pasang ROM dari SD Card</string>
+	<string name="download_rom">Download ROM</string>
+	<string name="check_updates">Cek ROM terbaru</string>
+	<string name="backup_and_restore">Backup and Restore</string>
+	<string name="manage_and_restore_backups">Mengelolah and Memperbaiki Cadangan ROM</string>
+	<string name="backup_current_rom">Simpan ROM yang ada sekarang</string>
+
+	<string name="no_connection">Bermasalah sewaktu download dari server. Coba di cek koneksi internet, dan cek pula apakah SD card sudah di simpan yang benar dan ada tempat kosong di dalamnya!</string>
+
+	<string name="brick_warning">ROM Manager tidak bertanggung jawab atas kerusakan telpon genggam anda. Dengan men-rooting telpon genggam anda, maka garansi anda tidak berlaku. Bermain di dalam arena non-userspace itu berbahaya. Di samping itu, ROM Manager mungkin akan mengirim statistics secara anonymous ke Google Analytics guna memperbaiki penggunaan aplikasi. Pilih OK untuk setuju. Pilih Cancel untuk keluar dari aplikasi.</string>
+
+	<string name="ota_not_supported">ROM anda tidak disetup untuk menerima perubahaan lewat OTA. Hubungi developer daripada ROM yang anda pakai!</string>
+	<string name="ota_not_supported_extended">ROM yang anda pakai tidak mensuppport perubahaan lewat OTA. Developer dari ROM tersebut harus menambahkan fitur tersebut supaya bisa menerima perubahaan lewat OTA.Hubungi developer daripada ROM yang anda pakai! Mohon jangan kontak ROM Manager: INI BUKAN BUG DI DALAM ROM MANAGER.</string>
+	<string name="current_rom">ROM yang ada sekarang: %s</string>
+
+	<string name="donate">Sumbangan</string>
+	<string name="developer_homepage">Homepage</string>
+
+	<string name="utilities">Utilities</string>
+	<string name="fix_permissions">Perbaiki Izin</string>
+	<string name="fixing_permissions">Memperbaiki Izin ...</string>
+	<string name="fix_permissions_detail">Perbaiki izin dari system. Ini bisa memperbaiki masalah Force Close yang suka terjadi di dalam aplikasi.</string>
+	
+	<string name="fix_permissions_done">Selesai! Anda bisa me-reboot telpon genggamnya.</string>
+
+	<string name="download_rom_premium">Upgrade ke ROM Manager (Premium) untuk menakses listing ROMs yang ada</string>
+	
+	<string name="premium_only">Fitur ini hanya bisa diakses oleh pengguna versi Premium!</string>
+	<string name="no_update">Tidak ada update yang baru untuk ROM anda.</string>
+	<string name="update_available">Update tersedia</string>
+	<string name="updated_rom">Pilih OK untuk memperbaharui ROM ke versi yg: %s.</string>
+	<string name="update_recovery_available">Ada update terbaru untuk ClockworkMod Recovery.</string>
+	
+	<string name="upgrade">Anda harus menupgrade ROM Manager ke versi yang terbaru!</string>
+
+	<string name="recovery_update_required">Versi ClockworkMod recovery yang terbaru sudah tersedia. Anda harus menupdate ROM Manager sebelum melanjutkan operasi!</string>
+
+	<string name="edit_backup_name">Nama cadangan</string>
+	<string name="new_backup_name">Name cadangan terbaru</string>
+	<string name="rename_backup_error">Ada terjadi kesalahan waktu merubah backup anda. Harap memilih nama file yang unik dan valid untuk backup anda.</string>
+	<string name="confirm_delete_backup">Harus cadangan ?</string>
+	<string name="remove_backup_error">Terjadi kelasahan waktu menghapus cadangan anda.</string>
+
+	<string name="app_name">ROM Manager</string>
+	<string name="app_name_premium">ROM Manager Premium</string>
+	
+	<string name="coming_soon">Akan datang!</string>
+	
+	<string-array name="manage_options">
+		<item>Memulihkan</item>
+		<item>Merubah</item>
+		<item>Menghapus</item>
+	</string-array>
+		
+	<string-array name="install_options">
+		<item>Buat cadangan untuk ROM</item>
+		<item>Hapus Data and Cache</item>
+        <item>Hapus Dalvik Cache</item>
+	</string-array>
+
+	<string name="restore_options">Pilihan untuk memulihkan</string>
+
+	<string-array name="restore_partitions">
+		<item>Memulihkan Boot</item>
+		<item>Memulihkan System</item>
+		<item>Memulihkan Data</item>
+		<item>Memulihkan Cache</item>
+		<item>Memulihkan SD-Ext</item>
+	</string-array>
+
+	<string-array name="ext_size_options">
+		<item>128MB</item>
+		<item>256MB</item>
+		<item>512MB</item>
+	</string-array>
+
+	<string-array name="swap_size_options">
+		<item>0MB</item>
+		<item>32MB</item>
+		<item>64MB</item>
+		<item>128MB</item>
+		<item>256MB</item>
+	</string-array>
+
+	<string name="partition_ext_size">Ukuran Ext</string>
+	<string name="partition_swap_size">Ukuran Swap</string>
+	<string name="partition_sdcard">Partisi SD Card</string>
+	<string name="partition_sdcard_summary">Partisi SD Card anda untuk memungkinkan instalasi aplikasi ke dalam SD untuk ROM yang akan dipakai.</string>
+	<string name="partition_sdcard_warning">Dengan mempartisi data di dalam SD Card anda akan terhapus total. Apa anda yakin anda ingin boot and meneruskan ?</string>
+
+	<string name="manifests_no_roms">Belum ada ROM yang tersedia untuk telpon gengam anda! Minta dari favorit developer anda supaya ROM-nya di daftarkan ke ROM Manager dengan gratis!</string>
+	
+	<string name="preinstallation">Pre-instalasi ROM</string>
+	
+	<string name="download_cache_cleared">Download cache anda sudah terhapus.</string>
+	
+	<string name="manifests_unavailable">Kesalahan terjadi sewaktu mendownload listing Developer.</string>
+	<string name="manifests_error">Kesalahan terjadi sewaktu memproses listing Developer!</string>
+	
+	<string name="roms_unavailable">Kesalahan terjadi sewaktu mendownload listing ROM! Harap hubungi developer daripada ROM tersebut.</string>
+	<string name="roms_error">Kesalahan terjadi sewaktu memproses listing ROM!</string>
+	<string name="rom_error">Kesalahan terjadi sewaktu menjalankan proses ROM!</string>
+	<string name="rom_addons">Penambahan ROM</string>
+	<string name="rom_download_error">Kesalahan terjadi sewaktu mendownload ROM!</string>
+	<string name="rom_download_error_short">Kesalahan mendownload ROM</string>
+	<string name="rom_download_complete">Selesai mendownload ROM</string>
+	
+	<string name="restore">Pemulihan</string>
+	<string name="confirm_restore">Apakan anda yakin anda mau me-reboot and memulihkan kembali ?</string>
+
+	<string name="reboot_recovery">Reboot ke dalam Recovery</string>
+	<string name="reboot_into_recovery">Menboot ke dalam mode Recovery untuk mengurus secara manual.</string>
+	<string name="confirm_reboot">Apakah anda yakin anda mau me-reboot ke dalam ClockworkMod Recovery?</string>
+	<string name="confirm_reboot_alternate">Apakah anda yakin anda mau me-reboot ke %s?</string>
+	
+	<string name="confirm_reboot_and_install">Pilih OK untuk me-reboot ke dalam ClockworkMod Recovery and meneruskan instalasi.</string>
+	<string name="restart_and_install">Me-reboot dan instal</string>
+	
+	<string name="recovery_clockworkmod_yours">Recovery sekarang adalah : ClockworkMod %s</string>
+	<string name="recovery_alternate_yours">Recovery sekarang adalah : %s</string>
+	<string name="recovery_latest">Recovery yang paling terakhir: ClockworkMod %s</string>
+
+	<string name="recovery">Recovery</string>
+	<string name="flash_recovery">Flash ClockworkMod Recovery</string>
+	<string name="flash_recovery_error">Kesalahan terjadi sewaktu men-flash recovery anda.</string>
+	<string name="download_recovery_error">Kesalahan terjadi sewaktu men-download recovery.</string>
+	<string name="download_recovery_success">Berhasil mendownload ClockworkMod recovery!</string>
+	<string name="flash_manual">Melakukan Manual Flash</string>
+	<string name="flash_recovery_override">Mengalami masalah sewaktu me-flash recovery menggunakan ROM Manager? Pilih OK jika anda telah melakukan flash menggunakan ClockworkMod Recovery secara manual.</string>
+	<string name="flash_recovery_success">Berhasil me-flash ClockworkMod recovery!</string>
+	<string name="flash_alternate_recovery_success">Berhasil and selsai me-flash recovery!</string>
+	<string name="confirm_device">Konfirmasi model telpon gengam</string>
+	<string name="do_this_first">Anda harus menginstal ClockworkMod Recovery untuk me-flash and memulihkan ROMs!</string>
+	<string name="flash_recovery_require">Anda harus mempunyai ClockworkMod Recovery sebelum lanjut! Instal recovery melalui ROM Manager dulu.</string>
+	<string name="install">Instal</string>
+	
+	<string name="clear_cache">Hapus Download Cache</string>
+	<string name="clear_cache_confirm">Dengan menyimpan download yang pernah anda lakukan akan mempercepat proses pemasangan ROM. Apa anda yakin anda ingin menghapus cache tersebut ?</string>
+
+	<string name="backup">Cadangan</string>
+	<string name="confirm_backup">Apakah anda yakin andan ingin me-reboot telpon gengam dan membuat cadangan ROM anda ?</string>
+	<string name="script_error">Kesalahan terjadi sewaktu mencoba menjalankan command dengan hak privilige!</string>
+	<string name="backup_error">Harap memilih nama file yang unik anda valid untuk backup anda.</string>
+	
+	<string name="flash_alternate">Me-flash Recovery alternatif</string>
+	<string name="flash_alternate_warning">Apakah anda yakin anda akan me-flash recovery yang berbeda ? fitur dari ROM Manager tidak akan tersedia sampai anda me-flash kembali ke ClockworkMod Recovery.</string>
+	<string name="flash_alternate_unavailable">Tidak ada alternatif recovery yang tersedia.</string>
+	<string name="flash_legacy_and_experimental">Semua ClockworkMod Recoveries</string>
+	<string name="flash_legacy_and_experimental_summary">Me-flash versi lama dan experimentil dari ClockworkMod Recovery.</string>
+	<string name="flash_legacy_unavailable">Tidak ada legacy recoveries. Apakah anda konek ke internet ?"</string>
+	
+	<string name="developer_mode">Advanced Mode</string>
+	<string name="developer_mode_details">Advanced Mode tidak diperlukan untuk semua kalangan user. Advanced mode bisa memberikan akan akses ke recoveries yang terakhir, experimentil ROMs, dan versi yang tidak stabil maupun yang paling tokcer. Pakai Advanced mode secara hati-hati dan disarankan untuk user yang sudah terbiasa menggunakan ADB.</string>
+	<string name="developer_mode_on">Advanced Mode sudah diaktifkan.</string>
+	<string name="developer_mode_off">Advanced Mode sudah dimatikan.</string>
+	<string name="developer_mode_summary">Fitur ini akan tersedia kalau Advanced Mode sudah diaktifkan dari menu utama di dalam ROM Manager.</string>
+	
+	<string name="premium_required_to_download">Versi Premium dari ROM Manager diperlukan untuk mendownload Developer\'s ROM ini!</string>
+	
+	<string name="free_header">Gratis</string>
+	<string name="premium_header">Premium</string>
+	
+	<string name="update_notifications">Layanan untuk memperbaharui notifikasi</string>
+	<string name="update_notifications_enabled">Layanan untuk memperbaharui notifikasi diaktifkan.</string>
+	<string name="update_notifications_disabled">Layanan untuk memperbaharui notifikasi dimatikan.</string>
+	
+	<string name="rom_manager_settings">Setting untuk ROM Manager</string>
+	<string name="settings">Settings</string>
+	
+	<string name="more_recoveries">More Recoveries</string>
+	
+	<string name="sdcard_not_mounted">SD Card tidak bisa dimount</string>
+	<string name="sdcard_needs_to_be_mounted">SD Card perlu di mount untuk menggunakan ROM Manager!</string>
+	
+	<string name="automatic_backup_time">Total waktu cadangan</string>
+	<string name="automatic_backup_frequency">Frekuensi cadangan</string>
+	<string-array name="automatic_backup_frequencies">
+		<item>Setiap hari</item>
+		<item>Setiap dua hari</item>
+		<item>Setiap tiga hari</item>
+		<item>Setiap empat hari</item>
+		<item>Setiap lima hari</item>
+		<item>Setiap enam hari</item>
+		<item>Setiap tujuh hari</item>
+	</string-array>
+	<string name="automatic_backup">Cadangan Otomatis</string>
+	<string name="automatic_backup_disabled">Cadangan Otomatis dimatikan.</string>
+	<string name="automatic_backup_summary">Cadangan Otomatis akan tereksekusi pada %s.</string>
+	
+	<string name="no_su">Anda harus me-root telpon genggam anda untuk menggunakan fungsi daripada ROM Manager. Aplikasi Superuser tidak bisa diketemukan di \"/system/bin/su\" atau \"/system/xbin/su\". Gunakan Google Search dari komputer anda untuk mencari instruksi untuk me-root telpon genggam anda.</string>
+	
+	<string name="invalid_license">Lisensi tidak valid</string>
+	
+	<string name="changelog">Changelog</string>
+	
+	<string name="new_features">Fitur Baru</string>
+	
+	<string name="install_from_qrcode">Instal menggunakan kode QR</string>
+	
+	<string name="qrcode_download">Download kode QR</string>
+	<string name="qrcode_summary">Gunakan gambar untuk men-install ROM. Diperlukan aplikasi Barcode Scanner yang bisa didapatkan secara gratis.</string>
+	<string name="qrcode_premium_required">Anda memerlukan versi Premium untuk ROM Manager untuk men-install ROMs dengan menggunakan kode QR!</string>
+	<string name="qrcode_not_installed">Barcode Scanner tidak diketemukan</string>
+	<string name="qrcode_install">Untuk menggunakan fitur ini anda harus men-install Barcode Scanner! Pilih OK untuk men-instal aplikasi Barcode scanner dari Market.</string>
+	
+	<string name="flash_recovery_confirm_title">Men-flash Recovery?</string>
+	<string name="flash_recovery_confirm">Apa anda yakin anda mau mengganti recovery anda?</string>
+	
+	<string name="analytics">Google Analytics</string>
+	<string name="analytics_details">Google Analytics akan mengirim statistik pemakaian untuk membantu ROM Manager untuk menjadi aplikasi yang lebih baik! Dengan memilih OK anda mengerti dan setuju bahwah data penggunaan akan dikirim ke Google and developer daripada ROM Manager</string>
+	
+	<string name="analytics_on">Google Analytics aktif. Terima kasih untuk membantu ROM Manager menjadi aplikasi yang lebih baik!</string>
+	<string name="analytics_off">Google Analytics tidak aktif. Anda harus menaktifkannya!</string>
+	
+	<string name="fast_nandroid">Cadangan and Memulihkan Secara Cepat</string>
+	<string name="fast_nandroid_on">Indikasi bar dalam fungsi Cadangan dan Memulihkan ini dimatikan untuk mempercepat proses.</string>
+	<string name="fast_nandroid_off">Indikasi bari dalam fungsi Cadangan dan Memulihkan telah diaktifkan. Di non-aktifkan untuk mempercepat proses.</string>
+
+	<string name="credits">Kredit</string>
+	<string name="credits_summary">Ditulis oleh Koushik Dutta.</string>
+
+	<string name="erase_recovery">Hapus Recovery</string>
+	<string name="erase_recovery_on">Recovery akan dihapus sebelum melakukan flashing.</string>
+	<string name="erase_recovery_off">Recovery tidak akan dihapus sebelum melakukan flashing.</string>
+	
+	<string name="install_queue">Instal Queue:</string>
+	<string name="add_another_zip">Tambah Zip</string>
+	
+	<string name="report_error">Lapor Kesalahan</string>
+	<string name="report_error_message">Kesalahan terjadi sewaktu di dalam mode recovery. Apakah anda ingin mengirim laporan mengenai kesalahan tersebut ? Mohon jangan mengirim laporan yang sama berulang-ulang!</string>
+	
+	<string name="screenshots">Screenshots</string>
+	<string name="download">Download</string>
+	
+	<string name="loading">Lagi loading...</string>
+	
+	<string name="corrupt">Zip file korup.</string>
+	
+	<string name="no_spaces">ROM Manager tidak dapat membuka file. Mohon hapus file atau folder supaya mendapat extra tempat. Atau anda bisa menjalankan ClockworkMod recovery secara manual.</string>
+	<string name="no_md5">Sepertinya ini bukan backup yang valid. Hitungan MD5-nya hilang.</string>
+	
+	<string name="showads">Pertunjukan Iklan</string>
+	<string name="showads_summary">Bantu untuk men-suport ROM Manager! (Perubahan memerlukan aplikasi di start ulang.)</string>
+
+	<string name="recovery_failure">Gagal Recovery</string>
+	<string-array name="recovery_failures">
+		<item>Mode Recovery \"rusak\".</item>
+		<item>ROM Manager tidak dapat me-reboot.</item>
+		<item>Lain-lain.</item>
+	</string-array>
+	
+	<string name="recovery_broken_fix">Ada beberapa cara untuk membenarkan recovery yang \"rusak\""" :\n1) Me-flash recovery yang lain atau recovery dengan versi yang lama lalu me-flash kembali ke versi yang terbaru.\n2) Coba dengan memilih "Hapus Recovery" di dalam setingan ROM Manager\'s.\n3) Coba hapus download cache lewat menu dan coba me-flash ulang.\n4) Me-flash kembali ke recovery yang versi lama.\n5)  Gunakan Fastboot atau SBF dari PC anda dan coba recovery dari PC tersebut.</string>
+	<string name="reboot_fix">Beberapa ROMs menggunakan "reboot" binari yang rusak. Coba lihat thread berikut ini dari komputer anda untuk informasi yang lebih : http://bit.ly/dj9qbN.</string>
+	<string name="unknown_bug">Anda bisa email ke saya dengan email koush@clockworkmod.com dengan bug yang anda ketemui!</string>
+	
+	<string name="buy_premium">Beli versi premi</string>
+	
+	<string-array name="purchase_options">
+		<item>Gunakan PayPal ($3.99)</item>
+		<item>Gunakan Android Market ($4.99)</item>
+	</string-array>
+	
+	<string name="device_id">ID dari telpon anda</string>
+	<string name="license_retrieval_error">Masalah dalam mengambil informasi lisensi</string>
+	<string name="license_retrieved">Lisensi diperoleh!</string>
+	<string name="license_server_error">Tidak dapat konek ke server lisensi! Mohon gunakan Android Market!</string>
+	
+	<string name="recovery_try_fix">Me-reboot ke dalam Clockwork Recovery seperti tidak berhasil. Masalah ini bisa diperbaiki dengan cara menghapus download cache and me-reflash ulang recovery anda. Pilih OK untuk menghapus download cache and melanjutkan recovery flashing.</string>
+	
+	<string name="web_connect">Web Connect</string>
+	<string name="web_connect_error">Kesalahan terjadi sewaktu mencoba menkonek ke web connect akun.</string>
+	<string name="web_connect_success">Anda sekarang bisa men-download ROMs langsung ke telpon genggam anda jika thread ROM mendukung.</string>
+	
+	<string name="download_in_progress">Lagi mendownload ROM. Mau batal download?</string>
+	
+	<string name="yes">Ya</string>
+	<string name="no">Tidak</string>
+
+    <string name="no_device_id">Pembelian lewat PayPal tidak didukung dalam alat ini!</string>
+    
+    <string name="downloading">Download anda sedang dilakukan...\nAnda bisa melihat progresnya lewat area notifikasi!</string>
+    <string name="rom_manager_downloading">Download Lagi Berjalan</string>
+    
+    <string name="verify_custom_flashed">Me-flash paket update ke dalam recovery selain daripada ClockworkMod Recovery mungkin bisa tidak jalan dengan benar. Ingin dilanjutkan?</string>
+    
+    <string name="flash_clockwork_or_get_premium">Hanya pemakai premi yang bisa memakai recoveries alternatif dengan ROM Manager untuk me-flash ROMs! Atau secara alternatif anda harus men-instal ClockworkMod Recovery sebelum berlanjut! Pasang recovery yang anda inginkan lewat ROM Manager terlebih dahulu.</string>
+    <string name="premium_activated">Anda telah berhasil mengaktifkan ROM Manager Premi lewat PayPal! Tidak perlu melakukan download lagi meski anda menghapus telpon genggam anda. Pembelian anda telah diregistrasikan ke dalam server ROM Manager. </string>
+    <string name="follow_koush">Ikutin twitter @koush</string>
+    <string name="rate">Rate</string>
+
+    <string name="reinstall_from_market">Lisensi ROM Manager anda dilaporkan tidak berlaku oleh Android Market. Mohon di instal ulang ROM Manager lewat Android Market.</string>
+    
+    <string name="nickname">Nama Alias</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="roms">ROMs</string>
+    <string name="post_comment">Komen</string>
+    
+    <string name="login_required">Anda harus login ke dalam Web Connect untuk memberikan rating untuk ROMs atau bisa tinggalkan komen.</string>
+    <string name="must_rate">Anda harus me-rate ROM ini terlebih dahulu sebelum memberikan komen!</string>
+    <string name="downloads">(%d downloads)</string>
+    
+    <string name="loading_comments">Mengeluarkan Komen...</string>
+    <string name="no_comments">Tidak ada yang meninggalkan komen ! Anda bisa yang pertama !</string>
+
+	<string name="not_officially_supported">%s tidak disupport secara official oleh ClockworkMod Recovery. Apakah anda mau meninstall ClockworkMod Recovery secara manual?</string>
+	<string name="sorry_no_clockworkmod">Maaf! Sebelum ClockworkMod recovery tersedia, ROM Manager tidak bisa dipakai dengan %s!</string>
+	<string name="confirm_version">Konfirmasi Versi</string>
+	<string-array name="clockworkmod_versions">
+		<item name="clockworkmod_2">ClockworkMod 2.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+	</string-array>
+	<string name="overriden">ROM Manager telah disetting supaya memakai instalasi recovery yang sudah ada.</string>
+
+	<string name="flash_legacy_unavailable2">Tidak diketemukan recoveries yang lama.</string>
+
+    <string name="enter_purchase_information">Masukan Informasi Pembelian</string>
+    <string name="paypal_email_id">Email ID untuk PayPal</string>
+    <string name="no_license_found">Tidak ada lisensi yang diketemukan untuk Transaksi Paypal ID.</string>
+    <string name="rommanager_transaction_number">Transaksi # ROM Manager</string>
+    
+    <string name="ratings_server_error">ROM Manager tidak dapat mendownload information mengenai ROM rating pada saat ini.</string>
+
+    <string name="downloads_no_parentheses">%s downloads</string>
+    
+    <string name="sort_by_date">Sortir Tanggal</string>
+    <string name="sort_by_rating">Sortir Rating</string>
+    <string name="sort_by_downloads">Sortir Downloads</string>
+    <string name="no_sort">Tidak disortir</string>
+    
+    <string name="backup_current_rom_question">Lakukan candangan untuk ROM yang sekarang sebelum melakukan pemulihan ?</string>
+    <string name="confirm_fix_permissions">Apakah anda yakin anda ingin menjalankan perbaikan izin?</string>
+    
+    <string name="inapp_error">Kesalahan terjadi waktu melakukan pembelian app. Pembelihan dibatalkan.</string>
+
+    <string name="toggled_burrito">Ganti ke Burrito Mode</string>
+    <string name="burrito_manager">Burrito Manager</string>
+</resources>
