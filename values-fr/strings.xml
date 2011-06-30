@@ -28,7 +28,7 @@
 	
 	<string name="download_rom_premium">Acheter ROM Manager (Premium) pour acceder a la liste complète des ROMs!</string>
 	
-	<string name="premium_only">Cette fonctionnalité n'est disponible que pour les utilisateurs Premium!</string>
+	<string name="premium_only">Cette fonctionnalité n\'est disponible que pour les utilisateurs Premium!</string>
 	<string name="no_update">Pas de mise à jour disponible pour votre ROM.</string>
 	<string name="update_available">Mise à jour disponible</string>
 	<string name="updated_rom">Ok pour mettre à jour votre ROM à la derniere version: %s.</string>
