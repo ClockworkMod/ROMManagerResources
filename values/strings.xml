@@ -336,4 +336,6 @@
 
     <string name="toggled_burrito">Toggled Burrito Mode</string>
     <string name="burrito_manager">Burrito Manager</string>
+
+    <string name="block_user">Block User</string>
 </resources>
