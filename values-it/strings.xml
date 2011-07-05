@@ -20,9 +20,9 @@
 	<string name="developer_homepage">Homepage</string>
 
 	<string name="utilities">Strumenti</string>
-	<string name="fix_permissions">Fix Permissions</string>
-	<string name="fixing_permissions">Aggiustando i permessi...</string>
-	<string name="fix_permissions_detail">Aggiusta i permessi dei file di sistema. Questo spesso risolve i problemi di force close.</string>
+	<string name="fix_permissions">Correggi i permessi</string>
+	<string name="fixing_permissions">Correggendo i permessi...</string>
+	<string name="fix_permissions_detail">Corregge i permessi dei file di sistema. Questo spesso risolve i problemi di force close.</string>
 	
 	<string name="fix_permissions_done">Fatto! Ora dovresti riavviare il telefono.</string>
 
