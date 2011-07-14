@@ -338,4 +338,13 @@
     <string name="burrito_manager">Burrito Manager</string>
 
     <string name="block_user">Block User</string>
+    
+    <string name="cloud_backup">Cloud Backup and Restore (Free Beta)</string>
+    <string name="cloud_backup_login">You must first log in using Web Connect to use Cloud Backups.</string>
+
+	<string name="web_connect_success_new">Web Connect Log in successful!</string>
+	
+	<string name="backups_for_current_device">Backups for Current Device</string>
+	<string name="other_backups">Other Backups</string>
+	<string name="new_cloud_backup">New Cloud Backup</string>
 </resources>
