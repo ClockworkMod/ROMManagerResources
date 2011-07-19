@@ -152,8 +152,8 @@ Luly/Липень 2011
   <string name="showads">Показ реклами</string> 
   <string name="showads_summary">Підтримайте ROM Manager! (потребує перезавантаження програми)</string> 
   <string name="recovery_failure">Збій Recovery</string> 
-  <string name="recovery_broken_fix">"Є декілька способів відновити \"пошкоджений\" Recovery: 1) Встановіть альтернативний або старішу версію Recovery, а потім знову встановіть поточну версію. 2) Спробуйте увімкнути опцію Очистити Recovery в налаштуваннях ROM Manager. 3) Спробуйте очистити кеш завантаження в меню та перевстановити Recovery. 4) Поверніться до старішої версії Recovery."</string> 
-  <string name="reboot_fix">Деякі прошивки мають зіпсований двійковий файл reboot. Для детальнішої інформації перегляньте цю веб-сторінку (англійською): http://bit.ly/dj9qbN.</string> 
+  <string name="recovery_broken_fix">"Є декілька способів відновити \"пошкоджений\""" Recovery: \n1) Встановіть альтернативний або старішу версію Recovery, а потім знову встановіть поточну версію. \n2) Спробуйте увімкнути опцію Очистити Recovery в налаштуваннях ROM Manager. \n3) Спробуйте очистити кеш завантаження в меню та перевстановити Recovery. \n4) Поверніться до старішої версії Recovery."</string> 
+  <string name="reboot_fix">Деякі прошивки мають зіпсований двійковий файл "reboot". Для детальнішої інформації перегляньте цю веб-сторінку (англійською): http://bit.ly/dj9qbN.</string> 
   <string name="unknown_bug">При виявленні помилки не соромтесь написати мені листа на koush@clockworkmod.com!</string> 
   <string name="buy_premium">Придбати Преміум</string> 
   <string name="device_id">ID телефона</string> 
