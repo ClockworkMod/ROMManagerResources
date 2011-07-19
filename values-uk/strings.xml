@@ -2,7 +2,7 @@
 <!--
 Переклав: Владислав 'Grif_07' Генералюк
 Translation by: Vladyslav 'Grif_07' Generalyuk
-Luly/Липень 2011
+July/Липень 2011
 --> 
  <resources>
   <string name="app_name">ROM Manager</string> 
@@ -30,7 +30,7 @@ Luly/Липень 2011
   <string name="no_update">Немає оновлень для Вашої прошивки на даний момент</string> 
   <string name="update_available">Доступне оновлення</string> 
   <string name="updated_rom">Натисніть OK, щоб оновити Вашу прошивку до останньої версії: %s.</string> 
-  <string name="update_recovery_available">Досупне оновлення для ClockworkMod Recovery.</string> 
+  <string name="update_recovery_available">Доступне оновлення для ClockworkMod Recovery.</string> 
   <string name="upgrade">Необхідно оновити ROM Manager до останньої версії!</string> 
   <string name="recovery_update_required">Доступна нова версія ClockworkMod Recovery. Необхідно оновити, щоб користуватись ROM Manager!</string> 
   <string name="edit_backup_name">Назва архіву</string> 
@@ -45,8 +45,8 @@ Luly/Липень 2011
   <string name="partition_swap_size">Розмір Swap розділу</string> 
   <string name="partition_sdcard">Створити розділи на SD карті</string> 
   <string name="partition_sdcard_summary">"Створення розділу для перенесення програм або swap розділу на карті пам'яті."</string> 
-  <string name="partition_sdcard_warning">Ця операція видалить ВСЮ інформацію з SD карти! Ви впевненні що бажаєте продовжити?</string> 
-  <string name="manifests_no_roms">Нажаль, поки немає прошивок доступних для Вашого телефону! Попросіть розробників Ваших улюблених прошивок безкоштовно розмістити їх в ROM Manager!</string> 
+  <string name="partition_sdcard_warning">Ця операція видалить ВСЮ інформацію з SD карти! Ви впевнені що бажаєте продовжити?</string> 
+  <string name="manifests_no_roms">На жаль, поки немає прошивок доступних для Вашого телефону! Попросіть розробників Ваших улюблених прошивок безкоштовно розмістити їх в ROM Manager!</string> 
   <string name="preinstallation">Дії перед встановленням</string> 
   <string name="download_cache_cleared">Кеш завантажень очищено.</string> 
   <string name="manifests_unavailable">Помилка завантаження списку розробників.</string> 
