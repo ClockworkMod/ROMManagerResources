@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Переклав: Владислав 'Grif_07' Генералюк
+Translation by: Vladyslav 'Grif_07' Generalyuk
+Luly/Липень 2011
+--> 
+ <resources>
+  <string name="app_name">ROM Manager</string> 
+  <string name="rom_management">Керування прошивками</string> 
+  <string name="install_rom">Інсталювати ROM з SD карти</string> 
+  <string name="download_rom">Завантажити ROM</string> 
+  <string name="check_updates">Перевірити оновлення</string> 
+  <string name="backup_and_restore">Резервування та відновлення</string> 
+  <string name="manage_and_restore_backups">Резервні копії</string> 
+  <string name="backup_current_rom">Зберегти поточний ROM</string> 
+  <string name="no_connection">"Помилка завантаження. Переконайтесь, що у Вас стабільне з'єднання з Інтернет, SD карту встановлено і на ній достатньо вільного місця!"</string> 
+  <string name="brick_warning">ROM Manager не несе відповідальності за будь-яку заподіяну Вами шкоду телефону. Отримавши root доступ до свого телефону Ви вже втратили гарантію. Копирсання в системній частині пристрою є небезпечним. Також ROM Manager може надсилати різноманітну статистику в Google Analytics, щоб зібрати дані для покращення програми (Можна вимкнути в налаштуваннях). Натисніть \"OK\", щоб погодитись, або \"Скасувати\" для виходу з програми.</string> 
+  <string name="ota_not_supported">"Ваш ROM не підтримує OTA оновлення. Будь ласка, зв'яжіться з розробниками Вашого ROM!"</string> 
+  <string name="ota_not_supported_extended">"ROM, який Ви зараз використовуєте не підтримує OTA оновлень. Розробники цього ROM повинні внести відповідні зміни, щоб зробити доступними OTA оновлення. Будь ласка, зв'яжіться з його розробниками! Просимо Вас, НЕ пишіть нам - МИ НЕ ЗМОЖЕМО ВАМ З ЦИМ ДОПОМОГТИ!"</string> 
+  <string name="current_rom">Поточний ROM: %s</string> 
+  <string name="donate">Грош. внесок</string> 
+  <string name="developer_homepage">Домашня сторінка</string> 
+  <string name="utilities">Інструменти</string> 
+  <string name="fix_permissions">Виправити дозволи</string> 
+  <string name="fixing_permissions">Виправлення дозволів...</string> 
+  <string name="fix_permissions_detail">Виправлення дозволів доступу до файлів допомагає вирішити проблему з програмними збоями.</string> 
+  <string name="fix_permissions_done">Виконано! Тепер необхідно перезавантажити телефон.</string> 
+  <string name="download_rom_premium">Придбайте ROM Manager Преміум щоб отримати доступ до списку прошивок!</string> 
+  <string name="premium_only">Ця функція доступна лише користувачам Преміум версії!</string> 
+  <string name="no_update">Немає оновлень для Вашої прошивки на даний момент</string> 
+  <string name="update_available">Доступне оновлення</string> 
+  <string name="updated_rom">Натисніть OK, щоб оновити Вашу прошивку до останньої версії: %s.</string> 
+  <string name="update_recovery_available">Досупне оновлення для ClockworkMod Recovery.</string> 
+  <string name="upgrade">Необхідно оновити ROM Manager до останньої версії!</string> 
+  <string name="recovery_update_required">Доступна нова версія ClockworkMod Recovery. Необхідно оновити, щоб користуватись ROM Manager!</string> 
+  <string name="edit_backup_name">Назва архіву</string> 
+  <string name="new_backup_name">Нова назва архіву</string> 
+  <string name="rename_backup_error">Помилка перейменування архіву. Оберіть унікальну та правильну назву для нього.</string> 
+  <string name="confirm_delete_backup">Видалити архів?</string> 
+  <string name="remove_backup_error">Помилка видалення архіву.</string> 
+  <string name="app_name_premium">ROM Manager Преміум</string> 
+  <string name="coming_soon">Незабаром!</string> 
+  <string name="restore_options">Опції відновлення</string> 
+  <string name="partition_ext_size">Розмір Ext розділу</string> 
+  <string name="partition_swap_size">Розмір Swap розділу</string> 
+  <string name="partition_sdcard">Створити розділи на SD карті</string> 
+  <string name="partition_sdcard_summary">"Створення розділу для перенесення програм або swap розділу на карті пам'яті."</string> 
+  <string name="partition_sdcard_warning">Ця операція видалить ВСЮ інформацію з SD карти! Ви впевненні що бажаєте продовжити?</string> 
+  <string name="manifests_no_roms">Нажаль, поки немає прошивок доступних для Вашого телефону! Попросіть розробників Ваших улюблених прошивок безкоштовно розмістити їх в ROM Manager!</string> 
+  <string name="preinstallation">Дії перед встановленням</string> 
+  <string name="download_cache_cleared">Кеш завантажень очищено.</string> 
+  <string name="manifests_unavailable">Помилка завантаження списку розробників.</string> 
+  <string name="manifests_error">Помилка обробки списку розробників!</string> 
+  <string name="roms_unavailable">"Помилка завантаження списку прошивок! Будь ласка, зв'яжіться з розробником цього ROM."</string> 
+  <string name="roms_error">Помилка обробки списку прошивок!</string> 
+  <string name="rom_error">Помилка обробки прошивки!</string> 
+  <string name="rom_addons">Додатки</string> 
+  <string name="rom_download_error">Під час завантаження прошивки виникла помилка!</string> 
+  <string name="rom_download_error_short">Помилка завантаження прошивки</string> 
+  <string name="rom_download_complete">Завантаження прошивки завершено</string> 
+  <string name="restore">Відновити</string> 
+  <string name="confirm_restore">Ви впевнені, що бажаєте перезавантажити телефон та відновити резервну копію?</string> 
+  <string name="reboot_recovery">Завантажитись в режимі Recovery</string> 
+  <string name="reboot_into_recovery">Перезавантажити телефон в режим Recovery для ручних налаштувань</string> 
+  <string name="confirm_reboot">Ви впевнені що бажаєте перезавантажитись в режим ClockworkMod Recovery?</string> 
+  <string name="confirm_reboot_alternate">Впевнені, що бажаєте перезавантажитись в %s?</string> 
+  <string name="confirm_reboot_and_install">Натисніть OK щоб завантажитись в ClockworkMod Recovery та продовжити встановлення.</string> 
+  <string name="restart_and_install">Перезавантаження та встановлення</string> 
+  <string name="recovery_clockworkmod_yours">Інстальовано Recovery: ClockworkMod %s</string> 
+  <string name="recovery_alternate_yours">Інстальовано Recovery: %s</string> 
+  <string name="recovery_latest">Останній Recovery: ClockworkMod %s</string> 
+  <string name="recovery">Режим Recovery</string> 
+  <string name="flash_recovery">Встановити ClockworkMod</string> 
+  <string name="flash_recovery_error">Помилка встановлення Recovery</string> 
+  <string name="download_recovery_error">Помилка завантаження Recovery</string> 
+  <string name="download_recovery_success">ClockworkMod Recovery завантажено!</string> 
+  <string name="flash_manual">Ручне встановлення</string> 
+  <string name="flash_recovery_override">Виникли проблеми з встановленням Recovery через ROM Manager? Натисніть OK, якщо Ви встановили ClockworkMod Recovery самостійно.</string> 
+  <string name="flash_recovery_success">ClockworkMod recovery встановлено!</string> 
+  <string name="flash_alternate_recovery_success">Recovery встановлено!</string> 
+  <string name="confirm_device">Підтвердження моделі телефону</string> 
+  <string name="do_this_first">У Вас повинен бути встановлений ClockworkMod Recovery для прошивки або відновлення ROM!</string> 
+  <string name="flash_recovery_require">У Вас повинен бути встановлений ClockworkMod Recovery, щоб продовжити! Спочатку встановіть Recovery через ROM Manager.</string> 
+  <string name="install">Встановити</string> 
+  <string name="clear_cache">Видалити кеш завантажень</string> 
+  <string name="clear_cache_confirm">Кешування завантажених файлів пришвидшує встановлення прошивок. Ви впевнені, що бажаєте очистити кеш?</string> 
+  <string name="backup">Резервна копія</string> 
+  <string name="confirm_backup">Ви впевнені, що бажаєте перезавантажитись та зробити резервну копію ROM?</string> 
+  <string name="script_error">Сталася помилка при спробі виконати привілейовані команди!</string> 
+  <string name="backup_error">Будь ласка, оберіть унікальну та правильну назву для резервної копії.</string> 
+  <string name="flash_alternate">Альтернативне Recovery</string> 
+  <string name="flash_alternate_warning">Впевнені, що бажаєте встановити альтернативне Recovery? Ви не зможете користуватись функціями ROM Manager доки знову не встановите ClockworkMod Recovery.</string> 
+  <string name="flash_alternate_unavailable">Альтернативні Recovery на даний момент не доступні.</string> 
+  <string name="flash_legacy_and_experimental">Всі версії ClockworkMod</string> 
+  <string name="flash_legacy_and_experimental_summary">Встановлення застарілих та експериментальних версій ClockworkMod Recovery.</string> 
+  <string name="flash_legacy_unavailable">Старих версій Recovery не знайдено. Ви підключені до Інтернет?</string> 
+  <string name="developer_mode">Розширений режим</string> 
+  <string name="developer_mode_details">Розширений режим призначено для досвідчених користувачів. Він дозволить Вам отримати доступ до останніх версій Recovery, експериментальним ROM та інших нестабільним, проте найновішим, додаткам. Потрібно з особливою обережністю використовувати розширений режим і тільки тим користувачам, які працювали раніше з ADB.</string> 
+  <string name="developer_mode_on">Розширений режим увімкнено</string> 
+  <string name="developer_mode_off">Розширений режим вимкнено</string> 
+  <string name="developer_mode_summary">Ця функція стане доступною тоді, коли ви увімкнете розширений режим в головному меню ROM Manager.</string> 
+  <string name="premium_required_to_download">Необхідно придбати Преміум версію ROM Manager щоб мати можливість завантажувати ці прошивки!</string> 
+  <string name="free_header">Безкоштовно</string> 
+  <string name="premium_header">Преміум</string> 
+  <string name="update_notifications">Сповіщення про оновлення</string> 
+  <string name="update_notifications_enabled">Сповіщення увімкнено</string> 
+  <string name="update_notifications_disabled">Сповіщення вимкнено</string> 
+  <string name="rom_manager_settings">Налаштування ROM Manager</string> 
+  <string name="settings">Налаштування</string> 
+  <string name="more_recoveries">Інші Recovery</string> 
+  <string name="sdcard_not_mounted">SD карта недоступна</string> 
+  <string name="sdcard_needs_to_be_mounted">Для користування ROM Manager необхідна SD карта!</string> 
+  <string name="automatic_backup_time">Час архівування</string> 
+  <string name="automatic_backup_frequency">Інтервал архівування</string> 
+  <string name="automatic_backup">Авто. архівування</string> 
+  <string name="automatic_backup_disabled">Авто. архівування вимкнено</string> 
+  <string name="automatic_backup_summary">Наступне архівування відбудеться: %s.</string> 
+  <string name="no_su">"Ви мусите отримати доступ користувача root на вашому телефоні, щоб користуватись ROM Manager. Superuser не знайдено ні в \"/system/bin/su\" ні в \"/system/xbin/su\". Скористайтесь пошуком Google на комп'ютері, щоб знайти інструкції для отримання root доступу для вашого телефону."</string> 
+  <string name="invalid_license">Ліцензія недійсна</string> 
+  <string name="changelog">Перелік змін</string> 
+  <string name="new_features">Нові функції</string> 
+  <string name="install_from_qrcode">Встановити через QR код</string> 
+  <string name="qrcode_download">Завантаження по QR коду</string> 
+  <string name="qrcode_summary">Зробіть знімок камери для інсталяції прошивки. Необхідна безкоштовна програма Barcode Scanner.</string> 
+  <string name="qrcode_premium_required">Придбайте Преміум версію ROM Manager, щоб мати можливість інсталювати прошивки за допомогою QR кодів!</string> 
+  <string name="qrcode_not_installed">Не встановлено Barcode Scanner</string> 
+  <string name="qrcode_install">Вам необхідно встановити Barcode Scanner для користування цією функцією! Натисніть OK, щоб завантажити програму з Android Market.</string> 
+  <string name="flash_recovery_confirm_title">Інсталювати Recovery?</string> 
+  <string name="flash_recovery_confirm">Впевнені, що бажаєте замінити Recovery?</string> 
+  <string name="analytics">Google Analytics</string> 
+  <string name="analytics_details">Google Analytics буде відправляти різноманітну статистику використання програми, щоб допомогти розробникам покращити функціональність ROM Manager. Натиснувши ОК, Ви погодитесь на відсилання статистики до Google та розробникам ROM Manager.</string> 
+  <string name="analytics_on">Служба Google Analytics увімкнено. Дякуємо, що допомагаєте покращити ROM Manager!</string> 
+  <string name="analytics_off">Службу Google Analytics вимкнено. Увімкніть, щоб допомогти в розробці програми.</string> 
+  <string name="fast_nandroid">Швидке резерв. відновл.</string> 
+  <string name="fast_nandroid_on">Індикатори виконання резервування та відновлення вимкнено.</string> 
+  <string name="fast_nandroid_off">Індикатори виконання резервування та відновлення увімкнено, вимкніть, щоб прискорити роботу ClockworkMod.</string> 
+  <string name="credits">Автор</string> 
+  <string name="credits_summary">Програму створив Koushik Dutta.</string> 
+  <string name="erase_recovery">Очистити Recovery</string> 
+  <string name="erase_recovery_on">Recovery буде видалено перед інсталяцією нового.</string> 
+  <string name="erase_recovery_off">Recovery не буде видалено перед інсталяцією нового.</string> 
+  <string name="install_queue">Черга інсталяції:</string> 
+  <string name="add_another_zip">Додати Zip</string> 
+  <string name="report_error">Повідомити про помилку</string> 
+  <string name="report_error_message">Виникла помилка в режимі Recovery. Хочете повідомити нас про цю помилку? Будь ласка, не повідомляйте про одну і ту ж помилку кілька разів!</string> 
+  <string name="screenshots">Знімок екрану</string> 
+  <string name="download">Завантажити</string> 
+  <string name="loading">Завантаження...</string> 
+  <string name="corrupt">Zip-архів зіпсований.</string> 
+  <string name="no_spaces">ROM Manager не може відкрити вказаний Вами файл. Будь ласка, приберіть пробіли з шляху до файлу, або вручну застосуйте цей update в ClockworkMod recovery.</string> 
+  <string name="no_md5">Резервну копію пошкоджено. MD5 сума не співпадає.</string> 
+  <string name="showads">Показ реклами</string> 
+  <string name="showads_summary">Підтримайте ROM Manager! (потребує перезавантаження програми)</string> 
+  <string name="recovery_failure">Збій Recovery</string> 
+  <string name="recovery_broken_fix">"Є декілька способів відновити \"пошкоджений\" Recovery: 1) Встановіть альтернативний або старішу версію Recovery, а потім знову встановіть поточну версію. 2) Спробуйте увімкнути опцію Очистити Recovery в налаштуваннях ROM Manager. 3) Спробуйте очистити кеш завантаження в меню та перевстановити Recovery. 4) Поверніться до старішої версії Recovery."</string> 
+  <string name="reboot_fix">Деякі прошивки мають зіпсований двійковий файл reboot. Для детальнішої інформації перегляньте цю веб-сторінку (англійською): http://bit.ly/dj9qbN.</string> 
+  <string name="unknown_bug">При виявленні помилки не соромтесь написати мені листа на koush@clockworkmod.com!</string> 
+  <string name="buy_premium">Придбати Преміум</string> 
+  <string name="device_id">ID телефона</string> 
+  <string name="license_retrieval_error">Помилка отримання ліцензії</string> 
+  <string name="license_retrieved">Ліцензія отримана!</string> 
+  <string name="license_server_error">Сервер ліцензій недоступний! Спробуйте придбати програму через Android Market!</string> 
+  <string name="recovery_try_fix">Схоже завантажитись в режимі ClockworkMod Recovery не вдалось. Цю проблему можна вирішити очищенням кешу завантаження та повторною інсталяцією Recovery. Натисніть OK, щоб зробити це.</string> 
+  <string name="web_connect">Веб-завантаження</string> 
+  <string name="web_connect_error">Помилка Вашого облікового запису для Веб-завантаження</string> 
+  <string name="web_connect_success">Тепер Ви можете завантажувати прошивки безпосередньо в телефон, якщо тема форуму з прошивками підтримує Веб-завантаження.</string> 
+  <string name="download_in_progress">Триває завантаження ROM. Скасувати?</string> 
+  <string name="yes">Так</string> 
+  <string name="no">Ні</string> 
+  <string name="no_device_id">Купівля через PayPal не підтримується на цьому пристрої!</string> 
+  <string name="downloading">"Завантаження почалось... Ви можете слідкувати за його прогресом в області сповіщень!"</string> 
+  <string name="rom_manager_downloading">Почалось завантаження</string> 
+  <string name="verify_custom_flashed">Встановлення update через Recovery відмінне від ClockworkMod може не спрацювати належним чином. Продовжити?</string> 
+  <string name="flash_clockwork_or_get_premium">Лише Преміум користувачі можуть використовувати Альтернативні Recovery, щоб встановлювати прошивки через ROM Manager! У іншому випадку, Вам потрібен інстальований ClockworkMod Recovery! Спочатку встановіть Recovery через ROM Manager.</string> 
+  <string name="premium_activated">Ви придбали Преміум версію програми через PayPal! Жодних додаткових завантажень більше непотрібно, навіть якщо ви скинете заводські дані. Інформація про Вашу ліцензію зберігається на сервері ROM Manager.</string> 
+  <string name="follow_koush">Читати @koush</string> 
+  <string name="rate">Оцінити</string> 
+  <string name="reinstall_from_market"> Ліцензія Вашого ROM Manager трактується Android Market як не дійсна. Будь ласка, перевстановіть ROM Manager через Market.</string> 
+  <string name="nickname">Нік</string> 
+  <string name="anonymous">Анонім</string> 
+  <string name="roms">Прошивки</string> 
+  <string name="post_comment">Коментар</string> 
+  <string name="login_required">Ви мусите увійти в свій обліковий запис через Веб-завантаження щоб оцінити прошивку, або залишити коментар.</string> 
+  <string name="must_rate">Ви повинні оцінити цю прошивку, щоб мати змогу залишити коментар.</string> 
+  <string name="downloads">(%d завантажено)</string> 
+  <string name="loading_comments">Завантаження коментарів...</string> 
+  <string name="no_comments">Немає жодного коментаря! Будьте першим!</string> 
+  <string name="not_officially_supported">%s поки немає офіційної підтримки ClockworkMod Recovery. Ви встановили ClockworkMod самостійно?</string> 
+  <string name="sorry_no_clockworkmod">Вибачте! Поки ClockworkMod Recovery не доступно, ROM Manager не працюватиме з %s!</string> 
+  <string name="confirm_version">Підтвердження версії</string> 
+  <string name="overriden">ROM Manager налаштовано на використання Recovery встановленого Вами самостійно.</string> 
+  <string name="flash_legacy_unavailable2">Не знайдено старих версій Recovery.</string> 
+  <string name="enter_purchase_information">Введіть інформацію для оплати</string> 
+  <string name="paypal_email_id">PayPal Email ID</string> 
+  <string name="no_license_found">Не знайдено ліцензії для ID цієї PayPal транзакції.</string> 
+  <string name="rommanager_transaction_number">Транзакція ROM Manager #</string> 
+  <string name="ratings_server_error">ROM Manager зараз не може завантажити інформацію про рейтинг цієї прошивки.</string> 
+  <string name="downloads_no_parentheses">%s завантажено</string> 
+  <string name="sort_by_date">Сорт. за датою</string> 
+  <string name="sort_by_rating">Сорт. за рейтингом</string> 
+  <string name="sort_by_downloads">Сорт. за кільк. завант.</string> 
+  <string name="no_sort">Не сортувати</string> 
+  <string name="backup_current_rom_question">Архівувати поточну прошивку перед відновленням?</string> 
+  <string name="confirm_fix_permissions">Впевнені, що бажаєте скористатись виправленням дозволів?</string> 
+  <string name="inapp_error">Виникла помилка при купівлі програми. Придбання програми скасовано.</string> 
+  <string name="toggled_burrito">Режим Toggled Burrito</string> 
+  <string name="burrito_manager">Burrito Manager</string> 
+  <string name="block_user">Блокувати користувача</string> 
+ <string-array name="manage_options">
+  <item>Відновити</item> 
+  <item>Перейменувати</item> 
+  <item>Видалити</item> 
+  </string-array>
+ <string-array name="install_options">
+  <item>Зберегти поточний ROM</item> 
+  <item>Видалити дані та кеш</item> 
+  <item>Видалити Dalvik кеш</item> 
+  </string-array>
+ <string-array name="restore_partitions">
+  <item>Відновити Boot</item> 
+  <item>Відновити System</item> 
+  <item>Відновити Data</item> 
+  <item>Відновити Cache</item> 
+  <item>Відновити SD-Ext</item> 
+  </string-array>
+ <string-array name="ext_size_options">
+  <item>128Мб</item> 
+  <item>256Мб</item> 
+  <item>512Мб</item> 
+  </string-array>
+ <string-array name="swap_size_options">
+  <item>0Мб</item> 
+  <item>32Мб</item> 
+  <item>64Мб</item> 
+  <item>128Мб</item> 
+  <item>256Мб</item> 
+  </string-array>
+ <string-array name="automatic_backup_frequencies">
+  <item>Щодня</item> 
+  <item>Кожні два дні</item> 
+  <item>Кожні три дні</item> 
+  <item>Кожні чотири дні</item> 
+  <item>"Кожні п'ять днів"</item> 
+  <item>Кожні шість днів</item> 
+  <item>Раз на тиждень</item> 
+  </string-array>
+ <string-array name="recovery_failures">
+  <item>Режим Recovery \"пошкоджено\".</item> 
+  <item>ROM Manager не перезавантажується.</item> 
+  <item>Інше.</item> 
+  </string-array>
+ <string-array name="purchase_options">
+  <item>PayPal ($3.99)</item> 
+  <item>Android Market ($4.99)</item> 
+  </string-array>
+ <string-array name="clockworkmod_versions">
+  <item>ClockworkMod 2.x</item> 
+  <item>ClockworkMod 3.x</item> 
+  </string-array>
+  </resources>
