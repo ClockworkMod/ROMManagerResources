@@ -12,5 +12,4 @@
         <TextView android:id="@+id/summary" android:layout_width="fill_parent"
         android:layout_height="wrap_content" android:textSize="14sp" android:textColor="@android:color/secondary_text_dark" android:layout_marginLeft="2dp"  android:layout_marginRight="2dp" />
     </LinearLayout>
-
 </LinearLayout>
