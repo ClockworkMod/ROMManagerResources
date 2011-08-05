@@ -333,4 +333,18 @@
     <string name="confirm_fix_permissions">您確定想要執行權限修正嗎？</string>
 
     <string name="inapp_error">在 App 內購買時發生錯誤，交易已被取消。</string>
+
+    <string name="toggled_burrito">已切換 Burrito 模式</string>
+    <string name="burrito_manager">Burrito Manager</string>
+
+    <string name="block_user">封鎖用戶</string>
+
+    <string name="cloud_backup">雲端備份與還原（免費測試版）</string>
+    <string name="cloud_backup_login">您必須先登入 Web Connect 才可使用雲端備份。</string>
+
+    <string name="web_connect_success_new">成功登入 Web Connect！</string>
+
+    <string name="backups_for_current_device">此裝置的備份</string>
+    <string name="other_backups">其他備份</string>
+    <string name="new_cloud_backup">新增雲端備份</string>
 </resources>
