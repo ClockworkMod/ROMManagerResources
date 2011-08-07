@@ -8,23 +8,23 @@
 	<string name="manage_and_restore_backups">Administrar y restaurar copias</string>
 	<string name="backup_current_rom">Copiar ROM actual</string>
 
-	<string name="no_connection">Error mientras se descargaba del servidor. Por favor, asegurate que tienes una conexión estable a internet, y que la SD esta insertada y con espacio libre suficiente!!</string>
+	<string name="no_connection">Error mientras se descargaba del servidor. Por favor, asegurate que tienes una conexión estable a internet, que la SD esta insertada y que contenga espacio libre suficiente!!</string>
 
-	<string name="brick_warning">ROM Manager no es responsable de cualquier daño que puedas causar a tu terminal. Por rootear tu terminal, ya has anulado la garantía. Jugar fuera del espacio de usuario puede ser dañino. En complemento, ROM Manager enviará estadísticas anónimas a Google Analytics para ayudarme a mejorar la aplicación. Pulsa Aceptar si estás de acuerdo. Pulsa Cancelar para salir de la aplicación.</string>
+	<string name="brick_warning">ROM Manager no es responsable de cualquier daño que puedas causar a tu Android. Por rootear tu terminal, ya has anulado la garantía. Jugar fuera del espacio de usuario puede ser dañino. En complemento, ROM Manager enviará estadísticas anónimas a Google Analytics para ayudarme a mejorar la aplicación. Pulsa Aceptar si estás de acuerdo. Pulsa Cancelar para salir de la aplicación.</string>
 
-	<string name="ota_not_supported">Tu ROM no esta preparada para recibir actualizaciones por OTA. Por favor, contacta con el desarrollador de la ROM!</string>
-	<string name="ota_not_supported_extended">Tu ROM no esta preparada correctamente para recibir actualizaciones por OTA. El desarrollador de esta ROM necesita hacer los cambios apropiados para que su ROM soporte actualizaciones por OTA. Por favor, contacta al desarrollador de la ROM! Esto no es un fallo del ROM Manager.</string>
+	<string name="ota_not_supported">Tu ROM no esta preparada para recibir actualizaciones por OTA. Por favor, contacta con el desarrollador de tu ROM!</string>
+	<string name="ota_not_supported_extended">Tu ROM no esta preparada correctamente para recibir actualizaciones por OTA. El desarrollador de esta ROM necesita hacer los cambios apropiados para que su ROM soporte actualizaciones por OTA. Por favor, contacta al desarrollador de la ROM!</string>
 	<string name="current_rom">ROM actual: %s</string>
 
-	<string name="donate">Dona</string>
-	<string name="developer_homepage">Website</string>
+	<string name="donate">Dona dinero para hacer ROM Manager mejor.</string>
+	<string name="developer_homepage">Pagina de Web.</string>
 
-	<string name="utilities">Utilidades</string>
-	<string name="fix_permissions">Corregir permisos</string>
+	<string name="utilities">Utilidades.</string>
+	<string name="fix_permissions">Corregir permisos.</string>
 	<string name="fixing_permissions">Corrigiendo permisos...</string>
 	<string name="fix_permissions_detail">Corregir permisos del sistema de ficheros. Habitualmente soluciona los FC\'s.</string>
 	
-	<string name="fix_permissions_done">Hecho! Debes reiniciar ahora tu terminal.</string>
+	<string name="fix_permissions_done">Hecho! Debes reiniciar ahora tu Android.</string>
 
 	<string name="download_rom_premium">Actualiza a ROM Manager (Premium) para acceder a la lista completa de ROM\'s!</string>
 	
@@ -39,10 +39,10 @@
 	<string name="recovery_update_required">Hay una nueva versión disponible de ClockworkMod recovery. Debes actualizar antes de utilizar el ROM Manager!</string>
 
 	<string name="edit_backup_name">Nombre de la copia</string>
-	<string name="new_backup_name">Nuebo nombre de la copia</string>
-	<string name="rename_backup_error">Ocurrió un error renombrando tu copia. Por favor elige un nombre único y válido para tu copia.</string>
+	<string name="new_backup_name">Nuevo nombre de la copia</string>
+	<string name="rename_backup_error">Ocurrió un error re-nombrando tu copia. Por favor elige un nombre único y válido para tu copia.</string>
 	<string name="confirm_delete_backup">Borrar copia?</string>
-	<string name="remove_backup_error">Ocurrió un error eliminando tu copia.</string>
+	<string name="remove_backup_error">Ocurrió un error eliminando tu copia. Por favor, inténtelo de nuevo.</string>
 
 	<string name="app_name">ROM Manager</string>
 	<string name="app_name_premium">ROM Manager Premium</string>
@@ -91,7 +91,7 @@
 	<string name="partition_sdcard_summary">Particionar tu SD para permitir instalar aplicaciones en tu SD para ROM\'s que lo soporten.</string>
 	<string name="partition_sdcard_warning">Particionando tu SD perderás el contenido de tu SD. Estás seguro que quieres reiniciar y continuar?</string>
 
-	<string name="manifests_no_roms">Todavía no hay ROM\'s disponibles para tu terminal! Preguntale a tus desarrolladores favoritos si quieren aparecer en ROM Manager de forma gratuita!</string>
+	<string name="manifests_no_roms">Todavía no hay ROM\'s disponibles para tu Android! Contacta a tu desarrollador favorito para que aparezca en ROM Manager!</string>
 	
 	<string name="preinstallation">Pre-Instalación de ROM</string>
 	
@@ -100,16 +100,16 @@
 	<string name="manifests_unavailable">Ocurrió un error mientras se descargaba la lista de desarrolladores.</string>
 	<string name="manifests_error">Ocurrió un error mientras se procesaba la lista de desarrolladores!</string>
 	
-	<string name="roms_unavailable">Ocurrió un error mientras se descargaba la lista de ROM\'s! Por favor, contacta al desarrollador de esta ROM.</string>
+	<string name="roms_unavailable">Ocurrió un error mientras se descargaba la lista de ROM\'s! Por favor, contacta al desarrollador de el ROM.</string>
 	<string name="roms_error">Ocurrió un error mientras se procesaba la lista de ROM\'s!</string>
 	<string name="rom_error">Ocurrió un error mientras se procesaba esta ROM!</string>
 	<string name="rom_addons">Complementos de ROM</string>
-	<string name="rom_download_error">Ocurrió un error mientras se descarga esta ROM!</string>
-	<string name="rom_download_error_short">Error en descarga de ROM</string>
+	<string name="rom_download_error">Ocurrió un error mientras se descarga esta ROM! Intentalo de nuevo!</string>
+	<string name="rom_download_error_short">Error en descarga de ROM. Intentalo de nuevo!</string>
 	<string name="rom_download_complete">Descarga de ROM completada</string>
 	
 	<string name="restore">Restaurar</string>
-	<string name="confirm_restore">Estás seguro que quieres reiniciar el terminal y restaurar la copia?</string>
+	<string name="confirm_restore">Estás seguro que quieres reiniciar el Android y restaurar la copia?</string>
 
 	<string name="reboot_recovery">Reiniciar en Recovery</string>
 	<string name="reboot_into_recovery">Reiniciar en Modo Recovery para una administración manual.</string>
