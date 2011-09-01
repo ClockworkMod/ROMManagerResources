@@ -349,4 +349,6 @@
 	<string name="new_cloud_backup">New Cloud Backup</string>
 	
 	<string name="install_additional_zips">Install additional update zips off the SD card?</string>
+	
+	<string name="wifi_recommended">Warning: When flashing recovery, a Wi-Fi connection is recommended to ensure a proper download.</string>
 </resources>
