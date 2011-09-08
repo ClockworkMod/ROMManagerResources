@@ -347,4 +347,8 @@
     <string name="backups_for_current_device">此裝置的備份</string>
     <string name="other_backups">其他備份</string>
     <string name="new_cloud_backup">新增雲端備份</string>
+
+    <string name="install_additional_zips">要從 SD 卡安裝額外的壓縮檔嗎？</string>
+
+    <string name="wifi_recommended">警告：建議在刷入 Recovery 時使用 Wi-Fi 連線，以確保下載正確無誤。</string>
 </resources>
