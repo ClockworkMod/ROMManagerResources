@@ -15,7 +15,7 @@
 <item>Systemgendannelse</item>
 <item>Gendan data</item>
 <item>Gendan cache</item>
-<item>Gendan SD-Ext</item>
+<item>Gendan SD-kort</item>
     </string-array>
     <string-array name="ext_size_options">
         <item>128MB</item>
@@ -30,7 +30,7 @@
         <item>256MB</item>
     </string-array>
     <string-array name="automatic_backup_frequencies">
-        <item>Daglig</item>
+        <item>Dagligt</item>
         <item>Hver anden dag</item>
         <item>Hver tredje dag</item>
         <item>Hver fjerde dag</item>
@@ -40,7 +40,7 @@
     </string-array>
     <string-array name="recovery_failures">
         <item>Recovery tilstand er \"ødelagt\".</item>
-        <item>ROM Håndtering kan ikke reboote.</item>
+        <item>ROM Håndtering kan ikke genstarte.</item>
         <item>Andet.</item>
     </string-array>
     <string-array name="purchase_options">
