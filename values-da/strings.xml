@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-<string name="rom_management">ROM Håndtering</string>
-<string name="install_rom">Installer rom fra SD-kort</string>
-<string name="download_rom">Download rom</string>
-<string name="check_updates">Check for ROM opdateringer</string>
+<string name="rom_management">ROM Manager</string>
+<string name="install_rom">Installer ROM fra SD-kort</string>
+<string name="download_rom">Download ROM</string>
+<string name="check_updates">Tjek for ROM opdateringer</string>
 <string name="backup_and_restore">Backup og gendannelse</string>
 <string name="manage_and_restore_backups">Administrer sikkerhedskopier og gendan data</string>
-<string name="backup_current_rom">Backup Nuværende rom</string>
+<string name="backup_current_rom">Backup nuværende ROM</string>
 
-<string name="no_connection">Fejl under download fra server. Sørg for at du har en stabil internetforbindelse, og at dit SD-kortet er isat og har ledig plads!</string>
+<string name="no_connection">Fejl under download fra server. Sørg for at du har en stabil internetforbindelse, og at dit SD-kort er isat og har ledig plads!</string>
 
-<string name="brick_warning">ROM Håndtering er ikke ansvarlig for eventuelle skader, som du kan få på din telefon. Ved at rode med din telefon, har du allerede annulleret din garanti. At lege rundt i usikkert-brugerområde er farligt. Desuden kan ROM Håndtering sende anonyme brugsstatistikker til Google Analytics til at forbedre programmet. Tryk på OK for at være enig. Tryk på Annuller for at afslutte programmet.</string>
+<string name="brick_warning">ROM Håndtering er ikke ansvarlig for eventuelle problemer, der kan opstå. Ved at roote din telefon, har du allerede annulleret din garanti. At lege rundt i med programmets funktioner er potentielt farligt. Desuden kan ROM Manager sende anonyme brugsstatistikker til Google Analytics for at forbedre programmet. Tryk OK for at acceptere. Tryk Annuller for at afslutte programmet.</string>
 
-<string name="ota_not_supported">Din rom er ikke sat op til at modtage OTA opdateringer. Kontakt venligst ROM udvikleren!</string>
-<string name="ota_not_supported_extended">ROM, du bruger, understøtter ikke OTA opdateringer. Udvikleren af denne ROM nødt til at foretage de nødvendige ændringer, så deres rom understøtter OTA opdatering. Kontakt venligst ROM udvikleren! Kontakt venligst ikke ROM Håndtering: DETTE ER IKKE EN rom HÅNDTERING FEJL</string> 
+<string name="ota_not_supported">Din ROM er ikke sat op til at modtage OTA opdateringer. Kontakt venligst udvikleren af din ROM!</string>
+<string name="ota_not_supported_extended">Din ROM understøtter ikke OTA opdateringer. Udvikleren af denne ROM er nødt til at foretage de nødvendige ændringer, så deres ROM understøtter OTA opdatering. Kontakt venligst ROM udvikleren! Kontakt venligst ikke ROM Manager: DETTE ER IKKE EN FEJL VED ROM MANAGER</string> 
 <string name="current_rom">Nuværende ROM: %s</string>
 
 <string name="donate">Donér</string>
@@ -24,87 +24,87 @@
 <string name="fixing_permissions">Retter tilladelser...</string>
 <string name="fix_permissions_detail">Ret filsystem tilladelser. Dette løser ofte force close problemer.</string>
 
-<string name="fix_permissions_done">Færdig! Du bør nu genstarte din telefon.</string>
+<string name="fix_permissions_done">Fuldført! Du bør nu genstarte din telefon.</string>
 
-<string name="download_rom_premium">Opgrader til ROM Manager (Premium) for at få adgang til fuldstændig liste over rom\'er!</string>
+<string name="download_rom_premium">Opgrader til ROM Manager (Premium) for at få adgang til alle ROMs!</string>
 
 <string name="premium_only">Denne funktion er kun tilgængelig for Premium brugere!</string>
 <string name="no_update">Der er ingen tilgængelige opdateringer til din ROM.</string>
 <string name="update_available">Opdatering tilgængelig</string>
-<string name="updated_rom">Tryk på OK for at opdatere din ROM til den nyeste version: %s.</string>
-<string name="update_recovery_available">Der er en opdatering tilgængelig for ClockworkMod Recovery.</string>
+<string name="updated_rom">Tryk OK for at opdatere din ROM til den nyeste version: %s.</string>
+<string name="update_recovery_available">Der er en opdatering tilgængelig til ClockworkMod Recovery.</string>
 
-<string name="upgrade">Du skal opgradere din ROM Manager til nyeste version!</string>
+<string name="upgrade">Du skal opgradere ROM Manager til den nyeste version!</string>
 
-<string name="recovery_update_required">Der er en ny version af ClockworkMod recovery til rådighed. Du skal opdatere før kan bruge ROM Håndtering</string>
+<string name="recovery_update_required">Der er en ny version af ClockworkMod Recovery til rådighed. Du skal opdatere denne før kan bruge ROM Manager</string>
 
-<string name="edit_backup_name">Backup Navn</string>
-<string name="new_backup_name">Nyt Backup Navn</string>
+<string name="edit_backup_name">Backup navn</string>
+<string name="new_backup_name">Navn på ny backup</string>
 <string name="rename_backup_error">Der opstod en fejl under omdøbning af din backup. Vælg et unikt og gyldigt filnavn til din backup.</string>
-<string name="confirm_delete_backup">Slet Backup?</string>
+<string name="confirm_delete_backup">Slet backup?</string>
 <string name="remove_backup_error">Der opstod en fejl under sletning af din backup.</string>
 
-<string name="app_name">ROM Håndtering</string>
-<string name="app_name_premium">ROM Håndtering Premium</string>
+<string name="app_name">ROM Manager</string>
+<string name="app_name_premium">ROM Manager Premium</string>
 
 <string name="coming_soon">Kommer snart!</string>
 
 <string name="restore_options">Gendan indstillinger</string>
 
-<string name="partition_ext_size">Ext Størrelse</string>
-<string name="partition_swap_size">Swap Størrelse</string>
+<string name="partition_ext_size">Ekstern størrelse</string>
+<string name="partition_swap_size">Swap størrelse</string>
 <string name="partition_sdcard">Partitioner SD-kort</string>
-<string name="partition_sdcard_summary">Partitionrer dit SD-kort, for at aktivere installation af applikationer på dit SD for understøttede rom.</string>
+<string name="partition_sdcard_summary">Opdeler dit SD-kort, for at aktivere installation af applikationer på SD-kortet.</string>
 <string name="partition_sdcard_warning">partitionerer af dit SD-kort vil slette alle data på dit kort. Er du sikker på du vil genstarte og fortsætte?</string>
 
-<string name="manifests_no_roms">Der er ingen rom\'er til telefonen endnu! Spørg din favorit udvikler om at få blive kistet på ROM Håndtering gratis!</string>
+<string name="manifests_no_roms">Der er ingen ROMs til telefonen endnu! Spørg din favoritudvikler om at blive tilsluttet gratis til ROM Manager!</string>
 
-<string name="preinstallation">ROM Pre-Installation</string>
+<string name="preinstallation">ROM prenstallation</string>
 
 <string name="download_cache_cleared">Din download cache er blevet ryddet.</string>
 
-<string name="manifests_unavailable">Der opstod en fejl under download af Udvikler listen.</string>
-<string name="manifests_error">skete en fejl under behandlingen af udvikler listen!</string>
+<string name="manifests_unavailable">Der opstod en fejl under download af udviklerlisten.</string>
+<string name="manifests_error">skete en fejl under behandlingen af udviklerlisten!</string>
 
-<string name="roms_unavailable">Der opstod en fejl under download af ROM listen! Venligst kontakte udvikleren af denne ROM.</string>
-<string name="roms_error">Der skete en fejl under behandlingen af ROM listen!</string>
+<string name="roms_unavailable">Der opstod en fejl under download af ROM listen! Kontakt venligst udvikleren af denne ROM.</string>
+<string name="roms_error">Der opstod en fejl under behandlingen af ROM listen!</string>
 <string name="rom_error">Der opstod en fejl under behandlingen af denne ROM!</string>
-<string name="rom_addons">ROM Addons</string>
-<string name="rom_download_error">Der opstod en fejl under download denne ROM!</string>
-<string name="rom_download_error_short">ROM Download Fejl</string>
-<string name="rom_download_complete">ROM Download færdig</string>
+<string name="rom_addons">ROM tilføjelser</string>
+<string name="rom_download_error">Der opstod en fejl under download af denne ROM!</string>
+<string name="rom_download_error_short">ROM download fejl</string>
+<string name="rom_download_complete">ROM download færdig</string>
 
 <string name="restore">Gendan</string>
 <string name="confirm_restore">Er du sikker på du vil genstarte telefonen og gendanne din backup?</string>
 
-<string name="reboot_recovery">Genstart til Recovery</string>
-<string name="reboot_into_recovery">Start i Recovery tilstand til manuel håndtering.</string>
-<string name="confirm_reboot">Er du sikker på du vil genstarte til ClockworkMod Recovery?</string>
-<string name="confirm_reboot_alternate">Er du sikker på du vil genstarte til %s?</string>
+<string name="reboot_recovery">Genstart til recovery</string>
+<string name="reboot_into_recovery">Start i recovery tilstand for manuel håndtering.</string>
+<string name="confirm_reboot">Er du sikker på, at du vil genstarte til ClockworkMod Recovery?</string>
+<string name="confirm_reboot_alternate">Er du sikker på, at du vil genstarte til %s?</string>
 
-<string name="confirm_reboot_and_install">Tryk på OK for at genstarte til ClockworkMod Recovery og fortsætte installationen.</string>
+<string name="confirm_reboot_and_install">Tryk OK for at genstarte til ClockworkMod Recovery og fortsætte installationen.</string>
 <string name="restart_and_install">Genstart og installer</string>
 
-<string name="recovery_clockworkmod_yours">Nuværende Recovery: ClockworkMod %s</string>
-<string name="recovery_alternate_yours">Nuværende Recovery: %s</string>
-<string name="recovery_latest">Seneste Recovery: ClockworkMod %s</string>
+<string name="recovery_clockworkmod_yours">Nuværende recovery: ClockworkMod %s</string>
+<string name="recovery_alternate_yours">Nuværende recovery: %s</string>
+<string name="recovery_latest">Seneste recovery: ClockworkMod %s</string>
 
 <string name="recovery">Recovery</string>
 <string name="flash_recovery">Flash ClockworkMod Recovery</string>
 <string name="flash_recovery_error">En fejl opstod under flash af din recovery.</string>
 <string name="download_recovery_error">En fejl opstod under download af din recovery.</string>
-<string name="download_recovery_success">ClockworkMod recovery bleb downloaded!</string>
-<string name="flash_manual">Manuel Flash overskrivning</string>
+<string name="download_recovery_success">ClockworkMod recovery blev downloadet!</string>
+<string name="flash_manual">Manuel flash overskrivning</string>
 <string name="flash_recovery_override">Har du problemer med at flashe recovery ved hjælp af ROM Manager? Tryk på OK, hvis du har flashet ClockworkMod Recovery manuelt.</string>
 <string name="flash_recovery_success">Flashede ClockworkMod Recovery succesfuldt!</string>
 <string name="flash_alternate_recovery_success">Flashede recovery succesfuldt!</string>
-<string name="confirm_device">Bekræft Telefon Model</string>
-<string name="do_this_first">Du skal have ClockworkMod Recovery installeret for at flashe og genoprette rom\'er!</string>
-<string name="flash_recovery_require">Du skal have ClockworkMod Recovery installeret, før du fortsætter! Installer recovery gennem ROM Håndtering først.</string>
+<string name="confirm_device">Bekræft telefonmodel</string>
+<string name="do_this_first">Du skal have ClockworkMod Recovery installeret for at flashe og gendanne ROMs!</string>
+<string name="flash_recovery_require">Du skal have ClockworkMod Recovery installeret, før du fortsætter! Installer recovery gennem ROM Manager først.</string>
 <string name="install">Installer</string>
 
-<string name="clear_cache">Ryd Download Cache</string>
-<string name="clear_cache_confirm">Caching downloads gør din ROM installationer meget hurtigere. Er du sikker på du vil slette din download cache?</string>
+<string name="clear_cache">Ryd download cache</string>
+<string name="clear_cache_confirm">Caching af downloads gør dine ROM installationer meget hurtigere. Er du sikker på du vil slette din download cache?</string>
 
 <string name="backup">Backup</string>
 <string name="confirm_backup">Er du sikker på du vil genstarte telefonen og lave backup af din ROM?</string>
@@ -112,82 +112,82 @@
 <string name="backup_error">Vælg et unikt og gyldigt filnavn for din backup.</string>
 
 <string name="flash_alternate">Flash alternativ Recovery</string>
-<string name="flash_alternate_warning">Er du sikker på du vil alternativ en alternativ recovery? ROM Håndtering funktioner vil være utilgængelig indtil du flasher tilbage til ClockworkMod Recovery.</string>
+<string name="flash_alternate_warning">Er du sikker på, at du vil flashe en alternativ recovery? ROM Managers funktioner vil være utilgængelige indtil du flasher tilbage til ClockworkMod Recovery.</string>
 <string name="flash_alternate_unavailable">Ingen alternativ recovery til rådighed.</string>
-<string name="flash_legacy_and_experimental">Alle ClockworkMod recovery</string>
+<string name="flash_legacy_and_experimental">Alle ClockworkMod udgaver</string>
 <string name="flash_legacy_and_experimental_summary">Flash ældre og eksperimenterende versioner af ClockworkMod Recovery.</string>
-<string name="flash_legacy_unavailable">Ingen legacy recovery fundet. Er du tilsluttet til internettet? "</string>
+<string name="flash_legacy_unavailable">Ingen ældre recovery fundet. Er du tilsluttet til internettet? "</string>
 
 <string name="developer_mode">Avanceret tilstand</string>
-<string name="developer_mode_details">Advanced tilstand er ikke beregnet til alle brugere. Med avanceret tilstand får du adgang til de nyeste recovery, eksperimenterende rom\'er og andre forskellige ustabile, men nyskabende funktioner. Avanceret tilstand bør anvendes med forsigtighed, og anbefales kun til brugere som er komfortabel med ADB.</string>
+<string name="developer_mode_details">Avanceret tilstand er ikke beregnet til alle brugere. Med avanceret tilstand får du adgang til de nyeste recovery, eksperimenterende ROMs og forskellige nyskabende, men ustabile funktioner. Avanceret tilstand bør anvendes med forsigtighed, og anbefales kun til brugere som er komfortable med ADB.</string>
 <string name="developer_mode_on">Avanceret tilstand er aktiveret.</string>
 <string name="developer_mode_off">Avanceret tilstand er deaktiveret.</string>
-<string name="developer_mode_summary">Dette er tilgængeligt, når du aktiverer avanceret tilstand fra ROM Håndtering hovedmenuen.</string>
+<string name="developer_mode_summary">Dette er tilgængeligt, når du aktiverer avanceret tilstand fra hovedmenuen i ROM Manager.</string>
 
-<string name="premium_required_to_download">Premium versionen af ROM Håndtering er nødvendig for at downloade denne Udviklers rom\'er!</string>
+<string name="premium_required_to_download">Premium versionen af ROM Manager er nødvendig for at downloade denne udviklers ROMs!</string>
 
 <string name="free_header">Gratis</string>
 <string name="premium_header">Premium</string>
 
-<string name="update_notifications">Update Notifikationer</string>
-<string name="update_notifications_enabled">Update Notifikationer er aktiveret.</string>
-<string name="update_notifications_disabled">Update Notifikationer er deaktiveret.</string>
+<string name="update_notifications">Opdateringsnotifikationer</string>
+<string name="update_notifications_enabled">Opdateringsnotifikationer er aktiveret.</string>
+<string name="update_notifications_disabled">Opdateringsnotifikationer er deaktiveret.</string>
 
-<string name="rom_manager_settings">ROM Håndtering Indstillinger</string>
+<string name="rom_manager_settings">ROM Manager indstillinger</string>
 <string name="settings">Indstillinger</string>
 
-<string name="more_recoveries">Flere recovery</string>
+<string name="more_recoveries">Flere recoveries</string>
 
-<string name="sdcard_not_mounted">SD-korter er ikke monteret</string>
-<string name="sdcard_needs_to_be_mounted">SD-kortet skal monteres for at bruge ROM Håndtering</string>
+<string name="sdcard_not_mounted">SD-kortet er ikke tilsluttet</string>
+<string name="sdcard_needs_to_be_mounted">SD-kortet skal tilsluttes for at bruge ROM Manager</string>
 
 <string name="automatic_backup_time">Backup tid</string>
-<string name="automatic_backup_frequency">Backup Frekvens</string>
+<string name="automatic_backup_frequency">Frekvens af backup</string>
 <string name="automatic_backup">Automatisk backup</string>
 <string name="automatic_backup_disabled">Automatisk backup er deaktiveret.</string>
 <string name="automatic_backup_summary">den næste automatiske backup vil finde sted %s.</string>
 
-<string name="no_su">Du skal roote telefonen for at ROM Manager vil fungere. Superbruger blev ikke fundet i \"/system/bin/su\" or \"/system/xbin/su\". Brug Google-søgning på din computer for at finde instruktioner til at roote din telefon.</string>
+<string name="no_su">Du skal roote telefonen for at ROM Manager vil fungere. Superbruger blev ikke fundet i \"/system/bin/su\" eller \"/system/xbin/su\". Brug Google til at finde instruktioner til at roote din telefon.</string>
 
-<string name="invalid_license">Ugyldig Licens</string>
-<string name="invalid_license_text">Din ROM Håndtering licens er forældet. Geninstaller ROM Håndtering via Marked.</string>
+<string name="invalid_license">Ugyldig licens</string>
+<string name="invalid_license_text">Din licens til ROM Manager er forældet. Geninstaller ROM Manager via Market.</string>
 
 <string name="changelog">Changelog</string>
 
 <string name="new_features">Nye funktioner</string>
 
-<string name="install_from_qrcode">Installer fra QR Code</string>
+<string name="install_from_qrcode">Installer fra stregkode</string>
 
-<string name="qrcode_download">QR Code Download</string>
-<string name="qrcode_summary">Tag et billede for at installere en ROM. Kræver det gratis Barcode Scanner program.</string>
-<string name="qrcode_premium_required">Du skal have Premium versionen af ROM Håndtering for at installere rom\'er fra QR koder!</string>
-<string name="qrcode_not_installed">Manglende Barcode Scanner</string>
-<string name="qrcode_install">Du skal have Barcode Scanner installeret for at bruge denne funktion! Tryk på OK for at installere det gratis Barcode Scanner program fra markedet.</string>
+<string name="qrcode_download">Stregkodedownload</string>
+<string name="qrcode_summary">Tag et billede for at installere en ROM. Kræver en stregkodescanner.</string>
+<string name="qrcode_premium_required">Du skal have Premium versionen af ROM Manager for at installere ROMs fra stregkoder!</string>
+<string name="qrcode_not_installed">Manglende stregkodescanner</string>
+<string name="qrcode_install">Du skal have en stregkodescanner installeret for at bruge denne funktion! Tryk OK for at installere Barcode Scanner fra Market.</string>
 
-<string name="flash_recovery_confirm_title">Flash Recovery?</string>
+<string name="flash_recovery_confirm_title">Flash recovery?</string>
 <string name="flash_recovery_confirm">Er du sikker på at du ønsker at udskifte din recovery?</string>
 
 <string name="analytics">Google Analytics</string>
-<string name="analytics_details">Google Analytics vil sende anonyme brugsstatistikker for at gøre ROM Håndtering til et bedre program! Ved at trykke på OK, forstår du, at anonyme oplysninger om brug vil blive sendt til Google og udviklere af ROM Håndtering.</string>
-<string name="analytics_on">Google Analytics er tændt. Tak for hjælpen med at gøre ROM Håndtering til et bedre program!</string>
-<string name="analytics_off">Google Analytics er slukket. Du burde tænde det!</string>
+<string name="analytics_details">Google Analytics vil indsamle anonyme brugsstatistikker for at gøre ROM Manager til et bedre program! Ved at trykke OK accepterer du, at anonyme oplysninger om dit brug vil blive sendt til Google og udviklerne af ROM Manager.</string>
+<string name="analytics_on">Google Analytics er aktiveret. Tak for hjælpen med at gøre ROM Manager til et bedre program!</string>
+<string name="analytics_off">Google Analytics er deaktiveret. Du burde aktivere det!</string>
 
 <string name="fast_nandroid">Hurtig backup og gendannelse</string>
-<string name="fast_nandroid_on">Status bar i Backup og gendannelse er deaktiveret for hastighed.</string>
-<string name="fast_nandroid_off">Status bar i Backup og gendannelse er aktiveret. Deaktiver for hurtigere backup og gendannelser.</string>
+<string name="fast_nandroid_on">Statusbar under backup og gendannelse er deaktiveret for hurtigere eksekvering.</string>
+<string name="fast_nandroid_off">Statusbar under backup og gendannelse er aktiveret. Deaktiver for hurtigere backup og gendannelse.</string>
 
-<string name="credits">Credits</string>
-<string name="credits_summary">Skrevet af Koushik Dutta.</string>
+<string name="credits">Om</string>
+<string name="credits_summary">Kodet af Koushik Dutta.</string>
 
-<string name="erase_recovery">Slet Recovery</string>
+<string name="erase_recovery">Slet recovery</string>
 <string name="erase_recovery_on">Recovery vil blive slettet inden flashing.</string>
-<string name="erase_recovery_off">Recovery vil ikke blive slettet flashing.</string>
+<string name="erase_recovery_off">Recovery vil ikke blive slettet inden flashing.</string>
 
-<string name="install_queue">Installations kø:</string>
-<string name="add_another_zip">Tilføj Zip</string>
+<string name="install_queue">Installationskø:</string>
+<string name="add_another_zip">Tilføj zip-fil</string>
 
-<string name="report_error">Rapportér Fejl</string>
-<string name="report_error_message">Der opstod en fejl i recovery tilstand. Vil du rapportere dette? Vær venlig ikke ar rapportere den samme fejl flere gange!</string>
+<string name="report_error">Rapportér fejl</string>
+<string name="report_error_message">Der opstod en fejl i recoverytilstand. Vil du rapportere dette? Vær venlig ikke ar rapportere den samme fejl flere gange!</string>
 
 <string name="screenshots">Skærmbilleder</string>
 <string name="download">Download</string>
@@ -196,43 +196,43 @@
 
 <string name="corrupt">Korrupt zip-fil.</string>
 
-<string name="no_spaces">ROM Håndtering er ikke i stand til at åbne denne fil. Du skal fjerne eventuelle mellemrum fra din fil og mappe sti. Eller køre den manuelt via ClockworkMod recovery.</string>
+<string name="no_spaces">ROM Manager er ikke i stand til at åbne denne fil. Du skal fjerne eventuelle mellemrum fra din fil og fra mappestien. Du kan eventuelt køre den manuelt via ClockworkMod recovery.</string>
 <string name="no_md5">Dette synes ikke at være en gyldig sikkerhedskopi. MD5-filen mangler.</string>
 
-<string name="showads">Vis Reklamer</string>
-<string name="showads_summary">Hjælp med at støtte ROM Håndtering! (Ændringer kræver program genstart.)</string>
+<string name="showads">Vis reklamer</string>
+<string name="showads_summary">Hjælp med at støtte ROM Manager! (ændringer kræver genstart af programmet)</string>
 
 <string name="recovery_failure">Recovery fejl</string>
 
-<string name="recovery_broken_fix">Der er flere måder at rette en \"ødelagt\""" recovery:\n1) Flash en alternativ eller ældre recovery og derefter flash tilbage til den nuværende version\n2) Prøv at aktivere "Slet Recovery. "i ROM Håndtering indstillinger.\n3) Prøv at rydde download cache via menuen og flash igen.\n4) Flash tilbage til en ældre recovery.\n5)  Fastboot eller SBF en recovery til din telefon fra din PC.</string>
-<string name="reboot_fix">Nogle rom\'er har en ødelagt "reboot" binær fil. Se denne tråd på din computer for at få flere oplysninger:. Http://bit.ly/dj9qbN</string>
+<string name="recovery_broken_fix">Der er flere måder at rette en \"ødelagt\""" recovery:\n1) Flash en alternativ eller ældre recovery og flash derefter tilbage til den nuværende version\n2) Prøv at aktivere "Slet recovery. "i ROM Manager indstillingerne\n3) Prøv at rydde download cachen via menuen og flash igen.\n4) Flash tilbage til en ældre recovery.\n5)  Fastboot eller SBF en recovery til din telefon fra din PC.</string>
+<string name="reboot_fix">Nogle ROMs har en ødelagt "reboot" binærfil. Se denne tråd på din computer for at få flere oplysninger:. http://bit.ly/dj9qbN</string>
 <string name="unknown_bug">Du er velkommen til at kontakte mig på koush@clockworkmod.com med dine fejl på engelsk!</string>
 
 <string name="buy_premium">Køb Premium</string>
 
-<string name="device_id">Device ID</string>
-<string name="license_retrieval_error">Licens Hentningsfejl</string>
-<string name="license_retrieved">Licens Hentet!</string>
-<string name="license_server_error">Kan ikke kontakte Licens Server! Brug venligst Android Marked i stedet!</string>
+<string name="device_id">Enhedens ID</string>
+<string name="license_retrieval_error">Fejl ved hentning af licens</string>
+<string name="license_retrieved">Licens hentet!</string>
+<string name="license_server_error">Kan ikke kontakte licensserveren! Brug venligst Android Market i stedet!</string>
 
-<string name="recovery_try_fix">Genstart i Clockwork Recovery synes at have slået fejl. Dette problem kan rettes ved at rydde download cache og genflashe recovery. Tryk på OK for at rydde download cache og genflashe recovery.</string>
+<string name="recovery_try_fix">Genstart til Clockwork Recovery synes at have slået fejl. Dette problem kan rettes ved at rydde download cachen og flashe recovery igen. Tryk OK for at rydde download cachen og flashe recovery igen.</string>
 
 <string name="web_connect">Web Connect</string>
-<string name="web_connect_error">En fejl opstod under forsøget på at oprette forbindelse til din web konto.</string>
-<string name="web_connect_success">Du kan nu downloade rom\'er direkte til din telefon, hvis din rom tråd understøtter det.</string>
+<string name="web_connect_error">En fejl opstod under forsøget på at oprette forbindelse til din internetkonto.</string>
+<string name="web_connect_success">Du kan nu downloade ROMSs direkte til din telefon, hvis din ROM understøtter dette.</string>
 
-<string name="download_in_progress">En rom download er i øjeblikket i gang. Annuller download?</string>
+<string name="download_in_progress">Download af ROM er i øjeblikket i gang. Annuller download?</string>
 
 <string name="yes">Ja</string>
 <string name="no">Nej</string>
 
-    <string name="no_device_id">PayPal køb understøttes ikke på denne enhed!</string>
+    <string name="no_device_id">Køb via PayPal understøttes ikke på denne enhed!</string>
      
-    <string name="downloading">Din download er begyndt...\nDu kan se fremskridt i meddelelsesområdet!</string>
+    <string name="downloading">Download er begyndt...\nDu kan se fremskridt i meddelelsesområdet!</string>
     <string name="rom_manager_downloading">Download begyndt</string>
      
-    <string name="verify_custom_flashed">Flashning af en opdaterings pakke på en anden recovery end ClockworkMod Recovery vil måske ikke virke korrekt. Fortsæt?</string>
+    <string name="verify_custom_flashed">Flashing af en opdateringspakke på en anden recovery end ClockworkMod Recovery vil måske ikke virke korrekt. Fortsæt?</string>
      
-    <string name="flash_clockwork_or_get_premium">Kun Premium brugere kan anvende alternative recovery med ROM Håndtering til at flashe rom\'er! Ellers skal du have ClockworkMod Recovery installeret, før du fortsætter! Installer recovery gennem ROM Håndtering først.</string>
-    <string name="premium_activated">Du har nu aktiveret ROM Håndtering Premium via PayPal! Ingen yderligere downloads er nødvendige, selvom du nulstiller telefonen. Er dit køb blevet bemærket, og noteret på ROM Håndterings servere.</string>
+    <string name="flash_clockwork_or_get_premium">Kun brugere af Premium kan anvende alternative recoveries med ROM Manager til at flashe ROMs! Ellers skal du have ClockworkMod Recovery installeret, før du fortsætter! Installer recovery gennem ROM Manager først.</string>
+    <string name="premium_activated">Du har nu aktiveret ROM Manager Premium via PayPal! Ingen yderligere downloads er nødvendige, selvom du nulstiller telefonen. Dit køb blevet registreret på ROM Managers servere.</string>
 </resources>
