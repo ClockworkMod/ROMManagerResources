@@ -351,4 +351,6 @@
 	<string name="install_additional_zips">Install additional update zips off the SD card?</string>
 	
 	<string name="wifi_recommended">Warning: When flashing recovery, a Wi-Fi connection is recommended to ensure a proper download.</string>
+	
+	<string name="desksms_by_clockworkmod">DeskSMS by ClockworkMod</string>
 </resources>
