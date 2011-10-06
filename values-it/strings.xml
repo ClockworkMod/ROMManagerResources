@@ -4,7 +4,7 @@
 	<string name="install_rom">Installa ROM da scheda SD</string>
 	<string name="download_rom">Download ROM</string>
 	<string name="check_updates">Controlla aggiornamenti ROM</string>
-	<string name="backup_and_restore">Backup e Restore</string>
+	<string name="backup_and_restore">Backup e Ripristino</string>
 	<string name="manage_and_restore_backups">Gestisci e ripristina backup</string>
 	<string name="backup_current_rom">Backup ROM attuale</string>
 
@@ -58,7 +58,7 @@
 	<string-array name="install_options">
 		<item>Backup ROM esistente</item>
 		<item>Elimina Data e Cache</item>
-        <item>Wipe Dalvik Cache</item>
+        <item>Elimina Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Opzioni di Ripristino</string>
@@ -202,10 +202,10 @@
 	<string name="install_from_qrcode">Installa da QR Code</string>
 	
 	<string name="qrcode_download">QR Code Download</string>
-	<string name="qrcode_summary">Installa ROM con uno scatto. Richiede l\'applicazione gratuita Barcode Scanner.</string>
+	<string name="qrcode_summary">Installa ROM con uno scansione. Richiede l\'applicazione gratuita Barcode Scanner.</string>
 	<string name="qrcode_premium_required">Hai bisogno della versione Premium di ROM Manager per installare ROM da QR Code!</string>
 	<string name="qrcode_not_installed">Barcode Scanner non trovato</string>
-	<string name="qrcode_install">Hai bisogno di avere installato Barcode Scanner per usare questa funzione! Premi OK per installare Barcode Scanner (free) dal Market.</string>
+	<string name="qrcode_install">Hai bisogno di avere installato Barcode Scanner per usare questa funzione! Premi OK per installare Barcode Scanner (gratuito) dal Market.</string>
 	
 	<string name="flash_recovery_confirm_title">Installa Recovery?</string>
 	<string name="flash_recovery_confirm">Sei sicuro di voler sostituire la tua recovery?</string>
@@ -215,9 +215,9 @@
 	<string name="analytics_on">Google Analytics è attivo. Grazie per aiutare a migliorare ROM Manager!</string>
 	<string name="analytics_off">Google Analytics non è attivo. Dovresti attivarlo!</string>
 	
-	<string name="fast_nandroid">Backup e Restore veloce</string>
-	<string name="fast_nandroid_on">Le Progress bar dei backup e dei restore sono disattivate per maggior velocità.</string>
-	<string name="fast_nandroid_off">Le Progress bar dei backup e dei restore sono attive. Disattivale per backup e restore più veloci.</string>
+	<string name="fast_nandroid">Backup e Ripristino veloce</string>
+	<string name="fast_nandroid_on">La barra di progresso dei backup e dei ripristini è disattivata per maggior velocità.</string>
+	<string name="fast_nandroid_off">La barra di progresso dei backup e dei ripristini è attiva. Disattivala per backup e ripristini più veloci.</string>
 
 	<string name="credits">Crediti</string>
 	<string name="credits_summary">Scritto da Koushik Dutta.</string>
@@ -275,7 +275,7 @@
 	<string name="web_connect_success">Puoi scaricare ROM direttamente sul tuo telefono se il thread della ROM lo supporta.</string>
        <string name="download_in_progress">È in corso il download di una ROM. Annullare il download?</string>
 	
-	<string name="yes">Si</string>
+	<string name="yes">Sì</string>
 	<string name="no">No</string>
 
     <string name="no_device_id">Gli acquisti tramite PayPal non sono disponibili per questo dispositivo!</string>
@@ -284,10 +284,72 @@
 
     <string name="verify_custom_flashed">Installare un aggiornamento utilizzando una recovery diversa da ClockworkMod può non funzionare correttamente. Procedere?</string>
     
-    <string name="flash_clockwork_or_get_premium">Solo gli utenti Premium possono installare ROM con ROM Manager utilizzando recovery Alternative! Altrimenti devi installare la recovery ClockworkMod prima di continuare! Installa prima la recovery tramite ROM Manager.</string>
-    <string name="premium_activated">Hai appena attivato ROM Manager Premium via PayPal! Non sono necessari ulteriori download, anche se formatti il dispositivo. Il tuo acquisto è stato registrato sui server di ROM Manager. </string>
+    <string name="flash_clockwork_or_get_premium">Solo gli utenti Premium possono installare ROM attraverso ROM Manager utilizzando recovery alternative! Altrimenti devi installare la recovery ClockworkMod prima di continuare! Installa prima la recovery tramite ROM Manager.</string>
+    <string name="premium_activated">Hai appena attivato ROM Manager Premium via PayPal! Non sono necessari ulteriori download anche se formatti il dispositivo. Il tuo acquisto è stato registrato sui server di ROM Manager. </string>
     <string name="follow_koush">Segui @koush</string>
     <string name="rate">Vota</string>
 
     <string name="reinstall_from_market">La tua licenza ROM Manager è stata segnalata come non valida dall\'Android Market. Ti prego di reinstallare ROM Manager tramite il Market.</string>
+
+    <string name="nickname">Nickname</string>
+    <string name="anonymous">Anonimo</string>
+    <string name="roms">ROM</string>
+    <string name="post_comment">Commenta</string>
+    
+    <string name="login_required">Per lasciare commenti e votare le ROM devi prima aver effettuato il log in tramite Web Connect.</string>
+    <string name="must_rate">Devi votare la ROM prima di lasciare un commento!</string>
+    <string name="downloads">(%d download)</string>
+    
+    <string name="loading_comments">Caricando i Commenti...</string>
+    <string name="no_comments">Nessuno ha ancora lasciato dei commenti! Sii il primo!</string>
+
+	<string name="not_officially_supported">%s non ancora è supportato ufficialmente dalla recovery ClockworkMod. Hai installato manualmente una recovery basata su ClockworkMod?</string>
+	<string name="sorry_no_clockworkmod">Mi dispiace! Finchè non è disponibile la recovery ClockworkMod, ROM Manager non può funzionare con %s!</string>
+	<string name="confirm_version">Conferma Versione</string>
+	<string-array name="clockworkmod_versions">
+		<item name="clockworkmod_2">ClockworkMod 2.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+	</string-array>
+	<string name="overriden">ROM Manager è stato impostato per funzionare con la recovery da te installata.</string>
+
+	<string name="flash_legacy_unavailable2">Non sono state trovate recovery compatibili.</string>
+
+    <string name="enter_purchase_information">Inserisci le informazioni d\'acquisto</string>
+    <string name="paypal_email_id">Email ID di PayPal</string>
+    <string name="no_license_found">Non è stata trovata nessuna licenza corrispondente a quella transazione di PayPal.</string>
+    <string name="rommanager_transaction_number">Transazione ROM Manager #</string>
+    
+    <string name="ratings_server_error">ROM Manager non è momentaneamente in grado di scaricare le recensioni per questa ROM.</string>
+
+    <string name="downloads_no_parentheses">%s download</string>
+    
+    <string name="sort_by_date">Ordina Per Data</string>
+    <string name="sort_by_rating">Ordina Per Voto</string>
+    <string name="sort_by_downloads">Ordina Per N.ro di Download</string>
+    <string name="no_sort">Non Ordinare</string>
+    
+    <string name="backup_current_rom_question">>Vuoi fare un Backup della ROM attuale prima di effettuare il Ripristino?</string>
+    <string name="confirm_fix_permissions">Sei sicuro di voler eseguire la Correzione dei Permessi?</string>
+    
+    <string name="inapp_error">Si è verificato un errore durante l\'acquisto in-app. L\'acquisto è stato cancellato.</string>
+
+    <string name="toggled_burrito">Modalità Burrito</string>
+    <string name="burrito_manager">Burrito Manager</string>
+
+    <string name="block_user">Blocca utente</string>
+    
+    <string name="cloud_backup">Cloud Backup e Ripristino (Beta Gratuita)</string>
+    <string name="cloud_backup_login">Per utilizzare i Cloud Backup devi prima aver effettuato il log in tramite Web Connect.</string>
+
+	<string name="web_connect_success_new">Log in tramite Web Connect effettuato con successo!</string>
+	
+	<string name="backups_for_current_device">Backup per questo dispositivo</string>
+	<string name="other_backups">Altri Backup</string>
+	<string name="new_cloud_backup">Nuovo Cloud Backup</string>
+	
+	<string name="install_additional_zips">Vuoi installare ulteriori update zip dalla SD card?</string>
+	
+	<string name="wifi_recommended">Attenzione: Qunado si installa una recovery è raccomandato avere una connessione Wi-Fi per assicurare un corretto download.</string>
+	
+	<string name="desksms_by_clockworkmod">DeskSMS da ClockworkMod</string>
 </resources>
