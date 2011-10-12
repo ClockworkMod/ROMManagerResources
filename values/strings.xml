@@ -353,4 +353,10 @@
 	<string name="wifi_recommended">Warning: When flashing recovery, a Wi-Fi connection is recommended to ensure a proper download.</string>
 	
 	<string name="desksms_by_clockworkmod">DeskSMS by ClockworkMod</string>
+
+	<string name="payment_options">Payment Options</string>
+	<string name="paypal">PayPal</string>
+	<string name="android_market_inapp">Android Market In-App</string>
+    <string name="redeem_code">Redeem Code</string>
+	<string name="purchase_thanks">Thanks for your purchase!</string>
 </resources>
