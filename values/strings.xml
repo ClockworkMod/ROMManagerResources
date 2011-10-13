@@ -356,7 +356,12 @@
 
 	<string name="payment_options">Payment Options</string>
 	<string name="paypal">PayPal</string>
-	<string name="android_market_inapp">Android Market In-App</string>
+	<string name="android_market">Android Market</string>
     <string name="redeem_code">Redeem Code</string>
+    <string name="recover_purchase">Recover PayPal Purchase</string>
+    <string name="recover_or_redeem">Recover your ROM Manager PayPal license, or Redeem a license using a code.</string>
 	<string name="purchase_thanks">Thanks for your purchase!</string>
+	<string name="recover_purchase_error">An error occured while recovering your purchase.</string>
+
+    <string name="no_license_found_email">There was no license found for that PayPal email.</string>
 </resources>
