@@ -351,4 +351,17 @@
     <string name="install_additional_zips">要從 SD 卡安裝額外的壓縮檔嗎？</string>
 
     <string name="wifi_recommended">警告：建議在刷入 Recovery 時使用 Wi-Fi 連線，以確保下載正確無誤。</string>
+
+    <string name="desksms_by_clockworkmod">ClockworkMod 呈獻：DeskSMS</string>
+
+    <string name="payment_options">付款選項</string>
+    <string name="paypal">PayPal</string>
+    <string name="android_market">Android Market</string>
+    <string name="redeem_code">兌換代碼</string>
+    <string name="recover_purchase">修復授權</string>
+    <string name="recover_or_redeem">修復您的 ROM Manager 之 PayPal 授權，或以代碼兌換授權。</string>
+    <string name="purchase_thanks">多謝惠顧！</string>
+    <string name="recover_purchase_error">修復您的授權時發生錯誤。</string>
+
+    <string name="no_license_found_email">找不到與該 PayPal 電郵相關之授權。</string>
 </resources>
