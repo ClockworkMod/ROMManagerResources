@@ -364,4 +364,7 @@
 	<string name="recover_purchase_error">An error occured while recovering your purchase.</string>
 
     <string name="no_license_found_email">There was no license found for that PayPal email.</string>
+    
+	<string name="use_external_storage">Use External Storage</string>
+	<string name="use_external_storage_summary">Prefer the usage of an external storage card over internal storage for backups.</string>
 </resources>
