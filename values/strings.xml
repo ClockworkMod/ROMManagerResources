@@ -367,4 +367,8 @@
     
 	<string name="use_external_storage">Use External Storage</string>
 	<string name="use_external_storage_summary">Prefer the usage of an external storage card over internal storage for backups.</string>
+	
+	<string name="more_from_clockworkmod">While waiting, you should check out these other awesome Android apps from ClockworkMod!</string>
+	
+	<string name="android_apps">Android Apps</string>
 </resources>

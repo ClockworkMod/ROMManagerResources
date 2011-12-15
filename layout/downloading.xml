@@ -7,4 +7,8 @@
   android:id="@+id/layout"
   >
   <TextView android:text="@string/downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:textSize="20sp" />
+
+  <TextView android:paddingTop="20dp" android:text="@string/more_from_clockworkmod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:textSize="20sp" />
+  <ImageView android:id="@+id/desksms" android:src="@drawable/desksms_feat_v5"  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" />
 </LinearLayout>

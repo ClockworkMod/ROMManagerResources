@@ -3,6 +3,9 @@
     android:minHeight="64dp" android:layout_width="fill_parent"
     android:layout_height="wrap_content" android:orientation="horizontal"
     android:layout_margin="2dp">
+    <ImageView android:id="@+id/image" android:scaleType="fitCenter"
+    android:layout_width="48dp" android:layout_height="48dp"
+    android:layout_gravity="center_vertical" android:layout_margin="2dp" android:visibility="gone"></ImageView>
     <LinearLayout android:layout_gravity="center_vertical"
         android:layout_width="fill_parent" android:layout_height="wrap_content"
         android:orientation="vertical" android:layout_weight="1">
