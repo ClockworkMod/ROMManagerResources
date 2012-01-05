@@ -13,8 +13,9 @@
 			android:layout_height="25dp" android:layout_width="25dp"></ImageView>
 		<TextView android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:id="@+id/notificationPercentage"
-			android:textColor="#000" android:text="100%" android:textSize="10dp"
-			android:layout_marginTop="1dp"></TextView>
+			android:text="100%" android:textSize="10dp"
+			android:layout_marginTop="1dp"
+			style="@style/NotificationTitle"></TextView>
 
 	</LinearLayout>
 	<LinearLayout android:id="@+id/LinearLayout02"
@@ -23,8 +24,11 @@
 		android:layout_marginTop="3dp">
 		<TextView android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:id="@+id/notificationTitle"
-			android:textColor="#000" android:text="Downloading update"
-			android:textStyle="bold" android:paddingBottom="4dp"></TextView>
+			android:text="Downloading update"
+			android:textStyle="bold" android:paddingBottom="4dp"
+			style="@style/NotificationTitle"
+			android:singleLine="true"
+			android:ellipsize="end"></TextView>
 		<ProgressBar android:id="@+id/ProgressBar01"
 			android:layout_width="fill_parent" style="?android:attr/progressBarStyleHorizontal"
 			android:layout_height="20dip"></ProgressBar>
