@@ -299,7 +299,7 @@
     
     <string name="login_required">You must log in using Web Connect to rate ROMs or leave comments.</string>
     <string name="must_rate">You must rate this ROM before you may comment!</string>
-    <string name="downloads">(%d downloads)</string>
+    <string name="downloads">(%s downloads)</string>
     
     <string name="loading_comments">Loading Comments...</string>
     <string name="no_comments">No one has left any comments! Be the first!</string>

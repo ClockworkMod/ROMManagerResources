@@ -298,7 +298,7 @@
     
     <string name="login_required">Per lasciare commenti e votare le ROM devi prima aver effettuato il log in tramite Web Connect.</string>
     <string name="must_rate">Devi votare la ROM prima di lasciare un commento!</string>
-    <string name="downloads">(%d download)</string>
+    <string name="downloads">(%s download)</string>
     
     <string name="loading_comments">Caricando i Commenti...</string>
     <string name="no_comments">Nessuno ha ancora lasciato dei commenti! Sii il primo!</string>

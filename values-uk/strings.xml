@@ -182,7 +182,7 @@ July/Липень 2011
   <string name="post_comment">Коментар</string> 
   <string name="login_required">Ви мусите увійти в свій обліковий запис через Веб-завантаження щоб оцінити прошивку, або залишити коментар.</string> 
   <string name="must_rate">Ви повинні оцінити цю прошивку, щоб мати змогу залишити коментар.</string> 
-  <string name="downloads">(%d завантажено)</string> 
+  <string name="downloads">(%s завантажено)</string> 
   <string name="loading_comments">Завантаження коментарів...</string> 
   <string name="no_comments">Немає жодного коментаря! Будьте першим!</string> 
   <string name="not_officially_supported">%s поки немає офіційної підтримки ClockworkMod Recovery. Ви встановили ClockworkMod самостійно?</string> 

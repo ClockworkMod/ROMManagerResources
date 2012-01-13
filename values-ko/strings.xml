@@ -300,7 +300,7 @@
     
     <string name="login_required">웹을 통하여 로그인 하셔야 롬에 대한 평가가 가능합니다.</string>
     <string name="must_rate">평가를 먼저 하셔야, 댓글을 등록 할 수 있습니다.</string>
-    <string name="downloads">(%d 받는 중...)</string>
+    <string name="downloads">(%s 받는 중...)</string>
     
     <string name="loading_comments">덧글을 읽는 중..</string>
     <string name="no_comments">아무도 덧글을 남기지 않았습니다. 첫 덧글을 입력하세요. </string>

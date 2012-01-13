@@ -299,7 +299,7 @@
 
     <string name="login_required">您必須先使用 Web Connect 登入才可給 ROM 評分或發表評論。</string>
     <string name="must_rate">您必須先給此 ROM 評分之後才可發表評論！</string>
-    <string name="downloads">（%d 次下載）</string>
+    <string name="downloads">（%s 次下載）</string>
 
     <string name="loading_comments">載入評論中…</string>
     <string name="no_comments">尚未有人發表評論！搶先發表吧！</string>
@@ -322,7 +322,7 @@
 
     <string name="ratings_server_error">ROM Manager 暫時無法下載 ROM 評分資訊。</string>
 
-    <string name="downloads_no_parentheses">%d 次下載</string>
+    <string name="downloads_no_parentheses">%s 次下載</string>
 
     <string name="sort_by_date">依日期排序</string>
     <string name="sort_by_rating">依評分排序</string>

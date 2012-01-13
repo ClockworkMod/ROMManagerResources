@@ -300,7 +300,7 @@
     
     <string name="login_required">Anda harus login ke dalam Web Connect untuk memberikan rating untuk ROMs atau bisa tinggalkan komen.</string>
     <string name="must_rate">Anda harus me-rate ROM ini terlebih dahulu sebelum memberikan komen!</string>
-    <string name="downloads">(%d downloads)</string>
+    <string name="downloads">(%s downloads)</string>
     
     <string name="loading_comments">Mengeluarkan Komen...</string>
     <string name="no_comments">Tidak ada yang meninggalkan komen ! Anda bisa yang pertama !</string>
