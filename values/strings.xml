@@ -371,4 +371,8 @@
 	<string name="more_from_clockworkmod">While waiting, you should check out these other awesome Android apps from ClockworkMod!</string>
 	
 	<string name="android_apps">Android Apps</string>
+	
+	<string name="tether_by_clockworkmod">Tether by ClockworkMod</string>
+	
+	<string name="featured">Featured</string>
 </resources>
