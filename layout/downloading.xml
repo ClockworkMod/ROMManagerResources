@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:orientation="vertical"
-  android:id="@+id/layout"
-  >
-  <TextView android:text="@string/downloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:textSize="20sp" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
-  <TextView android:paddingTop="20dp" android:text="@string/more_from_clockworkmod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:textSize="20sp" />
-  <ImageView android:id="@+id/desksms" android:src="@drawable/desksms_feat_v5"  android:layout_width="wrap_content"
-  android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/downloading"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="@string/more_from_clockworkmod"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tether"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:src="@drawable/koush_tether_v2_05" />
+
+    <ImageView
+        android:id="@+id/desksms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:src="@drawable/desksms_feat_v5" />
+
 </LinearLayout>
