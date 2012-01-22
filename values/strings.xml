@@ -375,4 +375,6 @@
 	<string name="tether_by_clockworkmod">Tether by ClockworkMod</string>
 	
 	<string name="featured">Featured</string>
+	
+	<string name="unsupported_device">Unsupported Device</string>
 </resources>
