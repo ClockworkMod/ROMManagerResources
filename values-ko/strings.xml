@@ -310,7 +310,7 @@
 	<string name="confirm_version">Version 확인</string>
 	<string-array name="clockworkmod_versions">
 		<item name="clockworkmod_2">ClockworkMod 2.x</item>
-		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x+</item>
 	</string-array>
 	<string name="overriden">ROM Manager 기존의 복구모드를 사용하도록 설정 되었습니다.</string>
 

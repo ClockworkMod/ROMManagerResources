@@ -309,7 +309,7 @@
     <string name="confirm_version">版本確認</string>
     <string-array name="clockworkmod_versions">
         <item name="clockworkmod_2">ClockworkMod 2.x</item>
-        <item name="clockworkmod_3">ClockworkMod 3.x</item>
+        <item name="clockworkmod_3">ClockworkMod 3.x+</item>
     </string-array>
     <string name="overriden">ROM Manager 已被設定好去使用您現有的 Recovery 安裝。</string>
 

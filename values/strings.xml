@@ -309,7 +309,7 @@
 	<string name="confirm_version">Confirm Version</string>
 	<string-array name="clockworkmod_versions">
 		<item name="clockworkmod_2">ClockworkMod 2.x</item>
-		<item name="clockworkmod_3">ClockworkMod 3.x</item>
+		<item name="clockworkmod_3">ClockworkMod 3.x+</item>
 	</string-array>
 	<string name="overriden">ROM Manager has been set up to use your existing recovery installation.</string>
 
@@ -377,4 +377,11 @@
 	<string name="featured">Featured</string>
 	
 	<string name="unsupported_device">Unsupported Device</string>
+
+	<string name="clockworkmod_touch">ClockworkMod Touch</string>
+	<string name="flash_clockworkmod_touch">Flash ClockworkMod Touch</string>
+	<string name="clockworkmod_touch_summary">The most advanced ClockworkMod Recovery available. Features full touch control.</string>
+	<string name="clockworkmod_touch_info">ClockworkMod Touch Recovery is available as a free download and manual installation on the ClockworkMod website, or as an in app purchase here.\n\nYour support is appreciated!</string>
+	<string name="clockworkmod_touch_unavailable">ClockworkmMod Touch Recovery is currently not available for your device.</string>
+	<string name="about">About</string>
 </resources>
