@@ -387,4 +387,6 @@
 	<string name="clockworkmod_touch_available">ClockworkMod Touch is available!</string>
 	
 	<string name="amazon">Amazon</string>
+	
+	<string name="clockworkmod_touch_upgrade">The ClockworkMod Touch Recovery upgrade is is available for your device. Upgrade your recovery via a simple in app purchase!</string>
 </resources>
