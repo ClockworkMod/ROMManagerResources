@@ -385,4 +385,6 @@
 	<string name="clockworkmod_touch_unavailable">ClockworkMod Touch Recovery is currently not available for your device.</string>
 	<string name="about">About</string>
 	<string name="clockworkmod_touch_available">ClockworkMod Touch is available!</string>
+	
+	<string name="amazon">Amazon</string>
 </resources>
