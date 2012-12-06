@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
+            android:textColor="@android:color/primary_text_dark"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
         <TextView
@@ -36,6 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
+            android:textColor="@android:color/secondary_text_dark"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
     </LinearLayout>
 

@@ -400,4 +400,6 @@
   <string name="use_recovery_zip">Use Recovery Zip</string>
   <string name="use_recovery_zip_summary">Use ClockworkMod Recovery via a Recovery Zip which does not permanently flash recovery.</string>
   <string name="downloading_dotdotdot">Downloading...</string>
+  <string name="flashing">Flashing...</string>
+  <string name="show_all_warning">Never flash a recovery that is not for the intended device. This can cause irreparable damage.</string>
 </resources>

@@ -7,7 +7,6 @@
   <CheckBoxPreference android:key="showads" android:title="@string/showads" android:summary="@string/showads_summary" />
   <CheckBoxPreference android:key="fast_nandroid" android:title="@string/fast_nandroid" android:summary="@string/fast_nandroid_off" />
   <CheckBoxPreference android:key="use_external_storage" android:title="@string/use_external_storage" android:summary="@string/use_external_storage_summary" />
-  <CheckBoxPreference android:key="erase_recovery" android:title="@string/erase_recovery" android:summary="@string/erase_recovery_off" />
   <CheckBoxPreference android:key="analytics" android:title="@string/analytics" android:summary="@string/analytics_off" />
   <CheckBoxPreference android:key="restore_rommanager" android:title="@string/restore_rommanager" android:summary="@string/restore_rommanager_summary" />
   <Preference android:key="recover_or_redeem" android:title="@string/recover_purchase" android:summary="@string/recover_or_redeem" />
