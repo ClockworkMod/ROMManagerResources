@@ -298,7 +298,7 @@
     
     <string name="login_required">Sie m&#252;ssen sich via Web Connect einloggen, um ROMs zu bewerten oder zu kommentieren.</string>
     <string name="must_rate">Sie m&#252;ssen die ROM bewerten, bevor Sie einen Kommentar hinterlassen k&#246;nnen!</string>
-    <string name="downloads">(%d Downloads)</string>
+    <string name="downloads">(%s Downloads)</string>
     
     <string name="loading_comments">Lade Kommentare...</string>
     <string name="no_comments">Bis jetzt hat niemand einen Kommentar hinterlassen!</string>
