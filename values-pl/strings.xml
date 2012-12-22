@@ -8,21 +8,21 @@
 	<string name="manage_and_restore_backups">Zarządzaj i odtwarzaj backupy</string>
 	<string name="backup_current_rom">Zrób backup ROMu</string>
 
-	<string name="no_connection">Błąd pobierania z serwera. Upewnij się, że masz stabilne połączenie internetowe i że zainstalwoana jest karta SD z wystarczającą ilością wolnego miejsca!</string>
+	<string name="no_connection">Błąd pobierania z serwera. Upewnij się, że masz stabilne połączenie internetowe i że zainstalowana jest karta SD z wystarczającą ilością wolnego miejsca!</string>
 
 	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
 
-	<string name="ota_not_supported">Twój ROM nie jest skonfigurowany aby otrzymywać uaktualnienia OTA. Skontaktuj się zdeveloperem!</string>
+	<string name="ota_not_supported">Twój ROM nie jest skonfigurowany aby otrzymywać uaktualnienia OTA. Skontaktuj się z developerem!</string>
 	<string name="ota_not_supported_extended">ROM którego używasz nie obsługuje aktualizacji OTA. Developer tego ROMu musi wprowadzic odpowiednie zmiany do oprogramowania, aby wspierać aktualizacje OTA. Skontaktuj się z developerem ROMu! Nie kontaktuj się z developerem ROM Manager. TO NIE JEST BŁĄD ROM MANAGER.</string>
 	<string name="current_rom">Bieżący ROM: %s</string>
 
 	<string name="donate">Wspomóż</string>
 	<string name="developer_homepage">Strona domowa</string>
 
-	<string name="utilities">Narządzie</string>
+	<string name="utilities">Narzędzia</string>
 	<string name="fix_permissions">Napraw uprawnienia</string>
 	<string name="fixing_permissions">Trwa naprawa uprawnień...</string>
-	<string name="fix_permissions_detail">Naprawia uprawnienia systemu plików. Ta czynnośc często naprawia probem z wymuszeniem zamknięcia aplikacji.</string>
+	<string name="fix_permissions_detail">Naprawia uprawnienia systemu plików. Ta czynność często naprawia problem z wymuszeniem zamknięcia aplikacji.</string>
 	
 	<string name="fix_permissions_done">Zrobione! Teraz należy uruchomić ponownie telefon.</string>
 
@@ -30,7 +30,7 @@
 	
 	<string name="premium_only">Ta funkcjonalność jest dostępna tylko dla użytkowników wersji Premium!</string>
 	<string name="no_update">Brak dostępnych aktualizacji dla Twojego ROMu.</string>
-	<string name="update_available">Dostępne są aktualizacja</string>
+	<string name="update_available">Aktualizacja jest dostępna</string>
 	<string name="updated_rom">Wybierz OK aby zaktualizować swój ROM do najnowszej wersji: %s.</string>
 	<string name="update_recovery_available">Brak dostępnych aktualizacji dla ClockworkMod Recovery.</string>
 	
@@ -58,7 +58,7 @@
 	<string-array name="install_options">
 		<item>Utwórz backup bieżącego ROMu</item>
 		<item>Wyczyść Data i Cache</item>
-        <item>Wipe Dalvik Cache</item>
+        <item>Wyczyść Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Opcje odtwarzania</string>
@@ -88,10 +88,10 @@
 	<string name="partition_ext_size">Rozmiar Ext</string>
 	<string name="partition_swap_size">Rozmiar Swap</string>
 	<string name="partition_sdcard">Partycjonuj kartę SD</string>
-	<string name="partition_sdcard_summary">Partycjonuj SD Card, aby umożliwiśc instalację aplikacji na karcie SD w przypadku ROMów wspierających tę funkcję.</string>
+	<string name="partition_sdcard_summary">Partycjonuj SD Card, aby umożliwić instalację aplikacji na karcie SD w przypadku ROMów wspierających tę funkcję.</string>
 	<string name="partition_sdcard_warning">Partycjonowanie karty SD usunie WSZYSTKIE dane na karcie. Czy na pewno uruchomić telefon ponownie i kontynuować?</string>
 
-	<string name="manifests_no_roms">Brak na chwilę obecną ROMów dla Twojego telefonu!! Poproś swoich ulubionych delevoperów, aby umieścili swoje ROMy za darmo w ROM Manager!</string>
+	<string name="manifests_no_roms">Brak na chwilę obecną ROMów dla Twojego telefonu! Poproś swoich ulubionych developerów, aby umieścili swoje ROMy za darmo w ROM Manager!</string>
 	
 	<string name="preinstallation">Preinstalacja ROMu</string>
 	
@@ -109,14 +109,14 @@
 	<string name="rom_download_complete">Pobieranie ROMu zakończone</string>
 	
 	<string name="restore">Odtwórz</string>
-	<string name="confirm_restore">Czy na pewno uruchomić ponownie telefonu i odtworzyć backup?</string>
+	<string name="confirm_restore">Czy na pewno uruchomić ponownie telefon i odtworzyć backup?</string>
 
 	<string name="reboot_recovery">Uruchom ponownie w trybie Recovery</string>
 	<string name="reboot_into_recovery">Uruchom w trybie Recovery w celu ręcznego zarządzania.</string>
 	<string name="confirm_reboot">Czy na pewno uruchomić w trybie ClockworkMod Recovery?</string>
 	<string name="confirm_reboot_alternate">Czy na pewno uruchomić w trybie %s?</string>
 	
-	<string name="confirm_reboot_and_install">Wybierz OK, aby uruchomić w trybie ClockworkMod Recovery i kontynuować isntalację.</string>
+	<string name="confirm_reboot_and_install">Wybierz OK, aby uruchomić w trybie ClockworkMod Recovery i kontynuować instalację.</string>
 	<string name="restart_and_install">Ponowne uruchomienie i instalacja</string>
 	
 	<string name="recovery_clockworkmod_yours">Bieżące Recovery: ClockworkMod %s</string>
@@ -134,11 +134,11 @@
 	<string name="flash_alternate_recovery_success">Zaflaszowano recovery z powodzeniem!</string>
 	<string name="confirm_device">Potwierdź model telefonu</string>
 	<string name="do_this_first">Musisz mieć zainstalowany ClockworkMod Recovery aby flaszować i odtwarzać ROMy!</string>
-	<string name="flash_recovery_require">Musisz najpierw zainstalwoać ClockworkMod Recovery! Zainstaluj je z użyciem ROM Manager.</string>
+	<string name="flash_recovery_require">Musisz najpierw zainstalować ClockworkMod Recovery! Zainstaluj je z użyciem ROM Manager.</string>
 	<string name="install">Zainstaluj</string>
 	
 	<string name="clear_cache">Wyczyść pamięć podręczną pobierania</string>
-	<string name="clear_cache_confirm">Przechowywanie pobranych plików w pamięci podręcznej czyni instalowanie ROMów znacznie szybszym Czy na pewno usunąć zawartośc pamięci podręcznej?</string>
+	<string name="clear_cache_confirm">Przechowywanie pobranych plików w pamięci podręcznej czyni instalowanie ROMów znacznie szybszym. Czy na pewno usunąć zawartość pamięci podręcznej?</string>
 
 	<string name="backup">Backup</string>
 	<string name="confirm_backup">Czy na pewno uruchomić ponownie telefon i wykonać backup ROMu?</string>
@@ -146,14 +146,14 @@
 	<string name="backup_error">Wybierz unikalną i poprawną nazwę dla backupu.</string>
 	
 	<string name="flash_alternate">Zaflaszuj alternatywne Recovery</string>
-	<string name="flash_alternate_warning">Czy na pewno zaflashować alternatywnerecovery? Funkcje ROM Managera będą niedostępne do czasu ponownej instalacji ClockworkMod Recovery.</string>
+	<string name="flash_alternate_warning">Czy na pewno zaflashować alternatywne recovery? Funkcje ROM Managera będą niedostępne do czasu ponownej instalacji ClockworkMod Recovery.</string>
 	<string name="flash_alternate_unavailable">Brak dostępnych alternatywnych recovery.</string>
 	<string name="flash_legacy_and_experimental">Wszystkie ClockworkMod Recoveries</string>
 	<string name="flash_legacy_and_experimental_summary">Flaszuj starsze i ekspermentalne wersje ClockworkMod Recovery.</string>
 	<string name="flash_legacy_unavailable">Brak starszych wersji recovery. Czy połączenie z Internetem działa prawidłowo?</string>
 	
 	<string name="developer_mode">Tryb zaawansowany</string>
-	<string name="developer_mode_details">Tryb zaawansowany nie jest przeznaczony dla wszystkich użytkowników. Tryb ten daje dostęp do najnowszych recovery, eksperymentalnych ROMów i innych niestabilnych lecz pełnych najnowszych funkcjonalności wersji. Tryb zaawansowany powinien być używany z uwaga i jest rekomendowany użytkownikom ze znajomością ADB.</string>
+	<string name="developer_mode_details">Tryb zaawansowany nie jest przeznaczony dla wszystkich użytkowników. Tryb ten daje dostęp do najnowszych recovery, eksperymentalnych ROMów i innych niestabilnych lecz pełnych najnowszych funkcjonalności wersji. Tryb zaawansowany powinien być używany z uwagą i jest rekomendowany użytkownikom ze znajomością ADB.</string>
 	<string name="developer_mode_on">Tryb zaawansowany jest włączony.</string>
 	<string name="developer_mode_off">Tryb zaawansowany jest wyłączony.</string>
 	<string name="developer_mode_summary">Te opcje są dostępne gdy włączony jest tryb zaawansowany w głownym menu programu.</string>
@@ -203,7 +203,7 @@
 	
 	<string name="qrcode_download">Pobieranie z kodu QR</string>
 	<string name="qrcode_summary">Zrób zdjęcie, aby zainstalować ROM. Wymagana jest darmowa aplikacja Barcode Scanner.</string>
-	<string name="qrcode_premium_required">Wymagana jest wersja Premium aby instalwoać ROMy z kodów QR!</string>
+	<string name="qrcode_premium_required">Wymagana jest wersja Premium aby instalować ROMy z kodów QR!</string>
 	<string name="qrcode_not_installed">Brak aplikacji Barcode Scanner</string>
 	<string name="qrcode_install">Aplikacja Barcode Scanner jest wymagana aby korzystać z tej funkcjonalności! Wybierz OK aby zainstalować darmową aplikację Barcode Scanner z Android Market.</string>
 	
@@ -211,7 +211,7 @@
 	<string name="flash_recovery_confirm">Czy na pewno zastąpić recovery?</string>
 	
 	<string name="analytics">Google Analytics</string>
-	<string name="analytics_details">Google Analytics będzie przesyłać anonimowe statystyki użytkowania aby uczynić ROM Manager lepszą aplikacją! Wybierając OK, oświadczasz, że rozumiesz, iż anonimowe informacje będą wysyłąne do Google i developerów ROM Manager.</string>
+	<string name="analytics_details">Google Analytics będzie przesyłać anonimowe statystyki użytkowania aby uczynić ROM Manager lepszą aplikacją! Wybierając OK oświadczasz, że rozumiesz iż anonimowe informacje będą wysyłąne do Google i developerów ROM Manager.</string>
 	<string name="analytics_on">Google Analytics jest włączone. Dziękujemy za pomoc w udoskonalaniu ROM Manager!</string>
 	<string name="analytics_off">Google Analytics jest wyłączone. Włącz!</string>
 	
@@ -243,7 +243,7 @@
 	<string name="no_md5">To nie jest prawidłowy backup. Brakuje pliku MD5.</string>
 	
 	<string name="showads">Pokaż reklamy</string>
-	<string name="showads_summary">Pomóż wspierać ROM Manager! (Wymaga ponownego uruchomienia.)</string>
+	<string name="showads_summary">Pomóż wspierać ROM Manager! (Wymaga ponownego uruchomienia)</string>
 
 	<string name="recovery_failure">Błąd Recovery</string>
 	<string-array name="recovery_failures">
@@ -266,7 +266,7 @@
 	<string name="device_id">Identyfikator urządzenia</string>
 	<string name="license_retrieval_error">Błąd pobierania licencji</string>
 	<string name="license_retrieved">Pobrano licencję!</string>
-	<string name="license_server_error">Błąd połączenia z serwerem licencji! Użyj wzamian Android Market!</string>
+	<string name="license_server_error">Błąd połączenia z serwerem licencji! Użyj w zamian Android Market!</string>
 	
 	<string name="recovery_try_fix">Rebooting into Clockwork Recovery seems to have failed. This problem may be fixable by clearing the download cache and reflashing recovery. Press OK to clear the download cache and reflash recovery.</string>
 	
