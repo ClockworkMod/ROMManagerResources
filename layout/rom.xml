@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent" android:layout_height="fill_parent"
-    android:orientation="vertical" android:id="@+id/root">
-    <Gallery android:id="@+id/gallery" android:layout_width="fill_parent" android:layout_height="120dp" android:spacing="-140dp" />
-    <RatingBar android:id="@+id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:stepSize="1" />
-    <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/comments_info" android:layout_weight="1" android:text="@string/loading_comments" android:textSize="24sp" android:gravity="center" />
-    <ListView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/comments" android:layout_weight="1" android:visibility="gone" />
-    <FrameLayout android:id="@+id/adroot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/download" android:layout_weight="1" android:id="@+id/download" />
-        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/post_comment" android:layout_weight="1" android:id="@+id/comment" />
-        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1" android:id="@+id/cancel" />
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:spacing="-140dp" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/comments_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/loading_comments"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/comments"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/adroot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/download" />
+
+        <Button
+            android:id="@+id/comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/post_comment" />
     </LinearLayout>
+
 </LinearLayout>

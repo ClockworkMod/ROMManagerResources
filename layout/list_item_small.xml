@@ -25,15 +25,13 @@
             android:id="@+id/title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/primary_text_dark"
-            android:textSize="22sp" />
+            style="@android:style/TextAppearance.DeviceDefault.Medium" />
 
         <TextView
             android:id="@+id/summary"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/secondary_text_dark"
-            android:textSize="14sp" />
+            style="@android:style/TextAppearance.DeviceDefault.Small" />
     </LinearLayout>
 
     <CheckBox
