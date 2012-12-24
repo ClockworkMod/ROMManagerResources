@@ -406,7 +406,7 @@
   <string name="download_backups">Download Backups</string>
   <string name="download_backups_summary">Download backups to your computer from your desktop web browser.</string>
   <string name="backup_directory">Backup Directory</string>
-  <string name="backup_directory_api_17">In Android 4.2, backups are placed in secure directory, inaccessible to other apps.\nBackups can be pulled with adb.</string>
+  <string name="backup_directory_api_17">In Android 4.2, backups are placed in secure directory, inaccessible to other apps.\nBackups can be pulled with adb or by using the ROM Manager Backup Download Server.</string>
   <string name="download_backups_off">Backup download server is not running.</string>
   <string name="download_backups_running">Backup download server is running.</string>
   <string name="download_backups_wifi">Please connect to a Wi-Fi network.</string>
