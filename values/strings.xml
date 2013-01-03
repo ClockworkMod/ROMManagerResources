@@ -386,7 +386,7 @@
 	<string name="restore_rommanager">Restore ROM Manager</string>
 	<string name="restore_rommanager_summary">Ensure ROM Manager stays installed through data wipes and ROM installs.</string>
 	
-	<string name="device_not_listed">Device Not Listed</string>
+	<string name="device_not_listed">Device Not Listed Above</string>
   <string name="show_all_devices">Show All Devices</string>
   <string name="hide_devices">Hide Devices</string>
   <string name="flash_command">Flash Command</string>
@@ -406,4 +406,6 @@
   <string name="download_backups_what">Download server is running, but could not detect your network interface.</string>
 
   <string name="no_backups_found">No Backups Found.</string>
+  <string name="device_not_listed_summary">Click here if your device is not shown in the list above.</string>
+  
 </resources>
