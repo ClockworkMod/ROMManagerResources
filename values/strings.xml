@@ -354,7 +354,7 @@
     <string name="recover_purchase">Recover License</string>
     <string name="recover_or_redeem">Recover your ROM Manager PayPal license, or Redeem a license using a code.</string>
 	<string name="purchase_thanks">Thanks for your purchase!</string>
-	<string name="recover_purchase_error">An error occured while recovering your purchase.</string>
+	<string name="recover_purchase_error">An error occurred while recovering your purchase.</string>
 
     <string name="no_license_found_email">There was no license found for that PayPal email.</string>
     
