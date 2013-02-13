@@ -408,4 +408,6 @@
   <string name="no_backups_found">No Backups Found.</string>
   <string name="device_not_listed_summary">Click here if your device is not shown in the list above.</string>
   
+  <string name="processing_delta">Processing delta...</string>
+  <string name="delta_download">Delta Download</string>
 </resources>

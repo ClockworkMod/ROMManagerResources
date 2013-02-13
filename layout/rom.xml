@@ -18,6 +18,12 @@
         android:layout_gravity="center"
         android:stepSize="1" />
 
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_comment" />
+
     <TextView
         android:id="@+id/comments_info"
         android:layout_width="fill_parent"
@@ -39,6 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/changelog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changelog" />
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -52,18 +64,12 @@
             android:text="@string/download" />
 
         <Button
-            android:id="@+id/comment"
+            android:id="@+id/delta_download"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/post_comment" />
-
-        <Button
-            android:id="@+id/changelog"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/changelog" />
+            android:text="@string/delta_download"
+            android:visibility="gone" />
     </LinearLayout>
 
 </LinearLayout>

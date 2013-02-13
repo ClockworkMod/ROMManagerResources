@@ -23,7 +23,7 @@
             android:minHeight="25dp"
             android:minWidth="25dp"
             android:scaleType="fitXY"
-            android:src="@android:drawable/ic_delete" />
+            android:src="@drawable/ic_progress" />
 
         <TextView
             android:id="@+id/notificationPercentage"
