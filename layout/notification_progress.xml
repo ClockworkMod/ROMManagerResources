@@ -1,40 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@+id/LinearLayout01"
-	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:padding="3dip">
-	<LinearLayout android:id="@+id/LinearLayout03"
-		android:layout_width="wrap_content" android:layout_height="wrap_content"
-		android:orientation="vertical" android:padding="3dp" android:gravity="center"
-		android:layout_marginTop="3dp">
-		<ImageView android:id="@+id/notificationIcon" android:src="@android:drawable/ic_delete"
-			android:maxHeight="25dp" android:maxWidth="25dp" android:minHeight="25dp"
-			android:minWidth="25dp" android:scaleType="fitXY"
-			android:layout_height="25dp" android:layout_width="25dp"></ImageView>
-		<TextView android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:id="@+id/notificationPercentage"
-			android:text="100%" android:textSize="10dp"
-			android:layout_marginTop="1dp"
-			style="@style/NotificationTitle"></TextView>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="3dip" >
 
-	</LinearLayout>
-	<LinearLayout android:id="@+id/LinearLayout02"
-		android:layout_height="wrap_content" android:orientation="vertical"
-		android:layout_width="fill_parent" android:padding="3dp"
-		android:layout_marginTop="3dp">
-		<TextView android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:id="@+id/notificationTitle"
-			android:text="Downloading update"
-			android:textStyle="bold" android:paddingBottom="4dp"
-			style="@style/NotificationTitle"
-			android:singleLine="true"
-			android:ellipsize="end"></TextView>
-		<ProgressBar android:id="@+id/ProgressBar01"
-			android:layout_width="fill_parent" style="?android:attr/progressBarStyleHorizontal"
-			android:layout_height="20dip"></ProgressBar>
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="3dp" >
 
+        <ImageView
+            android:id="@+id/notificationIcon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:maxHeight="25dp"
+            android:maxWidth="25dp"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_delete" />
 
-	</LinearLayout>
+        <TextView
+            android:id="@+id/notificationPercentage"
+            style="@style/NotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="100%"
+            android:textSize="10dp" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <TextView
+            android:id="@+id/notificationTitle"
+            style="@style/NotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="4dp"
+            android:singleLine="true"
+            android:text="Downloading update"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/ProgressBar01"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip" />
+    </LinearLayout>
 
 </LinearLayout>
