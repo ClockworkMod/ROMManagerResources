@@ -34,7 +34,7 @@
             style="?android:attr/listSeparatorTextViewStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/install_or_update"
+            android:text="@string/install_or_update_recovery"
             android:textColor="@color/list_header" />
 
         <Button
