@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="list_header">#ff00ddff</color>    
-    <color name="circle_progress">#ffff8800</color>    
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="list_header">@color/holo_blue_light</color>    
 </resources>

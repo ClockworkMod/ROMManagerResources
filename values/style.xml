@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault" />
+    
     <style name="Dialog" parent="@android:style/Theme.Light">
     	<item name="android:minWidth">300dp</item>
 
@@ -10,7 +12,7 @@
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
 	    <item name="android:windowContentOverlay">@null</item>
     </style>
-    
+
 	<style name="NotificationText">
       <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
@@ -18,5 +20,9 @@
     <style name="NotificationTitle">
       <item name="android:textColor">?android:attr/textColorPrimary</item>
       <item name="android:textStyle">bold</item>
+    </style>
+    
+        
+    <style name="flatbutton">
     </style>
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="list_header">@android:color/holo_blue_bright</color>    
-    <color name="circle_progress">@android:color/holo_orange_dark</color>    
+
 </resources>

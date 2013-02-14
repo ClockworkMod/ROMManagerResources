@@ -410,4 +410,12 @@
   
   <string name="processing_delta">Processing delta...</string>
   <string name="delta_download">Delta Download</string>
+  <string name="setup_help">To get started using ROM Manager, you must first set up a custom recovery.\n\nSet up a custom recovery by choosing from the options below.</string>
+
+  <string name="install_or_update">Install or Update</string>
+  <string name="recovery_already_installed">Recovery Already Installed</string>
+  <string name="clockworkmod_recovery">ClockworkMod Recovery</string>
+  <string name="twrp">Team Win Recovery Project (TWRP)</string>
+  <string name="recovery_setup">Recovery Setup</string>
+  <string name="confirm_reboot_and_install_alternate">Press OK to reboot into %s and continue the installation.</string>
 </resources>
