@@ -13,6 +13,7 @@
         android:stepSize="1" />
 
     <EditText
+        android:id="@+id/comment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="top"

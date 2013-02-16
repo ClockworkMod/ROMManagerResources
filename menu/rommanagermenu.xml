@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-	<item android:id="@+id/web_connect" android:title="@string/web_connect" android:icon="@android:drawable/ic_menu_upload" />
     <item android:id="@+id/clear_cache" android:title="@string/clear_cache" android:icon="@android:drawable/ic_menu_delete" />
     <item android:id="@+id/donate" android:title="@string/donate" android:icon="@android:drawable/ic_menu_more" />
     <item android:id="@+id/settings" android:title="@string/settings" android:icon="@android:drawable/ic_menu_preferences" />
