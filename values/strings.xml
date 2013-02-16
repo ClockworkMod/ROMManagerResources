@@ -418,4 +418,7 @@
   <string name="twrp">Team Win Recovery Project (TWRP)</string>
   <string name="recovery_setup">Recovery Setup</string>
   <string name="confirm_reboot_and_install_alternate">Press OK to reboot into %s and continue the installation.</string>
+  
+  <string name="no_accounts">There are no Google accounts set up on your Android.</string>
+  <string name="logging_in">Logging in...</string>
 </resources>
