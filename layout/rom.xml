@@ -18,12 +18,6 @@
         android:layout_gravity="center"
         android:stepSize="1" />
 
-    <Button
-        android:id="@+id/comment"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/post_comment" />
-
     <TextView
         android:id="@+id/comments_info"
         android:layout_width="fill_parent"
