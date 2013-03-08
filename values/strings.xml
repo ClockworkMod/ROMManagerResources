@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="rom_management">ROM Management</string>
-	<string name="install_rom">Install ROM from SD Card</string>
-	<string name="download_rom">Download ROM</string>
-	<string name="check_updates">Check for ROM Updates</string>
-	<string name="backup_and_restore">Backup and Restore</string>
-	<string name="manage_and_restore_backups">Manage and Restore Backups</string>
-	<string name="backup_current_rom">Backup Current ROM</string>
+	<string name="rom_management">ROM yönetimi</string>
+	<string name="install_rom">ROM'u SD karttan yükle/string>
+	<string name="download_rom">ROM indir</string>
+	<string name="check_updates">ROM güncellemelerine bak</string>
+	<string name="backup_and_restore">Yedekleme ve Geri yükleme</string>
+	<string name="manage_and_restore_backups">Yedekleri kontrol et ve sil</string>
+	<string name="backup_current_rom">Yüklü ROM'u yedekle</string>
 
-	<string name="no_connection">Error while downloading from server. Please make sure that you have a stable internet connection, and that your SD card is inserted and has free space!</string>
+	<string name="no_connection">Kaynaktan indirilirken hata oluştu. Lütfen internet bağlantınızın olduğundan emin olun veya SD kartın takılı olduğundan ya da yeterli boş alan olduğundan emin olun!</string>
 
 	<string name="brick_warning">ROM Manager is not responsible for any damage that you may cause to your phone. By rooting your phone, you have already voided your warranty. Playing around in non-userspace is dangerous. In addition, ROM Manager may send anonymous usage statistics to Google Analytics to help improve the application. Press OK to agree. Press Cancel to exit the application.</string>
 
 	<string name="ota_not_supported">Your ROM is not set up to receive OTA Updates. Please contact the ROM developer!</string>
 	<string name="ota_not_supported_extended">The ROM you are using does not support OTA Updates. The developer of this ROM needs to make the appropriate changes so their ROM support OTA update. Please contact the ROM developer! Please DO NOT contact ROM Manager: THIS IS NOT A ROM MANAGER BUG.</string>
-	<string name="current_rom">Current ROM: %s</string>
+	<string name="current_rom">Yüklü ROM: %s</string>
 
-	<string name="donate">Donate</string>
+	<string name="donate">bağışta bulun</string>
 	<string name="developer_homepage">Homepage</string>
 
 	<string name="utilities">Utilities</string>
-	<string name="fix_permissions">Fix Permissions</string>
-	<string name="fixing_permissions">Fixing Permissions...</string>
-	<string name="fix_permissions_detail">Fix file system permissions. This often fixes Force Close problems.</string>
+	<string name="fix_permissions">İzinleri denetle</string>
+	<string name="fixing_permissions">İzinler demnetleniyor...</string>
+	<string name="fix_permissions_detail">Dosya sistemi izinlerini onarma. Bu bazen zorla kapat sorunlarını düzeltebilkir.</string>
 	
-	<string name="fix_permissions_done">Done! You should now reboot your phone.</string>
+	<string name="fix_permissions_done">Tamamlandı! şu anda cihazınızı yeniden başlatın.</string>
 
 	<string name="download_rom_premium">Upgrade to ROM Manager (Premium) to access the full list of ROMs!</string>
 	
-	<string name="premium_only">This feature is only available to Premium users!</string>
-	<string name="no_update">There is no update available for your ROM.</string>
+	<string name="premium_only">Sadece Premium kullanıcılar için!</string>
+	<string name="no_update">ROM güncellemesi bulundu.</string>
 	<string name="update_available">Update Available</string>
 	<string name="updated_rom">Press OK to update your ROM to the latest version: %s.</string>
 	<string name="update_recovery_available">There is an update available for ClockworkMod Recovery.</string>
