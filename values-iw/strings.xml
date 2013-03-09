@@ -88,11 +88,11 @@
 	
 	<string name="roms_unavailable">Error occurred while downloading the ROM list! Please contact the developer of this ROM.</string>
 	<string name="roms_error">Error occurred while processing the ROM list!</string>
-	<string name="rom_error">Error occurred while processing this ROM!</string>
+	<string name="rom_error">אירעה שגיאה בעת עיבוד ה-ROM!</string>
 	<string name="rom_addons">תוספים</string>
 	<string name="rom_download_error">Error occurred while downloading this ROM!</string>
-	<string name="rom_download_error_short">ROM Download Error</string>
-	<string name="rom_download_complete">ROM Download Complete</string>
+	<string name="rom_download_error_short">שגיאה בהורדת ROM</string>
+	<string name="rom_download_complete">הורדת ROM הושלמה.</string>
 	
 	<string name="restore">שחזור</string>
 	<string name="confirm_restore">Are you sure you want to reboot your phone and restore your backup?</string>
