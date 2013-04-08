@@ -22,7 +22,7 @@
 	<string name="utilities">כלים</string>
 	<string name="fix_permissions">תקן הרשאות</string>
 	<string name="fixing_permissions">מתקן הרשאות...</string>
-	<string name="fix_permissions_detail">Fix file system permissions. This often fixes Force Close problems.</string>
+	<string name="fix_permissions_detail">תקן הרשאות מערכת קבצים, פותר את רוב מקרי הסגירה הכפוייה של יישומים.</string>
 	
 	<string name="fix_permissions_done">בוצע! נא אתחל את הטלפון מחדש.</string>
 
@@ -79,7 +79,7 @@
 
 	<string name="manifests_no_roms">There are no ROMs available for your phone yet! Ask your favorite developers to get listed on ROM Manager for free!</string>
 	
-	<string name="preinstallation">ROM Pre-Installation</string>
+	<string name="preinstallation">קדם-התקנה של-ROM</string>
 	
 	<string name="download_cache_cleared">מטמון ההורדות נוקה.</string>
 	
