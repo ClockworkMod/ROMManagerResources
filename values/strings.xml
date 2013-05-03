@@ -421,4 +421,5 @@
   
   <string name="no_accounts">There are no Google accounts set up on your Android.</string>
   <string name="logging_in">Logging in...</string>
+  <string name="first_run">ROM Manager requires a custom recovery like ClockworkMod Recovery to install new software. The first thing we need to do is install an up to date version. We will begin that process now. You can come back to it at any time by clicking on Recovery Setup.</string>
 </resources>
