@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="rom_management">Správa ROM</string>
+        <string name="rom_management">Správa ROM</string>
 	<string name="install_rom">Inštalovať ROM z karty SD</string>
 	<string name="download_rom">Stiahnuť ROM</string>
 	<string name="check_updates">Skontrolovať ROM aktualizácie</string>
@@ -12,12 +12,12 @@
 
 	<string name="brick_warning">ROM Manager nie je zodpovedný za akékoľvek škody, ktoré môže spôsobiť na Vašom zariadení. Rootom Vášho zariadenia ste už vlastne prišli o záruku. Hranie sa v priestore, ktorý nie je určený pre používateľa, je nebezpečné. Okrem toho môže ROM Manager posielať anonymné štatistiky používania do Google Analytics. Ak súhlasíte s týmito podmienkami, stlačte tlačidlo OK. Ak nie, stlačte tlačidlo Zrušiť a aplikácia bude následne ukončená.</string>
 
-	<string name="ota_not_supported">Vaša ROM nie je nastavená na príjem OTA aktualizácií. Prosím kontaktujte vývojára tejto ROM.</string>
-	<string name="ota_not_supported_extended">ROM, ktorú používate, nepodporuje OTA aktualizácie. Autor tejto ROM musí vykonať príslušné zmeny, aby jeho ROM podporovala OTA aktualizácie. Prosím kontaktujte vývojára tejto ROM. Prosím NEKONTAKTUJTE vývojára ROM Managera: TOTO NIE JE CHYBA ROM MANAGERA.</string>
+	<string name="ota_not_supported">Vaša ROM nie je nastavená na príjem OTA aktualizácií. Prosím, kontaktujte vývojára tejto ROM.</string>
+	<string name="ota_not_supported_extended">ROM, ktorú používate, nepodporuje OTA aktualizácie. Autor tejto ROM musí vykonať príslušné zmeny, aby jeho ROM podporovala OTA aktualizácie. Prosím, kontaktujte vývojára tejto ROM. Prosím, NEKONTAKTUJTE vývojára ROM Managera: TOTO NIE JE CHYBA ROM MANAGERA.</string>
 	<string name="current_rom">Súčasná ROM: %s</string>
 
-	<string name="donate">Darovať</string>
-	<string name="developer_homepage">Domov. stránka</string>
+	<string name="donate">Prispieť</string>
+	<string name="developer_homepage">Domovská stránka</string>
 
 	<string name="utilities">Nástroje</string>
 	<string name="fix_permissions">Oprava oprávnení</string>
@@ -40,7 +40,7 @@
 
 	<string name="edit_backup_name">Názov zálohy</string>
 	<string name="new_backup_name">Názov novej zálohy</string>
-	<string name="rename_backup_error">Nastala chyba pri premenovaní zálohy. Prosím zadajte jedinečný a platný názov súboru pre zálohu.</string>
+	<string name="rename_backup_error">Nastala chyba pri premenovaní zálohy. Prosím, zadajte jedinečný a platný názov súboru pre zálohu.</string>
 	<string name="confirm_delete_backup">Vymazať zálohu?</string>
 	<string name="remove_backup_error">Nastala chyba pri vymazávaní zálohy.</string>
 
@@ -57,18 +57,18 @@
 		
 	<string-array name="install_options">
 		<item>Zálohovať súčasnú ROM</item>
-		<item>Wipe Data a Cache</item>
-        <item>Wipe Dalvik Cache</item>
+		<item>Vymazať dáta partícií Data a Cache</item>
+                <item>Vymazať dáta partície Dalvik Cache</item>
 	</string-array>
 
 	<string name="restore_options">Možnosti obnovy</string>
 
 	<string-array name="restore_partitions">
-		<item>Obnoviť Boot</item>
-		<item>Obnoviť System</item>
-		<item>Obnoviť Data</item>
-		<item>Obnoviť Cache</item>
-		<item>Obnoviť SD-Ext</item>
+		<item>Obnoviť partíciu Boot</item>
+		<item>Obnoviť partíciu System</item>
+		<item>Obnoviť partíciu Data</item>
+		<item>Obnoviť partíciu Cache</item>
+		<item>Obnoviť partíciu SD-Ext</item>
 	</string-array>
 
 	<string-array name="ext_size_options">
@@ -93,14 +93,14 @@
 
 	<string name="manifests_no_roms">Zatiaľ nie sú k dispozícii žiadne ROM pre Vaše zariadenie.</string>
 	
-	<string name="preinstallation">Preinštalácia ROM</string>
+	<string name="preinstallation">Predinštalácia ROM</string>
 	
 	<string name="download_cache_cleared">Vyrovn. pamäť pre sťahovania bolo vyčistená.</string>
 	
 	<string name="manifests_unavailable">Došlo k chybe pri sťahovaní zoznamu vývojárov.</string>
 	<string name="manifests_error">Došlo k chybe pri spracovávaní zoznamu vývojárov</string>
 	
-	<string name="roms_unavailable">Došlo k chybe pri sťahovaní zoznamu ROM. Prosím kontaktujte vývojára tejto ROM.</string>
+	<string name="roms_unavailable">Došlo k chybe pri sťahovaní zoznamu ROM. Prosím, kontaktujte vývojára tejto ROM.</string>
 	<string name="roms_error">Došlo k chybe pri spracovávaní zoznamu ROM.</string>
 	<string name="rom_error">Došlo k chybe pri spracovávaní tejto ROM.</string>
 	<string name="rom_addons">Doplnky pre ROM</string>
@@ -137,16 +137,16 @@
 	<string name="flash_recovery_require">Pred pokračovavím musíte mať nainštalovanú ClockworkMod Recovery. Najskôr nainštalujte Recovery pomocou ROM Managera.</string>
 	<string name="install">Inštalovať</string>
 	
-	<string name="clear_cache">Vymazať vyrovn. pamäť</string>
-	<string name="clear_cache_confirm">Uklad. prevzatí do vyrovn. pamäte robí inštaláciu ROM oveľa rýchlejšou. Ste si istý, že chcete vymazať vyrovn. pamäť pre sťahovania?</string>
+	<string name="clear_cache">Vymazať vyrovnávaciu pamäť</string>
+	<string name="clear_cache_confirm">Ukladadanie prevzatí do vyrovnávacej pamäte robí inštaláciu ROM oveľa rýchlejšou. Ste si istí, že chcete vymazať vyrovn. pamäť pre sťahovania?</string>
 
 	<string name="backup">Zálohovať</string>
-	<string name="confirm_backup">Ste si istý, že chcete reštartovať zariadenie a zálohovať ROM?</string>
+	<string name="confirm_backup">Ste si istí, že chcete reštartovať zariadenie a zálohovať ROM?</string>
 	<string name="script_error">Došlo k chybe pri pokuse o spustenie privilegových príkazov.</string>
-	<string name="backup_error">Prosím zadajte jedinečný a platný názov súboru pre zálohu.</string>
+	<string name="backup_error">Prosím, zadajte jedinečný a platný názov súboru pre zálohu.</string>
 	
 	<string name="flash_alternate">Flashnúť alternatívnu Recovery</string>
-	<string name="flash_alternate_warning">Ste si istý, že chcete flashnúť alternatívnu Recovery? Funkcie ROM Managera nebudú k dispozícii, až do kým sa nevrátite k ClockworkMod Recovery.</string>
+	<string name="flash_alternate_warning">Ste si istí, že chcete flashnúť alternatívnu Recovery? Funkcie ROM Managera nebudú k dispozícii, až do kým sa nevrátite k ClockworkMod Recovery.</string>
 	<string name="flash_alternate_unavailable">Nie je k dispozícii žiadna alternatívna Recovery.</string>
 	<string name="flash_legacy_and_experimental">Všetky ClockworkMod Recovery</string>
 	<string name="flash_legacy_and_experimental_summary">Flashnúť staršie a experimentálne verzie ClockworkMod Recovery.</string>
@@ -207,7 +207,7 @@
 	<string name="qrcode_install">Musíte mať nainštalovaný skener čiarových kódov na použitie tejto funkcie. Stlačte tlačidlo OK pre inštalovanie skenera čiarových kódov z Obchodu Play.</string>
 	
 	<string name="flash_recovery_confirm_title">Flashnúť Recovery?</string>
-	<string name="flash_recovery_confirm">Ste si istý, že chcete nahradiť Recovery?</string>
+	<string name="flash_recovery_confirm">Ste si istí, že chcete nahradiť Recovery?</string>
 	
 	<string name="analytics">Google Analytics</string>
 	<string name="analytics_details">Do Google Analytics budú odosielané anonymné štatistiky používania. Stlačením tlačidla OK potvrdzujete, že súhlasíte s tým, aby boli tie štatistiky odosielané do spoločnosti Google a vývojárom ROM Managera.</string>
@@ -229,7 +229,7 @@
 	<string name="add_another_zip">Pridať zip</string>
 	
 	<string name="report_error">Ohlásiť chybu</string>
-	<string name="report_error_message">Došlo k chybe v Recovery. Chcete ju ohlásiť? Prosím neohlasujte rovnakú chybu viackrát.</string>
+	<string name="report_error_message">Došlo k chybe v Recovery. Chcete ju ohlásiť? Prosím, neohlasujte rovnakú chybu viackrát.</string>
 	
 	<string name="screenshots">Snímky obrazovky</string>
 	<string name="download">Stiahnuť</string>
@@ -238,7 +238,7 @@
 	
 	<string name="corrupt">Poškodený zip súbor.</string>
 	
-	<string name="no_spaces">ROM Manager nemôže otvoriť tento súbor. Prosím odstráňte medzery z cesty k súboru a priečinku. Alebo ho spusťte ručne pomocou ClockworkMod Recovery.</string>
+	<string name="no_spaces">ROM Manager nemôže otvoriť tento súbor. Prosím, odstráňte medzery z cesty k súboru a priečinku. Alebo ho spusťte ručne pomocou ClockworkMod Recovery.</string>
 	<string name="no_md5">Nezdá sa, že toto je platná záloha. Chýba MD5 súbor.</string>
 	
 	<string name="showads">Zobraziť reklamy</string>
@@ -265,7 +265,7 @@
 	<string name="device_id">ID zariadenia</string>
 	<string name="license_retrieval_error">Chyba pri získavaní licencie</string>
 	<string name="license_retrieved">License bola získaná.</string>
-	<string name="license_server_error">Nemožno sa pripojiť k licenčnému serveru. Prosím použite namiesto toho Obchod Play.</string>
+	<string name="license_server_error">Nemožno sa pripojiť k licenčnému serveru. Prosím, použite namiesto toho Obchod Play.</string>
 	
 	<string name="recovery_try_fix">Zdá sa, že sa nepodarilo reštartnúť do Clockwork Recovery. Tento problém môže byť opraviteľný vyčistením vyrovn. pamäte a reflashom Recovery. Stlačte tlačidlo OK pre vyčistenie vyrovn. pamäte a vykonanie reflashu Recovery.</string>
 	
@@ -278,31 +278,31 @@
 	<string name="yes">Áno</string>
 	<string name="no">Nie</string>
 
-    <string name="no_device_id">Nákupy pomocou PayPal nie sú podporované na tomto zariadení.</string>
+        <string name="no_device_id">Nákupy pomocou PayPal nie sú podporované na tomto zariadení.</string>
     
-    <string name="downloading">Sťahovanie začalo...\nMôžete si prezrieť jeho priebeh v oznamovacej oblasti.</string>
-    <string name="rom_manager_downloading">Sťahovanie začalo</string>
+        <string name="downloading">Sťahovanie začalo...\nMôžete si prezrieť jeho priebeh v oznamovacej oblasti.</string>
+        <string name="rom_manager_downloading">Sťahovanie začalo</string>
     
-    <string name="verify_custom_flashed">Flashovanie aktualizačného balíčka v Recovery inej než ClockworkMod Recovery nemusí správne fungovať. Pokračovať?</string>
+        <string name="verify_custom_flashed">Flashovanie aktualizačného balíčka v Recovery inej než ClockworkMod Recovery nemusí správne fungovať. Pokračovať?</string>
     
-    <string name="flash_clockwork_or_get_premium">Len používatelia Prémium verzie môžu používať alternatívne Recovery pomocou ROM Managera na flashovanie ROM. V opačnom prípade musíte mať nainštalovanú ClockworkMod Recovery pred pokračovaním. Najskôr nainštalujte Recovery cez ROM Managera.</string>
-    <string name="premium_activated">Teraz ste aktivovali ROM Manager Premium cez PayPal. Žiadne ďalšie súbory na prevzatie nie sú potrebné a ani keď vykonáte wipe zariadenia. Váš nákup bol zaznamenaný na serveri ROM Managera. </string>
-    <string name="follow_koush">Nasledovať @koush</string>
-    <string name="rate">Ohodnotiť</string>
+        <string name="flash_clockwork_or_get_premium">Len používatelia Prémium verzie môžu používať alternatívne Recovery pomocou ROM Managera na flashovanie ROM. V opačnom prípade musíte mať nainštalovanú ClockworkMod Recovery pred pokračovaním. Najskôr nainštalujte Recovery cez ROM Managera.</string>
+        <string name="premium_activated">Teraz ste aktivovali ROM Manager Premium cez PayPal. Žiadne ďalšie súbory na prevzatie nie sú potrebné a ani keď vykonáte wipe zariadenia. Váš nákup bol zaznamenaný na serveri ROM Managera. </string>
+        <string name="follow_koush">Nasledovať @koush</string>
+        <string name="rate">Ohodnotiť</string>
 
-    <string name="reinstall_from_market">Vaša ROM Manager licencia bola hlásená ako neplatná Obchodom Play. Prosím reinštalujte ROM Manager cez Obchod Play.</string>
+        <string name="reinstall_from_market">Vaša ROM Manager licencia bola hlásená ako neplatná Obchodom Play. Prosím, preinštalujte ROM Manager cez Obchod Play.</string>
     
-    <string name="nickname">Prezývka</string>
-    <string name="anonymous">Anonymné</string>
-    <string name="roms">ROM</string>
-    <string name="post_comment">Komentár</string>
+        <string name="nickname">Prezývka</string>
+        <string name="anonymous">Anonymné</string>
+        <string name="roms">ROM</string>
+        <string name="post_comment">Komentár</string>
     
-    <string name="login_required">Musíte sa prihlásiť pomocou pripojenia cez web, aby ste mohli ohodnotiť ROM alebo zanechávať komentáre.</string>
-    <string name="must_rate">Musíte najskôr ohodnotiť túto ROM, aby ste ju mohli zanechať komentár.</string>
-    <string name="downloads">(%s prevziatí)</string>
+        <string name="login_required">Musíte sa prihlásiť pomocou pripojenia cez web, aby ste mohli ohodnotiť ROM alebo zanechávať komentáre.</string>
+        <string name="must_rate">Musíte najskôr ohodnotiť túto ROM, aby ste ju mohli zanechať komentár.</string>
+        <string name="downloads">(%s prevzatí)</string>
     
-    <string name="loading_comments">Načítavanie komentárov...</string>
-    <string name="no_comments">Nikto nepridal žiadny komentár. Buďte prvý.</string>
+        <string name="loading_comments">Načítavanie komentárov...</string>
+        <string name="no_comments">Nikto nepridal žiadny komentár. Buďte prví.</string>
 
 	<string name="not_officially_supported">%s nemá zatiaľ oficiálne podporovanú ClockworkMod Recovery. Nainštalovali ste ClockworkMod Recovery ručne?</string>
 	<string name="sorry_no_clockworkmod">Prepáčte. Pokým nie je ClockworkMod Recovery k dispozícii, ROM Manager nebude fungovať s %s.</string>
@@ -315,29 +315,29 @@
 
 	<string name="flash_legacy_unavailable2">Nenájdené žiadne staršie Recovery.</string>
 
-    <string name="enter_purchase_information">Zadajte informácie o nákupe</string>
-    <string name="paypal_email_id">PayPal E-mail ID</string>
-    <string name="no_license_found">Nebola nájdená žiadna licencia.</string>
-    <string name="rommanager_transaction_number">ROM Manager transakcia #</string>
+        <string name="enter_purchase_information">Zadajte informácie o nákupe</string>
+        <string name="paypal_email_id">PayPal E-mail ID</string>
+        <string name="no_license_found">Nebola nájdená žiadna licencia.</string>
+        <string name="rommanager_transaction_number">ROM Manager transakcia #</string>
     
-    <string name="ratings_server_error">ROM Manager momentálne nie je schopný stiahnuť hodnotenia ROM.</string>
+        <string name="ratings_server_error">ROM Manager momentálne nie je schopný stiahnuť hodnotenia ROM.</string>
 
-    <string name="downloads_no_parentheses">%s prevzatí</string>
+        <string name="downloads_no_parentheses">%s prevzatí</string>
     
-    <string name="sort_by_date">Zoradiť podľa dátumu</string>
-    <string name="sort_by_rating">Zoradiť podľa hodnotenia</string>
-    <string name="sort_by_downloads">Zoradiť podľa prevzatí</string>
-    <string name="no_sort">Nezoradovať</string>
+        <string name="sort_by_date">Zoradiť podľa dátumu</string>
+        <string name="sort_by_rating">Zoradiť podľa hodnotenia</string>
+        <string name="sort_by_downloads">Zoradiť podľa prevzatí</string>
+        <string name="no_sort">Nezoradovať</string>
     
-    <string name="backup_current_rom_question">Zálohovať súčasnú ROM pred obnovou?</string>
-    <string name="confirm_fix_permissions">Ste si istý, že chcete spustiť opravu oprávnení?</string>
+        <string name="backup_current_rom_question">Zálohovať súčasnú ROM pred obnovou?</string>
+        <string name="confirm_fix_permissions">Ste si istí, že chcete spustiť opravu oprávnení?</string>
     
-    <string name="inapp_error">Došlo k chybe počas nákupu aplikácie. Nákup bol zrušený.</string>
+        <string name="inapp_error">Došlo k chybe počas nákupu aplikácie. Nákup bol zrušený.</string>
 
-    <string name="toggled_burrito">Režim Burrito bol prepnutý</string>
-    <string name="burrito_manager">Správca Burrito</string>
+        <string name="toggled_burrito">Režim Burrito bol prepnutý</string>
+        <string name="burrito_manager">Správca Burrito</string>
 
-    <string name="block_user">Zablokovať užívateľa</string>
+        <string name="block_user">Zablokovať užívateľa</string>
 
 	<string name="web_connect_success_new">Pripojenie cez Web bolo úspešné.</string>
 	
@@ -350,13 +350,13 @@
 	<string name="payment_options">Možnosti platby</string>
 	<string name="paypal">PayPal</string>
 	<string name="android_market">Obchod Play</string>
-    <string name="redeem_code">Uplatniť kód</string>
-    <string name="recover_purchase">Obnoviť licenciu</string>
-    <string name="recover_or_redeem">Obnoviť ROM Manager PayPal licenciu, alebo získať licenciu pomocou kódu.</string>
+	<string name="redeem_code">Uplatniť kód</string>
+	<string name="recover_purchase">Obnoviť licenciu</string>
+	<string name="recover_or_redeem">Obnoviť ROM Manager PayPal licenciu alebo získať licenciu pomocou kódu.</string>
 	<string name="purchase_thanks">Ďakujem za Váš nákup.</string>
 	<string name="recover_purchase_error">Došlo k chybe pri obnove Vášho nákupu.</string>
 
-    <string name="no_license_found_email">Nebola nájdená žiadna licencia pre tento PayPal e-mail.</string>
+	<string name="no_license_found_email">Nebola nájdená žiadna licencia pre tento PayPal e-mail.</string>
     
 	<string name="use_external_storage">Používať externé úložisko</string>
 	<string name="use_external_storage_summary">Uprednostňovať externé úložisko pred interným pre zálohy.</string>
@@ -381,45 +381,45 @@
 	
 	<string name="amazon">Amazon</string>
 	
-	<string name="clockworkmod_touch_upgrade">Aktualizícia pre ClockworkMod Touch Recovery je k dispozícii pre Vaše zariadenie. Aktualizujte Recovery pomocou jednoduchého nákupu v aplikácii.</string>
+	<string name="clockworkmod_touch_upgrade">Aktualizácia pre ClockworkMod Touch Recovery je k dispozícii pre Vaše zariadenie. Aktualizujte Recovery pomocou jednoduchého nákupu v aplikácii.</string>
 	
 	<string name="restore_rommanager">Obnoviť ROM Manager</string>
 	<string name="restore_rommanager_summary">Zaistiť, že ROM Manager zostane nainštalovaný po prípadných zmazaniach dát a inštaláciách ROM.</string>
 	
 	<string name="device_not_listed">Zariadenie nie je uvedené vyššie</string>
-  <string name="show_all_devices">Zobraziť všetky zariadenia</string>
-  <string name="hide_devices">Skryť zariadenia</string>
-  <string name="flash_command">Flash príkaz</string>
-  <string name="use_recovery_zip">Použiť Recovery Zip</string>
-  <string name="use_recovery_zip_summary">Použiť ClockworkMod Recovery pomocou Recovery Zip, ktorý neflashne Recovery natrvalo.</string>
-  <string name="downloading_dotdotdot">Sťahovanie...</string>
-  <string name="flashing">Flashovanie...</string>
-  <string name="show_all_warning">Nikdy neflashujte Recovery, ktorá nie je určená pre Vaše zariadenie. Môže to spôsobiť nenapraviteľné škody.</string>
+	<string name="show_all_devices">Zobraziť všetky zariadenia</string>
+	<string name="hide_devices">Skryť zariadenia</string>
+	<string name="flash_command">Príkaz flashu</string>
+	<string name="use_recovery_zip">Použiť Recovery zip</string>
+	<string name="use_recovery_zip_summary">Použiť ClockworkMod Recovery pomocou Recovery Zip, ktorý neflashne Recovery natrvalo.</string>
+	<string name="downloading_dotdotdot">Sťahovanie...</string>
+	<string name="flashing">Flashovanie...</string>
+	<string name="show_all_warning">Nikdy neflashujte Recovery, ktorá nie je určená pre Vaše zariadenie. Môže to spôsobiť nenapraviteľné škody.</string>
   
-  <string name="download_backups">Sťahovať zálohy</string>
-  <string name="download_backups_summary">Sťahovať zálohy do Vášho počítača z Vášho prehliadača na PC.</string>
-  <string name="backup_directory">Adresár pre zálohy</string>
-  <string name="backup_directory_api_17">V Androide 4.2, zálohy sú umiestnené v zabezpečenom adresári a nie sú prístupné ostatným aplikáciám.\nZálohy je možné stiahnuť pomocou adb alebo pomocou ROM Manager servera na sťahovanie záloh.</string>
-  <string name="download_backups_off">Server na sťahovanie záloh nebeží.</string>
-  <string name="download_backups_running">Server na sťahovanie záloh beží.</string>
-  <string name="download_backups_wifi">Pripojte sa prosím k sieti WiFi.</string>
-  <string name="download_backups_what">Server na sťahovanie beží, ale nie je možné rozpoznať sieťové rozhranie.</string>
+	<string name="download_backups">Sťahovať zálohy</string>
+	<string name="download_backups_summary">Sťahovať zálohy do Vášho počítača z Vášho prehliadača na PC.</string>
+	<string name="backup_directory">Adresár pre zálohy</string>
+	<string name="backup_directory_api_17">V Androide 4.2, zálohy sú umiestnené v zabezpečenom adresári a nie sú prístupné ostatným aplikáciám.\nZálohy je možné stiahnuť pomocou adb alebo pomocou ROM Manager servera na sťahovanie záloh.</string>
+	<string name="download_backups_off">Server na sťahovanie záloh nebeží.</string>
+	<string name="download_backups_running">Server na sťahovanie záloh beží.</string>
+	<string name="download_backups_wifi">Pripojte sa prosím k sieti WiFi.</string>
+	<string name="download_backups_what">Server na sťahovanie beží, ale nie je možné rozpoznať sieťové rozhranie.</string>
 
-  <string name="no_backups_found">Neboli nájdené žiadne zálohy.</string>
-  <string name="device_not_listed_summary">Kliknite sem, ak Vaše zariadenie nie je uvedené v zozname vyššie.</string>
+	<string name="no_backups_found">Neboli nájdené žiadne zálohy.</string>
+	<string name="device_not_listed_summary">Kliknite sem, ak Vaše zariadenie nie je uvedené v zozname vyššie.</string>
   
-  <string name="processing_delta">Spracovanie delta...</string>
-  <string name="delta_download">Stiahnuť delta</string>
-  <string name="setup_help">Ak chcete začať používať ROM Manager, musíte najprv nastaviť custom Recovery.\n\nNastavte custom Recovery výberom z nižšie uvedených možností.</string>
+	<string name="processing_delta">Spracovanie delta...</string>
+	<string name="delta_download">Stiahnuť delta</string>
+	<string name="setup_help">Ak chcete začať používať ROM Manager, musíte najprv nastaviť vlastnú Recovery.\n\nNastavte vlastnú Recovery výberom z nižšie uvedených možností.</string>
 
-  <string name="install_or_update_recovery">Inštalovať alebo aktualizovať Recovery</string>
-  <string name="recovery_already_installed">Recovery je už nainštalovaná</string>
-  <string name="clockworkmod_recovery">ClockworkMod Recovery</string>
-  <string name="twrp">Team Win Recovery Project (TWRP)</string>
-  <string name="recovery_setup">Nastavenie Recovery</string>
-  <string name="confirm_reboot_and_install_alternate">Stlačte tlačidlo OK pre reštart do %s a pokračovanie v inštalácii.</string>
+	<string name="install_or_update_recovery">Inštalovať alebo aktualizovať Recovery</string>
+	<string name="recovery_already_installed">Recovery je už nainštalovaná</string>
+	<string name="clockworkmod_recovery">ClockworkMod Recovery</string>
+	<string name="twrp">Team Win Recovery Project (TWRP)</string>
+	<string name="recovery_setup">Nastaviť Recovery</string>
+	<string name="confirm_reboot_and_install_alternate">Stlačte tlačidlo OK pre reštart do %s a pokračovanie v inštalácii.</string>
   
-  <string name="no_accounts">Vo Vašom Android zariadení nie sú nastavené žiadne Google účty.</string>
-  <string name="logging_in">Prihlasovanie...</string>
-  <string name="first_run">ROM Manager vyžaduje custom Recovery (ako napr. ClockworkMod Recovery) pre inštalovania nového softvéru. Prvá vec, ktorú musíte urobiť, je to, že si nainštalujete aktuálnu verziu. Teraz začne tento proces. K tomuto procesu sa môžete kedykoľvek vrátiť a to tak, že kliknete na Nastavenie Recovery.</string>
+	<string name="no_accounts">Vo Vašom Android zariadení nie sú nastavené žiadne účty Google.</string>
+	<string name="logging_in">Prihlasovanie...</string>
+	<string name="first_run">ROM Manager vyžaduje vlastnú Recovery (ako napr. ClockworkMod Recovery) pre inštalovania nového softvéru. Prvá vec, ktorú musíte urobiť, je to, že si nainštalujete aktuálnu verziu. Teraz začne tento proces. K tomuto procesu sa môžete kedykoľvek vrátiť a to tak, že kliknete na Nastaviť Recovery.</string>
 </resources>
