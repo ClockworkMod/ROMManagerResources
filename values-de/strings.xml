@@ -6,15 +6,15 @@
 	<string name="check_updates">Auf ROM-Updates pr&#252;fen</string>
 	<string name="backup_and_restore">Sicherung und Wiederherstellung</string>
 	<string name="manage_and_restore_backups">Verwaltung und Wiederherstellung von Backups</string>
-	<string name="backup_current_rom">Sicherung der aktuellen ROM</string>
+	<string name="backup_current_rom">Sicherung des aktuellen ROMs</string>
 
 	<string name="no_connection">Fehler beim Download vom Server. Bitte stellen sie sicher, dass sie &#252;ber eine stabile Internetverbindung verf&#252;gen und dass Ihre SD eingesteckt ist und &#252;ber gen&#252;gend freien Platz verf&#252;gt!</string>
 
 	<string name="brick_warning">Der ROM Manager ist nicht f&#252;r Sch&#228;den an Ihrem Ger&#228;t verantwortlich . Durch das \"rooten\" Ihres Ger&#228;tes haben Sie bereits die Garantie verloren. Ver&#228;nderungen im nicht-Userspace sind gef&#228;hrlich. Weiterhin sendet der ROM Manager anonymisierte Daten an Google Analytics, um die Benutzung des Programms zu verbessern. Best&#228;tigen sie mit OK. Dr&#252;cken sie Abbrechen, um die Applikation zu beenden.</string>
 
-	<string name="ota_not_supported">Ihre ROM unterst&#252;tzt keine Online-Updates. Bitte kontaktieren Sie den Entwickler der ROM!</string>
-	<string name="ota_not_supported_extended">Ihre ROM unterst&#252;tzt keine Online-Updates. Der Entwickler muss &#196;nderungen vornehmen um Online-Updates zu unterst&#252;tzen. Bitte kontaktieren Sie den Entwickler der ROM! Dies ist kein Fehler des ROM Managers.</string>
-	<string name="current_rom">Aktuelle ROM: %s</string>
+	<string name="ota_not_supported">Ihr ROM unterst&#252;tzt keine Online-Updates. Bitte kontaktieren Sie den Entwickler des ROMs!</string>
+	<string name="ota_not_supported_extended">Ihr ROM unterst&#252;tzt keine Online-Updates. Der Entwickler muss &#196;nderungen vornehmen um Online-Updates zu unterst&#252;tzen. Bitte kontaktieren Sie den Entwickler des ROMs! Dies ist kein Fehler des ROM Managers.</string>
+	<string name="current_rom">Aktuelles ROM: %s</string>
 
 	<string name="donate">Spenden</string>
 	<string name="developer_homepage">Homepage</string>
@@ -29,9 +29,9 @@
 	<string name="download_rom_premium">Updaten Sie auf ROM Manager Premium, um auf die komplette ROM-Liste zugreifen zu k&#246;nnen!</string>
 
 	<string name="premium_only">Dieses Feature ist nur f&#252;r Benutzer der Premium-Version verf&#252;gbar!</string>
-	<string name="no_update">F&#252;r Ihre ROM ist kein Update verf&#252;gbar.</string>
+	<string name="no_update">F&#252;r Ihr ROM ist kein Update verf&#252;gbar.</string>
 	<string name="update_available">Update verf&#252;gbar</string>
-	<string name="updated_rom">Dr&#252;cken Sie OK um Ihre ROM auf die aktuellste Version upzudaten: %s.</string>
+	<string name="updated_rom">Dr&#252;cken Sie OK um Ihr ROM auf die aktuellste Version upzudaten: %s.</string>
 	<string name="update_recovery_available">F&#252;r ClockworkMod Recovery ist ein Update verf&#252;gbar.</string>
 
 	<string name="upgrade">Sie m&#252;ssen den ROM Manager auf die aktuellste Version updaten!</string>
@@ -56,7 +56,7 @@
 	</string-array>
 
 	<string-array name="install_options">
-		<item>Aktuelle ROM sichern</item>
+		<item>Aktuelles ROM sichern</item>
 		<item>Daten- und Cache-Bereich l&#246;schen</item>
         <item>Dalvik Cache l&#246;schen</item>
 	</string-array>
@@ -100,9 +100,9 @@
 	<string name="manifests_unavailable">Fehler beim Download der Liste des Entwicklers!</string>
 	<string name="manifests_error">Fehler bei der Verarbeitung der Liste des Entwicklers!</string>
 
-	<string name="roms_unavailable">Fehler aufgetreten beim Herunterladen der ROM-Liste! Bitte kontaktieren Sie den Entwickler dieser ROM.</string>
+	<string name="roms_unavailable">Fehler aufgetreten beim Herunterladen der ROM-Liste! Bitte kontaktieren Sie den Entwickler dieses ROMs.</string>
 	<string name="roms_error">Fehler aufgetreten bei der Verarbeitung der ROM Liste!</string>
-	<string name="rom_error">Fehler aufgetreten bei der Verarbeitung der ROM!</string>
+	<string name="rom_error">Fehler aufgetreten bei der Verarbeitung des ROMs!</string>
 	<string name="rom_addons">ROM Addons</string>
 	<string name="rom_download_error">Fehler aufgetreten beim Download der ROM!</string>
 	<string name="rom_download_error_short">ROM Download Fehler</string>
@@ -139,7 +139,7 @@
 	<string name="clear_cache_confirm">Das Cachen von Downloads beschleunigt Ihre ROM-Installationen. Sind Sie sicher, dass Sie den Download-Cache l&#246;schen wollen?</string>
 
 	<string name="backup">Sicherung</string>
-	<string name="confirm_backup">Sind sie sicher, dass Sie ihr Ger&#228;t neu starten und Ihre ROM sichern wollen?</string>
+	<string name="confirm_backup">Sind sie sicher, dass Sie ihr Ger&#228;t neu starten und Ihr ROM sichern wollen?</string>
 	<string name="script_error">Bei der ausf&#252;hrung von privilegierten Kommandos ist ein Fehler aufgetreten!</string>
 	<string name="backup_error">Bitte w&#228;hlen Sie einen eindeutigen und g&#252;ltigen Namen f&#252;r Ihre Sicherung.</string>
 
@@ -200,7 +200,7 @@
 	<string name="install_from_qrcode">Installation &#252;ber QR Code</string>
 
 	<string name="qrcode_download">QR Code Download</string>
-	<string name="qrcode_summary">Machen Sie ein Foto um eine ROM zu installieren. Ben&#246;tigt die kostenlose Barcode Scanner Applikation.</string>
+	<string name="qrcode_summary">Machen Sie ein Foto um ein ROM zu installieren. Ben&#246;tigt die kostenlose Barcode Scanner Applikation.</string>
 	<string name="qrcode_premium_required">Sie ben&#246;tigen die Premium-Version des ROM Managers um ROMs &#252;ber QR Codes zu installieren!</string>
 	<string name="qrcode_not_installed">Barcode Scanner fehlt</string>
 	<string name="qrcode_install">Sie ben&#246;tigen die Barcode Scanner Applikation, um diese Funktion zu benutzen! Dr&#252;cken Sie OK um die kostenlose Barcode Scanner Applikation aus dem Market zu installieren.</string>
@@ -284,7 +284,7 @@
     
     <string name="verify_custom_flashed">Ein Update &#252;ber ein anderes Recovery-System als ClockworkMod Recovery k&#246;nnte Fehler verursachen. Fortsetzen?</string>
     
-    <string name="flash_clockwork_or_get_premium">Nur Premiumnutzer k&#246;nnen ein alternatives Recovery-System nutzen, um eine ROM einzuspielen. Andernfalls m&#252;ssen Sie das ClockwordMod Recovery-System installiert haben, bevor Sie fortsetzen. Installieren Sie das Recovery-System bitte zuerst durch den ROM Manager.</string>
+    <string name="flash_clockwork_or_get_premium">Nur Premiumnutzer k&#246;nnen ein alternatives Recovery-System nutzen, um ein ROM einzuspielen. Andernfalls m&#252;ssen Sie das ClockwordMod Recovery-System installiert haben, bevor Sie fortsetzen. Installieren Sie das Recovery-System bitte zuerst durch den ROM Manager.</string>
     <string name="premium_activated">Ihre Version von ROM Manager Premium wurde via PayPal erfolgreich aktiviert! Keine weiteren Downloads sind n&#246;tig, selbst falls Sie Ihre Daten l&#246;schen sollten. Ihr Download wurde auf den ROM Manager Servern gespeichert. </string>
     <string name="follow_koush">Folge @koush</string>
     <string name="rate">Bewerten</string>
@@ -297,7 +297,7 @@
     <string name="post_comment">Kommentare</string>
     
     <string name="login_required">Sie m&#252;ssen sich via Web Connect einloggen, um ROMs zu bewerten oder zu kommentieren.</string>
-    <string name="must_rate">Sie m&#252;ssen die ROM bewerten, bevor Sie einen Kommentar hinterlassen k&#246;nnen!</string>
+    <string name="must_rate">Sie m&#252;ssen das ROM bewerten, bevor Sie einen Kommentar hinterlassen k&#246;nnen!</string>
     <string name="downloads">(%s Downloads)</string>
     
     <string name="loading_comments">Lade Kommentare...</string>
@@ -328,7 +328,7 @@
     <string name="sort_by_downloads">Sortierung nach Downloads</string>
     <string name="no_sort">Keine Sortierung</string>
     
-    <string name="backup_current_rom_question">Wollen Sie ein Backup der ROM anlegen vor Wiederherstellung?</string>
+    <string name="backup_current_rom_question">Wollen Sie vor der Wiederherstellung das ROMs sichern?</string>
     <string name="confirm_fix_permissions">Sind Sie sich sicher, dass Sie die Berechtigungen korrigieren wollen?</string>
     
     <string name="inapp_error">Ein Fehler passierte w&#228;hrend des In-App Kaufes. Der Kauf wurde abgebrochen.</string>
